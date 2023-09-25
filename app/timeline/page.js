@@ -8,12 +8,12 @@ import Timeline2 from '@/components/timeline/Timeline2'
 
 const page = () => {
   return (
-    <div className='mt-8'>
+    <div className='mt-2'>
         <div>
         <div className=" hidden md:block">
           <Nav2 />
         </div>
-        <div className=" block md:hidden">
+        <div className="bg-[#100B26] -mt-4 block md:hidden pb-24">
           <Nav2 variant="mobile" />
         </div>
             <Timeline1 />
