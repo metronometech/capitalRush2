@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beatrice:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+  /* background-color: #100B26; */
+}
+
+.navItem{
+  @apply text-[16px] cursor-pointer bg-transparent h-fit w-fit my-auto font-bold leading-normal font-poppins text-[#B6F6FF] hover:text-yellow-300;
+}
+
+.hzoom1{
+  @apply transform hover:scale-105 transition-transform duration-300;
+}
+
+.button-text-shadow {
+  text-shadow: 0px 2.6647257804870605px 5.329451560974121px rgba(0, 0, 0, 0.20),
+               0px 2.6647257804870605px 2.6647257804870605px rgba(0, 0, 0, 0.22),
+               0px 2.6647257804870605px 5.329451560974121px rgba(0, 0, 0, 0.24),
+               2.6647257804870605px 0px 7.994176864624023px rgba(0, 0, 0, 0.35);
+}
+
+.sec1-bg {
+  background-image: url('/bg@2x.png');
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.9; */
+}
+
+.sec1-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100vh;
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent,rgba(31, 36, 51, 0.7)); */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+  /* mix-blend-mode:darken;  */
+  mix-blend-mode:overlay; 
+}
+
+.home-sec2{
+  background-color: #100B26;
+  background-image: url("/bg/beige-paper.png");
+}
+
+#line-between {
+  position: absolute;
+  content: "";
+  width: 2px; /* Width of the line */
+  height: calc(100% + 400px); /* Adjust the height of the line to cover both divs and spacing */
+  top: -200px; /* Adjust the vertical position */
+  left: calc(50% - 1px); /* Adjust the horizontal position */
+  background: white; /* Color of the line */
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 2px,
+    white 2px,
+    white 4px /* Adjust the spacing between dots */
+  );
+  z-index: -1; /* Make sure the line is behind the content */
+}
+
+.nav_active {
+  fill: rgba(181, 158, 243, 0.15);
+  opacity: 0.6;
+  box-shadow: 0px 0.1325px 5.29986px 0px rgba(227, 222, 255, 0.20) inset, 
+              0px 0.52999px 2.38494px 0px rgba(154, 146, 210, 0.30) inset, 
+              0px 12.98466px 13.24965px 0px rgba(202, 172, 255, 0.30) inset, 
+              0px -10.86471px 9.00976px 0px rgba(96, 68, 144, 0.30) inset, 
+              0px 0.92748px 1.45746px 0px #FFF inset, 
+              0px 5.16736px 7.4198px 0px rgba(255, 255, 255, 0.50) inset;
+
+  padding: 8px 10px;
+  border-radius: 20px;
+  margin-top: -7px;
+  background: var(--123, linear-gradient(180deg, #FAF51C 1.27%, #f5e12d 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bolder;
+}
+
+.shadow2{
+  border-radius: 15.625px;
+opacity: 0.9;
+background: rgba(181, 158, 243, 0.15);
+box-shadow: 0px 0.23775px 9.50983px 0px rgba(227, 222, 255, 0.20) inset, 0px 0.95098px 4.27942px 0px rgba(154, 146, 210, 0.30) inset, 0px 23.29909px 23.77458px 0px rgba(202, 172, 255, 0.30) inset, 0px -19.49515px 16.16671px 0px rgba(96, 68, 144, 0.30) inset, 0px 1.66422px 2.6152px 0px #FFF inset, 0px 9.27209px 13.31376px 0px rgba(255, 255, 255, 0.50) inset;
+backdrop-filter: blur(11.887289047241211px);
+}

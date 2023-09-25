@@ -1,0 +1,112 @@
+
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  /* .mySwiper {
+    width: 100%;
+    max-width: 900px; 
+    margin: auto auto;
+  }
+   */
+
+  body {
+    /* background: #eee; */
+    font-size: 14px;
+    /* color: #000; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 200px;
+    /* padding-right: 20px; */
+  }
+  
+  .swiper-slide img {
+    /* display: block;
+    width:fit-content;
+    height:fit-content;
+    object-fit: fill; */
+    width: 220px;
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.carousel-button-prev {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .carousel-button-next {
+    background-color: transparent;
+    border: none;
+  }
+  
+
+  /* In your caurosal.css file or inline style */
+.swiper-pagination-bullet {
+    background-color: white; 
+    opacity: 0.7; 
+    width: 10px; 
+    height: 10px; 
+    margin: 0 10px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    
+  }
+  
+  /* Style the active pagination button */
+  .swiper-pagination-bullet-active {
+    opacity: 1; /* Set full opacity for active button */
+  }
+
+  .swiper-pagination {
+    /* position: absolute; */
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}
+
+/* Styles for screens wider than or equal to 122px */
+/* Add your existing CSS styles here */
+
+@media (max-width: 1220px) {
+
+  .swiper-slide{
+    height: 190px;
+    width: 180px;
+  }
+
+  .swiper-slide img{
+    height: 130px;
+    width: 160px;
+  }
+
+  .swiper-pagination-bullet{
+    margin:0px;
+  }
+  
+}

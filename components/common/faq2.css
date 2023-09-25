@@ -1,0 +1,114 @@
+.App {
+  /* font-family: sans-serif; */
+  text-align: left;
+  
+}
+
+.question-section {
+  /* border-radius: 17.5px; */
+    /* border: 1.094px solid #000 !important; */
+    cursor: pointer;
+    width:91%;
+    padding: 10px;
+    color: white;
+    font-family:"Quicksand";
+  }
+  
+  .question-align {
+    /* align-items: center; */
+    background: #080612 !important;
+    display: flex;
+    min-height: 10px;
+    text-align: left;
+    color: var(--123, #b6f6ff);
+    font-family: "Quicksand";
+    font-size: 21.875px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.625px; /* 140% */
+  }
+  
+  .question-align h4 {
+  background: #080612 !important;
+  margin-left: 8px;
+}
+
+.question-styling {
+  /* font-size: 17px; */
+  width: 100%;
+}
+
+.question-icon {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 38px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.6s ease-in-out;
+}
+
+.answer-divider {
+  border-top: 1px solid lightgray;
+}
+
+.answer {
+  background: #080612 !important;
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #FFF;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.answer p{
+  background: #080612 !important;
+}
+
+
+@media (max-width: 1220px) {
+  .question-align {
+    font-size: 18px; /* Adjust font size for smaller screens */
+    line-height: 18px; /* Adjust line height for smaller screens */
+  }
+
+  .question-align h4 {
+    margin-left: 4px; /* Adjust margin for h4 elements */
+  }
+
+  .question-icon {
+    font-size: 20px;
+  }
+  
+  /* Add more redefined properties as needed */
+}
+
+
+@media (max-width: 1220px) {
+  .answer{
+    font-size: 12px;
+    font-family: 'Quicksand';
+    line-height: 16px;
+  }
+  
+  .question-align{
+    font-size: 12px;
+    font-family: 'Quicksand';
+    line-height: 14px;
+    max-height: 2px;
+    padding-top: 6px;
+  }
+}
