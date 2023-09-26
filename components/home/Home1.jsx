@@ -29,8 +29,9 @@ const Home1 = () => {
             LEARN HOW TO
             <span className=" text-yellow-300 text-stroke text-stroke-white">
               {" "}
-              GROW YOUR MONEY WITH <br/> CAPITAL RUSH
-            </span>
+              GROW YOUR MONEY <br/> </span>
+              WITH  CAPITAL RUSH
+            
           </h2>
           <p data-aos="fade-down" data-aos-delay="200"  data-aos-duration="1000" className=" text-white font-quicksand text-[22px] mb:text-[30px]">
             Experience financial markets like never before

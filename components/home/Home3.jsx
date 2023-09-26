@@ -53,7 +53,7 @@ const Home3 = () => {
           data-aos="slide-up"
           data-aos-easing="ease-in-out"
           data-aos-duration="300"
-          className=" text-center"
+          className=" text-center "
         >
           <h2 className=" whitespace-nowrap mx-2  mb:mx-28 leading-tight mb-8 text-white text-[32px] mb:text-[50px] ">
             HOW IT WORKS?
@@ -83,7 +83,7 @@ const Home3 = () => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className=" text-left ml-24"
+                className=" text-left mb:ml-32 mt-20"
                 id="one"
               >
                 <h2 className=" leading-tight w-[600px] mb-8 h-fit text-white text-[48px] ">
@@ -146,7 +146,7 @@ const Home3 = () => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className=" text-left mr-20"
+                className=" text-left mr-20 mt-20"
               >
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Optimise the Capital
@@ -174,7 +174,7 @@ const Home3 = () => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className=" text-left ml-20"
+                className=" text-left ml-20 mt-20"
               >
                 <h2 className=" leading-tight w-[600px] mb-8 whitespace-nowrap text-white text-[48px] ">
                   On Your Mark, Get Set Go!
@@ -235,8 +235,8 @@ const Home3 = () => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className=" text-left mr-20"
-              >
+                className="mt-20 text-left mr-20"
+              > 
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment
                 </h2>
@@ -482,7 +482,7 @@ const Home3 = () => {
               data-aos-delay="80"
               data-aos-easing="ease-in-out"
               data-aos-duration="500"
-              className=" md:py-10 md:ml-32 md:mt-0 -mt-[200px] pl-3 mx-auto  max-w-screen-xl "
+              className=" md:py-10 justify-center mx-auto  max-w-screen-xl "
             >
               <h1 className="text-white text-[24px] mb:text-[48px] ml-2 font-semibold mb-0">
                 FAQ
