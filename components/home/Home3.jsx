@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import React from "react";
 import CarousalElemHomeSec3 from "../common/CarousalElemHomeSec3";
 import Image from "next/image";
 import CaurosalElemHome2 from "../common/CaurosalElemHome2";
 import Faq from "../common/Faq";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const faqs = [
@@ -41,37 +41,51 @@ const faqs = [
   },
 ];
 
-
-
 const Home3 = () => {
-
   useEffect(() => {
     AOS.init();
-  }, [])
-  
-  
+  }, []);
 
   return (
     <div>
       <div className="py-24">
-        <div data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="300" className=" text-center">
+        <div
+          data-aos="slide-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="300"
+          className=" text-center"
+        >
           <h2 className=" whitespace-nowrap mx-2  mb:mx-28 leading-tight mb-8 text-white text-[32px] mb:text-[50px] ">
             HOW IT WORKS?
           </h2>
           <p className=" text-white -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
-            Explore Capital Rush's immersive fusion of gaming and investing.
-            Learn wealth management, trade assets, and grasp finance concepts
-            risk-free
+            Explore Capital Rush&apos;s immersive fusion of gaming and
+            investing. Learn wealth management, trade assets, and grasp finance
+            concepts risk-free
           </p>
         </div>
-        <div data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="300"  className="mt-12 xl:mx-32 md:mx-16 mx-2">
+        <div
+          data-aos="slide-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="50"
+          data-aos-duration="300"
+          className="mt-12 xl:mx-32 md:mx-16 mx-2"
+        >
           <CarousalElemHomeSec3 />
         </div>
         <div>
           {/* line connections  Desktop*/}
           <div className="flex-col mt-20  hidden mb:block">
             <div className="flex justify-between ">
-              <div data-aos="flip-up" data-aos-offset="100" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700"  className=" text-left ml-24" id="one">
+              <div
+                data-aos="flip-up"
+                data-aos-offset="100"
+                data-aos-delay="80"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="700"
+                className=" text-left ml-24"
+                id="one"
+              >
                 <h2 className=" leading-tight w-[600px] mb-8 h-fit text-white text-[48px] ">
                   Sign up & Build your <br /> Capital Empire
                 </h2>
@@ -99,11 +113,17 @@ const Home3 = () => {
                 />
               </div>
             </div>
-            <div data-aos="zoom-in" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700"  className="relative bottom-[535px] h-[303px] ml-[235px] mr-[320px] xl:mr-[420px] w-auto">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="80"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="700"
+              className="relative bottom-[535px] h-[303px] ml-[235px] mr-[320px] xl:mr-[420px] w-auto"
+            >
               <Image alt="Home-section3-image" src="/pleft.png" fill />
             </div>
             <div className="flex justify-between -mt-[610px]" id="two">
-              <div  className="ml-16 -mt-[200px]">
+              <div className="ml-16 -mt-[200px]">
                 <Image
                   alt="Home-section3-image"
                   className=" relative top-[226px] right-4 "
@@ -120,7 +140,14 @@ const Home3 = () => {
                   width={495}
                 />
               </div>
-              <div data-aos="flip-up" data-aos-offset="100" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700"  className=" text-left mr-20">
+              <div
+                data-aos="flip-up"
+                data-aos-offset="100"
+                data-aos-delay="80"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="700"
+                className=" text-left mr-20"
+              >
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Optimise the Capital
                 </h2>
@@ -131,11 +158,24 @@ const Home3 = () => {
                 </p>
               </div>
             </div>
-            <div data-aos="zoom-in" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="relative bottom-[535px] h-[303px] ml-[235px] mr-[320px] xl:mr-[380px] w-auto">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="80"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="700"
+              className="relative bottom-[535px] h-[303px] ml-[235px] mr-[320px] xl:mr-[380px] w-auto"
+            >
               <Image alt="Home-section3-image" src="/pright.png" fill />
             </div>
             <div className="flex justify-between -mt-[610px]" id="two">
-              <div data-aos="flip-up" data-aos-offset="100" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className=" text-left ml-20">
+              <div
+                data-aos="flip-up"
+                data-aos-offset="100"
+                data-aos-delay="80"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="700"
+                className=" text-left ml-20"
+              >
                 <h2 className=" leading-tight w-[600px] mb-8 whitespace-nowrap text-white text-[48px] ">
                   On Your Mark, Get Set Go!
                 </h2>
@@ -162,7 +202,13 @@ const Home3 = () => {
                 />
               </div>
             </div>
-            <div data-aos="zoom-in" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="relative bottom-[535px] h-[303px] ml-[235px] mr-[320px] xl:mr-[380px] w-auto">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="80"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="700"
+              className="relative bottom-[535px] h-[303px] ml-[235px] mr-[320px] xl:mr-[380px] w-auto"
+            >
               <Image alt="Home-section3-image" src="/pleft.png" fill />
             </div>
             <div className="flex justify-between -mt-[610px]" id="two">
@@ -183,7 +229,14 @@ const Home3 = () => {
                   width={495}
                 />
               </div>
-              <div data-aos="flip-up" data-aos-offset="100" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className=" text-left mr-20">
+              <div
+                data-aos="flip-up"
+                data-aos-offset="100"
+                data-aos-delay="80"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="700"
+                className=" text-left mr-20"
+              >
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment
                 </h2>
@@ -202,10 +255,24 @@ const Home3 = () => {
             <div className=" h-[1450px] ">
               <div className="flex justify-center ">
                 <div className=" text-center" id="one">
-                  <h2 data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] ">
+                  <h2
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] "
+                  >
                     Sign up & Build your <br /> Capital Empire
                   </h2>
-                  <p data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]">
+                  <p
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                  >
                     Mr Capital will guide you to several amazing adventures
                     throughout this wonderful journey. You would be able to
                     create the desired portfolio from your in-hand cash.
@@ -232,10 +299,24 @@ const Home3 = () => {
               </div>
               <div className="flex justify-center -mt-[100px] ">
                 <div className=" text-center" id="two">
-                  <h2 data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] ">
+                  <h2
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] "
+                  >
                     Optimise the Capital
                   </h2>
-                  <p data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]">
+                  <p
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                  >
                     Utilize your in-hand capital via investing in various assets
                     like Equity, Crypto, Commodities, Bonds and Venture Capital
                     and explore the world of Investing like never before!
@@ -260,11 +341,25 @@ const Home3 = () => {
                 />
               </div>
               <div className="flex justify-center -mt-[100px] ">
-                <div  className=" text-center" id="two">
-                  <h2 data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] ">
+                <div className=" text-center" id="two">
+                  <h2
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] "
+                  >
                     On Your Mark, Get <br /> Set Go!
                   </h2>
-                  <p data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]">
+                  <p
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                  >
                     Roll the dice to move in-time and see your assets compound
                     in real time. Travel weeks, quarters and years in a flash!
                   </p>
@@ -288,11 +383,25 @@ const Home3 = () => {
                 />
               </div>
               <div className="flex justify-center -mt-[100px] ">
-                <div  className=" text-center" id="two">
-                  <h2 data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] ">
+                <div className=" text-center" id="two">
+                  <h2
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className=" leading-tight md:w-[600px] mb-8 h-fit text-white text-[30px] "
+                  >
                     Never a dull moment
                   </h2>
-                  <p data-aos="flip-up" data-aos-offset="50" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]">
+                  <p
+                    data-aos="flip-up"
+                    data-aos-offset="50"
+                    data-aos-delay="80"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="700"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                  >
                     Capital Rush is a fast-paced, high-tempo game that keeps you
                     on edge. You can choose to battle it out against the AI or
                     can play with your friends; the possibilities and surprises
@@ -308,7 +417,14 @@ const Home3 = () => {
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="flex flex-col items-center shadow2 pt-4 mt-[360px]  mx-2">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-delay="80"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="700"
+              className="flex flex-col items-center shadow2 pt-4 mt-[360px]  mx-2"
+            >
               <h2 className=" leading-tight md:w-[600px] w-full text-center mb-8 h-fit text-white text-[24px] ">
                 People are Saying About Capital Rush
               </h2>
@@ -346,16 +462,28 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          </div>
-          <div className="bg-[#100B26]">
-
-          <div data-aos="fade-up" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="relative bottom-[200px] hidden mb:block">
+        </div>
+        <div className="bg-[#100B26]">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="80"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="700"
+            className="relative bottom-[200px] hidden mb:block"
+          >
             <CaurosalElemHome2 />
           </div>
 
           {/* Faq's */}
           <div>
-            <div data-aos-anchor-placement="top-center" data-aos="fade-up" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="500" className=" md:py-10 md:ml-32 md:mt-0 -mt-[200px] pl-3 mx-auto  max-w-screen-xl ">
+            <div
+              data-aos-anchor-placement="top-center"
+              data-aos="fade-up"
+              data-aos-delay="80"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="500"
+              className=" md:py-10 md:ml-32 md:mt-0 -mt-[200px] pl-3 mx-auto  max-w-screen-xl "
+            >
               <h1 className="text-white text-[24px] mb:text-[48px] ml-2 font-semibold mb-0">
                 FAQ
               </h1>
@@ -370,7 +498,14 @@ const Home3 = () => {
               })}
             </div>
           </div>
-          <div data-aos-anchor-placement="top-center" data-aos="fade-up" data-aos-delay="80" data-aos-easing="ease-in" data-aos-duration="500" className="text-center mt-20 hidden mb:block">
+          <div
+            data-aos-anchor-placement="top-center"
+            data-aos="fade-up"
+            data-aos-delay="80"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+            className="text-center mt-20 hidden mb:block"
+          >
             <div className="ml-32 h-[800px]">
               <div className=" relative ml-4 top-[240px] left-[45px] text-left mr-20">
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
@@ -402,9 +537,15 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          
-          
-          <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="80" data-aos-easing="ease-in-out" data-aos-duration="700" className="text-center mt-20 block mb:hidden">
+
+          <div
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="80"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="700"
+            className="text-center mt-20 block mb:hidden"
+          >
             <div className=" flex flex-col bg-gradient-to-br from-purple-600 via-purple-900 to-indigo-900">
               <div className="text-center ">
                 <h2 className=" leading-tight  mb-8  text-white text-[32px] ">
