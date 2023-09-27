@@ -62,7 +62,7 @@ const About1 = () => {
             games you want
           </span>
         </h1>
-        <p className=" text-white font-quicksand opacity-70 max-w-[810px] -mt-3 text-[20px]">
+        <p className=" text-white text-center font-semibold font-quicksand opacity-70 max-w-[810px] -mt-3 text-[20px]">
           Capital Rush is a virtual stock market in which Players can play and
           invest in a variety of assets. The player can create their desired
           portfolio and boost their investing skills by playing in large-scale
