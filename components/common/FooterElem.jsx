@@ -15,7 +15,7 @@ const Footer = () => {
               width={216}
             />
             <p className=" text-[18px] text-white font-quicksand">
-              Experience financial markets <br /> like never before
+              Get in the game of investment
             </p>
             <div className="flex justify-between">
               <p className=" mt-32 text-[16px] text-[#8D8D8D] font-quicksand">
@@ -117,8 +117,8 @@ const Footer = () => {
               height={110}
               width={216}
             />
-            <p className=" text-[18px] text-white font-quicksand">
-              Experience financial markets <br /> like never before
+            <p className=" text-[18px]  text-white font-quicksand">
+            Get in the game of investment
             </p>
             <div className="flex justify-between">
               <p className=" mt-32 text-[16px] text-[#8D8D8D] font-quicksand">
