@@ -32,7 +32,7 @@ export default function Faq({question,answer}) {
                   {question} 
                 </h4>
                 <FiChevronDown
-                  className={active ? `question-icon rotate` : `question-icon`}
+                  className={active ? `-mt-4 mb:mt-0 text-[12px] mb:text-[20px] question-icon rotate` : `text-[12px] mb:text-[20px] mb:mt-0  -mt-4 question-icon`}
                 />
               </div>
               <div

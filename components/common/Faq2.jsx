@@ -26,8 +26,8 @@ export default function Faq2({question,answer}) {
             className={`question-section ${active}`}
             onClick={toggleAccordion}
           >
-              <div className="question-align mt-2 mb-10 h-8 ">
-                <h4 className="question-style -mt-[2px]">
+              <div className="question-align mt-2  ">
+                <h4 className="question-style -mt-[3px]">
                   {question} 
                 </h4>
                 <FiChevronDown

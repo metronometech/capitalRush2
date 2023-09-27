@@ -56,13 +56,13 @@ const About1 = () => {
   return (
     <div >
       <div data-aos="slide-down" data-aos-delay="70"  data-aos-duration="1000" className="blog-bg bg-[#100B26] h-[560px] flex flex-col justify-center items-center mb:-mt-36 mx-2 mb:mx-0">
-        <h1 data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1200" className=" font-poppins text-center text-[38px] mb:text-[48px] font-bold z-40 flex-shrink-0 mb:-ml-8">
+        <h1 data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1200" className=" font-poppins leading-tight mb-5 text-center text-[38px] mb:text-[48px] font-bold z-40 flex-shrink-0 mb:-ml-8">
           We make the{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
             games you want
           </span>
         </h1>
-        <p className=" text-white text-center font-semibold font-quicksand opacity-70 max-w-[810px] -mt-3 text-[20px]">
+        <p className=" text-white text-center font-semibold font-quicksand opacity-70 max-w-[810px] -mt-3 text-[12px] mb:text-[20px]">
           Capital Rush is a virtual stock market in which Players can play and
           invest in a variety of assets. The player can create their desired
           portfolio and boost their investing skills by playing in large-scale
@@ -105,13 +105,13 @@ const About1 = () => {
           width={210}
         />
         <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" mx-auto w-[97%] h-[310px] custom-shadow "></div>
-        <h1 data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" relative bottom-[315px] self-center pb-2 2xl:ml-[350px] font-poppins text-[22px] font-bold z-40 flex-shrink-0 ">
+        <h1 data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" relative bottom-[305px] self-center pb-2 2xl:ml-[350px] font-poppins text-[22px] font-bold z-40 flex-shrink-0 ">
           Our{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
             Goal
           </span>
         </h1>
-        <p data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className="relative bottom-[330px] mx-3 2xl:ml-[350px] text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px] mb:text-[20px]">
+        <p data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className="relative bottom-[300px] mx-3 2xl:ml-[350px] text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px] mb:text-[20px]">
           Our goal is to dispel the myth that the stock market is a game of loss
           and only for rich people. We have created an innovative platform that
           will help you grasp the significance of passive income and introduce
@@ -203,28 +203,28 @@ const About1 = () => {
 
 
       {/* Mobile  */}
-      <div className="bg-[#100B26]  mb:hidden flex -mt-40">
+      <div className="bg-[#100B26]  mb:hidden flex -mt-40 mx-2">
         <div className="flex flex-col text-center gap-4 -mt-4">
-          <h1 data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="  self-center  font-poppins text-[20px] font-bold z-40 flex-shrink-0 ">
+          <h1 data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="  self-center  font-poppins text-[20px] mb-2 font-bold z-40 flex-shrink-0 ">
             HOW IS IT{" "}
             <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
               DIFFERENT
             </span>
             ?
           </h1>
-          <h2 data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className=" -mt-4 text-center font-poppins">
+          <h2 data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className=" -mt-4  text-center font-poppins">
             Thinking out of the box and bring out innovative things
           </h2>
           <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="flex mt-6">
             <div className=" flex">
               <Image src="/1icon.png" height={25} width={25} />
             <div className="px-2 mb-6 -mt-4">
-              <h1 className="  font-poppins text-[18px] font-bold z-40 flex-shrink-0 ">
+              <h1 className="  font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3  ">
                 <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                   Trading merged with Gaming :
                 </span>
               </h1>
-              <p className="  text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
+              <p className=" ml-2 text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
                 Capital Rush can be considered disruptive because no one has
                 tried to merge gaming and trading space before and if it’s done
                 before it has been highly inefficient and slow paced.
@@ -236,12 +236,12 @@ const About1 = () => {
             <div className="flex">
               <Image src="/2icon.png" height={25} width={25} />
             <div className="px-2 -mt-4 mb-4">
-              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 ">
+              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3 ">
                 <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                 Immersive Gaming :
                 </span>
               </h1>
-              <p className="  text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
+              <p className=" ml-2  text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
               Usually all trading simulators are prone to poor retention , since they are not immersive or fun to play and are super slow since they are linked with the real-time market.
               </p>
             </div>
@@ -251,12 +251,12 @@ const About1 = () => {
             <div className="flex">
               <Image src="/3icon.png" height={25} width={25} />
             <div className="px-2  mb-6 -mt-4">
-              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 ">
+              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3 ">
                 <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                 Gives you a realistic experience :
                 </span>
               </h1>
-              <p className="  text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
+              <p className=" ml-2 text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
               With Capital Rush we try to cater to these problems by making a fast paced trading experience where people understand how wealth is generated and how money grows and is compounded over a period of years.
               </p>
             </div>
@@ -266,12 +266,12 @@ const About1 = () => {
             <div className="flex">
               <Image src="/4icon.png" height={25} width={25} />
             <div className="px-2 mb-6 -mt-4">
-              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 ">
+              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3 ">
                 <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                 Introducing Events & Surprise events
                 </span>
               </h1>
-              <p className="  text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
+              <p className=" ml-2 text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
               One more factor that is missing in the trading simulator and platforms is inflation and events like end of quarter cards.
               </p>
             </div>

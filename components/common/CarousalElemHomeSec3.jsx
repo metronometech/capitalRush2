@@ -23,8 +23,8 @@ const CarousalElemHomeSec3 = () => {
             <Image
               alt="left-arrow"
               src="/svg/leftArrow.svg"
-              height={50}
-              width={50}
+              height={40}
+              width={40}
             />
           </button>
         </div>
@@ -59,7 +59,7 @@ const CarousalElemHomeSec3 = () => {
               <Image
                 alt="Carosal-home-Images"
                 className="  group-hover:brightness-125"
-                src="/mobile.png"
+                src="/mobile1.png"
                 fill
               />
             </SwiperSlide>
@@ -67,42 +67,42 @@ const CarousalElemHomeSec3 = () => {
               <Image
                 alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
-                src="/mobile.png"
+                src="/mobile2.png"
                 fill
               />
             </SwiperSlide>
-            <SwiperSlide className="group">
+            {/* <SwiperSlide className="group">
               <Image
                 alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
               />
-            </SwiperSlide>
-            <SwiperSlide className="group">
+            </SwiperSlide> */}
+            {/* <SwiperSlide className="group">
               <Image
                 alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
               />
-            </SwiperSlide>
-            <SwiperSlide className="group">
+            </SwiperSlide> */}
+            {/* <SwiperSlide className="group">
               <Image
                 alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
               />
-            </SwiperSlide>
-            <SwiperSlide className="group">
+            </SwiperSlide> */}
+            {/* <SwiperSlide className="group">
               <Image
                 alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
           </div>
         </Swiper>
         <div className="carousel-buttons z-30">
@@ -118,8 +118,8 @@ const CarousalElemHomeSec3 = () => {
             <Image
               alt="right-arrow"
               src="/svg/rightArrow.svg"
-              height={50}
-              width={50}
+              height={40}
+              width={40}
             />
           </button>
         </div>

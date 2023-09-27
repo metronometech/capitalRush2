@@ -128,8 +128,8 @@ const Footer = () => {
             <Image
               src="/logo.png"
               className="transform hover:scale-105 transition-transform duration-300 cursor-pointer"
-              height={110}
-              width={216}
+              height={80}
+              width={140}
             />
             <p className=" text-[18px]  text-white font-quicksand">
               Get in the game of investment

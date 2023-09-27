@@ -441,7 +441,7 @@ const Home3 = ({link}) => {
                   ,,
                 </span>
               </p>
-              <div className="z-40 text-center mt-4">
+              {/* <div className="z-40 text-center mt-4">
                 <button
                   className=" transform hover:scale-105 transition-transform duration-300 py-[6px] px-6 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -451,7 +451,7 @@ const Home3 = ({link}) => {
                     See all stories
                   </span>
                 </button>
-              </div>
+              </div> */}
               <div className="group -mb-5">
                 <Image
                   alt="carosal-Home-sectionImage"
