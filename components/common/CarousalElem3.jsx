@@ -9,7 +9,7 @@ import Image from "next/image";
 const CarousalElem3 = () => {
   return (
     <div className="carousel-container relative flex-col ">
-      <div className="py-10 flex xl:gap-20 gap-8 items-center ">
+      <div className="py-10 flex xl:gap-20 mb:gap-8 gap-1 items-center ">
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
             <Image alt="left-arrow" src="/svg/leftArrow.svg" height={100} width={100} />
@@ -41,9 +41,9 @@ const CarousalElem3 = () => {
                 height={160}
                 width={210}
               />
-              <h2 className=" text-justify font-poppins text-[30px] font-bold leading-10">Samveg Singhi</h2>
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">Samveg Singhi</h2>
               <div className=" relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" -mt-2 text-justify font-quicksand text-[18px] font-medium leading-6">Founder</p>          
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Founder</p>          
              </SwiperSlide>
             <SwiperSlide className="group flex flex-col">
               <Image alt="carosal-Images"
@@ -52,9 +52,9 @@ const CarousalElem3 = () => {
                 height={160}
                 width={210}
               />
-              <h2 className=" text-justify font-poppins text-[30px] font-bold leading-10 whitespace-nowrap">Yogesh Lakhpatani</h2>
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal  mb:text-[30px] font-bold leading-10 whitespace-nowrap">Yogesh Lakhpatani</h2>
               <div className=" relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" -mt-2 text-justify font-quicksand text-[18px] font-medium leading-6">Operations Manager</p>          
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Operations Manager</p>          
             </SwiperSlide>
             <SwiperSlide className="group flex flex-col">
               <Image alt="carosal-Images"
@@ -63,9 +63,9 @@ const CarousalElem3 = () => {
                 height={160}
                 width={210}
               />
-              <h2 className=" text-justify font-poppins text-[30px] font-bold  leading-10">Nilesh Sharma</h2>
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold  leading-10">Nilesh Sharma</h2>
               <div className=" relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" -mt-2 text-justify font-quicksand text-[18px] font-medium leading-6">Tech Lead</p>          
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Tech Lead</p>          
 
             </SwiperSlide>
             {/* <SwiperSlide className="group flex flex-col">
@@ -75,9 +75,9 @@ const CarousalElem3 = () => {
                 height={160}
                 width={210}
               />
-              <h2 className=" text-justify font-poppins text-[30px] font-bold leading-10">Samveg Singhi</h2>
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">Samveg Singhi</h2>
               <div className=" relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" -mt-2 text-justify font-quicksand text-[18px] font-medium leading-6">Founder</p>          
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Founder</p>          
 
             </SwiperSlide> */}
           </div>

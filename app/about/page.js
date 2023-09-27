@@ -10,7 +10,7 @@ const page = () => {
         <div className=" hidden md:block">
           <Nav2 />
         </div>
-        <div className=" block md:hidden">
+        <div className=" block md:hidden pt-4">
           <Nav2 variant="mobile" />
         </div>
         <About1 />
