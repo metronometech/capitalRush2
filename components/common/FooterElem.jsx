@@ -31,12 +31,12 @@ const Footer = () => {
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px] text-white font-quicksand">News letter</h3>
-            <Link href="/terms" className=" no-underline">
+            <Link href="/" className=" no-underline">
               <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               Blog
               </p>
             </Link>
-            <Link href="/privacy" className=" no-underline">
+            <Link href="/" className=" no-underline">
               <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               FAQs
               </p>
@@ -121,8 +121,9 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className=" mb:hidden block pb-10 bg-[#080612]">
-        <div className="pt-16  flex flex-col pl-4 justify-between">
+
+      <div className=" mb:hidden block pb-10 pl-3 bg-[#080612]">
+        <div className="pt-16  flex flex-col justify-between">
           <div>
             <Image
               src="/logo.png"
@@ -172,7 +173,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="pt-2 flex gap-10">
+        <div className="pt-2 flex gap-5 mb:gap-10">
           <Link href="/">
             {" "}
             <Image
