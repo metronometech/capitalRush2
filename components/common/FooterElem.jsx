@@ -30,6 +30,19 @@ const Footer = () => {
             </p>
           </div>
           <div className="mt-12">
+            <h3 className=" text-[18px] text-white font-quicksand">News letter</h3>
+            <Link href="/terms" className=" no-underline">
+              <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+              Blog
+              </p>
+            </Link>
+            <Link href="/privacy" className=" no-underline">
+              <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+              FAQs
+              </p>
+            </Link>
+          </div>
+          <div className="mt-12">
             <h3 className=" text-[18px] text-white font-quicksand">Legal</h3>
             <Link href="/terms" className=" no-underline">
               <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
@@ -118,7 +131,7 @@ const Footer = () => {
               width={216}
             />
             <p className=" text-[18px]  text-white font-quicksand">
-            Get in the game of investment
+              Get in the game of investment
             </p>
             <div className="flex justify-between">
               <p className=" mt-32 text-[16px] text-[#8D8D8D] font-quicksand">
