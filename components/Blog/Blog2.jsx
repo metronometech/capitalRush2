@@ -133,13 +133,25 @@ const Blog2 = () => {
       </div>
 
       <div className="">
-        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000" className="flex flex-col mb:flex-row justify-center mb:mx-4 ">
-          <div className="hidden md:block">
+        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000" className="flex flex-col mb:flex-row mb:ml-32 ">
+          <div className="hidden 2xl:block">
             <Image
               src="/stockimage.png"
               alt="stockPic"
-              height={370}
-              width={640}
+              height={570}
+              width={940}
+              // layout="responsive"
+
+            />
+          </div>
+          <div className="hidden mb:block 2xl:hidden">
+            <Image
+              src="/stockimage.png"
+              alt="stockPic"
+              height={440}
+              width={660}
+              // layout="responsive"
+
             />
           </div>
           <div className=" text-center block mb:hidden">
@@ -155,7 +167,7 @@ const Blog2 = () => {
             className=" no-underline"
             target="blank"
           >
-            <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000" className="flex flex-col text-center mb:text-left mb:max-w-[354px] w-full mb:pl-14">
+            <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000" className="flex flex-col text-center mb:mt-10 mb:justify-center mb:text-left mb:max-w-[354px] w-full mb:pl-14">
               <p className="  text-[16px] font-bold leading-5 text-[#FAF51C]">
                 {options[nav - 1]}
               </p>

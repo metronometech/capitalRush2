@@ -68,7 +68,7 @@ const CarousalElem3 = () => {
               <p className=" -mt-2 text-justify font-quicksand text-[18px] font-medium leading-6">Tech Lead</p>          
 
             </SwiperSlide>
-            <SwiperSlide className="group flex flex-col">
+            {/* <SwiperSlide className="group flex flex-col">
               <Image alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/face1.png"
@@ -79,7 +79,7 @@ const CarousalElem3 = () => {
               <div className=" relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
               <p className=" -mt-2 text-justify font-quicksand text-[18px] font-medium leading-6">Founder</p>          
 
-            </SwiperSlide>
+            </SwiperSlide> */}
           </div>
         </Swiper>
         <div className="carousel-buttons z-30">

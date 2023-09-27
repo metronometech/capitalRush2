@@ -175,15 +175,22 @@ const About1 = () => {
       </div>
 
       {/* scrollbar */}
-      <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="bg-[#100B26] pb-6">
+      <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="bg-[#100B26] pb-6">\
+      <div>
+      <h1 className=" -mt-8 text-center font-poppins text-[32px] font-bold z-40 flex-shrink-0 ">
+                <span className="font-poppins mb:text-[48px]">
+                OUR TEAM
+                </span>
+              </h1>
+      </div>
       <CarousalElem3 />
       </div>
       <div className="home-sec2">
-      <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800"  className=" py-10 ml-32 mx-auto max-w-screen-xl ">
+      <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800"  className=" justify-center py-10 mx-auto max-w-screen-xl ">
           <h1 className="text-white text-[48px] ml-2 font-semibold mb-0">
             FAQ
           </h1>
-          <div className="mt-5">
+          <div className="mt-5 flex flex-col">
             {faqs.map((elem, index) => {
               return (
                 <Faq2
