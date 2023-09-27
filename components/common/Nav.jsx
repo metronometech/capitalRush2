@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const Nav = ({ variant }) => {
+const Nav = ({ variant ,link }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -98,6 +98,8 @@ const Nav = ({ variant }) => {
             <button className="navItem">Blog</button> */}
         </div>
         <div className="z-40 -mt-1 ">
+        <Link className=" no-underline"s href={link}>
+
           <button
             className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -105,6 +107,7 @@ const Nav = ({ variant }) => {
             {" "}
             <span className="button-text-shadow ">PLAY NOW</span>
           </button>
+        </Link>
         </div>
       </div>
     </div>

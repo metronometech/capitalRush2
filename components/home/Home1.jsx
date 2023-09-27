@@ -4,23 +4,45 @@ import Link from "next/link";
 import Nav from "../common/Nav";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Home1 = () => {
+
+  const [link,updatelink]=useState("/");
 
   useEffect(() => {
     AOS.init();
   }, [])
+
+  function setAppStoreLink() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    
+    // Check for iOS (iPhone, iPad, iPod)
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        // document.getElementById('appStoreLink').href = 'https://apps.apple.com/us/app/your-app-name/id1234567890'; // Replace with your actual App Store link
+        updatelink("https://apps.apple.com/in/app/capital-rush/id1615705403")
+    } 
+    // Check for Android
+    else if (/android/i.test(userAgent)) {
+        // document.getElementById('playStoreLink').href = 'https://play.google.com/store/apps/details?id=com.yourapp.package'; // Replace with your actual Play Store link
+        updatelink("https://play.google.com/store/apps/details?id=com.metronome.capital")
+    }
+}
+
+useEffect(() => {
+  setAppStoreLink();
+}, [])
+
   
   
 
   return (
     <section className="sec1-bg bg-cover bg-center w-full h-screen ">
       <div className="hidden mb:flex mb:justify-center ">
-        <Nav />
+        <Nav link={link} />
       </div>
       <div className="flex mb:hidden  ">
-        <Nav variant="mobile" />
+        <Nav variant="mobile" link={link} />
       </div>
 
       <div className=" text-center mt-20 mb-20 ">
@@ -38,7 +60,7 @@ const Home1 = () => {
           </p>
           <div className="hidden mb:flex justify-center mt-4 mb:mt-12 gap-6 ml-6 mr-10">
             <div className=" cursor-pointer flex items-center justify-center flex-col ">
-              <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000" href="/">
+              <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000" href="https://apps.apple.com/in/app/capital-rush/id1615705403" target="blank">
                 <Image
                   src="/svg/apple.svg"
                   alt="SVG Image"
@@ -51,7 +73,7 @@ const Home1 = () => {
               </Link>
             </div>
             <div className="border-1 -mt-12 mb:mt-0 border-white cursor-pointer flex items-center justify-center ">
-              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="/">
+              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
                 <Image
                   src="/svg/android.svg"
                   alt="SVG Image"
