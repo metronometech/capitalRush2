@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className=" mr-32 -mt-8 float-right flex gap-10">
-          <a href="/">
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -78,8 +78,8 @@ const Footer = () => {
               height={32}
               width={45}
             />{" "}
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -88,8 +88,8 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="https://www.instagram.com/capitalrushofficial/" target="blank" className=" no-underline">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -98,8 +98,8 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="https://www.linkedin.com/company/metronome-enterprises/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -108,8 +108,8 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -118,7 +118,7 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
+          </Link>
         </div>
       </div>
       <div className=" mb:hidden block pb-10 bg-[#080612]">
@@ -173,7 +173,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-2 flex gap-10">
-          <a href="/">
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -181,8 +181,8 @@ const Footer = () => {
               height={32}
               width={45}
             />{" "}
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="https://www.instagram.com/capitalrushofficial/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -191,8 +191,8 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -201,8 +201,8 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="https://www.linkedin.com/company/metronome-enterprises/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -211,8 +211,8 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -221,7 +221,7 @@ const Footer = () => {
               height={32}
               width={45}
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

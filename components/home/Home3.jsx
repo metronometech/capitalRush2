@@ -7,6 +7,7 @@ import Faq from "../common/Faq";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const faqs = [
   {
@@ -41,7 +42,7 @@ const faqs = [
   },
 ];
 
-const Home3 = () => {
+const Home3 = ({link}) => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -525,6 +526,7 @@ const Home3 = () => {
                 width={300}
               />
               <div className="z-40 relative bottom-[640px] text-left  ml-16">
+               <Link href={link} className=" no-underline">
                 <button
                   className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -534,6 +536,7 @@ const Home3 = () => {
                     JOIN NOW
                   </span>
                 </button>
+               </Link>
               </div>
             </div>
           </div>
@@ -558,6 +561,7 @@ const Home3 = () => {
               </div>
               {/* <div className="rounded-l-xl rounded-r-xl bg-gradient-to-br from-purple-600 via-purple-900 to-indigo-900 w-[88%] h-[445px]"></div> */}
               <div className="z-40 ">
+              <Link href={link} className=" no-underline">
                 <button
                   className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -567,6 +571,7 @@ const Home3 = () => {
                     JOIN NOW
                   </span>
                 </button>
+              </Link>
               </div>
               <Image
                 alt="Home-section3-image"

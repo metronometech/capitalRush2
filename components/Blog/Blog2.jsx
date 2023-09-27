@@ -77,8 +77,28 @@ const faqs = [
 
 const Blog2 = () => {
 
+    
+  const [link,updatelink]=useState("/");
+
+  function setAppStoreLink() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    
+    // Check for iOS (iPhone, iPad, iPod)
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        // document.getElementById('appStoreLink').href = 'https://apps.apple.com/us/app/your-app-name/id1234567890'; // Replace with your actual App Store link
+        updatelink("https://apps.apple.com/in/app/capital-rush/id1615705403")
+    } 
+    // Check for Android
+    else if (/android/i.test(userAgent)) {
+        // document.getElementById('playStoreLink').href = 'https://play.google.com/store/apps/details?id=com.yourapp.package'; // Replace with your actual Play Store link
+        updatelink("https://play.google.com/store/apps/details?id=com.metronome.capital")
+    }
+}
+
+
   useEffect(() => {
     AOS.init();
+    setAppStoreLink();
   }, [])
 
   const options = [
@@ -394,6 +414,7 @@ Adding a suitable picture is also important – the recipient might click on the
               </div>
               {/* <div className="rounded-l-xl rounded-r-xl bg-gradient-to-br from-purple-600 via-purple-900 to-indigo-900 w-[88%] h-[445px]"></div> */}
               <div className="z-40 ">
+                <Link href={link} className=" no-underline">
                 <button
                   className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -403,6 +424,7 @@ Adding a suitable picture is also important – the recipient might click on the
                     JOIN NOW
                   </span>
                 </button>
+                </Link>
               </div>
               <Image
                 alt="Home-section3-image"

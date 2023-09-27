@@ -60,19 +60,19 @@ const CaurosalElemHome2 = () => {
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
-            <p className=" text-left w-[490px] ml-10 mt-12 text-white font-quicksand leading-normal text-[20px]">
-              <span className="relative bottom-1 left-1 font-beatrice text-[32px] font-semibold text-[yellow] ">
+            <p className=" text-left w-[490px] ml-10 mt-12 text-white font-quicksand leading-normal text-[22px]">
+              <span className="relative bottom-1 left-1 font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>{" "}
               I am very helped by this E-wallet application , my days are very
               easy to use this application and its very helpful in my life ,
               even I can pay a short time
-              <span className="relative left-1 top-1 font-beatrice text-[32px] font-semibold text-[yellow]">
+              <span className="relative left-1 top-1 font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
-            <div className="z-40 text-left mt-10 ml-16">
+            {/* <div className="z-40 text-left mt-10 ml-16">
               <button
                 className="mt-12 transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -82,7 +82,7 @@ const CaurosalElemHome2 = () => {
                   See all stories
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="">
             <div className="">
@@ -103,19 +103,19 @@ const CaurosalElemHome2 = () => {
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
-            <p className=" text-left w-[490px] ml-10 mt-12 text-white font-quicksand leading-normal text-[20px]">
-              <span className="relative bottom-1 left-1 font-beatrice text-[32px] font-semibold text-[yellow] ">
+            <p className=" text-left w-[490px] ml-10 mt-12 text-white font-quicksand leading-normal text-[22px]">
+              <span className="relative bottom-1 left-1 font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>{" "}
               I am very helped by this E-wallet application , my days are very
               easy to use this application and its very helpful in my life ,
               even I can pay a short time
-              <span className="relative left-1 top-1 font-beatrice text-[32px] font-semibold text-[yellow]">
+              <span className="relative left-1 top-1 font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
-            <div className="z-40 text-left mt-10 ml-16">
+            {/* <div className="z-40 text-left mt-10 ml-16">
               <button
                 className="mt-12 transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -125,7 +125,7 @@ const CaurosalElemHome2 = () => {
                   See all stories
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="">
             <div className="">
@@ -146,19 +146,19 @@ const CaurosalElemHome2 = () => {
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
-            <p className=" text-left w-[490px] ml-10 mt-12 text-white font-quicksand leading-normal text-[20px]">
-              <span className="relative bottom-1 left-1 font-beatrice text-[32px] font-semibold text-[yellow] ">
+            <p className=" text-left w-[490px] ml-10 mt-12 text-white font-quicksand leading-normal text-[22px]">
+              <span className="relative bottom-1 left-1 font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>{" "}
               I am very helped by this E-wallet application , my days are very
               easy to use this application and its very helpful in my life ,
               even I can pay a short time
-              <span className="relative left-1 top-1 font-beatrice text-[32px] font-semibold text-[yellow]">
+              <span className="relative left-1 top-1 font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
-            <div className="z-40 text-left mt-10 ml-16">
+            {/* <div className="z-40 text-left mt-10 ml-16">
               <button
                 className="mt-12 transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
@@ -168,7 +168,7 @@ const CaurosalElemHome2 = () => {
                   See all stories
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="">
             <div className="">
