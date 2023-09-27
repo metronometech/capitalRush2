@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div className='mt-2'>
         <div>
-        <div className=" hidden md:block">
+        <div className=" hidden md:block mb-32">
           <Nav2 />
         </div>
         <div className="bg-[#100B26] -mt-4 block md:hidden pb-24">

@@ -8,7 +8,7 @@ const page = ({params}) => {
   const decodedId = decodeURIComponent(params.id);
   return (
     <div className=" bg-[#100B26]">
-      <div className=' hidden md:block'>
+      <div className=' hidden md:block mb-32'>
         <Nav2 />
     </div>
     <div className='pt-4 block md:hidden'>

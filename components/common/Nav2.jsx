@@ -63,7 +63,7 @@ const Nav2 = ({variant}) => {
 
 
   return (
-    <div className=" -mt-4 pt-5 mx-10 flex justify-center">
+    <div className="bg-[#100B26] fixed top-0 w-full z-50  flex justify-center">
       <div className="flex 2xl:gap-60 gap-24 ">
         <div className="z-20 -mt-4 ">
           <Image

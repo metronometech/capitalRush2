@@ -14,7 +14,7 @@ const Nav = ({ variant ,link }) => {
     return (
       <div>
         <div className=" mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
-          <div className="ml-6 pt-6">
+          <div className="ml-6 pt-6 ">
             <Image src="/logo.png" width={105} height={55} />
           </div>
           <div className=" z-50" onClick={toggleNav}>
@@ -58,7 +58,7 @@ const Nav = ({ variant ,link }) => {
     );
   }
   return (
-    <div className=" flex justify-center">
+    <div className="bg-[#100B26] w-full fixed flex justify-center z-50">
       <div className="flex xl:gap-60 gap-24 ">
         <div className="z-20 ">
           <Image

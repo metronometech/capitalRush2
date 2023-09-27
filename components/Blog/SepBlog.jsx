@@ -104,8 +104,8 @@ const SepBlog = ({ tab }) => {
 
   return (
     <div>
-      <div  className=" z-50 -mt-16 flex flex-col items-center justify-center">
-        <ul className="hidden mb:flex z-50 relative top-16 mb:flex-row  list-none gap-10  text-white">
+      <div  className=" z-40 -mt-16 flex flex-col items-center justify-center">
+        <ul className="hidden mb:flex z-40 relative top-16 mb:flex-row  list-none gap-10  text-white">
           {/* href={`/destinationPage?myProp=${myProp}`} */}
           <Link href="/blog?prop=1" className=" no-underline">
             <li
@@ -159,7 +159,7 @@ const SepBlog = ({ tab }) => {
           <br /> USED FOR TEXT
         </h1>
         <Image
-          className="hidden mb:block z-50 ml-10 mt-36 pr-20 2xl:pr-40 max-h-[320px] max-w-[545px] "
+          className="hidden mb:block z-40 ml-10 mt-36 pr-20 2xl:pr-40 max-h-[320px] max-w-[545px] "
           src="/stockimage.png"
           height={310}
           width={540}
@@ -168,7 +168,7 @@ const SepBlog = ({ tab }) => {
         <div className=" block mb:hidden h-[320px] w-full"></div>
       </div>
       <div className="flex justify-center">
-        <ul className="mb:hidden flex z-50 relative bottom-[270px] text-center  w-fit flex-col list-none gap-5  text-white">
+        <ul className="mb:hidden flex z-40 relative bottom-[270px] text-center  w-fit flex-col list-none gap-5  text-white">
           {/* href={`/destinationPage?myProp=${myProp}`} */}
           <Link href="/blog?prop=1" className=" no-underline">
             <li
@@ -465,7 +465,7 @@ const SepBlog = ({ tab }) => {
           <Image
             alt="Home-section3-image"
             src="/mobile2.png"
-            className=" relative bottom-[480px] ml-[45%] z-50"
+            className=" relative bottom-[480px] ml-[45%] z-40"
             height={480}
             width={300}
           />

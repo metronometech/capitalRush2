@@ -67,7 +67,7 @@ const CarousalElemHomeSec3 = () => {
               <Image
                 alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
-                src="/mobile2.png"
+                src="/mobile3.png"
                 fill
               />
             </SwiperSlide>

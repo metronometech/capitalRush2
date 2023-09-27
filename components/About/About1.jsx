@@ -295,11 +295,11 @@ const About1 = () => {
       <CarousalElem3 />
       </div>
       <div className="home-sec2">
-      <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800"  className=" justify-center py-10 mx-auto max-w-screen-xl ">
+      <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800"  className=" justify-center py-10 mx-2 mb:mx-auto max-w-screen-xl ">
           <h1 className="text-white text-[20px] mb:text-[48px] ml-2 font-semibold mb-0">
             FAQ
           </h1>
-          <div className="mt-5 flex flex-col">
+          <div className="mt-5  flex flex-col">
             {faqs.map((elem, index) => {
               return (
                 <Faq2

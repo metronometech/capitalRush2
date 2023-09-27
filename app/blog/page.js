@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className=" bg-[#100B26]">
       <div className="mt-8 mb:mt-0">
-        <div className=" hidden md:block">
+        <div className=" hidden md:block mb-20">
           <Nav2 />
         </div>
         <div className="-mt-8 block md:hidden">
