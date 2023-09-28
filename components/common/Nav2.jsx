@@ -11,6 +11,10 @@ const Nav2 = ({variant}) => {
       alert("Thankyou for visiting to us.You can download capital rush from appstroe/playstore")
   }
 
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+  
   if (variant === "mobile") {
     return (
       <div>
