@@ -13,10 +13,10 @@ const page = () => {
     <div className='mt-2'>
         <div>
         <div className=" hidden md:block mb-32">
-          <Nav2 link={link}/>
+          <Nav2 />
         </div>
         <div className="bg-[#100B26] -mt-4 block md:hidden pb-24">
-          <Nav2 variant="mobile" link={link} />
+          <Nav2 variant="mobile" />
         </div>
             <Timeline1 />
         </div>
