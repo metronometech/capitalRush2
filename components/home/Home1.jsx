@@ -86,7 +86,7 @@ useEffect(() => {
               </Link>
             </div>
             <div className="mb:ml-8  cursor-pointer flex items-center justify-center ">
-              <Link data-aos="zoom-in" data-aos-delay="220"  data-aos-duration="1000" href="/">
+              <Link data-aos="zoom-in" data-aos-delay="220"  data-aos-duration="1000" href="https://www.youtube.com/watch?v=zcEQPGe73sM">
                 <Image
                   src="/svg/watchvd.svg"
                   alt="SVG Image"
