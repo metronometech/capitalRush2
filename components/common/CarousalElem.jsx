@@ -1,8 +1,8 @@
   "use client";
   import React, { useEffect, useState } from "react";
   import { Swiper, SwiperSlide } from "swiper/react";
-  import "swiper/css/bundle"; // Import Swiper styles
   import "./caurosal.css"; // Your CSS file
+  import "swiper/css/bundle"; // Import Swiper styles
   import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
   import Image from "next/image";
 

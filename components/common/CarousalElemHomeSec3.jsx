@@ -2,7 +2,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import "./caurosal.css";
+import "./caurosal3.css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Image from "next/image";
 
@@ -43,7 +43,7 @@ const CarousalElemHomeSec3 = () => {
           slidesPerView={1}
           // spaceBetween={60}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          // loop={true}
+          loop={true}
           className="mySwiper"
         >
           <div className="">
