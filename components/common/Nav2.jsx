@@ -6,6 +6,7 @@ import React, { useState } from "react";
 
 
 const Nav2 = ({variant}) => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   function handleplay(){
       alert("Thankyou for visiting to us.You can download capital rush from appstroe/playstore")
@@ -14,7 +15,7 @@ const Nav2 = ({variant}) => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
-  
+
   if (variant === "mobile") {
     return (
       <div>
