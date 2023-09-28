@@ -61,11 +61,11 @@ const Footer = () => {
                 Contact
               </h3>
             </Link>
-            <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+            {/* <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               000-000-00
-            </p>
+            </p> */}
             <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
-              hello@logo.com
+              hello@capitalrush.gg
             </p>
           </div>
         </div>
@@ -165,11 +165,11 @@ const Footer = () => {
                 Contact
               </h3>
             </Link>
-            <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+            {/* <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               000-000-00
-            </p>
+            </p> */}
             <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
-              hello@logo.com
+              hello@capitalrush.gg
             </p>
           </div>
         </div>
