@@ -483,7 +483,7 @@ const Home3 = ({link}) => {
               data-aos-delay="80"
               data-aos-easing="ease-in-out"
               data-aos-duration="500"
-              className=" md:py-10 justify-center mx-auto  max-w-screen-xl "
+              className=" md:py-10  justify-center mx-auto  max-w-screen-xl "
             >
               <h1 className="text-white text-[24px] mb:text-[48px] ml-2 font-semibold mb-0">
                 FAQ

@@ -47,15 +47,15 @@ useEffect(() => {
 
       <div className=" text-center mt-20 mb-20 ">
         <div className="">
-          <h2 data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000"   className=" mx-6  mb:mx-28 leading-tight text-white text-[40px] mb:text-[60px] ">
+          <h2 data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000"   className=" mx-6 font-poppins mb:mx-28 leading-tight text-white text-[36px] mb:text-[60px] ">
             LEARN HOW TO
-            <span className=" text-yellow-300 text-stroke text-stroke-white">
+            <span className=" text-yellow-300 text-[36px] mb:text-[60px] font-poppins text-stroke text-stroke-white">
               {" "}
               GROW YOUR MONEY <br/> </span>
               WITH  CAPITAL RUSH
             
           </h2>
-          <p data-aos="fade-down" data-aos-delay="200"  data-aos-duration="1000" className="mb:pt-10 text-white font-quicksand text-[22px] mb:text-[30px]">
+          <p data-aos="fade-down" data-aos-delay="200"  data-aos-duration="1000" className="mb:pt-10 pt-6 text-white font-quicksand text-[22px] mb:text-[30px]">
             Experience financial markets like never before
           </p>
           <div className="hidden mb:flex justify-center mt-4 mb:mt-12 gap-6 ml-6 mr-10">
@@ -101,13 +101,13 @@ useEffect(() => {
           </div>
           
           
-          <div className="flex flex-col mb:hidden justify-center mt-4 mb:mt-12 gap-6 ml-6 mr-10">
+          <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-6 ml-6 mr-10">
             <div className=" cursor-pointer flex items-center justify-center flex-col ">
               <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000" href="/">
                 <Image
                   src="/svg/apple.svg"
                   alt="SVG Image"
-                  width={220}
+                  width={240}
                   height={64}
                   className="mt-6 hzoom1"
                 />
@@ -124,7 +124,7 @@ useEffect(() => {
                 />
               </Link>
             </div>
-            <div className="mb:ml-8 mg:mt-0 -mt-16 cursor-pointer flex items-center justify-center ">
+            <div className="mb:ml-8 mg:mt-0 -mt-14 cursor-pointer flex items-center justify-center ">
               <Link data-aos="zoom-in" data-aos-delay="220" data-aos-offset="100"  data-aos-duration="1000" href="/">
                 <Image
                   src="/svg/watchvd.svg"
