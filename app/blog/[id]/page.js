@@ -1,4 +1,3 @@
-"use client"
  import React from "react";
 import "../../pagemodule.css";
 import Nav2 from "@/components/common/Nav2";
