@@ -7,6 +7,9 @@ import React, { useState } from "react";
 
 const Nav2 = ({variant}) => {
 
+  function handleplay(){
+      alert("Thankyou for visiting to us.You can download capital rush from appstroe/playstore")
+  }
 
   if (variant === "mobile") {
     return (
