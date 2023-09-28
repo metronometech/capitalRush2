@@ -61,7 +61,7 @@ const Home3 = ({link}) => {
           </h2>
           <p className=" text-white -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
             Explore Capital Rush&apos;s immersive fusion of gaming and
-            investing. Learn wealth management, trade assets, and grasp finance
+            investing. Learn <br/> wealth management, trade assets, and grasp finance
             concepts risk-free
           </p>
         </div>
@@ -84,7 +84,7 @@ const Home3 = ({link}) => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className=" text-left mb:ml-32 mt-20"
+                className=" text-left mb:ml-20 mt-20"
                 id="one"
               >
                 <h2 className=" leading-tight w-[600px] mb-8 h-fit text-white text-[48px] ">
@@ -96,7 +96,7 @@ const Home3 = ({link}) => {
                   the desired portfolio from your in-hand cash.
                 </p>
               </div>
-              <div className=" mr-28 -mt-[200px]">
+              <div className=" mr-20 -mt-[200px]">
                 <Image
                   alt="Home-section3-image"
                   className=" relative top-[226px] left-6 "
@@ -124,7 +124,7 @@ const Home3 = ({link}) => {
               <Image alt="Home-section3-image" src="/pleft.png" fill />
             </div>
             <div className="flex justify-between -mt-[610px]" id="two">
-              <div className="ml-16 -mt-[200px]">
+              <div className="ml-20 -mt-[200px]">
                 <Image
                   alt="Home-section3-image"
                   className=" relative top-[226px] right-4 "
@@ -147,7 +147,7 @@ const Home3 = ({link}) => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className=" text-left mr-20 mt-20"
+                className=" text-left mr-32 mt-20"
               >
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Optimise the Capital
@@ -236,7 +236,7 @@ const Home3 = ({link}) => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className="mt-20 text-left mr-20"
+                className="mt-20 text-left mr-28"
               > 
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment

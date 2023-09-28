@@ -38,7 +38,7 @@ useEffect(() => {
 
   return (
     <section className="sec1-bg bg-cover bg-center w-full h-screen ">
-      <div className="hidden mb-[320px] mb:flex mb:justify-center  ">
+      <div className="hidden mb-[280px] mb:flex mb:justify-center  ">
         <Nav link={link} />
       </div>
       <div className="flex mb:hidden  ">
@@ -55,7 +55,7 @@ useEffect(() => {
               WITH  CAPITAL RUSH
             
           </h2>
-          <p data-aos="fade-down" data-aos-delay="200"  data-aos-duration="1000" className=" text-white font-quicksand text-[22px] mb:text-[30px]">
+          <p data-aos="fade-down" data-aos-delay="200"  data-aos-duration="1000" className="mb:pt-10 text-white font-quicksand text-[22px] mb:text-[30px]">
             Experience financial markets like never before
           </p>
           <div className="hidden mb:flex justify-center mt-4 mb:mt-12 gap-6 ml-6 mr-10">

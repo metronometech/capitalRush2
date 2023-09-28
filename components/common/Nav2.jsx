@@ -19,7 +19,7 @@ const Nav2 = ({variant}) => {
   if (variant === "mobile") {
     return (
       <div>
-        <div className="-mt-4 mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
+        <div className=" mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
           <div className="ml-16 z-30">
             <Image src="/logo.png" width={105} height={55} />
           </div>
@@ -67,17 +67,17 @@ const Nav2 = ({variant}) => {
 
   return (
     <div className="bg-[#100B26] fixed top-0 w-full z-50  flex justify-center">
-      <div className="flex 2xl:gap-60 gap-24 ">
-        <div className="z-20 -mt-4 ">
+      <div className="flex xl:gap-60 gap-24 ">
+        <div className="z-20  ">
           <Image
           alt="logo"
             src="/logo.png"
             className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl cursor-pointer"
-            width={200}
-            height={90}
+            width={130}
+            height={70}
           />
         </div>
-        <div className="flex mt-6 z-30">
+        <div className="flex mt-8 z-30">
           <ul className="list-none -mt-0 xl:gap-14 gap-8 flex">
             <li>
               <a href="/">
