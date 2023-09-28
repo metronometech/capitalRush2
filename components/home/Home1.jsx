@@ -103,7 +103,7 @@ useEffect(() => {
           
           <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-6 ml-6 mr-10">
             <div className=" cursor-pointer flex items-center justify-center flex-col ">
-              <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000" href="/">
+              <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000"  href="https://apps.apple.com/in/app/capital-rush/id1615705403" target="blank">
                 <Image
                   src="/svg/apple.svg"
                   alt="SVG Image"
@@ -114,7 +114,7 @@ useEffect(() => {
               </Link>
             </div>
             <div className="border-1 -mt-16 mb:-mt-0 border-white cursor-pointer flex items-center justify-center ">
-              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="/">
+              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
                 <Image
                   src="/svg/android.svg"
                   alt="SVG Image"
@@ -125,7 +125,7 @@ useEffect(() => {
               </Link>
             </div>
             <div className="mb:ml-8 mg:mt-0 -mt-14 cursor-pointer flex items-center justify-center ">
-              <Link data-aos="zoom-in" data-aos-delay="220" data-aos-offset="100"  data-aos-duration="1000" href="/">
+              <Link data-aos="zoom-in" data-aos-delay="220" data-aos-offset="100"  data-aos-duration="1000" href="https://www.youtube.com/watch?v=zcEQPGe73sM">
                 <Image
                   src="/svg/watchvd.svg"
                   alt="SVG Image"
