@@ -1,3 +1,4 @@
+"use client"
 import Nav2 from '@/components/common/Nav2'
 import Timeline1 from '@/components/timeline/Timeline1'
 import React, { useEffect, useState } from 'react'
