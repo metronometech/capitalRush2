@@ -8,6 +8,8 @@ import Link from "next/link";
 
 const Home2 = ({link}) => {
 
+
+
   useEffect(() => {
     AOS.init();
   }, [])
@@ -33,7 +35,7 @@ const Home2 = ({link}) => {
         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600" className=" mt-12  xl:mx-32 mx-16">
           <CarousalElem />
           <div className="z-40 text-center ">
-          <Link href={link} target="blank" className=" no-underline">
+          <Link href={link} className=" no-underline">
             <button className="transform hover:scale-105 transition-transform duration-300 py-3 px-10 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;">
               {" "}
               <span className="button-text-shadow ">PLAY NOW</span>
