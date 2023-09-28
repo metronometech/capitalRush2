@@ -9,6 +9,7 @@ import Link from "next/link";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Popup from "../common/Popup";
 
 
 
@@ -76,6 +77,17 @@ const faqs = [
 ];
 
 const Blog2 = () => {
+
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
     
   const [link,updatelink]=useState("/");
@@ -390,7 +402,10 @@ Adding a suitable picture is also important – the recipient might click on the
             width={300}
           />
           <div className=" relative bottom-[640px] text-left  ml-16">
+        <Popup isOpen={isModalOpen} onClose={closeModal}  />
+
             <button
+            onClick={openModal}
               className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
             >
