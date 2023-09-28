@@ -14,15 +14,15 @@ const CarousalElemHomeSec3 = () => {
           <button className="hidden md:block carousel-button hzoom1 cursor-pointer carousel-button-prev">
             <Image
               alt="left-arrow"
-              src="/svg/leftArrow.svg"
-              height={100}
-              width={100}
+              src="/left.png"
+              height={90}
+              width={90}
             />
           </button>
           <button className="block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-prev">
             <Image
               alt="left-arrow"
-              src="/svg/leftArrow.svg"
+              src="/left.png"
               height={40}
               width={40}
             />
@@ -109,15 +109,15 @@ const CarousalElemHomeSec3 = () => {
           <button className="hidden md:block carousel-button hzoom1 cursor-pointer carousel-button-next">
             <Image
               alt="right-arrow"
-              src="/svg/rightArrow.svg"
-              height={100}
-              width={100}
+              src="/right.png"
+              height={90}
+              width={90}
             />
           </button>
           <button className="block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-next">
             <Image
               alt="right-arrow"
-              src="/svg/rightArrow.svg"
+              src="/right.png"
               height={40}
               width={40}
             />

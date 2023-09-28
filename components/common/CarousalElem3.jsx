@@ -12,7 +12,7 @@ const CarousalElem3 = () => {
       <div className="py-10 flex xl:gap-20 mb:gap-8 gap-1 items-center ">
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
-            <Image alt="left-arrow" src="/svg/leftArrow.svg" height={100} width={100} />
+            <Image alt="left-arrow" src="/left.png" height={90} width={90} />
           </button>
         </div>
         <Swiper
@@ -84,7 +84,7 @@ const CarousalElem3 = () => {
         </Swiper>
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-next">
-            <Image alt="carosal-Images" src="/svg/rightArrow.svg" height={100} width={100} />
+            <Image alt="carosal-Images" src="/right.png" height={90} width={90} />
           </button>
         </div>
       </div>

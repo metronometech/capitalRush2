@@ -426,10 +426,10 @@ const Home3 = ({link}) => {
               data-aos-duration="700"
               className="flex flex-col items-center shadow2 pt-4 mt-[360px]  mx-2"
             >
-              <h2 className=" leading-tight md:w-[600px] w-full text-center mb-8 h-fit text-white text-[24px] ">
+              <h2 className=" leading-tight mb:w-[600px] w-full text-center mb-8 h-fit text-white text-[24px] ">
                 People are Saying About Capital Rush
               </h2>
-              <p className=" px-2 text-left w-full ml-1  text-white font-quicksand leading-tight text-[12px]">
+              <p className=" px-2 text-left w-full ml-1 mb:w-[800px] text-white font-quicksand leading-tight text-[12px]">
                 <span className="relative bottom-1 left-1 font-beatrice text-[32px] font-semibold text-[yellow] ">
                   {" "}
                   &#x201B;&#x201B;{" "}

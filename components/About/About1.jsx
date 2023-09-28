@@ -56,7 +56,7 @@ const About1 = () => {
   return (
     <div >
       <div data-aos="slide-down" data-aos-delay="70"  data-aos-duration="1000" className="blog-bg bg-[#100B26] h-[560px] flex flex-col justify-center items-center mb:-mt-36 mx-2 mb:mx-0">
-        <h1 data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1200" className=" font-poppins leading-tight mb-5 text-center text-[38px] mb:text-[48px] font-bold z-40 flex-shrink-0 mb:-ml-8">
+        <h1 data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1200" className=" font-poppins leading-tight pt-6 mb-5 mb:pb-16 pb-8 text-center text-[38px] mb:text-[48px] font-bold z-40 flex-shrink-0 mb:-ml-8">
           We make the{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
             games you want
@@ -72,7 +72,8 @@ const About1 = () => {
           responsibility and accountability.
         </p>
       </div>
-      <div className="bg-[#100B26] pb-20 text-center hidden  mb:flex flex-col -mt-[230px] ">
+
+      <div className="bg-[#100B26] border  pb-20 text-center hidden  mb:flex flex-col -mt-[230px] ">
         <Image
         data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000"
           className=" z-20 relative top-[400px] self-end xl:pr-40 pr-10"
@@ -80,7 +81,7 @@ const About1 = () => {
           height={470}
           width={480}
         />
-        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" mx-auto w-[80%] h-[400px] custom-shadow "></div>
+        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" mx-auto w-[80%] h-[400px] border rounded-xl custom-shadow "></div>
         <h1 data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" relative bottom-[380px] self-start ml-[220px] 2xl:ml-[350px] font-poppins text-[48px] font-bold z-40 flex-shrink-0 ">
           Our{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
@@ -104,7 +105,7 @@ const About1 = () => {
           height={200}
           width={210}
         />
-        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" mx-auto w-[97%] h-[310px] custom-shadow "></div>
+        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" mx-auto w-[97%] h-[310px] border rounded-xl custom-shadow "></div>
         <h1 data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" relative bottom-[305px] self-center pb-2 2xl:ml-[350px] font-poppins text-[22px] font-bold z-40 flex-shrink-0 ">
           Our{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
@@ -286,7 +287,7 @@ const About1 = () => {
       {/* scrollbar */}
       <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="bg-[#100B26] pb-6">
       <div>
-      <h1 className=" mb:-mt-8 text-center font-poppins text-[32px] font-bold z-40 flex-shrink-0 ">
+      <h1 className="mt-10 mb:mt-20 text-center font-poppins text-[32px] font-bold z-40 flex-shrink-0 ">
                 <span className="font-poppins text-[20px] mb:text-[48px]">
                 OUR TEAM
                 </span>
