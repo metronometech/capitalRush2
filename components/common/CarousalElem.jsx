@@ -52,49 +52,49 @@
             <div className="">
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className="  xl:scale-y-100  group-hover:brightness-125"
+                  className="   group-hover:brightness-125"
                   src="/animate/1.gif"
                   fill
                 />
               </SwiperSlide>
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className=" xl:scale-y-100 group-hover:brightness-125"
+                  className=" group-hover:brightness-125"
                   src="/animate/2.gif"
                   fill
                 />
               </SwiperSlide>
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className=" xl:scale-y-100 group-hover:brightness-125"
+                  className=" group-hover:brightness-125"
                   src="/animate/3.gif"
                   fill
                 />
               </SwiperSlide>
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className=" xl:scale-y-100 group-hover:brightness-125"
+                  className=" group-hover:brightness-125"
                   src="/animate/4.gif"
                   fill
                 />
               </SwiperSlide>
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className=" xl:scale-y-100 group-hover:brightness-125"
+                  className=" group-hover:brightness-125"
                   src="/animate/5.gif"
                   fill
                 />
               </SwiperSlide>
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className=" xl:scale-y-100 group-hover:brightness-125"
+                  className=" group-hover:brightness-125"
                   src="/animate/6.gif"
                   fill
                 />
               </SwiperSlide>
               <SwiperSlide className="group">
                 <Image alt="carosal-Images"
-                  className=" xl:scale-y-100 group-hover:brightness-125"
+                  className=" group-hover:brightness-125"
                   src="/animate/7.gif"
                   fill
                 />
