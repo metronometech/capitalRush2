@@ -116,7 +116,7 @@ const Blog2 = () => {
   return (
     <div>
       <div className=" flex flex-col items-center justify-center">
-        <ul data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000"  className="flex flex-col md:flex-row text-center md:mt-12 -mt-20 z-50 list-none gap-8 my-32 text-white">
+        <ul data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000"  className="flex flex-col md:flex-row text-center md:mt-12 -mt-20 z-40 list-none gap-8 my-32 text-white">
           <li
             onClick={() => handleNav(1)}
             className={`cursor-pointer font-bold leading-5 ${
@@ -385,7 +385,7 @@ Adding a suitable picture is also important – the recipient might click on the
           <Image
             alt="Home-section3-image"
             src="/mobile2.png"
-            className=" relative bottom-[480px] ml-[45%] z-50"
+            className=" relative bottom-[480px] ml-[45%] z-40"
             height={480}
             width={300}
           />
