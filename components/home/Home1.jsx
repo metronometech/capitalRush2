@@ -38,7 +38,7 @@ useEffect(() => {
 
   return (
     <section className="sec1-bg bg-cover bg-center w-full h-screen ">
-      <div className="hidden mb-[400px] mb:flex mb:justify-center ">
+      <div className="hidden mb-[320px] mb:flex mb:justify-center  ">
         <Nav link={link} />
       </div>
       <div className="flex mb:hidden  ">
