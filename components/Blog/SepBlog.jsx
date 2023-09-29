@@ -444,7 +444,7 @@ const SepBlog = ({ tab }) => {
 
 
 
-        <div className=" py-10 text-canter mx-auto max-w-screen-xl ">
+        <div className=" py-10 text-canter mx-auto max-w-screen-xl pl-2 mb:pl-24 ">
           <h1 data-aos="fade-down" data-aos-delay="200"  data-aos-duration="800" className="text-white text-[24px] mb:text-[48px] ml-2 font-semibold mb-0">
             FAQ
           </h1>

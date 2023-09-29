@@ -364,7 +364,7 @@ Adding a suitable picture is also important – the recipient might click on the
         </div>
       </div>
       <div>
-        <div data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1000" className=" py-10 ml-2 mb:mx-auto mb:justify-center   max-w-screen-xl ">
+        <div data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1000" className=" py-10 pl-2 mb:pl-24  mb:mx-auto mb:justify-center   max-w-screen-xl ">
           <h1 className="text-white text-[48px] ml-2 font-semibold mb-0">
             FAQ
           </h1>
