@@ -26,8 +26,8 @@ const Nav2 = ({variant}) => {
   if (variant === "mobile") {
     return (
       <div>
-        <div className=" mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
-          <div className="ml-16 z-30">
+        <div className="mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
+          <div className="ml-6 z-30">
             <Image src="/logo.png" width={105} height={55} />
           </div>
           <div className="pt-4 z-50" onClick={toggleNav}>
