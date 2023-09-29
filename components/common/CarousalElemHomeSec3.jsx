@@ -15,8 +15,8 @@ const CarousalElemHomeSec3 = () => {
             <Image
               alt="left-arrow"
               src="/left.png"
-              height={90}
-              width={90}
+              height={60}
+              width={60}
             />
           </button>
           <button className="block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-prev">
@@ -110,8 +110,8 @@ const CarousalElemHomeSec3 = () => {
             <Image
               alt="right-arrow"
               src="/right.png"
-              height={90}
-              width={90}
+              height={60}
+              width={60}
             />
           </button>
           <button className="block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-next">

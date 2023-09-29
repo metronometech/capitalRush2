@@ -250,7 +250,7 @@ const Home3 = ({link}) => {
                 data-aos-delay="80"
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
-                className="mt-20 text-left mr-28"
+                className="mt-24 text-left mr-28"
               > 
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment
@@ -490,16 +490,16 @@ const Home3 = ({link}) => {
           </div>
 
           {/* Faq's */}
-          <div>
+          <div className="flex justify-center">
             <div
               data-aos-anchor-placement="top-center"
               data-aos="fade-up"
               data-aos-delay="80"
               data-aos-easing="ease-in-out"
               data-aos-duration="500"
-              className=" md:py-10  justify-center mx-auto  max-w-screen-xl "
+              className=" md:py-10  justify-center  w-[80%] mb:pl-24 "
             >
-              <h1 className="text-white text-[24px] mb:text-[48px] ml-2 font-semibold mb-0">
+              <h1 className="text-white text-[24px] mb:text-[48px]  font-semibold mb-0">
                 FAQ
               </h1>
               {faqs.map((elem, index) => {

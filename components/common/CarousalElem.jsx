@@ -25,7 +25,7 @@
         <div className="py-10 flex xl:gap-20 mb:gap-8 gap-2 mx-2 md:mx-32  mb:-mx-10 items-center ">
           <div className="carousel-buttons z-30">
             <button className=" hidden mb:block carousel-button hzoom1 cursor-pointer carousel-button-prev">
-              <Image alt="left-arrow" src="/left.png" height={90} width={90} />
+              <Image alt="left-arrow" src="/left.png" height={60} width={60} />
             </button>
             <button className=" block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-prev">
               <Image alt="left-arrow" src="/left.png" height={32} width={32} />
@@ -103,7 +103,7 @@
           </Swiper>
           <div className="carousel-buttons z-30">
             <button className="  hidden mb:block carousel-button hzoom1 cursor-pointer carousel-button-next">
-              <Image alt="carosal-Images" src="/right.png" height={90} width={90} />
+              <Image alt="carosal-Images" src="/right.png" height={60} width={60} />
             </button>
             <button className=" block mb:hidden carousel-button hzoom1 cursor-pointer carousel-button-next">
               <Image alt="carosal-Images" src="/right.png" height={32} width={32} />

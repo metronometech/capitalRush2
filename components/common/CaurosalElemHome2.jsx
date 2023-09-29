@@ -60,29 +60,19 @@ const CaurosalElemHome2 = () => {
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
-            <p className=" text-left w-[590px] ml-10 mt-12 text-white font-quicksand leading-tight text-[22px]">
-              <span className="relative bottom-1 left-1 font-beatrice text-[44px] font-semibold text-[yellow] ">
+            <p className=" text-left w-[590px] ml-16 mt-12 text-white font-quicksand leading-tight text-[22px]">
+              <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>{" "}
-              I am very helped by this E-wallet application , my days are very
-              easy to use this application and its very helpful in my life ,
-              even I can pay a short time
-              <span className="relative left-1 top-1 font-beatrice text-[44px] font-semibold text-[yellow]">
+              </span>
+              <br/>
+              I am very helped by this E-wallet application , my <br/>days are very
+              easy to use this application and its<br/> very helpful in my life ,
+              even I can pay a short time <br/>
+              <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
-            {/* <div className="z-40 text-left mt-10 ml-16">
-              <button
-                className="mt-12 transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-tight font-poppins text-white hover:text-yellow-300;
- "
-              >
-                {" "}
-                <span className="button-text-shadow text-[28px]">
-                  See all stories
-                </span>
-              </button>
-            </div> */}
           </div>
           <div className="">
             <div className="">
@@ -103,29 +93,19 @@ const CaurosalElemHome2 = () => {
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
-            <p className=" text-left w-[590px] ml-10 mt-12 text-white font-quicksand leading-tight text-[22px]">
-              <span className="relative bottom-1 left-1 font-beatrice text-[44px] font-semibold text-[yellow] ">
+            <p className=" text-left w-[590px] ml-16 mt-12 text-white font-quicksand leading-tight text-[22px]">
+              <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>{" "}
-              I am very helped by this E-wallet application , my days are very
-              easy to use this application and its very helpful in my life ,
-              even I can pay a short time
-              <span className="relative left-1 top-1 font-beatrice text-[44px] font-semibold text-[yellow]">
+              </span>
+              <br/>
+              I am very helped by this E-wallet application , my <br/>days are very
+              easy to use this application and its<br/> very helpful in my life ,
+              even I can pay a short time <br/>
+              <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
-            {/* <div className="z-40 text-left mt-10 ml-16">
-              <button
-                className="mt-12 transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-tight font-poppins text-white hover:text-yellow-300;
- "
-              >
-                {" "}
-                <span className="button-text-shadow text-[28px]">
-                  See all stories
-                </span>
-              </button>
-            </div> */}
           </div>
           <div className="">
             <div className="">
@@ -140,40 +120,30 @@ const CaurosalElemHome2 = () => {
               </div>
             </div>
           </div>
-        </li>
-        <li className="slide">
+        </li> <li className="slide">
           <div className="-ml-10">
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
-            <p className=" text-left w-[590px] ml-10 mt-12 text-white font-quicksand leading-tight text-[22px]">
-              <span className="relative bottom-1 left-1 font-beatrice text-[44px] font-semibold text-[yellow] ">
+            <p className=" text-left w-[590px] ml-16 mt-12 text-white font-quicksand leading-tight text-[22px]">
+              <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>{" "}
-              I am very helped by this E-wallet application , my days are very
-              easy to use this application and its very helpful in my life ,
-              even I can pay a short time
-              <span className="relative left-1 top-1 font-beatrice text-[44px] font-semibold text-[yellow]">
+              </span>
+              <br/>
+              I am very helped by this E-wallet application , my <br/>days are very
+              easy to use this application and its<br/> very helpful in my life ,
+              even I can pay a short time <br/>
+              <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
-            {/* <div className="z-40 text-left mt-10 ml-16">
-              <button
-                className="mt-12 transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-tight font-poppins text-white hover:text-yellow-300;
- "
-              >
-                {" "}
-                <span className="button-text-shadow text-[28px]">
-                  See all stories
-                </span>
-              </button>
-            </div> */}
           </div>
           <div className="">
             <div className="">
               <div className="group h-[600px] w-[380px]">
                 <Image
+                  alt="carosal-Home-sectionImage"
                   className=" relative bottom-[80px] right-[25px] group-hover:brightness-125"
                   src="/boy.png"
                   height={600}
