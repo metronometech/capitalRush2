@@ -443,15 +443,15 @@ const Home3 = ({link}) => {
               <h2 className=" leading-tight mb:w-[600px] w-full text-center mb-8 h-fit text-white text-[24px] ">
                 People are Saying About Capital Rush
               </h2>
-              <p className=" px-2 text-left w-full ml-1 mb:w-[800px] text-white font-quicksand leading-tight text-[12px]">
-                <span className="relative bottom-1 left-1 font-beatrice text-[32px] font-semibold text-[yellow] ">
+              <p className=" pl-8 text-left w-full ml-1  mb:w-[800px] text-white font-quicksand leading-tight text-[12px]">
+                <span className="relative top-[25px] right-[25px]  font-beatrice text-[32px] font-semibold text-[yellow] ">
                   {" "}
                   &#x201B;&#x201B;{" "}
                 </span>{" "}
-                I am very helped by this E-wallet application , my days are very
-                easy to use this application and its very helpful in my life ,
-                even I can pay a short time
-                <span className="relative left-1 top-1 font-beatrice text-[32px] font-semibold text-[yellow]">
+                <br/>I am very helped by this E-wallet application , my <br/>days are very
+              easy to use this application and its<br/> very helpful in my life ,
+              even I can pay a short time <br/>
+                <span className="relative left-[283px] bottom-[32px] font-beatrice text-[32px] font-semibold text-[yellow]">
                   ,,
                 </span>
               </p>
