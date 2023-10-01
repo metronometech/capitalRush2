@@ -121,7 +121,7 @@ useEffect(() => {
                   width={180}
                   height={80}
                   layout="responsive"
-                  className="hzoom1 mt-12 -ml-[55px]"
+                  className="hzoom1 mt-[47px] -ml-[55px]"
                 />
               </Link>
 
