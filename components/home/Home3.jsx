@@ -9,7 +9,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Link from "next/link";
 import Popup from "../common/Popup";
-import CaurosalMobile from "../common/CaurosalMobile";
 
 const faqs = [
   {
@@ -472,7 +471,7 @@ const Home3 = ({ link }) => {
             data-aos-duration="700"
             className="relative top-[380px] block mb:hidden"
           >
-            <CaurosalMobile />
+            {/* <CaurosalMobile /> */}
           </div>
           </div>
         </div>
