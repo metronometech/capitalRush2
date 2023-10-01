@@ -18,16 +18,24 @@ const CarousalElemHomeSec3 = () => {
     updateMove((prevMove) => prevMove + 1);
   }
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (nextButtonRef.current) {
-        nextButtonRef.current.click();
-        updateMove((prevMove) => prevMove + 1);
-      }
-    }, 4000);
+  function handlescroll(ind){
+    if(currentSlideIndex>=2){
+      setCurrentSlideIndex(0)
+    }else{
+      setCurrentSlideIndex(ind)
+    }
+  }
 
-    return () => clearInterval(interval); // Clear the interval on component unmount
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (nextButtonRef.current) {
+  //       nextButtonRef.current.click();
+  //       updateMove((prevMove) => prevMove + 1);
+  //     }
+  //   }, 4000000);
+
+  //   return () => clearInterval(interval); // Clear the interval on component unmount
+  // }, []);
 
   return (
     <div className="carousel-container flex-col">
@@ -50,7 +58,8 @@ const CarousalElemHomeSec3 = () => {
         </div>
         <Swiper
           onSlideChange={(swiper) => {
-            setCurrentSlideIndex(swiper.activeIndex);
+            // setCurrentSlideIndex(swiper.activeIndex);
+            handlescroll(swiper.activeIndex)
           }}
           navigation={{
             prevEl: ".carousel-button-prev",
@@ -115,19 +124,38 @@ const CarousalElemHomeSec3 = () => {
           </button>
         </div>
       </div>
-      <div className="-mt-16 mb:-mt-12 relative">
+      <div className="-mt-16 mb:-mt-12 relative hidden mb:block">
         <p className="text-center text-[40px] text-gray-100">
-          {currentSlideIndex % 3 === 0 && (
+          {move % 3 === 0 && (
             <span>
               <span className="text-white">.</span> . .
             </span>
           )}
-          {currentSlideIndex % 3 === 1 && (
+          {move % 3 === 1 && (
             <span>
               <span className="text-white">. .</span> .
             </span>
           )}
-          {currentSlideIndex % 3 === 2 && (
+          {move % 3 === 2 && (
+            <span>
+              <span className="text-white">. . .</span>
+            </span>
+          )}
+        </p>
+      </div>
+      <div className="-mt-16 mb:-mt-12 relative block mb:hidden">
+        <p className="text-center text-[40px] text-gray-100">
+          {currentSlideIndex === 0 && (
+            <span>
+              <span className="text-white">.</span> . .
+            </span>
+          )}
+          {currentSlideIndex === 1 && (
+            <span>
+              <span className="text-white">. .</span> .
+            </span>
+          )}
+          {currentSlideIndex === 2 && (
             <span>
               <span className="text-white">. . .</span>
             </span>
