@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Popup from "./Popup";
 
-const Nav = ({ variant ,link }) => {
+const Nav = ({ variant, link }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -16,7 +16,6 @@ const Nav = ({ variant ,link }) => {
     setIsModalOpen(false);
   };
 
-
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
@@ -24,23 +23,25 @@ const Nav = ({ variant ,link }) => {
   if (variant === "mobile") {
     return (
       <div>
-        <div className=" mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
-          <div className="ml-6 pt-6 ">
-            <Image src="/logo.png" width={105} height={55} />
+          <div className=" mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
+            <div className="ml-6 pt-6 ">
+        <Link href="/">
+              <Image src="/logo.png" width={105} height={55} />
+        </Link>
+            </div>
+            <div className=" z-50" onClick={toggleNav}>
+              <Image
+                src="/nav.png"
+                width={24}
+                height={14}
+                alt="Open Navigation"
+                className=" self-end"
+              />
+            </div>
           </div>
-          <div className=" z-50" onClick={toggleNav}>
-            <Image
-              src="/nav.png"
-              width={24}
-              height={14}
-              alt="Open Navigation"
-              className=" self-end"
-            />
-          </div>
-          </div>
-          {isNavOpen && (
-            <div className="mobile-nav">
-              <ul className=" list-none transform transition-transform ease-in-out duration-300 flex flex-col items-center pt-2 mx-[30%]">
+        {isNavOpen && (
+          <div className="mobile-nav">
+            <ul className=" list-none transform transition-transform ease-in-out duration-300 flex flex-col items-center pt-2 mx-[30%]">
               <Link href="/" className=" no-underline">
                 <li className="text-white text-[20px] whitespace-nowrap py-2 transform transition-transform ease-in-out duration-300 hover:text-yellow-300 hover:scale-105 z-50 opacity-70">
                   Home
@@ -61,10 +62,10 @@ const Nav = ({ variant ,link }) => {
                   Blog
                 </li>
               </Link>
-                {/* Add more menu items as needed */}
-              </ul>
-            </div>
-          )}
+              {/* Add more menu items as needed */}
+            </ul>
+          </div>
+        )}
       </div>
     );
   }
@@ -108,18 +109,18 @@ const Nav = ({ variant ,link }) => {
             <button className="navItem">Timeline</button>
             <button className="navItem">Blog</button> */}
         </div>
-        <Popup isOpen={isModalOpen} onClose={closeModal}  />
+        <Popup isOpen={isModalOpen} onClose={closeModal} />
         <div className="z-40 -mt-1 ">
-        <Link className=" no-underline"s href="#">
-
-          <button
-           onClick={openModal} className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
+          <Link className=" no-underline" s href="#">
+            <button
+              onClick={openModal}
+              className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
-          >
-            {" "}
-            <span className="button-text-shadow ">PLAY NOW</span>
-          </button>
-        </Link>
+            >
+              {" "}
+              <span className="button-text-shadow ">PLAY NOW</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

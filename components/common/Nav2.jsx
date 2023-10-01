@@ -28,7 +28,9 @@ const Nav2 = ({variant}) => {
       <div>
         <div className="mx-4 gap-[40vw] sm:gap-[45vw] md:gap-[50vw] flex z-50 ">
           <div className="ml-6 z-30">
+          <Link href="/">
             <Image src="/logo.png" width={105} height={55} />
+          </Link>
           </div>
           <div className="pt-4 z-50" onClick={toggleNav}>
             <Image
@@ -76,6 +78,7 @@ const Nav2 = ({variant}) => {
     <div className="bg-[#100B26] fixed top-0 w-full z-50  flex justify-center">
       <div className="flex xl:gap-60 gap-24 ">
         <div className="z-20  ">
+        <Link href="/">
           <Image
           alt="logo"
             src="/logo.png"
@@ -83,6 +86,7 @@ const Nav2 = ({variant}) => {
             width={130}
             height={70}
           />
+        </Link>
         </div>
         <div className="flex mt-8 z-30">
           <ul className="list-none -mt-0 xl:gap-14 gap-8 flex">

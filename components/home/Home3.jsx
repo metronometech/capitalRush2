@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Link from "next/link";
 import Popup from "../common/Popup";
+import CaurosalMobile from "../common/CaurosalMobile";
 
 const faqs = [
   {
@@ -43,8 +44,7 @@ const faqs = [
   },
 ];
 
-const Home3 = ({link}) => {
-
+const Home3 = ({ link }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -55,7 +55,6 @@ const Home3 = ({link}) => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
-
 
   useEffect(() => {
     AOS.init();
@@ -68,15 +67,15 @@ const Home3 = ({link}) => {
           data-aos="slide-up"
           data-aos-easing="ease-in-out"
           data-aos-duration="300"
-          className=" text-center "
+          className=" text-center mt-12 mb:mt-4 "
         >
           <h2 className=" whitespace-nowrap mx-2  mb:mx-28 leading-tight mb-8 text-white text-[32px] mb:text-[50px] ">
             HOW IT WORKS?
           </h2>
           <p className=" text-white -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
             Explore Capital Rush&apos;s immersive fusion of gaming and
-            investing. Learn <br/> wealth management, trade assets, and grasp finance
-            concepts risk-free
+            investing. Learn <br /> wealth management, trade assets, and grasp
+            finance concepts risk-free
           </p>
         </div>
         <div
@@ -251,7 +250,7 @@ const Home3 = ({link}) => {
                 data-aos-easing="ease-in-out"
                 data-aos-duration="700"
                 className="mt-24 text-left mr-28"
-              > 
+              >
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment
                 </h2>
@@ -431,7 +430,7 @@ const Home3 = ({link}) => {
                 </div>
               </div>
             </div>
-
+            {/* 
             <div
               data-aos="fade-up"
               data-aos-offset="100"
@@ -448,24 +447,14 @@ const Home3 = ({link}) => {
                   {" "}
                   &#x201B;&#x201B;{" "}
                 </span>{" "}
-                <br/>I am very helped by this E-wallet application , my <br/>days are very
-              easy to use this application and its<br/> very helpful in my life ,
-              even I can pay a short time <br/>
+                <br />I am very helped by this E-wallet application , my <br />
+                days are very easy to use this application and its
+                <br /> very helpful in my life , even I can pay a short time{" "}
+                <br />
                 <span className="relative left-[283px] bottom-[32px] font-beatrice text-[32px] font-semibold text-[yellow]">
                   ,,
                 </span>
               </p>
-              {/* <div className="z-40 text-center mt-4">
-                <button
-                  className=" transform hover:scale-105 transition-transform duration-300 py-[6px] px-6 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
- "
-                >
-                  {" "}
-                  <span className="button-text-shadow text-[14px]">
-                    See all stories
-                  </span>
-                </button>
-              </div> */}
               <div className="group -mb-5">
                 <Image
                   alt="carosal-Home-sectionImage"
@@ -475,16 +464,26 @@ const Home3 = ({link}) => {
                   width={130}
                 />
               </div>
-            </div>
+            </div> */}
+            <div
+            data-aos="fade-up"
+            data-aos-delay="80"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="700"
+            className="relative top-[380px] block mb:hidden"
+          >
+            <CaurosalMobile />
+          </div>
           </div>
         </div>
+
         <div className="bg-[#100B26]">
           <div
             data-aos="fade-up"
             data-aos-delay="80"
             data-aos-easing="ease-in-out"
             data-aos-duration="700"
-            className="relative bottom-[200px] hidden mb:block"
+            className="relative bottom-[200px] z-50 scale-50 hidden mb:block"
           >
             <CaurosalElemHome2 />
           </div>
@@ -542,19 +541,19 @@ const Home3 = ({link}) => {
                 width={300}
               />
               <div className="z-40 relative bottom-[640px] text-left  ml-16">
-        <Popup isOpen={isModalOpen} onClose={closeModal}  />
+                <Popup isOpen={isModalOpen} onClose={closeModal} />
 
-               <Link onClick={openModal} href="#" className=" no-underline">
-                <button
-                  className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
+                <Link onClick={openModal} href="#" className=" no-underline">
+                  <button
+                    className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
-                >
-                  {" "}
-                  <span className="button-text-shadow text-[28px]">
-                    JOIN NOW
-                  </span>
-                </button>
-               </Link>
+                  >
+                    {" "}
+                    <span className="button-text-shadow text-[28px]">
+                      JOIN NOW
+                    </span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -579,17 +578,17 @@ const Home3 = ({link}) => {
               </div>
               {/* <div className="rounded-l-xl rounded-r-xl bg-gradient-to-br from-purple-600 via-purple-900 to-indigo-900 w-[88%] h-[445px]"></div> */}
               <div className="z-40 ">
-              <Link href={link} className=" no-underline">
-                <button
-                  className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
+                <Link href={link} className=" no-underline">
+                  <button
+                    className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
  "
-                >
-                  {" "}
-                  <span className="button-text-shadow text-18px]">
-                    JOIN NOW
-                  </span>
-                </button>
-              </Link>
+                  >
+                    {" "}
+                    <span className="button-text-shadow text-18px]">
+                      JOIN NOW
+                    </span>
+                  </button>
+                </Link>
               </div>
               <Image
                 alt="Home-section3-image"
