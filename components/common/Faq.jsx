@@ -27,7 +27,7 @@ export default function Faq({question,answer}) {
             onClick={toggleAccordion}
           >
             <div className="">
-              <div className="question-align pb-2">
+              <div className="question-align pb-5">
                 <h4 className="question-style ">
                   {question} 
                 </h4>

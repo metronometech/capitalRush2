@@ -495,9 +495,9 @@ const Home3 = ({ link }) => {
               data-aos-delay="20"
               data-aos-easing="ease-in-out"
               data-aos-duration="300"
-              className=" md:py-10 mt-[300px] mb:mt-[500px] justify-center  w-[80%] mb:pl-24 "
+              className=" md:py-10 mt-[300px] mb:mt-[500px] justify-center w-[80%] mb:pl-24 "
             >
-              <h1 className="text-white text-[24px] mb:text-[48px]  font-semibold mb-0">
+              <h1 className="text-white text-[24px] mb:text-[48px] pl-3 font-semibold mb-0">
                 FAQ
               </h1>
               {faqs.map((elem, index) => {
