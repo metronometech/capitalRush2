@@ -54,12 +54,12 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 
-.carousel-button-prev {
+.cbtn-prev {
     background-color: transparent;
     border: none;
   }
   
-  .carousel-button-next {
+  .cbtn-next {
     background-color: transparent;
     border: none;
   }
