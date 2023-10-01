@@ -22,7 +22,7 @@
 
     return (
       <div className="carousel-container relative  flex-col ">
-        <div className="py-10 flex xl:gap-20 mb:gap-8 gap-2 mx-2 md:mx-32  mb:-mx-10 items-center ">
+        <div className="mb:py-10 pt-16 pb-20 scale-y-150 mb:scale-y-100 flex xl:gap-20 mb:gap-8 gap-2 mx-2 md:mx-32  mb:-mx-10 items-center ">
           <div className="carousel-buttons z-30">
             <button className=" hidden mb:block carousel-button hzoom1 cursor-pointer carousel-button-prev">
               <Image alt="left-arrow" src="/left.png" height={60} width={60} />
@@ -50,9 +50,10 @@
             className="mySwiper"
           >
             <div className="">
-              <SwiperSlide className="group">
-                <Image alt="carosal-Images"
-                  className="   group-hover:brightness-125"
+              <SwiperSlide className="group relative">
+                <Image 
+                alt="carosal-Images"
+                  className=" group-hover:brightness-125 "
                   src="/animate/1.gif"
                   fill
                 />

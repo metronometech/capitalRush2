@@ -38,8 +38,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 200px;
+    /* height: 400px;
+    width: 200px; */
     /* padding-right: 20px; */
   }
   
@@ -48,8 +48,8 @@
     width:fit-content;
     height:fit-content;
     object-fit: fill; */
-    width: 220px;
-    height: 310px;
+    /* width: 220px;
+    height: 310px; */
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
@@ -71,10 +71,10 @@
     opacity: 0.7; 
     width: 10px; 
     height: 10px; 
-    margin: 0 10px; 
+    /* margin: 0 10px;  */
     border-radius: 50%; 
     cursor: pointer; 
-    
+    margin-top: 200px;
   }
   
   /* Style the active pagination button */
@@ -88,11 +88,30 @@
     transition: 300ms opacity;
     transform: translate3d(0, 0, 0);
     z-index: 10;
+    /* padding-top: 200px; */
 }
 
 /* Styles for screens wider than or equal to 122px */
 /* Add your existing CSS styles here */
 
+@media (max-width: 1220px) {
+
+  .swiper-slide{
+    height: 300px;
+    width: 300px;
+  }
+
+  .swiper-slide img{
+    height: 250px;
+    width: 250px;
+  }
+
+  .swiper-pagination-bullet{
+    margin:0px;
+  }
+  
+}
+/* 
 @media (max-width: 1220px) {
 
   .swiper-slide{
@@ -109,4 +128,4 @@
     margin:0px;
   }
   
-}
+} */
