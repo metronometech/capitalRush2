@@ -63,7 +63,7 @@ const Home3 = ({link}) => {
 
   return (
     <div>
-      <div className="py-24">
+      <div className="mb:py-24 ">
         <div
           data-aos="slide-up"
           data-aos-easing="ease-in-out"
@@ -494,9 +494,9 @@ const Home3 = ({link}) => {
             <div
               data-aos-anchor-placement="top-center"
               data-aos="fade-up"
-              data-aos-delay="80"
+              data-aos-delay="20"
               data-aos-easing="ease-in-out"
-              data-aos-duration="500"
+              data-aos-duration="300"
               className=" md:py-10  justify-center  w-[80%] mb:pl-24 "
             >
               <h1 className="text-white text-[24px] mb:text-[48px]  font-semibold mb-0">

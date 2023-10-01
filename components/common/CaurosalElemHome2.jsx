@@ -15,8 +15,9 @@ const CaurosalElemHome2 = () => {
   }, []);
 
   return (
-    <div className="slider mx-10 ">
+    <div className="flex ">
       <input
+      className="hidden"
         type="radio"
         name="toggle"
         id="btn-1"
@@ -24,6 +25,7 @@ const CaurosalElemHome2 = () => {
         onChange={handleButtonChange}
       />
       <input
+      className="hidden"
         type="radio"
         name="toggle"
         id="btn-2"
@@ -31,6 +33,7 @@ const CaurosalElemHome2 = () => {
         onChange={handleButtonChange}
       />
       <input
+      className="hidden"
         type="radio"
         name="toggle"
         id="btn-3"
@@ -55,8 +58,8 @@ const CaurosalElemHome2 = () => {
       </div> */}
 
       <ul className="slides">
-        <li className="slide">
-          <div className="-ml-10">
+        <li className="slide slider ">
+          <div className="">
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
@@ -88,8 +91,8 @@ const CaurosalElemHome2 = () => {
             </div>
           </div>
         </li>
-        <li className="slide">
-          <div className="-ml-10">
+        <li className="slide slider">
+          <div className="">
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
@@ -120,8 +123,8 @@ const CaurosalElemHome2 = () => {
               </div>
             </div>
           </div>
-        </li> <li className="slide">
-          <div className="-ml-10">
+        </li> <li className="slide slider">
+          <div className="">
             <h2 className=" leading-tight w-[575px] mb-8 mt-8 text-white text-[48px] ">
               People are Saying About Capital Rush
             </h2>
