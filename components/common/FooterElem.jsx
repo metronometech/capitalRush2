@@ -188,7 +188,7 @@ const Footer = () => {
               width={45}
             />{" "}
           </Link>
-          <Link href="https://www.instagram.com/capitalrushofficial/">
+          <Link href="/">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -198,7 +198,7 @@ const Footer = () => {
               width={45}
             />
           </Link>
-          <Link href="/">
+          <Link href="https://www.instagram.com/capitalrushofficial/">
             {" "}
             <Image
               className="hover:brightness-125"
