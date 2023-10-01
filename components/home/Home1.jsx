@@ -103,14 +103,15 @@ useEffect(() => {
           
           <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-4">
             <div className=" cursor-pointer flex  gap-2 flex-col ">
-             <div className="-ml-[50px] flex">
+             <div className="-ml-[50px] flex justify-center">
               <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000"  href="https://apps.apple.com/in/app/capital-rush/id1615705403" target="blank">
                 <Image
                   src="/svg/apple.svg"
                   alt="SVG Image"
-                  width={300}
-                  height={100}
-                  className="mt-4 hzoom1"
+                  width={180}
+                  height={80}
+                  layout="responsive"
+                  className="mt-4 hzoom1 scale-75"
                 />
               </Link>
               <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
@@ -119,7 +120,8 @@ useEffect(() => {
                   alt="SVG Image"
                   width={180}
                   height={80}
-                  className="hzoom1 mt-5 -ml-[55px]"
+                  layout="responsive"
+                  className="hzoom1 mt-12 -ml-[55px]"
                 />
               </Link>
 
