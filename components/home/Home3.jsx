@@ -490,14 +490,14 @@ const Home3 = ({link}) => {
           </div>
 
           {/* Faq's */}
-          <div className="flex justify-center">
+          <div className="flex justify-center ">
             <div
               data-aos-anchor-placement="top-center"
               data-aos="fade-up"
               data-aos-delay="20"
               data-aos-easing="ease-in-out"
               data-aos-duration="300"
-              className=" md:py-10  justify-center  w-[80%] mb:pl-24 "
+              className=" md:py-10 mt-[300px] mb:mt-[500px] justify-center  w-[80%] mb:pl-24 "
             >
               <h1 className="text-white text-[24px] mb:text-[48px]  font-semibold mb-0">
                 FAQ
