@@ -101,36 +101,37 @@ useEffect(() => {
           </div>
           
           
-          <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-6 ml-6 mr-10">
-            <div className=" cursor-pointer flex items-center justify-center flex-col ">
+          <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-4">
+            <div className=" cursor-pointer flex  gap-2 flex-col ">
+             <div className="-ml-[50px] flex">
               <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000"  href="https://apps.apple.com/in/app/capital-rush/id1615705403" target="blank">
                 <Image
                   src="/svg/apple.svg"
                   alt="SVG Image"
-                  width={240}
-                  height={64}
-                  className="mt-6 hzoom1"
+                  width={300}
+                  height={100}
+                  className="mt-4 hzoom1"
                 />
               </Link>
-            </div>
-            <div className="border-1 -mt-16 mb:-mt-0 border-white cursor-pointer flex items-center justify-center ">
               <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
                 <Image
                   src="/svg/android.svg"
                   alt="SVG Image"
-                  width={118}
-                  height={64}
-                  className="hzoom1"
+                  width={180}
+                  height={80}
+                  className="hzoom1 mt-5 -ml-[55px]"
                 />
               </Link>
+
+             </div>
             </div>
-            <div className="mb:ml-8 mg:mt-0 -mt-14 cursor-pointer flex items-center justify-center ">
+            <div className="mb:ml-8 mg:mt-0 -mt-16 cursor-pointer flex items-center justify-center ">
               <Link data-aos="zoom-in" data-aos-delay="220" data-aos-offset="100"  data-aos-duration="1000" href="https://www.youtube.com/watch?v=zcEQPGe73sM">
                 <Image
                   src="/svg/watchvd.svg"
                   alt="SVG Image"
-                  width={118}
-                  height={64}
+                  width={180}
+                  height={80}
                   className="hzoom1"
                 />
               </Link>
