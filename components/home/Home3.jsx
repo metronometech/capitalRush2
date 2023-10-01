@@ -482,13 +482,13 @@ const Home3 = ({ link }) => {
             data-aos-delay="80"
             data-aos-easing="ease-in-out"
             data-aos-duration="700"
-            className="relative bottom-[200px] z-50 scale-50 "
+            className="relative bottom-[200px] z-40 scale-50 "
           >
             <CaurosalElemHome2 />
           </div>
 
           {/* Faq's */}
-          <div className="flex justify-center ">
+          <div className="flex justify-center mt-[360px] mb:mt-0">
             <div
               data-aos-anchor-placement="top-center"
               data-aos="fade-up"
