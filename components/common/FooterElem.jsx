@@ -25,9 +25,11 @@ const Footer = () => {
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px]  text-white font-quicksand">About</h3>
+            <Link href="/about" className=" no-underline">
             <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               About Us
             </p>
+            </Link>
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px] text-white font-quicksand">News letter</h3>
@@ -122,6 +124,8 @@ const Footer = () => {
         </div>
       </div>
 
+
+              {/* Mobile */}
       <div className=" mb:hidden block pb-10 pl-3 bg-[#080612]">
         <div className="pt-16  flex flex-col justify-between">
           <div>
@@ -134,27 +138,25 @@ const Footer = () => {
             <p className=" text-[18px]  text-white font-quicksand">
               Get in the game of investment
             </p>
-            <div className="flex justify-between">
-              <p className=" mt-32 text-[16px] text-[#8D8D8D] font-quicksand">
-                2023 © company Ins., All rights reserved
-              </p>
-            </div>
+            
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px]  text-white font-quicksand">About</h3>
-            <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+           <Link href="/about" className=" no-underline">
+            <p className=" mt-4 text-[16px] text-[#8D8D8D] font-quicksand">
               About Us
             </p>
+           </Link>
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px] text-white font-quicksand">Legal</h3>
             <Link href="/terms" className=" no-underline">
-              <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+              <p className=" mt-4 text-[16px] text-[#8D8D8D] font-quicksand">
                 Terms of use
               </p>
             </Link>
             <Link href="/privacy" className=" no-underline">
-              <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+              <p className=" mt-4 text-[16px] text-[#8D8D8D] font-quicksand">
                 Privacy Policy
               </p>
             </Link>
@@ -168,12 +170,15 @@ const Footer = () => {
             {/* <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               000-000-00
             </p> */}
-            <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
+            <p className=" mt-4 text-[16px] text-[#8D8D8D] font-quicksand">
               hello@capitalrush.gg
             </p>
           </div>
+          <div className="flex justify-between">
+              
+            </div>
         </div>
-        <div className="pt-2 flex gap-5 mb:gap-10">
+        <div className="pt-2 justify-center flex gap-5 mb:gap-10">
           <Link href="/">
             {" "}
             <Image
@@ -224,6 +229,9 @@ const Footer = () => {
             />
           </Link>
         </div>
+        <p className=" mt-2 mx-auto text-center text-[16px] text-[#8D8D8D] font-quicksand">
+                2023 © company Ins., All rights reserved
+              </p>
       </div>
     </div>
   );

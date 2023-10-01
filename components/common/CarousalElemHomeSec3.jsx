@@ -23,7 +23,7 @@ const CarousalElemHomeSec3 = () => {
         nextButtonRef.current.click();
         updateMove(prevMove => (prevMove + 1));
       }
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(interval); // Clear the interval on component unmount
   }, []);
