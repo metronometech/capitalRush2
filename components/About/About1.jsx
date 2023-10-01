@@ -220,12 +220,12 @@ const About1 = () => {
             <div className=" flex">
               <Image src="/1icon.png" height={25} width={25} />
             <div className="px-2 mb-6 -mt-4">
-              <h1 className="  font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3  ">
+              <h1 className="  font-poppins text-left ml-4 text-[16px] font-bold z-40 flex-shrink-0 mb-3  ">
                 <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                   Trading merged with Gaming :
                 </span>
               </h1>
-              <p className=" ml-2 text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
+              <p className=" ml-4 text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[12px]">
                 Capital Rush can be considered disruptive because no one has
                 tried to merge gaming and trading space before and if it’s done
                 before it has been highly inefficient and slow paced.
@@ -235,10 +235,10 @@ const About1 = () => {
           </div>
           <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="800" className="flex">
             <div className="flex">
-              <Image src="/2icon.png" height={25} width={25} />
+              <Image src="/2icon.png" height={20} width={30} />
             <div className="px-2 -mt-4 mb-4">
-              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3 ">
-                <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
+              <h1 className="   font-poppins text-[16px] text-left ml-2 font-bold z-40 flex-shrink-0 mb-3 ">
+                <span className="font-poppins   bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                 Immersive Gaming :
                 </span>
               </h1>
@@ -252,7 +252,7 @@ const About1 = () => {
             <div className="flex">
               <Image src="/3icon.png" height={25} width={25} />
             <div className="px-2  mb-6 -mt-4">
-              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3 ">
+              <h1 className="   font-poppins text-left ml-2 text-[16px] font-bold z-40 flex-shrink-0 mb-3 ">
                 <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                 Gives you a realistic experience :
                 </span>
@@ -267,8 +267,8 @@ const About1 = () => {
             <div className="flex">
               <Image src="/4icon.png" height={25} width={25} />
             <div className="px-2 mb-6 -mt-4">
-              <h1 className="   font-poppins text-[18px] font-bold z-40 flex-shrink-0 mb-3 ">
-                <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
+              <h1 className="   font-poppins  text-[16px] font-bold z-40 flex-shrink-0 mb-3 ">
+                <span className="font-poppins bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                 Introducing Events & Surprise events
                 </span>
               </h1>
