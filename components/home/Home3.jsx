@@ -464,15 +464,15 @@ const Home3 = ({ link }) => {
                 />
               </div>
             </div> */}
-            <div
+            {/* <div
             data-aos="fade-up"
             data-aos-delay="80"
             data-aos-easing="ease-in-out"
             data-aos-duration="700"
             className="relative top-[380px] block mb:hidden"
           >
-            {/* <CaurosalMobile /> */}
-          </div>
+          <MobileCarosal />
+          </div> */}
           </div>
         </div>
 
@@ -482,7 +482,7 @@ const Home3 = ({ link }) => {
             data-aos-delay="80"
             data-aos-easing="ease-in-out"
             data-aos-duration="700"
-            className="relative bottom-[200px] z-50 scale-50 hidden mb:block"
+            className="relative bottom-[200px] z-50 scale-50 "
           >
             <CaurosalElemHome2 />
           </div>
