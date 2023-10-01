@@ -111,7 +111,7 @@ useEffect(() => {
                   width={180}
                   height={80}
                   layout="responsive"
-                  className="mt-4 hzoom1 scale-75"
+                  className="mt-4 ml-3 hzoom1 scale-75"
                 />
               </Link>
               <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
