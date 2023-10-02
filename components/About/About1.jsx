@@ -441,7 +441,7 @@ const About1 = () => {
                 fill
               />
             </div>
-            <div className="flex flex-col -mt-4 items-center gap-2">
+            <div className="flex flex-col -mt-4 items-center gap-2 pl-2">
               <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">
                 Samveg Singhi
               </h2>
@@ -495,7 +495,7 @@ const About1 = () => {
                 fill
               />
             </div>
-            <div className="flex flex-col -mt-4 items-center gap-2">
+            <div className="flex flex-col -mt-4 items-center gap-2 pr-2">
               <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">
                 Nilesh Sharma
               </h2>
