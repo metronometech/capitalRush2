@@ -39,8 +39,7 @@ const CarousalElem3 = () => {
               <Image alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/face1.png"
-                // height={160}
-                // width={210}
+               
                 fill
               />
               </div>
@@ -55,8 +54,7 @@ const CarousalElem3 = () => {
               <Image alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/face2.png"
-                // height={160}
-                // width={210}
+               
                 fill
               />
               </div>
