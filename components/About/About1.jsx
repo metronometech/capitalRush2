@@ -136,14 +136,13 @@ const About1 = () => {
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-duration="800"
-          className=" mx-auto mb-40 w-[97%] h-[310px] border rounded-xl mb-6 custom-shadow "
-        >
-
+          className=" mx-auto w-[97%] h-[310px] border rounded-xl mb-6 custom-shadow "
+        ></div>
         <h1
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-duration="800"
-          className=" self-center pb-2 2xl:ml-[350px] font-poppins text-[22px] font-bold z-40 flex-shrink-0 "
+          className=" relative bottom-[330px] self-center pb-2 2xl:ml-[350px] font-poppins text-[22px] font-bold z-40 flex-shrink-0 "
         >
           Our{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
@@ -154,14 +153,13 @@ const About1 = () => {
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-duration="800"
-          className="-mt-6 mx-3 2xl:ml-[350px] text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]   text-[12px] mb:text-[20px]"
+          className="relative bottom-[390px] pt-10 mx-3 2xl:ml-[350px] text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]   text-[12px] mb:text-[20px]"
         >
           Our goal is to dispel the myth that the stock market is a game of loss
           and only for rich people. We have created an innovative platform that
           will help you grasp the significance of passive income and introduce
           you to some important stock market assets.
         </p>
-        </div>
       </div>
 
       {/* Laptop */}
