@@ -423,7 +423,7 @@ const About1 = () => {
 
         {/* <CarousalElem3 /> */}
 
-        <div className=" flex justify-between mb:mx-28 mx-2">
+        <div className=" flex justify-between mb:mx-28 ">
           <div className="flex-col group">
             <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
               <Image
