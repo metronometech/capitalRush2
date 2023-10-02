@@ -384,7 +384,7 @@ const About1 = () => {
             <div className="flex">
               <Image src="/4icon.png" height={25} width={25} />
               <div className="px-2 mb-6 -mt-4">
-                <h1 className="   font-poppins  text-[16px] font-bold z-40 flex-shrink-0 mb-3 ">
+                <h1 className="   font-poppins text-left pl-2 text-[16px] font-bold z-40 flex-shrink-0 mb-3 ">
                   <span className="font-poppins bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
                     Introducing Events & Surprise events
                   </span>
