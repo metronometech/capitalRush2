@@ -57,29 +57,28 @@ const About1 = () => {
         data-aos-duration="1000"
         className="blog-bg bg-[#100B26]  h-[560px] flex flex-col justify-center items-center mb:-mt-36 mx-2 mb:mx-0"
       >
-      <div className="relative top-[100px]">
-
-        <h1
-          data-aos="fade-up"
-          data-aos-delay="150"
-          data-aos-duration="1200"
-          className=" font-poppins leading-tight pt-6 m mt-20 mb:pb-16 pb-8 text-center text-[38px] mb:text-[48px] font-bold z-40 flex-shrink-0 mb:-ml-8"
-        >
-          We make the{" "}
-          <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
-            games you want
-          </span>
-        </h1>
-        <p className=" text-white  text-center mt-20 mb:mt-0 font-semibold font-quicksand opacity-70 max-w-[810px] leading-normal  text-[15px] mb:text-[20px]">
-          Capital Rush is a virtual stock market in which Players can play and
-          invest in a variety of assets. The player can create their desired
-          portfolio and boost their investing skills by playing in large-scale
-          fantasy contests. It is a board game-styled mobile application based
-          upon risk reward trade-offs. In terms of making financial decisions,
-          we seek to establish a balance for players in terms of authority,
-          responsibility and accountability.
-        </p>
-      </div>
+        <div className="relative top-[100px]">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="1200"
+            className=" font-poppins leading-tight pt-6 m mt-20 mb:pb-16 pb-8 text-center text-[38px] mb:text-[48px] font-bold z-40 flex-shrink-0 mb:-ml-8"
+          >
+            We make the{" "}
+            <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
+              games you want
+            </span>
+          </h1>
+          <p className=" text-white  text-center mt-20 mb:mt-0 font-semibold font-quicksand opacity-70 max-w-[810px] leading-normal  text-[15px] mb:text-[20px]">
+            Capital Rush is a virtual stock market in which Players can play and
+            invest in a variety of assets. The player can create their desired
+            portfolio and boost their investing skills by playing in large-scale
+            fantasy contests. It is a board game-styled mobile application based
+            upon risk reward trade-offs. In terms of making financial decisions,
+            we seek to establish a balance for players in terms of authority,
+            responsibility and accountability.
+          </p>
+        </div>
       </div>
 
       <div className="bg-[#100B26] border  pb-20 text-center hidden  mb:flex flex-col -mt-[230px] ">
@@ -421,7 +420,96 @@ const About1 = () => {
             </span>
           </h1>
         </div>
-        <CarousalElem3 />
+
+        {/* <CarousalElem3 /> */}
+
+        <div className=" flex justify-between mb:mx-28 mx-2">
+          <div className="flex-col group">
+            <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
+              <Image
+                alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face1.png"
+                fill
+              />
+            </div>
+            <div className=" relative block mb:hidden w-30 h-24 z-40  mx-auto text-center">
+              <Image
+                alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face1.png"
+                fill
+              />
+            </div>
+            <div className="flex flex-col -mt-4 items-center gap-2">
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">
+                Samveg Singhi
+              </h2>
+              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">
+                Founder
+              </p>
+            </div>
+          </div>
+          <div className="flex-col group">
+            <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
+              <Image
+                alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face2.png"
+                fill
+              />
+            </div>
+            <div className="relative block mb:hidden w-30 h-24 z-40  mx-auto text-center">
+              <Image
+                alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face2.png"
+                fill
+              />
+            </div>
+            <div className="flex flex-col -mt-4 items-center gap-2">
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">
+                Yogesh Lakhpatani
+              </h2>
+              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">
+                Operations Manager
+              </p>
+            </div>
+          </div>
+          <div className="flex-col group">
+            <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
+              <Image
+                alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face3.png"
+                fill
+              />
+            </div>
+            <div className="relative block mb:hidden w-30 h-24 z-40  mx-auto text-center">
+              <Image
+                alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face3.png"
+                fill
+              />
+            </div>
+            <div className="flex flex-col -mt-4 items-center gap-2">
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">
+                Nilesh Sharma
+              </h2>
+              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">
+                Tech Lead
+              </p>
+            </div>
+          </div>
+
+
+
+
+        </div>
       </div>
       <div className="home-sec2">
         <div
