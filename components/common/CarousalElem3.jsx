@@ -35,7 +35,15 @@ const CarousalElem3 = () => {
         >
           <div className="">
             <SwiperSlide className="group flex flex-col">
-              <div className="relative w-30 h-24 mb:w-[280px] mb:h-[220px] mx-auto text-center">
+              <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
+              <Image alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face1.png"
+               
+                fill
+              />
+              </div>
+              <div className="relative block mb:hidden w-30 h-24  mx-auto text-center">
               <Image alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/face1.png"
@@ -50,6 +58,52 @@ const CarousalElem3 = () => {
               </div>
              </SwiperSlide>
             <SwiperSlide className="group flex flex-col">
+              <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
+              <Image alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face2.png"
+               
+                fill
+              />
+              </div>
+              <div className="relative block mb:hidden w-30 h-24  mx-auto text-center">
+              <Image alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face2.png"
+               
+                fill
+              />
+              </div>
+              <div className="flex flex-col -mt-4 items-center gap-2">
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">Yogesh Lakhpatani</h2>
+              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Operations Manager</p>          
+              </div>
+             </SwiperSlide>
+            <SwiperSlide className="group flex flex-col">
+              <div className="hidden mb:block relative w-[280px] h-[220px] mx-auto text-center">
+              <Image alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face3.png"
+               
+                fill
+              />
+              </div>
+              <div className="relative block mb:hidden w-30 h-24  mx-auto text-center">
+              <Image alt="carosal-Images"
+                className=" group-hover:brightness-125"
+                src="/face3.png"
+               
+                fill
+              />
+              </div>
+              <div className="flex flex-col -mt-4 items-center gap-2">
+              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">Nilesh Sharma</h2>
+              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
+              <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Tech Lead</p>          
+              </div>
+             </SwiperSlide>
+            {/* <SwiperSlide className="group flex flex-col">
               <div className="relative w-30 h-24 mb:w-[280px] mb:h-[220px] mx-auto text-center">
               <Image alt="carosal-Images"
                 className=" group-hover:brightness-125"
@@ -79,7 +133,7 @@ const CarousalElem3 = () => {
               <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
               <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Tech Lead</p>          
               </div>
-             </SwiperSlide>
+             </SwiperSlide> */}
           </div>
         </Swiper>
         <div className="carousel-buttons z-30">
