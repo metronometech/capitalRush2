@@ -71,8 +71,6 @@ const CarousalElem3 = () => {
               <Image alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/face3.png"
-                // height={160}
-                // width={210}
                 fill
               />
               </div>
@@ -82,44 +80,6 @@ const CarousalElem3 = () => {
               <p className=" mb:-mt-2 -mt-8 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Tech Lead</p>          
               </div>
              </SwiperSlide>
-
-            
-
-            {/* <SwiperSlide className="group flex flex-col">
-              <Image alt="carosal-Images"
-                className=" group-hover:brightness-125"
-                src="/face2.png"
-                height={160}
-                width={210}
-              />
-              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal  mb:text-[30px] font-bold leading-10 whitespace-nowrap">Yogesh Lakhpatani</h2>
-              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" mb:-mt-2 -mt-4 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Operations Manager</p>          
-            </SwiperSlide> */}
-            {/* <SwiperSlide className="group flex flex-col">
-              <Image alt="carosal-Images"
-                className=" group-hover:brightness-125"
-                src="/face3.png"
-                height={160}
-                width={210}
-              />
-              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold  leading-10">Nilesh Sharma</h2>
-              <div className="hidden mb:block relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" mb:-mt-2 -mt-4 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Tech Lead</p>          
-
-            </SwiperSlide> */}
-            {/* <SwiperSlide className="group flex flex-col">
-              <Image alt="carosal-Images"
-                className=" group-hover:brightness-125"
-                src="/face1.png"
-                height={160}
-                width={210}
-              />
-              <h2 className=" text-justify font-poppins text-[12px] mb:whitespace-normal whitespace-nowrap  mb:text-[30px] font-bold leading-10">Samveg Singhi</h2>
-              <div className=" relative bottom-4 bg-gradient-to-r from-transparent via-white to-transparent w-[260px] h-[0.926px]"></div>
-              <p className=" mb:-mt-2 -mt-4 text-justify font-quicksand text-[8px] mb:text-[18px] font-medium leading-6">Founder</p>          
-
-            </SwiperSlide> */}
           </div>
         </Swiper>
         <div className="carousel-buttons z-30">
