@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px] text-white font-quicksand">News letter</h3>
-            <Link href="/" className=" no-underline">
+            <Link href="/blog" className=" no-underline">
               <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               Blog
               </p>

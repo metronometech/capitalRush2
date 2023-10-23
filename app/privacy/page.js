@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="pt-8 bg-[#100B26] ">
       <Nav2 />
-      <div className=" flex flex-col items-center">
+      <div className=" pt-16 flex flex-col items-center">
         <h1 className=" font-poppins text-[48px] text-white font-bold z-40 flex-shrink-0">
           {/* Version - */}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
