@@ -45,6 +45,16 @@ const faqs = [
 ];
 
 const About1 = () => {
+
+  useEffect(() => {
+    const isFirstLoad = localStorage.getItem('isFirstLoad') !== 'false';
+
+    if (isFirstLoad) {
+      localStorage.setItem('isFirstLoad', 'false');
+      window.location.reload();
+    }
+  })
+  
   useEffect(() => {
     AOS.init();
   }, []);
