@@ -38,11 +38,6 @@ const Footer = () => {
               Blog
               </p>
             </Link>
-            <Link href="/" className=" no-underline">
-              <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
-              FAQs
-              </p>
-            </Link>
           </div>
           <div className="mt-12">
             <h3 className=" text-[18px] text-white font-quicksand">Legal</h3>
