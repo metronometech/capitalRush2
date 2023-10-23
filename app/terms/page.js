@@ -5,14 +5,14 @@ const page = () => {
   return (
     <div className="pt-8 bg-[#100B26] ">
       <Nav2 />
-      <div className=" flex flex-col items-center mx-10 py-20">
-        <h1 className=" font-poppins text-[48px] text-white font-bold z-40 flex-shrink-0">
+      <div className=" flex flex-col items-center mx-1 lg:mx-4 mb:mx-10 py-20">
+        <h1 className=" font-poppins text-[24px] mb:text-[48px] text-white font-bold z-40 flex-shrink-0">
           {/* Version - */}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
             Terms and Conditions
           </span>
         </h1>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           If you have any questions or suggestions about our Privacy Policy, do
           not hesitate to contact us at hello@capitalrush.gg To delete the data
           & user info with the Capital rush user just need to click on the
@@ -20,7 +20,7 @@ const page = () => {
           24 hours data will be deleted, but we do not guarantee of deletion of
           data that we share with 3rd parties before the aforementioned period
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           For Your convenience, We have summarised some of the key clauses and
           linked them to the relevant section. Bear in mind that the summary
           highlights just the key aspect of the relevant section and not the
@@ -28,7 +28,7 @@ const page = () => {
           the full picture.
         </p>
         <ul className=" self-start mx-10 flex flex-col gap-3">
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             You may only use Our web portal, partner websites, mobile
             applications and other portals (collectively, the “Platform”), once
             You agree to abide by the terms and conditions as laid down in this
@@ -37,77 +37,77 @@ const page = () => {
             these Terms of Use please refer to the Introduction section of these
             Terms of Use.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             These terms & conditions document applies to any product developed
             by Metronome Technologies Private Limited or any subsidiaries.
             Currently, the product developed by them is the “Capital Rush” game,
             so Capital Rush and Metronome Technologies Private Limited
             (Metronome) will be termed as one.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Only people of sound mind who are above 18 years of age may use this
             Platform.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             You may register on the Platform and add cash to Your account by
             following the registration procedure laid down in the section on
             Nature and use of the Platform.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Please note that Your User Details like name, position & score will
             be accessible to other users on the Platform.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             The rules governing Your participation in the Contests available on
             Our Platform. Further, each contest may be subject to its own Game
             Rules and Code of Conduct.{" "}
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Please note that We have the sole discretion to determine the terms
             applicable on any Contest including the Awards to be given in any
             Contest. Further, the Designated Amount paid for any contest is
             non-refundable and may only be refunded under the circumstances
             stated in Our Return, Refund and Cancellation policy.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Winnings may be withdrawn by You from Your account, subject to the
             completion of KYC verification and account validation and will be
             subject to TDS deductions as per applicable law.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Only skill-based contests are available on Our Platform. We further
             request that You follow the precautions laid down in the user
             agreement.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             While using the various communication channels provided on Our
             Platform You must abide by rules stated in Our Community rules and
             code of conduct section.{" "}
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Circumstances under which Your access to the Platform or this
             Agreement may be terminated are stated in the Termination section.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Your use of this Platform is completely at Your own risk. We
             disclaim all warranties in relation to the Platform. To understand
             more please refer to Our Disclaimer section.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Any dispute between You and Us will be resolved by way of
             Arbitration which will be conducted in Jaipur by a sole arbitrator
             appointed by Us. For further details refer to Our Governing law and
             dispute resolution section.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             If You have any complaints or grievances over any of the Services
             offered on the Platform, please contact at hello@capitalrush.gg
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Children’s Privacy
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.1. Metronome Technologies Private Limited is an Indian company
           incorporated under the Companies Act, 2013, that operates a mobile
           gaming portal in India, which offers various skill and learning based
@@ -115,12 +115,12 @@ const page = () => {
           partner websites, mobile applications and other portals.
           (collectively, the <b>“Platform” </b>).
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.2 . Capitalized terms used herein but not defined shall have the
           meanings ascribed to them under section 1.9 (Definitions and
           Interpretation) of this Agreement.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.3 . This Agreement shall apply to all Persons who visit the
           Platform, or create a player Account including any contributors of
           content over the Platform, and/or any third party interacting with
@@ -129,36 +129,36 @@ const page = () => {
           CAPITAL RUSH, whatsoever (the <b>“Users” </b>, <b>“You” </b> or{" "}
           <b>“Your”</b>) as applicable..
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.4 . By registering on, browsing, downloading, using or accessing any
           part of the Platform or utilizing the Services, the Users agree to be
           bound by this Agreement.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.5 . If at any time the User does not accept or agree to any terms of
           this Agreement, on a continuing basis in relation to any of the
           Services offered on the Platform, they should not access the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.6 . Capital Rush reserves the right to periodically review, update,
           change or replace any part of these Terms of Use or other terms of the
           Agreement as it may consider appropriate at its sole and absolute
           discretion
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.7 . Any changes to these Terms of Use will be posted on this page
           wherever appropriate. The Users must visit this page periodically for
           updates on the Terms of Use applicable to their use of the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.8 . Any Users’ continued usage of the Platform after any such
           update, change, replacement or modification in the Agreement
           constitutes their valid consent to such changes.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           1.9 . Definitions
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.1 . <b>“Agreement” </b> shall mean these Terms of Use, the Privacy
           Policy and any other rules or policies available on the Platform
           including all other additional or modified terms and conditions and
@@ -169,7 +169,7 @@ const page = () => {
           electronic record generated by a computer system and does not require
           any physical or digital signatures.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.2 . <b>“Applicable Law” </b> means all laws, statutes, common law,
           regulations, ordinances, codes, rules, guidelines, orders, permits,
           tariffs and approvals, including those relating to health and safety,
@@ -177,7 +177,7 @@ const page = () => {
           apply to the Users or is related to the subject matter of this
           Agreement as applicable in the territory of India.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.3 . <b>“Contest” </b> is a skill based competition offered by
           Capital Rush on the Platform in which Users compete in a tournament
           battle by playing Capital Rush game on the Platform. Contests can be
@@ -186,25 +186,25 @@ const page = () => {
           Contests are open to all Users without requirement of any monetary
           payment.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.4 .<b> “Balance” </b> is the credit (either in the form of cash or
           Capital Gold) available in an Account and includes amount added by a
           User through Deposits or/and earned through Winnings by participating
           in Contests on the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.5 .<b>“Deposit” </b> is the amount added by the User to his/her
           Account through his/her preferred payment mode (e-wallet, debit/credit
           cards, UPI/BHIM, net banking). The Deposit conversion ratio is INR.
           1/- (Rupees One Only) = INR 1 (one).
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.6 .<b> “Designated Amount” </b> refers to the amount which Users
           pay in the form of cash Balance available in their Account to
           participate in a Contest on the Platform as their respective
           contribution to the Prize Money Pool.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.7 . <b>“Person” </b> shall mean any natural person, limited or
           unlimited liability company, corporation, partnership (whether limited
           or unlimited), proprietorship, Hindu undivided family, trust, union,
@@ -212,12 +212,12 @@ const page = () => {
           or any other entity that may be treated as a person under the
           Applicable Law.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.8 . <b>“Prize Money Pool” </b> is the actual or projected amount
           that is to be distributed amongst the winner(s) of the Contest and is
           declared at the start of the Contest.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.9.<b> “Sponsored Content” </b> means content distinct from other
           regular editorial content provided by Capital Rush, and displayed on
           the Platform in the form of audio, video, text and/or image media
@@ -228,52 +228,52 @@ const page = () => {
           “Powered by”, “Sponsored by”, “With”, “Advertorial” and such other
           phrase of similar meaning)
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.10. <b>“Sponsored Content Partner”</b> means a User engaged with
           Us for the display of Sponsored Content on the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.11 .<b> “Capital Gold” </b>is an award in the form of digital
           currency that can be used to get some premium services in the game.
           The use cases and winning method will be available on the platform and
           subject to change periodically and is at the sole discretion of the
           company.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.9.12 . <b>“Winnings” </b> are awards (either in the form of cash,
           Capital Gold or promotional gifts) given to one or more User(s) as per
           pre-declared format as a distribution of the Prize Money Pool for
           winning and/or ranking as a top performer in a particular Contest on
           the Platform.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           1.10 . Interpretation
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.10.1 . Any reference to the singular includes a reference to the
           plural and vice versa, and any reference to one gender includes a
           reference to other gender(s), unless explicitly provided for.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.10.2 . Headings and captions are used for convenience only and not
           for interpretation of the Agreement.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1.10.3 . Any reference to a natural Person shall, include his/her
           heirs, executors and permitted assignees and any reference to a
           juristic Person shall, include its affiliates, successors and
           permitted assignees, unless repugnant to the context.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Eligibility
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.1 . Any browsing, registering, downloading, using or accessing by
           any Person of any part of the Platform or utilisation of any of the
           services offered by Capital Rush will be deemed to constitute a legal
           contract between the User and Capital Rush.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.2 . A User may use the Platform if (a) it is a natural Person, as
           per any Applicable Law, regulation or generally accepted practices or
           guidelines applicable in the country of which User is a citizen, in
@@ -283,17 +283,17 @@ const page = () => {
           country where User is registered, where User maintains its principal
           office or from where User uses the Platform
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.3 . Any User who is “incompetent to contract” within the meaning of
           the Indian Contract Act, 1872 including minors, un-discharged
           insolvents etc. is not eligible to enter into this Agreement with
           Capital Rush.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.4 . The Platform should not be used, installed, or played by any
           Person under the age of 18 years.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.5 . No Person, whether a Capital Rush employee or not, who is
           involved in the development of Mobile Games or/and algorithms on the
           Platform can participate in any Mobile Games on the Platform, where
@@ -302,37 +302,37 @@ const page = () => {
           Capital Rush and subject to such terms and conditions as Capital Rush
           may seek to impose on such Person.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.6 . The Mobile Games and the services available on the Platform are
           open only to Persons currently residing in India, unless otherwise set
           out in the Special Rules/Terms or Agreement. Further, there may be
           certain games that may be restricted in some additional states. Please
           check the Special Rules/Terms of each Game to know more.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.7 . Only those Users who have successfully registered on the
           Platform in the manner prescribed in section 3 (Nature and Use of the
           Platform), and who utilize the services of the Platform in accordance
           with the Agreement including these Terms of Use, shall be eligible to
           use the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           2.8 . Capital Rush reserves the right to terminate any User’s Account
           and/or deny access to the Platform if it is brought to Capital Rush’s
           notice that a particular User has violated the Agreement including any
           of these Terms of Use.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Nature and use of the Platform
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.1 . Capital Rush provides the Platform to You on which You can play
           Mobile Games offered by Capital Rush. The Platform is designed to
           provide You an in-app browsing experience through an embedded browser.
           These Mobile Games run online over the Platform and do not have to be
           separately downloaded or installed.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Registration You may register by approving and agreeing to this
           Agreement and providing Your registered mobile phone number on the
           Platform. You will be verified by Capital Rush using a one-time
@@ -340,7 +340,7 @@ const page = () => {
           deposit cash and winnings cash account will be created for You
           (“Account”).
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.3 . By registering for an Account, You represent, warrant and agree
           that: <br />
           a) You fulfil the eligibility criteria as detailed in section 2
@@ -355,13 +355,13 @@ const page = () => {
           information that You provide on the Platform to keep it true,
           accurate, current, and complete.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.4 .The Users acknowledge that their User Details like earnings,
           name, avatar, location will be accessible to other Users on the
           Platform and shall be available for Capital Rush to create promotional
           and interactive content over the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.5 . Your Account is for Your personal use only. You shall not
           impersonate someone else. By creating an Account after providing a
           mobile phone number and verifying it using an OTP, You represent,
@@ -370,10 +370,10 @@ const page = () => {
         </p>
 
         {/* All Data  */}
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           3.6 Privacy
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           a) Our privacy policy available at http:// (“Privacy Policy”) explains
           how We treat Your personal data and protect Your privacy when You use
           the Platform and our Services. By using the Platform, You agree that
@@ -430,10 +430,10 @@ const page = () => {
           Information as recorded by CAPITAL RUSH during your use of the
           Platform.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           3.7 Deposits
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           a) In order to participate in certain Contests, the Users may be
           required to pay a Designated Amount in the form of cash. Users may add
           cash to their Account by using any of the payment modes available on
@@ -443,31 +443,31 @@ const page = () => {
           provided under section 4 (Participation in Contests).
         </p>
 
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.8 . Each User is solely responsible for all activities that occur
           under their Account, including the use of any of the Services on the
           Platform.
         </p>
 
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.9 . CAPITAL RUSH grants such Users a non-transferrable, limited,
           non-exclusive and revocable privilege to register an Account on and
           use the Platform.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.10 . If CAPITAL RUSH identifies that the same User Details are being
           used under multiple accounts, then CAPITAL RUSH at its sole discretion
           will terminate/deactivate the Account without the Users’ consent and
           any Deposit in the Account will not be refunded.
         </p>
 
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.11 . CAPITAL RUSH, at its sole and absolute discretion and without
           any notice to the Users, reserves the right to restrict, suspend or
           terminate any Account or access to the Platform temporarily or
           permanently to any User.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.12 . CAPITAL RUSH may, at its sole and absolute discretion restrict,
           change, suspend, or terminate any User’s access to all or any part of
           the Platform, including but not limited to:
@@ -485,22 +485,22 @@ const page = () => {
           e) assign its rights and liabilities with respect to all Accounts
           hereunder, to any entity.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.13 . Notwithstanding anything to the contrary herein, the Users
           acknowledge and agree that they shall have no ownership or other
           interest in their Account, and further acknowledge and agree that all
           rights in and to their Account are and shall forever be owned by and
           inure to the benefit of CAPITAL RUSH.
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           3.14 . The Users also accepts to receive news, updates,
           offers/campaign related SMS, to the mobile phone number provided by
           the User, except when prohibited under Applicable Laws.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           3.15. Platform Fee Information
         </p>
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           a) CAPITAL RUSH charges a Platform Fee from the User(s), for making
           available its e-platform where Capital Rush game is available and
           providing the service to the Users to participate in those games of
@@ -518,11 +518,11 @@ const page = () => {
           d) This can be easily deduced from the Designated Amount and the total
           prize offered.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Platform Fee Capital Rush
         </p>
 
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           <b>3.16. Processing Fee</b>
           <br />
           a) CAPITAL RUSH charges a ‘Processing Fee’ from the User(s) for
@@ -530,7 +530,7 @@ const page = () => {
           but not limited to Bank Account and UPI.
         </p>
 
-        <p className=" self-start mx-10 -mt-2 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           b) The Processing Fee shall be levied as per the following schedule:
         </p>
         <div className=" text-white font-quicksand opacity-70 text-[24px]">
@@ -562,19 +562,19 @@ const page = () => {
           </table>
         </div>
 
-        <p className=" self-start mx-10 text-left  z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           c) In accordance with the Terms & Conditions, CAPITAL RUSH reserves
           the right to revise the Processing Fee and its levy schedule at its
           sole discretion.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Participation in contest
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           4.1 . The Users may use the Platform to participate in a variety of
           Contests available on the Platform.
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           4.2 . In order to participate in a Contest, each User may be required
           to pay a Designated Amount to the Platform which is deducted from the
           Balance available in the Account of the User. The payment of the
@@ -582,19 +582,19 @@ const page = () => {
           inclusive of the Platform fee for access to the CAPITAL RUSH Services
           charged by Us and User’s contribution towards Prize Money Pool.
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           4.3 . Each Contest has a pre-determined limit on the number of Users
           that can participate and a specified time before which entries must be
           made. A Contest is deemed to be a valid Contest on the Platform, only
           if the requisite number of Users register for the Contest before the
           prescribed entry time.
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           4.4 . Any amount received by CAPITAL RUSH as Designated Amount for
           participation in a Contest shall be non-refundable, except in the
           event that a Contest has been cancelled.
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           4.5 . Contests shall be announced by the CAPITAL RUSH from time to
           time in any manner that is convenient to the Company, and CAPITAL RUSH
           reserves the right to extend the participation and time limit for
@@ -602,10 +602,10 @@ const page = () => {
           notice to the Users of the Platform.
         </p>
 
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           4.6 Winnings
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           a) Awards for all Contests shall be pre-declared at the time of
           registration in the specific rules applicable to such Contest. Awards
           may be in the form of Capital Gold, cash or promotional gifts.
@@ -624,7 +624,7 @@ const page = () => {
           on your KYC document.
         </p>
 
-        <p className=" self-start mx-10  -mt-3 text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  -mt-3 text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           c) KYC verification is mandatory as a proof of identity for making
           withdrawals from Your Account to Your bank/wallet account. KYC
           verification may be done through the Platform by providing certain
@@ -638,7 +638,7 @@ const page = () => {
           that We will not be storing Your Aadhar number unless as prescribed by
           law.
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           d) CAPITAL RUSH does not issue receipts for entries in the Contests.
           The entries are accounted for within the Account on the Platform. It
           is the responsibility of the User to ensure that the entries are
@@ -652,7 +652,7 @@ const page = () => {
           financial year. The financial year shall be calculated from 01 April
           to 31 March. Net winnings shall be calculated as follows:
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Net winnings = [Cumulative withdrawals in the FY – (Cumulative
           deposits in the ongoing FY + Net winnings which have already been
           subjected to TDS during the ongoing financial year + Opening deposit
@@ -660,10 +660,10 @@ const page = () => {
           account for the following amounts: winning balance for the previous
           financial year (on which TDS is already deducted)
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           4.7 Return, Refund and Cancellation
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           a) In the event, that there is an error in the Services provided by
           us, we may refund the Designated Amount paid, provided the reasons are
           genuine and proved after an investigation by CAPITAL RUSH.
@@ -687,10 +687,10 @@ const page = () => {
           through a payment gateway, payment refunds will be made to the same
           account.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           4.8 User Accounts:
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           a) Users must use any money in their Account within 365 days. CAPITAL
           RUSH shall have the right to directly forfeit any such unused amount
           after 365 (three hundred and sixty-five) days with effect from 01
@@ -754,10 +754,10 @@ const page = () => {
           from creating a new account on CAPITAL RUSH by following the process
           listed in this Terms of Use.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           4.9 Bonus Program- Terms & Conditions
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           4.9.1 As part of its Business Promotion strategy, CAPITAL RUSH may run
           a Capital Gold Promotion which is a Discount Program whereby the User
           is allowed to accumulate discount eligibility points (referred to as
@@ -783,10 +783,10 @@ const page = () => {
           immediately, and the User shall not have any right or claim in respect
           of the Capital Gold.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Games of skill
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           5.1 . The league hosted by CAPITAL RUSH on the Platform are all Games
           of Skill (defined below). Different asset investing need different
           skills, such as knowledge of the asset, familiarity with rules,
@@ -831,10 +831,10 @@ const page = () => {
           activities on the Platform.
         </p>
 
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5.6 . License Limitations
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           The service may not be used in any way that violates these License
           Limitations, and doing so may result in the instant cancellation of
           the limited license you have been granted as well as legal
@@ -881,62 +881,62 @@ const page = () => {
           You agree that you will not, under any circumstances:
         </p>
         <ul className=" self-start flex flex-col gap-3 mx-6">
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Use unlawful third-party software that is intended to alter or
             interfere with the Service or any aspect of our gaming experience,
             such as cheats, exploits, automation software, bots, hacks, or mods;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Use illegal third-party software such as mods, hacks, bots,
             automation software, cheats, or exploits that alter or interfere
             with the Service or our gaming experience;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Either (1) any computer or server used to provide or support the
             service or any of our games (each, a “Server”), or (2) any other
             person’s enjoyment of the Service or any of our games; disrupt,
             overburden, or help or assist in the disruption or overburdening of
             either;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Any attempt to disrupt the Service or another person’s use or
             enjoyment of the Service, including without limitation of the spread
             of a virus, denial-of-service attacks against the Service, or other
             attacks, must not be initiated, assisted, or involved in.; or
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Use any method other than the user interface provided by Capital
             Rush to attempt to gain unauthorized access to the Service, other
             Games available on the Server, Accounts registered to third parties,
             or computers, Servers, or networks connected to the Service. This
             includes, but is not limited to, getting around or changing any
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             security measures, technology, device, or software that is in place;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Post any information that is abusive, threatening, obscene,
             defamatory, libelous, racially, sexually, religiously, or otherwise
             objectionable or offensive;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Post any information that contains nudity, excessive violence, or
             offensive subject matter or that contains a link to such content;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Attempt to, or harass, abuse, or harm, or advocate or incite
             harassment, abuse, or harm of another person, or group, including
             our employees, our customers, our customer service representatives;
             or
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Make available through the Service any material or information that
             infringes any copyright, trademark, patent, trade secret, right of
             privacy, right of publicity, or another right of any person or
             entity or impersonates any another person, including without
             limitation a Capital Rush employee;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Use the Service or any portion of it for any business purpose
             without first receiving our express written consent, such as
             gathering or transferring Virtual Items for sale or (1) transmitting
@@ -949,10 +949,10 @@ const page = () => {
             Service
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5.7 .Fees & Paid Services
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Usage of the premium services or participate in the League of Capital
           Rush requires payment of fees and which are required to be paid
           through the modes as specified hereunder. To take part in these
@@ -1012,10 +1012,10 @@ const page = () => {
           other problems associated with downloads or purchases through the
           Site.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5.8 . Cancellation of your account
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           You are always free to terminate your account or a specific
           membership. Your only option if you disagree with the provisions in
           these terms and conditions of service is to stop using our games,
@@ -1035,56 +1035,56 @@ const page = () => {
           For any amounts due from the user and not paid, Capital Rush will have
           the right to recover the said amounts from the user.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5.9 . Rules of Conduct:
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           You will breach the Terms of Use, in addition to the restrictions
           stated in the Terms & Conditions, if you (or anyone else using your
           Account) engage in any of the following behaviour:
         </p>
         <ul className=" self-start flex flex-col gap-3 mx-6">
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Anything that is hurtful, abusive, racially or ethnically offensive,
             vulgar, sexually explicit, defamatory, infringing, invasive of one’s
             right to privacy or right of publicity, or content that a reasonable
             person would find objectionable to send or facilitate distribution
             of.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Try to obtain from any other Member or users a password, address,
             credit card number, account information, or any other sensitive
             information.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Any program or content that you don’t own or have authorization to
             freely distribute cannot be uploaded or distributed.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Any illegal activity, such as hacking, cracking, or the
             dissemination of phony software, uploading contaminated or
             virus-filled files/ data would not be tolerated.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Improperly use the in-game support or complaint buttons or make
             false reports to Capital Rush staff members.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             Breaching the terms of service for third-party tools, interactive
             services providers, local, state, and federal laws, and
             international law where applicable.
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             falsify or remove any author attributions, legal or other proper
             notices, or proprietary designations or labels of the origin or
             source of any software or other content in a file that has been
             submitted.
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5.10 . Intellectual Property:
         </p>
-        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           The entire contents of the Site and each area therein are the property
           of Capital Rush and/or third-party content providers. The Site,
           including, without limitation, all communication features, contains
@@ -1106,10 +1106,10 @@ const page = () => {
           third-party content providers and that downloading copyrighted
           materials does not give you any ownership stake in those works.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Safety precautions and responsible gaming
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           <b>
             6.1 . CAPITAL RUSH suggests that Users adopt a balanced approach
             while engaging with any of the contests on the Platform and
@@ -1117,7 +1117,7 @@ const page = () => {
             responsibly.
           </b>
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           6.2 . You should take certain standard health and safety precautions
           while playing any Mobile Game, including taking adequate breaks,
           sitting at a reasonable distance from the screen, playing in a
@@ -1127,7 +1127,7 @@ const page = () => {
           and could negatively impact hand-eye coordination, balance, and
           multi-tasking ability.
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           <b>
             6.3 . The Platform or the Mobile Games offered on the Platform may
             contain flashing lights, realistic images, patterns and simulations
@@ -1139,7 +1139,7 @@ const page = () => {
             and consult a doctor.
           </b>
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           6.4 . If You play contests on the Platform, give Yourself plenty of
           room to play and always be aware of Your surroundings. While playing
           any Mobile Game You may be moving around the play area and using Your
@@ -1149,7 +1149,7 @@ const page = () => {
           play. Never handle sharp or dangerous objects while playing any Mobile
           Game on the Platform.
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           <b>
             6.5 . It is Your responsibility to control Your surroundings and
             movements at all times when playing the game to ensure that You
@@ -1159,14 +1159,14 @@ const page = () => {
             resulting from Your use of the Platform.
           </b>
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           6.6 . You agree that Your use of the Platform and to play the contests
           is at Your own risk, and it is Your responsibility to maintain such
           health, liability, hazard, personal injury, medical, life, and other
           insurance policies as You deem reasonably necessary for any injuries
           that You may incur while using the Platform.
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           6.7 . You hereby agree that if the terms of this Agreement are not
           adhered by You, CAPITAL RUSH will be irreparably damaged, and
           therefore You agree that the Platform shall be entitled, without bond,
@@ -1174,10 +1174,10 @@ const page = () => {
           with respect to any breach of this Agreement, in addition to any other
           remedies available under Applicable Law.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           7. Community rules and code of conduct
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Please note that we have tried to draft our Community Guidelines as
           detailed as possible, however, this is not an exhaustive list of
           policies, and every content, if reported, shall be analysed based on
@@ -1236,10 +1236,10 @@ const page = () => {
           indemnification to Capital Rush and/or its licensors in that matter.
           After the Terms of Service expire, this Section will remain in effect.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           9. Termination
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           9.1 . Your access to the Platform may be terminated if:
           <br /> <br />
           9.1.1 . You voluntarily uninstall the Platform from Your device;
@@ -1317,10 +1317,10 @@ const page = () => {
           within 30 days of uninstalling. but we do not guarantee of deletion of
           data that we share with 3rd parties before the aforementioned period.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           10. Disclaimers
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           10.1 . No warranties: The Contents provided through the Platform may
           include technical inaccuracies or typographical errors. CAPITAL RUSH
           may make changes or improvements to the Platform at any time. The
@@ -1394,10 +1394,10 @@ const page = () => {
           10.5 . You agree that You are responsible for all data charges You
           incur through use of the Platform.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           10.6 . Sponsored Content:
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           10.6.1 . You agree and acknowledge that CAPITAL RUSH may, pursuant to
           its engagement with certain Sponsored Content Partners, place certain
           Sponsored Content on, about, or in conjunction with the other content
@@ -1414,10 +1414,10 @@ const page = () => {
           modify, create derivative works of, or publicly display any content
           displayed on the Platform.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           10.7 . Force Majeure:
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           CAPITAL RUSH shall not be liable for any damages whatsoever arising
           out of Force Majeure Event or other similar circumstances, directly or
           indirectly to the Users as a result of playing Mobile Games or using
@@ -1433,10 +1433,10 @@ const page = () => {
           complicating the maintenance of the Platform entitles CAPITAL RUSH to
           suspend or limit the Platform until further notice.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           11. Governing law and dispute resolution
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           11.1 . The Platform may be controlled and operated through any country
           and will be subject to the laws of that state in which they are
           controlled and operated by the User. If You use the Platform from any
@@ -1462,10 +1462,10 @@ const page = () => {
           Rajasthan alone shall have the jurisdiction. The language of the
           arbitration proceedings shall be in English.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           12. Referral program
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1. CAPITAL RUSH may offer referral programs (“Referral Program”) on
           the Platform to allow all its Users to receive certain rewards in the
           form of Capital Gold or cash (“Rewards”) for each player that they
@@ -1488,10 +1488,10 @@ const page = () => {
           4. The use cases for such rewards will be the sole discretion of
           CAPITAL RUSH and can be changed at any point of time.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5. Disqualification from Referral Programs
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1. Users will not receive credit for referring themselves by creating
           multiple Accounts.
           <br />
@@ -1527,10 +1527,10 @@ const page = () => {
           Users participating in CAPITAL RUSH Super Team are competitive and
           incorporate principles of fair play.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           14. Feedback:
         </p>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           You may be asked to provide suggestions, comments, requests for
           noticeable bugs and other feedback with respect to the Beta Game
           (“Feedback”). You hereby grant CAPITAL RUSH a worldwide, exclusive,
@@ -1538,22 +1538,22 @@ const page = () => {
           right to:
         </p>
         <ul className=" self-start flex flex-col gap-2 mx-10">
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             make, have made, use, copy, modify, and create derivative works of
             the Feedback as part of any CAPITAL RUSH product, technology,
             service, specification or documentation;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             make, have made, use, copy, modify, and create derivative works of
             the Feedback as part of any CAPITAL RUSH product, technology,
             service, specification or documentation;
           </li>
-          <li className=" text-white font-quicksand opacity-70 text-[20px] pl-4 ">
+          <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
             sublicense to third parties the foregoing rights, including the
             right to sublicense to further third parties.
           </li>
         </ul>
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           <b> Limitation of Liability. </b> NEITHER CAPITAL RUSH, NOR
           SUBSIDIARIES OR AFFILIATES SHALL BE LIABLE IN ANY WAY FOR LOSS OR
           DAMAGE OF ANY KIND RESULTING FROM THE GAME INCLUDING, BUT NOT LIMITED
@@ -1568,14 +1568,14 @@ const page = () => {
           AFFILIATES BE LIABLE TO YOU FOR ANY INDIRECT, PUNITIVE, INCIDENTAL,
           SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES.{" "}
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           CSpecial Terms for CAPITAL RUSH Audio Content
         </p>
-        <p className=" self-center mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[20px]">
+        <p className=" self-center mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Annexure I
         </p>
 
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Metronome Technologies Private Limited/ CAPITAL RUSH provides a
           personalized pay-per-access service that allows our users / you to
           access certain audio, visual, audio-visual content including but not
@@ -1594,7 +1594,7 @@ const page = () => {
           with our service.
         </p>
 
-        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[20px]">
+        <p className=" self-start mx-10 text-left -mt-1 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           1. Access
           <br />
           <br />

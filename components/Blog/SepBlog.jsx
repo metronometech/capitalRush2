@@ -286,7 +286,7 @@ const SepBlog = ({ tab }) => {
         </div>
         <div className="mb:mx-20 mx-2 -mt-32 mb:mt-0 mb:w-[680px] w-full xl:w-full xl:ml-40 xl:mr-40">
           <p data-aos="fade-up" data-aos-delay="200"  data-aos-duration="800" className=" text-[#B3B3B3] mb:mt-20 text-[16px]">
-            If your email doesn’t reach the inbox of the recipient, your
+            If . your email doesn’t reach the inbox of the recipient, your
             campaign will be doomed to fail. No prospect will interact with your
             content, no matter how great it is. That’s why you need to check
             three essential technical settings before scheduling the first
