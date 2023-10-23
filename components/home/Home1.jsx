@@ -41,7 +41,7 @@ useEffect(() => {
       <div className="hidden mb-[280px] mb:flex mb:justify-center  ">
         <Nav link={link} />
       </div>
-      <div className="flex mb:hidden  ">
+      <div className="flex mb:hidden ml-7 ">
         <Nav variant="mobile" link={link} />
       </div>
 
