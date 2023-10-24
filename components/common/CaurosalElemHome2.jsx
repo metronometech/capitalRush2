@@ -82,11 +82,11 @@ const CaurosalElemHome2 = () => {
           </div>
 
           {/* Mobile version */}
-          <div className=" ml-[6%] block mb:hidden">
+          <div className=" mx-auto block mb:hidden">
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left  text-white font-quicksand leading-tight text-[12px]">
+            <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
               <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
@@ -96,14 +96,14 @@ const CaurosalElemHome2 = () => {
               days are very easy to use this application and its
               <br /> very helpful in my life , even I can pay a short time{" "}
               <br />
-              <span className="relative left-[285px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative top-[42px]"
+                className=" relative top-[45px]"
                 src="/boy.png"
                 height={246}
                 width={166}
@@ -160,11 +160,11 @@ const CaurosalElemHome2 = () => {
           </div>
 
           {/* Mobile version */}
-          <div className="ml-[6%] block mb:hidden">
+          <div className="mx-auto block mb:hidden">
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left  text-white font-quicksand leading-tight text-[12px]">
+            <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
               <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
@@ -174,14 +174,14 @@ const CaurosalElemHome2 = () => {
               days are very easy to use this application and its
               <br /> very helpful in my life , even I can pay a short time{" "}
               <br />
-              <span className="relative left-[285px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative top-[42px]"
+                className=" relative top-[45px]"
                 src="/boy.png"
                 height={246}
                 width={166}
@@ -238,11 +238,11 @@ const CaurosalElemHome2 = () => {
           </div>
 
           {/* Mobile version */}
-          <div className="ml-[6%] block mb:hidden">
+          <div className="mx-auto block mb:hidden">
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left  text-white font-quicksand leading-tight text-[12px]">
+            <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
               <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
@@ -252,14 +252,14 @@ const CaurosalElemHome2 = () => {
               days are very easy to use this application and its
               <br /> very helpful in my life , even I can pay a short time{" "}
               <br />
-              <span className="relative left-[285px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative top-[42px]"
+                className=" relative top-[45px]"
                 src="/boy.png"
                 height={246}
                 width={166}
