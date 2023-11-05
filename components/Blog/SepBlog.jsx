@@ -130,8 +130,8 @@ const SepBlog = ({ tab }) => {
           </Link>
         </ul>
       </div>
-      <div data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1200" className="blog-bg flex justify-between  items-center mb-10">
-        <h1 data-aos="fade-down" data-aos-delay="150"  data-aos-duration="1200" className=" hidden mb:block font-poppins text-[60px] pl-32 2xl:pl-40 font-bold z-40 flex-shrink-0 ">
+      <div data-aos="fade-up" data-aos-delay="150"  data-aos-duration="1200" className="blog-bg flex  items-center mb-10">
+        <h1 data-aos="fade-down" data-aos-delay="150"  data-aos-duration="1200" className=" hidden mb:block font-poppins text-[60px] pl-16 2xl:pl-24 font-bold z-40 flex-shrink-0 ">
           LOREM IPSUM IS A <br />
           <span className="font-poppins bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
             {" "}
