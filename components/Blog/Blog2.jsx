@@ -142,7 +142,6 @@ const Blog2 = () => {
               alt="stockPic"
               height={570}
               width={940}
-              // layout="responsive"
 
             />
           </div>
