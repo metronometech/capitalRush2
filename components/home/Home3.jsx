@@ -41,7 +41,7 @@ const Home3 = ({ link }) => {
           <h2 className=" whitespace-nowrap mx-2  mb:mx-28 leading-tight mb-8 text-white text-[32px] mb:text-[50px] ">
             HOW IT WORKS?
           </h2>
-          <p className=" text-white -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
+          <p className=" text-white font-medium -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
             Explore Capital Rush&apos;s immersive fusion of gaming and
             investing. Learn <br /> wealth management, trade assets, and grasp
             finance concepts risk-free
@@ -72,7 +72,7 @@ const Home3 = ({ link }) => {
                 <h2 className=" leading-tight w-[600px] mb-8 h-fit text-white text-[48px] ">
                   Sign up & Build your <br /> Capital Empire
                 </h2>
-                <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
+                <p className=" w-[530px] font-medium text-white -mt-5 font-quicksand leading-normal text-[20px]">
                   Mr Capital will guide you to several amazing adventures
                   throughout this wonderful journey. You would be able to create
                   the desired portfolio from your in-hand cash.
@@ -134,7 +134,7 @@ const Home3 = ({ link }) => {
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Optimise the Capital
                 </h2>
-                <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
+                <p className=" w-[530px] font-medium text-white -mt-5 font-quicksand leading-normal text-[20px]">
                   Utilize your in-hand capital via investing in various assets
                   like Equity, Crypto, Commodities, Bonds and Venture Capital
                   and explore the world of Investing like never before!
@@ -162,7 +162,7 @@ const Home3 = ({ link }) => {
                 <h2 className=" leading-tight w-[600px] mb-8 whitespace-nowrap text-white text-[48px] ">
                   On Your Mark, Get Set Go!
                 </h2>
-                <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
+                <p className=" w-[530px] font-medium text-white -mt-5 font-quicksand leading-normal text-[20px]">
                   Roll the dice to move in-time and see your assets compound in
                   real time. Travel weeks, quarters and years in a flash!
                 </p>
@@ -223,7 +223,7 @@ const Home3 = ({ link }) => {
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment
                 </h2>
-                <p className="  w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
+                <p className="  w-[530px] font-medium text-white -mt-5 font-quicksand leading-normal text-[20px]">
                   Capital Rush is a fast-paced, high-tempo game that keeps you
                   on edge. You can choose to battle it out against the AI or can
                   play with your friends; the possibilities and surprises are
@@ -254,7 +254,7 @@ const Home3 = ({ link }) => {
                     data-aos-delay="80"
                     data-aos-easing="ease-in-out"
                     data-aos-duration="700"
-                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px] font-medium  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
                   >
                     Mr Capital will guide you to several amazing adventures
                     throughout this wonderful journey. You would be able to
@@ -298,7 +298,7 @@ const Home3 = ({ link }) => {
                     data-aos-delay="80"
                     data-aos-easing="ease-in-out"
                     data-aos-duration="700"
-                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] font-medium text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
                   >
                     Utilize your in-hand capital via investing in various assets
                     like Equity, Crypto, Commodities, Bonds and Venture Capital
@@ -341,7 +341,7 @@ const Home3 = ({ link }) => {
                     data-aos-delay="80"
                     data-aos-easing="ease-in-out"
                     data-aos-duration="700"
-                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px] font-medium w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
                   >
                     Roll the dice to move in-time and see your assets compound
                     in real time. Travel weeks, quarters and years in a flash!
@@ -383,7 +383,7 @@ const Home3 = ({ link }) => {
                     data-aos-delay="80"
                     data-aos-easing="ease-in-out"
                     data-aos-duration="700"
-                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
+                    className="mb:opacity-100 opacity-80 mb:w-[530px]  w-[320px] font-medium text-[#B6F6FF] -mt-5 font-quicksand leading-normal text-[14px]"
                   >
                     Capital Rush is a fast-paced, high-tempo game that keeps you
                     on edge. You can choose to battle it out against the AI or

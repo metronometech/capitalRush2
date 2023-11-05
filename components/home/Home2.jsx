@@ -43,7 +43,7 @@ const Home2 = ({ link }) => {
               CAPITAL RUSH?
             </span>
           </h2>
-          <p className=" text-white -mt-5 font-quicksand leading-normal text-[20px]">
+          <p className=" text-white font-medium -mt-5 font-quicksand leading-normal text-[20px]">
             Transforming gaming into learning: Capital Rush merges finance
             education <br /> and fun, perfect for gamers and investment novices
           </p>

@@ -133,7 +133,7 @@ const Blog2 = () => {
       </div>
 
 
-  {/* Large Blog */}
+  {/* Large Blogggg */}
       <div className="">
         <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000" className="flex flex-col mb:flex-row mb:ml-32 ">
           <div className="hidden 2xl:block">
@@ -142,7 +142,6 @@ const Blog2 = () => {
               alt="stockPic"
               height={570}
               width={940}
-              // layout="responsive"
 
             />
           </div>

@@ -239,7 +239,7 @@ const CaurosalElemHome2 = () => {
 
           {/* Mobile version */}
           <div className="mx-auto block mb:hidden">
-            <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
+            <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[24px] ">
               People are Saying About <br /> Capital Rush
             </h2>
             <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
