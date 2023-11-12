@@ -30,7 +30,7 @@ const page = ({params}) => {
     <div className='pt-4 block md:hidden'>
         <Nav2 variant="mobile" />
     </div>
-        <SepBlog data={currentBlog[0]} />
+        <SepBlog data={currentBlog[0]} fullData={currentSection[0]}/>
     </div>
   );
 };

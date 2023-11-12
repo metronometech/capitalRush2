@@ -42,9 +42,9 @@ import FaqImport from "../helper/FaqImport";
 
 const faqs = FaqImport;
 
-const SepBlog = ({ data }) => {
+const SepBlog = ({ data ,fullData }) => {
   console.log(data);
-
+  console.log(fullData)
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -325,78 +325,42 @@ const SepBlog = ({ data }) => {
         </div>
       </div>
       <div>
-        {/* <div className="mb-20">
+        <div className="mb-20">
         <div className="flex flex-col gap-6 mb:gap-0 mb:flex-row justify-center mt-20 mb:mx-28 mx-2">
-          <Link
-          data-aos="fade-up" data-aos-delay="100"  data-aos-duration="600"
-            href={`/blog/${encodeURIComponent(options[nav - 1])}`}
-            className=" no-underline"
-            target="blank"
-          >
-            <BlogElem
-              type={1}
-              title={data[0].title}
-              section={options[nav - 1]}
-              value={data[0].content}
-            />
-          </Link>
-          <Link
-          data-aos="fade-up" data-aos-delay="100"  data-aos-duration="850"
-            href={`/blog/${encodeURIComponent(options[nav - 1])}`}
-            className=" no-underline"
-            target="blank"
-          >
-            <BlogElem
-              type={1}
-              title={data[1].title}
-              section={options[nav - 1]}
-              value={data[1].content}
-            />
-          </Link>
-          <Link
-          data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1050"
-            href={`/blog/${encodeURIComponent(options[nav - 1])}`}
-            className=" no-underline"
-            target="blank"
-          >
-            <BlogElem
-              type={1}
-              title={data[2].title}
-              section={options[nav - 1]}
-              value={data[2].content}
-            />
-          </Link>
+          <div className="mb:grid mb:grid-cols-12 mb:gap-6">
+            {fullData.map(
+              (item, index) =>
+                // Skip rendering when Sno is 1
+                item.Sno !== data.Sno && (
+                  <div
+                    key={index}
+                    className={` ${
+                      (fullData.length - 1) % 3 === 2 &&
+                      fullData.length - 1 - index <= 1
+                        ? "col-span-6 mx-auto "
+                        : "col-span-4"
+                    }  `}
+                  >
+                    <Link
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="600"
+                      href={`/blog/${nav}/${item.Sno}`}
+                      className="no-underline"
+                      target="blank"
+                    >
+                      <BlogElem
+                        data={item}
+                        type={1}
+                        section={options[nav - 1]}
+                      />
+                    </Link>
+                  </div>
+                )
+            )}
+          </div>
         </div>
-        <div className="flex flex-col mb:flex-row gap-6 mb:gap-0 justify-center mt-20 mb:mx-28 mx-2">
-          <Link
-          data-aos="fade-up" data-aos-delay="225"  data-aos-duration="1000"
-            href={`/blog/${encodeURIComponent(options[nav - 1])}`}
-            className=" no-underline"
-            target="blank"
-          >
-            <BlogElem
-              type={2}
-              title={data[3].title}
-              section={options[nav - 1]}
-              value={data[3].content}
-            />
-          </Link>
-          <Link
-          data-aos="fade-up" data-aos-delay="250"  data-aos-duration="1000"
-            href={`/blog/${encodeURIComponent(options[nav - 1])}`}
-            className=" no-underline"
-            target="blank"
-          >
-            <BlogElem
-              type={2}
-              title={data[4].title}
-              section={options[nav - 1]}
-              value={data[4].content}
-            />
-          </Link>
-        </div>
-      </div> */}
-        <div></div>
+      </div>
 
         <div className=" py-10 text-canter mx-auto max-w-screen-xl pl-2 mb:pl-24 ">
           <h1

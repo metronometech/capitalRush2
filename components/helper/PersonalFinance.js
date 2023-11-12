@@ -388,7 +388,7 @@ const PersonalFinance = [
     tagid: 1,
     Sno: 5,
     type: "Personal Finance",
-    blog_heading: "Post 5",
+    blog_heading: "Post 6",
     blog_subheading:
       "I apologize for the confusion. It seems there might be an issue with the curly braces used temprary data is filled here and need to belffeplaced in future",
     thumbnail:
@@ -465,7 +465,7 @@ const PersonalFinance = [
     tagid: 1,
     Sno: 5,
     type: "Personal Finance",
-    blog_heading: "Post 5",
+    blog_heading: "Post 7",
     blog_subheading:
       "I apologize for the confusion. It seems there might be an issue with the curly braces used temprary data is filled here and need to belffeplaced in future",
     thumbnail:
