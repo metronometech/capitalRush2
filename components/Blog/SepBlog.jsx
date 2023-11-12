@@ -176,7 +176,7 @@ const SepBlog = ({ data ,fullData }) => {
           <br /> {dividedParts[2]}
         </h1>
         <Image
-          className="hidden mb:block z-40 ml-10 mt-36 pr-20 2xl:pr-40 max-h-[320px] max-w-[545px] "
+          className="hidden mb:block z-40  ml-[2vw] mt-36 pr-20 2xl:pr-40 max-h-[320px] max-w-[545px] "
           src={data.thumbnail ? data.thumbnail : "/frame.png"}
           height={310}
           width={540}
@@ -253,7 +253,7 @@ const SepBlog = ({ data ,fullData }) => {
                     </span>
                   </Link>
                 </h2>
-                <p className=" text-[20px] -mt-3 text-[#A0A0A0]">
+                <p className=" text-[20px] whitespace-nowrap -mt-3 text-[#A0A0A0]">
                   Updated: {data.date}
                 </p>
               </div>
@@ -330,15 +330,13 @@ const SepBlog = ({ data ,fullData }) => {
           <div className="mb:grid mb:grid-cols-12 mb:gap-6">
             {fullData.map(
               (item, index) =>
-                // Skip rendering when Sno is 1
-                item.Sno !== data.Sno && (
+                item.Sno !== data.Sno && (data.Sno<=5?index<=5 :index<=4 ) && (
                   <div
                     key={index}
                     className={` ${
-                      (fullData.length - 1) % 3 === 2 &&
-                      fullData.length - 1 - index <= 1
+                      (data.Sno<=5 && index>=4)
                         ? "col-span-6 mx-auto "
-                        : "col-span-4"
+                        : (data.Sno>=5)? (index<3) ? "col-span-4":"col-span-6 mx-auto " :  "col-span-4"
                     }  `}
                   >
                     <Link

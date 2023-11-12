@@ -76,11 +76,24 @@ const investingEss =[
       name: "temporary data",
       date: "16 JUNE, 2023",
       readTime: " 15 MIN READ",
-      tableContent: [
-        "Additional things to keep in mind",
-        "3 key technical settings you need to check",
-        "Wrap Up",
-      ],
+       nameLink: "https://woodpecker.co/blog/author/jj/",
+    tableContent: [
+      {
+        key: "3 key technical settings you need to check",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+      },
+      {
+        key: "Additional things to keep in mind",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
+      },
+      {
+        key: "Wrap Up",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
+      },
+    ],
       notice:
         "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
       data: [
@@ -139,11 +152,24 @@ const investingEss =[
       name: "temporary data2",
       date: "16 JUNE, 2023",
       readTime: " 15 MIN READ",
-      tableContent: [
-        "Additional things to keep in mind",
-        "3 key technical settings you need to check",
-        "Wrap Up",
-      ],
+       nameLink: "https://woodpecker.co/blog/author/jj/",
+    tableContent: [
+      {
+        key: "3 key technical settings you need to check",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+      },
+      {
+        key: "Additional things to keep in mind",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
+      },
+      {
+        key: "Wrap Up",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
+      },
+    ],
       notice:
         "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
       data: [
@@ -202,11 +228,24 @@ const investingEss =[
       name: "temporary data4",
       date: "26 JULY, 2023",
       readTime: " 15 MIN READ",
-      tableContent: [
-        "Additional things to keep in mind",
-        "3 key technical settings you need to check",
-        "Wrap Up",
-      ],
+       nameLink: "https://woodpecker.co/blog/author/jj/",
+    tableContent: [
+      {
+        key: "3 key technical settings you need to check",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+      },
+      {
+        key: "Additional things to keep in mind",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
+      },
+      {
+        key: "Wrap Up",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
+      },
+    ],
       notice:
         "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
       data: [
@@ -265,11 +304,24 @@ const investingEss =[
       name: "temporary data5",
       date: "30 JULY, 2023",
       readTime: " 15 MIN READ",
-      tableContent: [
-        "Additional things to keep in mind",
-        "3 key technical settings you need to check",
-        "Wrap Up",
-      ],
+       nameLink: "https://woodpecker.co/blog/author/jj/",
+    tableContent: [
+      {
+        key: "3 key technical settings you need to check",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+      },
+      {
+        key: "Additional things to keep in mind",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
+      },
+      {
+        key: "Wrap Up",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
+      },
+    ],
       notice:
         "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
       data: [
@@ -328,11 +380,24 @@ const investingEss =[
       name: "temporary data5",
       date: "30 JULY, 2023",
       readTime: " 15 MIN READ",
-      tableContent: [
-        "Additional things to keep in mind",
-        "3 key technical settings you need to check",
-        "Wrap Up",
-      ],
+       nameLink: "https://woodpecker.co/blog/author/jj/",
+    tableContent: [
+      {
+        key: "3 key technical settings you need to check",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+      },
+      {
+        key: "Additional things to keep in mind",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
+      },
+      {
+        key: "Wrap Up",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
+      },
+    ],
       notice:
         "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
       data: [
@@ -391,11 +456,24 @@ const investingEss =[
       name: "temporary data5",
       date: "30 JULY, 2023",
       readTime: " 15 MIN READ",
-      tableContent: [
-        "Additional things to keep in mind",
-        "3 key technical settings you need to check",
-        "Wrap Up",
-      ],
+       nameLink: "https://woodpecker.co/blog/author/jj/",
+    tableContent: [
+      {
+        key: "3 key technical settings you need to check",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+      },
+      {
+        key: "Additional things to keep in mind",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
+      },
+      {
+        key: "Wrap Up",
+        value:
+          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
+      },
+    ],
       notice:
         "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
       data: [
