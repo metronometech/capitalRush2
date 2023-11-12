@@ -1,14 +1,27 @@
 "use client"
 import React from "react";
-import "../../pagemodule.css";
+import "../../../pagemodule.css";
 import Nav2 from "@/components/common/Nav2";
 import SepBlog from "@/components/Blog/SepBlog";
+import Blogs from "@/components/helper/Blogs";
 
 const page = ({params}) => {
 
+  const id=parseInt(params.id);
+  const blogNo=parseInt(params.blogNo);
+  // console.log(id,blogNo)
+  const blogPosts=Blogs;
+  const currentSection=blogPosts.filter((item)=>{
+    return item[0].tagid===id;
+  })
+  // console.log(currentSection);
+  
+  const currentBlog = currentSection[0].filter((item)=>{
+    return item.Sno===blogNo;
+  })
 
+  // console.log(currentBlog);
 
-  const decodedId = decodeURIComponent(params.id);
   return (
     <div className=" bg-[#100B26]">
       <div className=' hidden md:block mb-32'>
@@ -17,7 +30,7 @@ const page = ({params}) => {
     <div className='pt-4 block md:hidden'>
         <Nav2 variant="mobile" />
     </div>
-        <SepBlog tab={decodedId} />
+        <SepBlog data={currentBlog[0]} />
     </div>
   );
 };
