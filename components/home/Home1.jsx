@@ -49,7 +49,7 @@ useEffect(() => {
         <div className="">
           <h2 data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000"   className=" mx-6 font-poppins mb:mx-28 leading-tight text-white text-[36px] mb:text-[60px] ">
             LEARN HOW TO
-            <span className=" text-yellow-300 text-[36px] mb:text-[60px] font-poppins text-stroke text-stroke-white">
+            <span className=" bg-gradient-to-r from-yellow-300 to-yellow-400 via-yellow-300 bg-clip-text text-transparent text-[36px] mb:text-[60px] font-poppins text-stroke text-stroke-white">
               {" "}
               GROW YOUR MONEY <br/> </span>
               WITH  CAPITAL RUSH

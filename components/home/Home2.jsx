@@ -38,7 +38,7 @@ const Home2 = ({ link }) => {
         >
           <h2 className=" whitespace-nowrap mb-8 md:mx-28 leading-tight text-white text-[32px] mb:text-[50px] ">
             WHY
-            <span className=" text-yellow-300 text-stroke text-stroke-white">
+            <span className=" bg-gradient-to-r from-yellow-400 to-yellow-500 via-yellow-400 bg-clip-text text-transparent text-stroke text-stroke-white">
               {" "}
               CAPITAL RUSH?
             </span>

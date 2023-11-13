@@ -99,3 +99,10 @@ background: rgba(181, 158, 243, 0.15);
 box-shadow: 0px 0.23775px 9.50983px 0px rgba(227, 222, 255, 0.20) inset, 0px 0.95098px 4.27942px 0px rgba(154, 146, 210, 0.30) inset, 0px 23.29909px 23.77458px 0px rgba(202, 172, 255, 0.30) inset, 0px -19.49515px 16.16671px 0px rgba(96, 68, 144, 0.30) inset, 0px 1.66422px 2.6152px 0px #FFF inset, 0px 9.27209px 13.31376px 0px rgba(255, 255, 255, 0.50) inset;
 backdrop-filter: blur(11.887289047241211px);
 }
+
+.bgHeading{
+  background-color: linear-gradient(180deg, #FAF51C 1.27%, #F67408 49.6%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

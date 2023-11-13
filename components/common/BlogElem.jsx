@@ -1,31 +1,26 @@
 import React from "react";
 import Image from "next/image";
 
-const BlogElem = ({title,value,type,section}) => {
+const BlogElem = ({ data, type, section }) => {
+  console.log(data);
+
   return (
-    <div className="flex flex-col md:mx-4 mx-0">
-      <div className="w-full relative hidden mb:block" >
+   typeof data !=="undefined" && <div className="flex flex-col md:mx-4 mx-0 my-2">
+      <div className="w-full relative hidden mb:block">
         <Image
-          src={type===1?"/frame.png":"/frame2.png"}
+          src={data.thumbnail ? data.thumbnail : "/frame.png"}
           alt="stockPic"
-          width={800} 
-          height={100} 
-          layout="responsive" 
-        //   layout="fill"
-        //   objectFit="cover"
-        //   objectPosition="center"
+          width={800}
+          height={100}
+          layout="responsive"
         />
       </div>
-      <div className="w-full text-left block md:hidden" >
+      <div className="w-full text-left block md:hidden">
         <Image
-          src={type===1?"/frame.png":"/frame2.png"}
+          src={data.thumbnail ? data.thumbnail : "/frame.png"}
           alt="stockPic"
-          width={345} 
-          height={205} 
-          // layout="responsive" 
-        //   layout="fill"
-        //   objectFit="cover"
-        //   objectPosition="center"
+          width={345}
+          height={205}
         />
       </div>
       <div className="flex flex-col mr-6">
@@ -33,18 +28,26 @@ const BlogElem = ({title,value,type,section}) => {
           {section}
         </p>
         <h2 className="-mt-1 text-[22px] font-bold leading-10">
-          {title}
+          {data.blog_heading}
         </h2>
         <p className="-mt-1 text-[16px] text-[#B3B3B3] font-quicksand font-normal leading-6">
-         {value}
+          {data.blog_subheading}
         </p>
-        <div className="flex mt-4 mb:mt-2">
-              <Image src="/profilepic.png" height={46} width={46} alt="profilePic" />
-              <div className="mb:-mt-2 mt-2 ml-4">
-                <h2 className=" text-[12px] ">RAUL KAEVAND</h2>
-                <p className=" text-[12px] text-[#A0A0A0]">6 JUNE, 2023 • 5 MIN READ</p>
-              </div>
-            </div>
+        <div className="flex mt-4 mb:mt-2 mb-6 mb:mb-0">
+          <Image
+            src={data.profile ? data.profile : "/profilepic.png"}
+            height={46}
+            width={46}
+            className=" rounded-full"
+            alt="profilePic"
+          />
+          <div className="-mt-2  ml-4">
+            <h2 className=" text-[12px] ">{data.name}</h2>
+            <p className=" text-[12px] text-[#A0A0A0]">
+              {data.date} • {data.readTime}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
