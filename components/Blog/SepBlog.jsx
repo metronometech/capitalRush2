@@ -287,7 +287,7 @@ const SepBlog = ({ data ,fullData }) => {
           </p>
           {data.data.map((element, index) => {
             return (
-              <div>
+              <div key={index+100}>
                 <h1
                   data-aos="fade-up"
                   data-aos-delay="200"
@@ -299,7 +299,7 @@ const SepBlog = ({ data ,fullData }) => {
                 </h1>
                 {element.keypoints.map((elem, ind) => {
                   return (
-                    <div>
+                    <div key={ind}>
                       <h2
                         data-aos="fade-up"
                         data-aos-delay="200"
