@@ -264,6 +264,7 @@ const SepBlog = ({ data ,fullData }) => {
             <ul className="flex flex-col gap-5 -ml-3">
               {data.tableContent.map((elem, ind) => {
                 return (
+                  <div key={ind+150}>
                   <Link
                     target="blank"
                     className=" no-underline"
@@ -271,6 +272,7 @@ const SepBlog = ({ data ,fullData }) => {
                   >
                     <li className="text-[16px] text-[#B3B3B3]">{elem.key}</li>
                   </Link>
+                  </div>
                 );
               })}
             </ul>
