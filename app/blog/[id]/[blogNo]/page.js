@@ -10,13 +10,14 @@ const page = ({params}) => {
   const id=parseInt(params.id);
   const blogNo=parseInt(params.blogNo);
   // console.log(id,blogNo)
-  const blogPosts=Blogs;
+  const blogPosts=Blogs[0];
+  // console.log(blogPosts)
   const currentSection=blogPosts.filter((item)=>{
-    return item[0].tagid===id;
+    return item.tagid===id;
   })
   // console.log(currentSection);
   
-  const currentBlog = currentSection[0].filter((item)=>{
+  const currentBlog = currentSection.filter((item)=>{
     return item.Sno===blogNo;
   })
 
@@ -30,7 +31,7 @@ const page = ({params}) => {
     <div className='pt-4 block md:hidden'>
         <Nav2 variant="mobile" />
     </div>
-        <SepBlog data={currentBlog[0]} fullData={currentSection[0]}/>
+        <SepBlog data={currentBlog[0]} fullData={currentSection}/>
     </div>
   );
 };

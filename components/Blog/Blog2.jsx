@@ -226,7 +226,7 @@ const Blog2 = () => {
                       data-aos="fade-up"
                       data-aos-delay="100"
                       data-aos-duration="600"
-                      href={`/blog/${nav}/${item.Sno}`}
+                      href={`/blog/${item.tagid}/${item.Sno}`}
                       className="no-underline"
                       target="blank"
                     >
