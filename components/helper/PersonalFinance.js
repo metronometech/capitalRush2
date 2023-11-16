@@ -36,6 +36,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -56,6 +58,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -80,7 +83,8 @@ const PersonalFinance = [
     tagid: 1,
     Sno: 2,
     type: "Personal Finance",
-    blog_heading: " Mastering the Basics: A Comprehensive Beginner's Guide to Trading and Investing Games",
+    blog_heading:
+      " Mastering the Basics: A Comprehensive Beginner's Guide to Trading and Investing Games",
     blog_subheading:
       "Delve into the world of trading and investing games – an innovative way for beginners to learn the ropes of finance. Discover their benefits, how they work, and why they're your gateway to financial confidence",
     thumbnail:
@@ -94,8 +98,7 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "",
+        value: "",
       },
       {
         key: "Additional things to keep in mind",
@@ -113,6 +116,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -133,6 +138,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -190,6 +196,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -210,6 +218,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -267,6 +276,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -287,6 +298,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -344,6 +356,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -364,6 +378,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -421,6 +436,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -441,6 +458,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -498,6 +516,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -518,6 +538,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -575,6 +596,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -595,6 +618,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -652,6 +676,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -672,6 +698,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",

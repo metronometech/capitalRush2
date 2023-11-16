@@ -42,9 +42,9 @@ import FaqImport from "../helper/FaqImport";
 
 const faqs = FaqImport;
 
-const SepBlog = ({ data ,fullData }) => {
+const SepBlog = ({ data, fullData }) => {
   console.log(data);
-  console.log(fullData)
+  console.log(fullData);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -72,34 +72,33 @@ const SepBlog = ({ data ,fullData }) => {
     updateNav(navNo);
   }
 
-  function divideSentence(sentence) {
-    if (!sentence || typeof sentence !== "string") {
-      return ["", "", ""];
-    }
+  // function divideSentence(sentence) {
+  //   if (!sentence || typeof sentence !== "string") {
+  //     return ["", "", ""];
+  //   }
 
-    const words = sentence.split(" ");
-    const totalWords = words.length;
+  //   const words = sentence.split(" ");
+  //   const totalWords = words.length;
 
-    // Calculate the target number of words for each part
-    const targetWords = Math.ceil(totalWords / 3);
+  //   // Calculate the target number of words for each part
+  //   const targetWords = Math.ceil(totalWords / 3);
 
-    // Find the indices where the breaks between parts should occur
-    const breakIndex1 = targetWords;
-    const breakIndex2 = targetWords * 2;
+  //   // Find the indices where the breaks between parts should occur
+  //   const breakIndex1 = targetWords;
+  //   const breakIndex2 = targetWords * 2;
 
-    // Use slice to get each part
-    const part1 = words.slice(0, breakIndex1).join(" ");
-    const part2 = words.slice(breakIndex1, breakIndex2).join(" ");
-    const part3 = words.slice(breakIndex2).join(" ");
+  //   // Use slice to get each part
+  //   const part1 = words.slice(0, breakIndex1).join(" ");
+  //   const part2 = words.slice(breakIndex1, breakIndex2).join(" ");
+  //   const part3 = words.slice(breakIndex2).join(" ");
 
-    return [part1, part2, part3];
-  }
+  //   return [part1, part2, part3];
+  // }
 
-  // Example usage
-  const sentence = "This is a sample sentence to divide evenly.";
-  const dividedParts = divideSentence(data.blog_heading);
+  // // Example usage
+  // const dividedParts = divideSentence(data.blog_heading);
 
-  console.log(dividedParts);
+  // console.log(dividedParts);
 
   // useEffect(() => {
   //   options.map((elem, ind) => {
@@ -112,8 +111,7 @@ const SepBlog = ({ data ,fullData }) => {
   return (
     <div>
       <div className=" z-40 -mt-16 flex flex-col items-center justify-center">
-        <ul className="hidden mb:flex z-40 relative top-16 mb:flex-row  list-none gap-10  text-white">
-          {/* href={`/destinationPage?myProp=${myProp}`} */}
+        {/* <ul className="hidden mb:flex z-40 relative top-16 mb:flex-row  list-none gap-10  text-white">
           <Link href="/blog?prop=1" className=" no-underline">
             <li
               onClick={() => handleNav(1)}
@@ -154,39 +152,40 @@ const SepBlog = ({ data ,fullData }) => {
               {options[3]}
             </li>
           </Link>
-        </ul>
+        </ul> */}
       </div>
       <div
         data-aos="fade-up"
         data-aos-delay="150"
         data-aos-duration="1200"
-        className="blog-bg flex  items-center mb-10"
+        className=" flex h-[400px] justify-center items-center mb-10"
       >
         <h1
           data-aos="fade-down"
           data-aos-delay="150"
           data-aos-duration="1200"
-          className=" hidden mb:block font-poppins text-[60px] pl-16 2xl:pl-24 font-bold z-40 flex-shrink-0 "
+          className=" hidden mb:block font-poppins w-[1160px] text-center text-[60px] pl-16 2xl:pl-24 font-bold z-40 flex-shrink-0 "
         >
-          {dividedParts[0]} <br />
+          {data.blog_heading}
+          {/* {dividedParts[0]} <br />
           <span className="font-poppins bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
             {" "}
             {dividedParts[1]}{" "}
           </span>{" "}
-          <br /> {dividedParts[2]}
+          <br /> {dividedParts[2]} */}
         </h1>
-        <Image
+        {/* <Image
           className="hidden mb:block z-40  ml-[2vw] mt-36 pr-20 2xl:pr-40 max-h-[320px] max-w-[545px] "
           src={data.thumbnail ? data.thumbnail : "/frame.png"}
           height={310}
           width={540}
           layout="responsive"
-        />
+        /> */}
+
         <div className=" block mb:hidden h-[320px] w-full"></div>
       </div>
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <ul className="mb:hidden flex z-40 relative bottom-[270px] text-center  w-fit flex-col list-none gap-5  text-white">
-          {/* href={`/destinationPage?myProp=${myProp}`} */}
           <Link href="/blog" className=" no-underline">
             <li
               onClick={() => handleNav(1)}
@@ -228,7 +227,7 @@ const SepBlog = ({ data ,fullData }) => {
             </li>
           </Link>
         </ul>
-      </div>
+      </div> */}
 
       <div className="flex mb:justify-between mb:mx-24">
         <div className="hidden mb:flex flex-col">
@@ -264,14 +263,14 @@ const SepBlog = ({ data ,fullData }) => {
             <ul className="flex flex-col gap-5 -ml-3">
               {data.tableContent.map((elem, ind) => {
                 return (
-                  <div key={ind+150}>
-                  <Link
-                    target="blank"
-                    className=" no-underline"
-                    href={elem.value ? elem.value : ""}
-                  >
-                    <li className="text-[16px] text-[#B3B3B3]">{elem.key}</li>
-                  </Link>
+                  <div key={ind + 150}>
+                    <Link
+                      target="blank"
+                      className=" no-underline"
+                      href={elem.value ? elem.value : ""}
+                    >
+                      <li className="text-[16px] text-[#B3B3B3]">{elem.key}</li>
+                    </Link>
                   </div>
                 );
               })}
@@ -279,6 +278,14 @@ const SepBlog = ({ data ,fullData }) => {
           </div>
         </div>
         <div className="mb:mx-20 mx-2 -mt-32 mb:mt-0 mb:w-[680px] w-full xl:w-full xl:ml-40 xl:mr-40">
+          <h1
+            data-aos="fade-down"
+            data-aos-delay="150"
+            data-aos-duration="1200"
+            className="  mb:hidden -mt-[240px] font-poppins w-[316px] text-center text-[40px] mx-auto font-semibold z-40 flex-shrink-0 "
+          >
+            {data.blog_heading}
+          </h1>
           <p
             data-aos="fade-up"
             data-aos-delay="200"
@@ -289,7 +296,7 @@ const SepBlog = ({ data ,fullData }) => {
           </p>
           {data.data.map((element, index) => {
             return (
-              <div key={index+100}>
+              <div key={index + 100}>
                 <h1
                   data-aos="fade-up"
                   data-aos-delay="200"
@@ -321,6 +328,38 @@ const SepBlog = ({ data ,fullData }) => {
                     </div>
                   );
                 })}
+                <div>
+                  {element.imageLink === "" ? (
+                    ""
+                  ) : (
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                      data-aos-duration="800"
+                    >
+                      <div className=" relative w-full h-[400px] 2xl:h-[550px] 3xl:h-[600px]">
+                        <Image
+                          className="hidden mb:block z-40 "
+                          src={
+                            element.imageLink ? element.imageLink : "/frame.png"
+                          }
+                          // height={310}
+                          // width={540}
+                          fill
+                        />
+                      </div>
+                      <Image
+                        className=" mb:hidden z-40  "
+                        src={
+                          element.imageLink ? element.imageLink : "/frame.png"
+                        }
+                        height={310}
+                        width={310}
+                        layout="responsive"
+                      />
+                    </div>
+                  )}
+                </div>
               </div>
             );
           })}
@@ -328,39 +367,44 @@ const SepBlog = ({ data ,fullData }) => {
       </div>
       <div>
         <div className="mb-20">
-        <div className="flex flex-col gap-6 mb:gap-0 mb:flex-row justify-center mt-20 mb:mx-28 mx-2">
-          <div className="mb:grid mb:grid-cols-12 mb:gap-6">
-            {fullData.map(
-              (item, index) =>
-                item.Sno !== data.Sno && (data.Sno<=5?index<=5 :index<=4 ) && (
-                  <div
-                    key={index}
-                    className={` ${
-                      (data.Sno<=5 && index>=4)
-                        ? "col-span-6 mx-auto "
-                        : (data.Sno>=5)? (index<3) ? "col-span-4":"col-span-6 mx-auto " :  "col-span-4"
-                    }  `}
-                  >
-                    <Link
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                      data-aos-duration="600"
-                      href={`/blog/${item.tagid}/${item.Sno}`}
-                      className="no-underline"
-                      target="blank"
+          <div className="flex flex-col gap-6 mb:gap-0 mb:flex-row justify-center mt-20 mb:mx-28 mx-2">
+            <div className="mb:grid mb:grid-cols-12 mb:gap-6">
+              {fullData.map(
+                (item, index) =>
+                  item.Sno !== data.Sno &&
+                  (data.Sno <= 5 ? index <= 5 : index <= 4) && (
+                    <div
+                      key={index}
+                      className={` ${
+                        data.Sno <= 5 && index >= 4
+                          ? "col-span-6 mx-auto "
+                          : data.Sno >= 5
+                          ? index < 3
+                            ? "col-span-4"
+                            : "col-span-6 mx-auto "
+                          : "col-span-4"
+                      }  `}
                     >
-                      <BlogElem
-                        data={item}
-                        type={1}
-                        section={options[nav - 1]}
-                      />
-                    </Link>
-                  </div>
-                )
-            )}
+                      <Link
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="600"
+                        href={`/blog/${item.tagid}/${item.Sno}`}
+                        className="no-underline"
+                        target="blank"
+                      >
+                        <BlogElem
+                          data={item}
+                          type={1}
+                          section={options[nav - 1]}
+                        />
+                      </Link>
+                    </div>
+                  )
+              )}
+            </div>
           </div>
         </div>
-      </div>
 
         <div className=" py-10 text-canter mx-auto max-w-screen-xl pl-2 mb:pl-24 ">
           <h1
