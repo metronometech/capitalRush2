@@ -17,25 +17,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -56,6 +50,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -80,9 +75,10 @@ const PersonalFinance = [
     tagid: 1,
     Sno: 2,
     type: "Personal Finance",
-    blog_heading: "Post 2",
+    blog_heading:
+      " Mastering the Basics: A Comprehensive Beginner's Guide to Trading and Investing Games",
     blog_subheading:
-      "I apologize for the confusion. It seems there might be an issue with the curly braces used in the map function. When using the map function to render JSX, you should use parentheses () instead of curly braces {}",
+      "Delve into the world of trading and investing games – an innovative way for beginners to learn the ropes of finance. Discover their benefits, how they work, and why they're your gateway to financial confidence",
     thumbnail:
       "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
     profile:
@@ -94,8 +90,7 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+        value: "",
       },
       {
         key: "Additional things to keep in mind",
@@ -113,6 +108,8 @@ const PersonalFinance = [
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -133,6 +130,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -171,25 +169,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -210,6 +202,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -248,25 +241,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -287,6 +274,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -325,25 +313,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -364,6 +346,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -402,25 +385,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -441,6 +418,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -479,25 +457,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -518,6 +490,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -556,25 +529,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -595,6 +562,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",
@@ -633,25 +601,19 @@ const PersonalFinance = [
     tableContent: [
       {
         key: "3 key technical settings you need to check",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
       },
       {
         key: "Additional things to keep in mind",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#additional-things-to-keep-in-mind",
       },
-      {
-        key: "Wrap Up",
-        value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#wrap-up",
-      },
+      
     ],
     notice:
       "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
     data: [
       {
         heading: "3 key technical settings you need to check",
+        imageLink:
+          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
         keypoints: [
           {
             heading: "1. SPF/DKIM configuration",
@@ -672,6 +634,7 @@ const PersonalFinance = [
       },
       {
         heading: "Additional things to keep in mind",
+        imageLink: "",
         keypoints: [
           {
             heading: "1. Set the right “from” name",

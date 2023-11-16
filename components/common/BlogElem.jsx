@@ -1,7 +1,18 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import Image from "next/image";
 
 const BlogElem = ({ data, type, section }) => {
+
+  useEffect(() => {
+    const blogElem = localStorage.getItem("blogElem") !== "false";
+
+    if (blogElem) {
+      localStorage.setItem("blogElem", "false");
+      window.location.reload();
+    }
+  });
+
   console.log(data);
 
   return (
@@ -15,7 +26,7 @@ const BlogElem = ({ data, type, section }) => {
           layout="responsive"
         />
       </div>
-      <div className="w-full text-left block md:hidden">
+      <div className="w-full text-left  block md:hidden">
         <Image
           src={data.thumbnail ? data.thumbnail : "/frame.png"}
           alt="stockPic"
@@ -23,7 +34,7 @@ const BlogElem = ({ data, type, section }) => {
           height={205}
         />
       </div>
-      <div className="flex flex-col mr-6">
+      <div className="flex flex-col text-center mb:text-justify mr-6">
         <p className="text-[12px] font-bold leading-5 text-[#FAF51C]">
           {section}
         </p>
@@ -33,7 +44,7 @@ const BlogElem = ({ data, type, section }) => {
         <p className="-mt-1 text-[16px] text-[#B3B3B3] font-quicksand font-normal leading-6">
           {data.blog_subheading}
         </p>
-        <div className="flex mt-4 mb:mt-2 mb-6 mb:mb-0">
+        <div className="flex mt-4 text-center mx-auto mb:mx-0.5 mb:mt-2 mb-6 mb:mb-0">
           <Image
             src={data.profile ? data.profile : "/profilepic.png"}
             height={46}
@@ -41,7 +52,7 @@ const BlogElem = ({ data, type, section }) => {
             className=" rounded-full"
             alt="profilePic"
           />
-          <div className="-mt-2  ml-4">
+          <div className="-mt-2 text-left ml-4">
             <h2 className=" text-[12px] ">{data.name}</h2>
             <p className=" text-[12px] text-[#A0A0A0]">
               {data.date} • {data.readTime}

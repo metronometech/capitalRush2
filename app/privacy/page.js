@@ -1,7 +1,19 @@
+"use client"
+import Footer from "@/components/common/FooterElem";
 import Nav2 from "@/components/common/Nav2";
-import React from "react";
+import React, { useEffect } from "react";
 
 const page = () => {
+
+  useEffect(() => {
+    const isTermsLoad = localStorage.getItem("isTermsLoad") !== "false";
+
+    if (isTermsLoad) {
+      localStorage.setItem("isTermsLoad", "false");
+      window.location.reload();
+    }
+  });
+
   return (
     <div className="pt-8 bg-[#100B26] ">
       <Nav2 />
@@ -13,7 +25,7 @@ const page = () => {
             PRIVACY POLICY
           </span>
         </h1>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Metronome Technologies Pvt. Ltd. built the Capital Rush app as a Free
           to use app. Metronome Technologies Pvt. Ltd. is offering this SERVICE
           for no cost, and it’s designed to be used exactly as is. Since Capital
@@ -73,7 +85,7 @@ const page = () => {
             GameAnalytics
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Log Data We want to inform you that whenever you use our Service, in a
           case of an error in the app we collect data and information (through
           third party products) on your phone called Log Data. This Log Data may
@@ -115,10 +127,10 @@ const page = () => {
             Cookies
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           1. What do we mean by the cookie?
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           When you visit a website, text files containing small bits of
           information called cookies are downloaded to your device. They are
           extensively used to make websites work, or work more efficiently, as
@@ -130,10 +142,10 @@ const page = () => {
           We will refer to them all collectively as “Cookies” in this Cookie
           Policy.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           2. How do we use Cookies?
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           We use cookies to:-{" "}
         </p>
         <ul className="mt-2 self-start flex flex-col gap-3 mx-16">
@@ -159,10 +171,10 @@ const page = () => {
             Display advertisements from third parties in Metronome
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           3. What types of cookies do we use?
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           ‘Necessary Cookies,’ ‘Functional Cookies,’ ‘Analytics Cookies,’ and
           ‘Advertising and Tracking Cookies’ are the four types of Cookies used
           by us and our partners in connection with a Service. We’ve included
@@ -197,10 +209,10 @@ const page = () => {
             Improve the product, do research and diagnostics.
           </li>
         </ul>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Advertising and Targeting Cookies
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Advertising and targeting Through our Services, our advertising
           partners may set cookies. They might be used by those businesses to
           compile a profile of your interests and serve you with pertinent
@@ -217,44 +229,44 @@ const page = () => {
           the third website, the party not Metronome’s. When you interact with a
           third-product party or service, they may place Cookies on your device.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           4. How to manage or remove cookies
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           As previously stated, you have the right to and can manage how we use
           cookies and other similar technologies at any time by altering the
           Privacy settings and, in the case of some of our Mobile Games, the
           in-app settings. Please keep in mind that if you refuse Cookies, you
           may not be able to utilize all of the features of the Services.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           5. Changes to this Cookie Policy
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           This Cookie Policy will be updated to reflect changes in our practices
           and services. We will update the “Last Updated” date at the top of
           this Cookie Policy whenever we make changes to it.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           6. Cookies that have been set in the past
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           We may continue to utilize information collected from cookies prior to
           your disabled choice being set if you have disabled one or more
           cookies; however, we will not use the disabled cookie to gather any
           further information.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           7. Contact us
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           If you wish to contact Metronome about this Cookies Policy and the use
           of cookies in the Services, please contact at hello@capitalrush.gg
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Service Providers
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           For the following reasons, we may hire third-party firms and
           individuals:
         </p>
@@ -290,16 +302,16 @@ const page = () => {
             To Find and prevent fraud.
           </li>
         </ul>
-        <p className=" self-start mx-10 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Users should be aware that when they use our Service, these third
           parties have access to their Personal Information. This is so that
           they can fulfil the obligations that have been assigned to them in our
           name.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Security
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           We respect your trust in entrusting us with your Personal Information,
           thus we strive to protect it using commercially reasonable ways. But
           remember that no method of transmission over the internet, or method
@@ -309,10 +321,10 @@ const page = () => {
           rules, compliances and regulations pertaining to it. The compliances
           that we follow can be checked at the website itself.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
           Cookies and Web Beacons
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
           Like any other website, www.capitalrush.gg uses ‘cookies’. These
           cookies are used to save information such as visitor preferences and
           the pages of the website they browsed or visited. By modifying the
@@ -327,44 +339,45 @@ const page = () => {
           any third-party websites or services are beyond our control and
           responsibility.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Indemnification
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Upon our or our licensors’ request, you agree to defend, indemnify and hold harmless us, our licensors and our affiliates, contractors, vendors, and content
 providers from all liabilities, claims and expenses, including attorneys’ fees, that arise from or relate to a breach of these Terms & Conditions of Service for which you are responsible. Without limiting the generality of the aforementioned, you agree to defend and hold harmless Capital Rush and its licensees from any improper or unlawful use of your Account, including any improper or unauthorized use of your Account by a person to whom you have provided access. You acknowledge that your use of our services, as well as all communication and activity on Capital Rush Services, including any Content you contribute, are done at your own risk. You also agree to defend, indemnify, and hold Capital Rush, its licensors, and our affiliates harmless from any liability or damages resulting from your conduct on Capital Rush Services, including any Content you contribute. <br/>
 Capital Rush is not responsible for any trading and investing decisions of the player, as real-time trading and investing is subject to market risks in this volatile era.
 Capital Rush and its licensees reserve the right to take sole responsibility for the defense and management of any dispute that might otherwise be subject to indemnification by you at their own expense. In that case, you are no longer required to offer Capital Rush and/or its licensors indemnity in that regard. This Section will remain in effect when the Terms of Service expire.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Termination of Services:
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         If no time period for notice of termination was specified when you joined the specific Capital Rush Service, then within thirty (30) days of the date such notice is either (at Capital Rush’ discretion) provided to you or is posted on the relevant product, Capital Rush may at any time terminate access to any online or mobile products and/or Capital Rush Services (and/or any portion thereof).
 Capital Rush may also terminate access to Capital Rush services for violation of this terms & conditions, if Capital Rush (in its sole discretion) deems that your use of Capital Rush Services renders Capital Rush less safe for others and/or minors or for illegal or improper use of Capital Rush Services, Content, Entitlement, products, or our Intellectual Property as determined by Capital Rush in its sole discretion. Due to termination, you risk losing your user name and IDs as a result of termination. In response to a violation of these Terms of Service or any other agreement applicable to Capital Rush services accessed by you, Capital Rush may issue you a warning, suspend your Account, selectively remove, revoke or garnish entitlements at an Account and/or device level, immediately terminate any and all Accounts that you have established and/or temporarily or permanently ban your device and/or machine from accessing all Capital Rush Services or certain Capital Rush Services, no refund will be granted, You will no longer have access to your Account or the entitlements associated with it, and no entitlements will be credited to you or converted to cash or other forms of repayment. You acknowledge that in such an instance Capital Rush is not required to provide you notice before taking action to suspend or terminate your Account, temporarily or permanently banning your device from some or all Capital Rush Services or selectively removing, revoking or garnishing entitlements associated with your Account. If Capital Rush terminates your Account, you may not participate in our service again without our express permission. You may not allow individuals whose accounts have been terminated by Capital Rush to use your Account.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Children’s Privacy
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         These Services do not address anyone below 18. We do not knowingly collect personally information from children below 18. If we discover that a child under 18 has provided us with personal information, we will immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with his or your personal information, please contact us through any medium so that we can take the necessary actions.
 Changes to This Privacy Policy <br/>
 We may occasionally make modifications to our Privacy Policy. We advise you to review this policy periodically for any changes. We will notify you in case of any changes by posting the new Privacy Policy on this page only. This policy is effective as of 2023-02-14 (14th Feb 2023)
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Jurisdiction
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Any dispute over privacy is subject to this Policy and the website’s terms of use. Aside from the foregoing, any disputes arising out of this Policy will be governed by Indian law.
         </p>
-        <p className=" self-start mx-10  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Contact Us
         </p>
-        <p className=" self-start mx-10 my-2 mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at hello@capitalrush.gg <br/>
 To delete the data & user info with the Capital rush user just need to click on the “Delete Data” option which is available in the game itself and within 24 hours data will be deleted, but we do not guarantee of deletion of data that we share with 3rd parties before the aforementioned period <br/>
         </p>
       </div>
+      <Footer />
     </div>
   );
 };

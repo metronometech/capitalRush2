@@ -1,7 +1,19 @@
+"use client"
+import Footer from "@/components/common/FooterElem";
 import Nav2 from "@/components/common/Nav2";
-import React from "react";
+import React, { useEffect } from "react";
 
 const page = () => {
+
+  useEffect(() => {
+    const isTermsLoad = localStorage.getItem("isTermsLoad") !== "false";
+
+    if (isTermsLoad) {
+      localStorage.setItem("isTermsLoad", "false");
+      window.location.reload();
+    }
+  });
+
   return (
     <div className="pt-8 bg-[#100B26] ">
       <Nav2 />
@@ -534,32 +546,33 @@ const page = () => {
           b) The Processing Fee shall be levied as per the following schedule:
         </p>
         <div className=" text-white font-quicksand opacity-70 text-[24px]">
-          <table className="min-w-full divide-y divide-gray-200 text-center">
-            <thead className="bg-gray-100">
-              <tr>
-                <th className="px-6 py-3 text-left font-semibold text-gray-700">
-                  User Pool
-                </th>
-                <th className="px-6 py-3 text-left font-semibold text-gray-700">
-                  Platform Fees
-                </th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">5 to 25</td>
-                <td className="px-6 py-4 whitespace-nowrap">10%</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">26 to 50</td>
-                <td className="px-6 py-4 whitespace-nowrap">20%</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">51 to 100</td>
-                <td className="px-6 py-4 whitespace-nowrap">30%</td>
-              </tr>
-            </tbody>
-          </table>
+        <table className="min-w-full text-center" style={{ border: '2px solid white' }}>
+  <thead  className="bg-gray-100">
+    <tr >
+      <th style={{ border: '2px solid white' }} className="px-6 py-3 text-left font-semibold text-gray-700">
+        User Pool
+      </th>
+      <th style={{ border: '2px solid white' }} className="px-6 py-3 text-left font-semibold text-gray-700">
+        Platform Fees
+      </th>
+    </tr>
+  </thead>
+  <tbody  className="divide-y divide-gray-200">
+    <tr>
+      <td style={{ border: '2px solid white' }} className="px-6 py-4 whitespace-nowrap">5 to 25</td>
+      <td style={{ border: '2px solid white' }} className="px-6 py-4 whitespace-nowrap">10%</td>
+    </tr>
+    <tr>
+      <td style={{ border: '2px solid white' }} className="px-6 py-4 whitespace-nowrap">26 to 50</td>
+      <td style={{ border: '2px solid white' }} className="px-6 py-4 whitespace-nowrap">20%</td>
+    </tr>
+    <tr>
+      <td style={{ border: '2px solid white' }} className="px-6 py-4 whitespace-nowrap">51 to 100</td>
+      <td style={{ border: '2px solid white' }} className="px-6 py-4 whitespace-nowrap">30%</td>
+    </tr>
+  </tbody>
+</table>
+
         </div>
 
         <p className=" self-start mx-10 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
@@ -1830,6 +1843,7 @@ const page = () => {
           the best and compliant communities.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };
