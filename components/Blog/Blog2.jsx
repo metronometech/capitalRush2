@@ -215,13 +215,15 @@ const Blog2 = () => {
                 item.Sno !== 1 && (
                   <div
                     key={index}
-                    className={` ${
+                    className={`col-span-4 mx-auto `}
+                  >    
+                  {/* Classname for specific styling    */}
+                   {/* ${
                       (blogPosts[nav - 1].length - 1) % 3 === 2 &&
                       blogPosts[nav - 1].length - 1 - index <= 1
                         ? "col-span-6 mx-auto "
                         : "col-span-4"
-                    }  `}
-                  >
+                    }  */}
                     <Link
                       data-aos="fade-up"
                       data-aos-delay="100"
