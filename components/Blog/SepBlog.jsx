@@ -108,6 +108,24 @@ const SepBlog = ({ data, fullData }) => {
   //   });
   // }, []);
 
+  function handleScroll(e, targetId) {
+    e.preventDefault();
+  
+    const targetElement = document.getElementById(targetId.toString());
+  
+    if (targetElement) {
+      const offset = 20; // Adjust the offset as needed
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const targetRect = targetElement.getBoundingClientRect().top;
+      const offsetPosition = targetRect - bodyRect - offset;
+  
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  }
+
   return (
     <div>
       <div className=" z-40 -mt-16 flex flex-col items-center justify-center">
@@ -263,14 +281,17 @@ const SepBlog = ({ data, fullData }) => {
             <ul className="flex flex-col gap-5 -ml-3">
               {data.tableContent.map((elem, ind) => {
                 return (
-                  <div key={ind + 150}>
-                    <Link
+                  <div key={ind + 150}  className="animate-fadeIn cursor-pointer">
+                    {/* <Link
                       target="blank"
                       className=" no-underline"
                       href={elem.value ? elem.value : ""}
-                    >
+                    > */}
+                    {/* {JSON.stringify(ind+1)} */}
+                    <a href={`#${ind + 1}`} onClick={(e) => handleScroll(e, ind + 1)} className="no-underline">
                       <li className="text-[16px] text-[#B3B3B3]">{elem.key}</li>
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                   </div>
                 );
               })}
@@ -296,7 +317,8 @@ const SepBlog = ({ data, fullData }) => {
           </p>
           {data.data.map((element, index) => {
             return (
-              <div key={index + 100}>
+              <div key={index + 100}  id={index + 1}>
+                {/* {JSON.stringify(index+1)} */}
                 <h1
                   data-aos="fade-up"
                   data-aos-delay="200"
