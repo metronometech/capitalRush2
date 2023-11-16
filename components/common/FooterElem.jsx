@@ -23,16 +23,21 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="mt-12">
+          {/* <div className="mt-12">
             <h3 className=" text-[18px]  text-white font-quicksand">About</h3>
             <Link href="/about" className=" no-underline">
             <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               About Us
             </p>
             </Link>
-          </div>
+          </div> */}
           <div className="mt-12">
-            <h3 className=" text-[18px] text-white font-quicksand">News letter</h3>
+            {/* <h3 className=" text-[18px] text-white font-quicksand">News letter</h3> */}
+            <Link href="/about" className=" no-underline">
+              <p className=" text-[16px] text-[#8D8D8D] font-quicksand">
+              About
+              </p>
+            </Link>
             <Link href="/blog" className=" no-underline">
               <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               Blog
@@ -72,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
         <div className=" mr-32 -mt-8 float-right flex gap-10">
-          <Link href="/">
+          <Link href="https://www.youtube.com/@capitalrush">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -81,7 +86,7 @@ const Footer = () => {
               width={45}
             />{" "}
           </Link>
-          <Link href="/">
+          <Link href="https://discord.gg/DsFUbCdyMK">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -111,7 +116,7 @@ const Footer = () => {
               width={45}
             />
           </Link>
-          <Link href="/">
+          <Link href="https://twitter.com/CapitalRushgame">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -179,7 +184,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="pt-2 justify-center flex gap-5 mb:gap-10">
-          <Link href="/">
+          <Link href="https://www.youtube.com/@capitalrush">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -188,7 +193,7 @@ const Footer = () => {
               width={45}
             />{" "}
           </Link>
-          <Link href="/">
+          <Link href="https://discord.gg/DsFUbCdyMK">
             {" "}
             <Image
               className="hover:brightness-125"
@@ -218,7 +223,7 @@ const Footer = () => {
               width={45}
             />
           </Link>
-          <Link href="/">
+          <Link href="https://twitter.com/CapitalRushgame">
             {" "}
             <Image
               className="hover:brightness-125"

@@ -13,7 +13,8 @@ const Blogs = [
 
 export default Blogs;
   
-// Do not change tagId of any section
+//  Do not change this file too ..
+// Do not change tagId of any section 
 // please don't change anything here in this file
 // Sno will be used to map that particular blog on click ater view
 // upload photos only on cloudinary cloud (it is free) /  else tell me i will configure that

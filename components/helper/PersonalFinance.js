@@ -80,9 +80,9 @@ const PersonalFinance = [
     tagid: 1,
     Sno: 2,
     type: "Personal Finance",
-    blog_heading: "Post 2",
+    blog_heading: " Mastering the Basics: A Comprehensive Beginner's Guide to Trading and Investing Games",
     blog_subheading:
-      "I apologize for the confusion. It seems there might be an issue with the curly braces used in the map function. When using the map function to render JSX, you should use parentheses () instead of curly braces {}",
+      "Delve into the world of trading and investing games – an innovative way for beginners to learn the ropes of finance. Discover their benefits, how they work, and why they're your gateway to financial confidence",
     thumbnail:
       "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
     profile:
@@ -95,7 +95,7 @@ const PersonalFinance = [
       {
         key: "3 key technical settings you need to check",
         value:
-          "https://woodpecker.co/blog/check-technical-settings-client-account/#-key-technical-settings-you-need-to-check",
+          "",
       },
       {
         key: "Additional things to keep in mind",
