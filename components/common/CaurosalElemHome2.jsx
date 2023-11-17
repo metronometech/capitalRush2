@@ -267,8 +267,6 @@ const CaurosalElemHome2 = () => {
             </div>
           </div>
 
-       
-
           <div className="hidden mb:block">
             <div className="">
               <div className="group h-[600px] w-[380px]">
