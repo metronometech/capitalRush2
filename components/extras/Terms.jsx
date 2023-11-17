@@ -1835,8 +1835,7 @@ const Terms = () => {
         We may work with law enforcement whenever necessary, including when we
         believe that there’s a risk of physical harm or threat to public safety.
         <br />
-        We would like to thank you for helping us as we strive to be one of the
-        best and compliant communities.
+        We would like to thank you for helping
       </p>
     </div>
   );
