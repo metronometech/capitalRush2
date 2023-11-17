@@ -1,6 +1,6 @@
 import Footer from "@/components/common/FooterElem";
 import Nav2 from "@/components/common/Nav2";
-import Terms from "@/components/extras/terms";
+import Terms from "@/components/extras/Terms";
 
 const page = () => {
   return (
