@@ -11,34 +11,6 @@ import "aos/dist/aos.css";
 import Popup from "../common/Popup";
 import FaqImport from "../helper/FaqImport";
 
-// const data = [
-//   //Data to be fetched from API and replaced
-//   {
-//     title: "Introduction Email Sample: Connect and Impress with Ease",
-//     content:
-//       "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
-//   },
-//   {
-//     title: "Memorable Sign-offs: How to End an Email with Impact",
-//     content:
-//       "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
-//   },
-//   {
-//     title: "The Complete Guide To Cold Email Prospecting for Sales",
-//     content:
-//       "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
-//   },
-//   {
-//     title: "13 Powerful Ways To Generate Real Estate Sales Leads",
-//     content:
-//       "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
-//   },
-//   {
-//     title: "13 Powerful Ways To Generate Real Estate Sales Leads",
-//     content:
-//       "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
-//   },
-// ];
 
 const faqs = FaqImport;
 
@@ -72,41 +44,7 @@ const SepBlog = ({ data, fullData }) => {
     updateNav(navNo);
   }
 
-  // function divideSentence(sentence) {
-  //   if (!sentence || typeof sentence !== "string") {
-  //     return ["", "", ""];
-  //   }
 
-  //   const words = sentence.split(" ");
-  //   const totalWords = words.length;
-
-  //   // Calculate the target number of words for each part
-  //   const targetWords = Math.ceil(totalWords / 3);
-
-  //   // Find the indices where the breaks between parts should occur
-  //   const breakIndex1 = targetWords;
-  //   const breakIndex2 = targetWords * 2;
-
-  //   // Use slice to get each part
-  //   const part1 = words.slice(0, breakIndex1).join(" ");
-  //   const part2 = words.slice(breakIndex1, breakIndex2).join(" ");
-  //   const part3 = words.slice(breakIndex2).join(" ");
-
-  //   return [part1, part2, part3];
-  // }
-
-  // // Example usage
-  // const dividedParts = divideSentence(data.blog_heading);
-
-  // console.log(dividedParts);
-
-  // useEffect(() => {
-  //   options.map((elem, ind) => {
-  //     if (elem === tab) {
-  //       updateNav(ind + 1);
-  //     }
-  //   });
-  // }, []);
 
   function handleScroll(e, targetId) {
     e.preventDefault();
@@ -129,48 +67,7 @@ const SepBlog = ({ data, fullData }) => {
   return (
     <div>
       <div className=" z-40 -mt-16 flex flex-col items-center justify-center">
-        {/* <ul className="hidden mb:flex z-40 relative top-16 mb:flex-row  list-none gap-10  text-white">
-          <Link href="/blog?prop=1" className=" no-underline">
-            <li
-              onClick={() => handleNav(1)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 1 ? "nav_active" : ""
-              }`}
-            >
-              {options[0]}
-            </li>
-          </Link>
-          <Link href="/blog?prop=2" className=" no-underline">
-            <li
-              onClick={() => handleNav(2)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 2 ? "nav_active" : ""
-              }`}
-            >
-              {options[1]}
-            </li>
-          </Link>
-          <Link href="/blog?prop=3" className=" no-underline">
-            <li
-              onClick={() => handleNav(3)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 3 ? "nav_active" : ""
-              }`}
-            >
-              {options[2]}
-            </li>
-          </Link>
-          <Link href="/blog?prop=4" className=" no-underline">
-            <li
-              onClick={() => handleNav(4)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 4 ? "nav_active" : ""
-              }`}
-            >
-              {options[3]}
-            </li>
-          </Link>
-        </ul> */}
+       
       </div>
       <div
         data-aos="fade-up"
@@ -185,12 +82,6 @@ const SepBlog = ({ data, fullData }) => {
           className=" hidden mb:block font-poppins w-[1160px] text-center text-[60px] pl-16 2xl:pl-24 font-bold z-40 flex-shrink-0 "
         >
           {data.blog_heading}
-          {/* {dividedParts[0]} <br />
-          <span className="font-poppins bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
-            {" "}
-            {dividedParts[1]}{" "}
-          </span>{" "}
-          <br /> {dividedParts[2]} */}
         </h1>
         {/* <Image
           className="hidden mb:block z-40  ml-[2vw] mt-36 pr-20 2xl:pr-40 max-h-[320px] max-w-[545px] "
@@ -202,50 +93,7 @@ const SepBlog = ({ data, fullData }) => {
 
         <div className=" block mb:hidden h-[320px] w-full"></div>
       </div>
-      {/* <div className="flex justify-center">
-        <ul className="mb:hidden flex z-40 relative bottom-[270px] text-center  w-fit flex-col list-none gap-5  text-white">
-          <Link href="/blog" className=" no-underline">
-            <li
-              onClick={() => handleNav(1)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 1 ? "nav_active" : ""
-              }`}
-            >
-              {options[0]}
-            </li>
-          </Link>
-          <Link href="/blog" className=" no-underline">
-            <li
-              onClick={() => handleNav(2)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 2 ? "nav_active" : ""
-              }`}
-            >
-              {options[1]}
-            </li>
-          </Link>
-          <Link href="/blog" className=" no-underline">
-            <li
-              onClick={() => handleNav(3)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 3 ? "nav_active" : ""
-              }`}
-            >
-              {options[2]}
-            </li>
-          </Link>
-          <Link href="/blog" className=" no-underline">
-            <li
-              onClick={() => handleNav(4)}
-              className={`cursor-pointer font-bold leading-5 ${
-                nav === 4 ? "nav_active" : ""
-              }`}
-            >
-              {options[3]}
-            </li>
-          </Link>
-        </ul>
-      </div> */}
+     
 
       <div className="flex mb:justify-between mb:mx-24">
         <div className="hidden mb:flex flex-col">
