@@ -267,16 +267,7 @@ const CaurosalElemHome2 = () => {
             </div>
           </div>
 
-          {/* Mobile */}
-          {/* <div className="block mb:hidden max-w-[60px] max-h-[250px] "> */}
-            {/* <Image
-        alt="carosal-Home-sectionImage"
-        className=" relative top-[275px] right-[190px]"
-        src="/boy.png"
-        height={246}
-        width={166}
-      /> */}
-          {/* </div> */}
+       
 
           <div className="hidden mb:block">
             <div className="">

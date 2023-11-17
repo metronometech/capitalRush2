@@ -104,10 +104,6 @@ const Nav = ({ variant, link }) => {
               </a>
             </li>
           </ul>
-          {/* <button className="navItem">Home</button>
-            <button className="navItem">About Us</button>
-            <button className="navItem">Timeline</button>
-            <button className="navItem">Blog</button> */}
         </div>
         <Popup isOpen={isModalOpen} onClose={closeModal} />
         <div className="z-40 -mt-1 ">

@@ -3,8 +3,6 @@ import Nav2 from "@/components/common/Nav2";
 import Privacy from "@/components/extras/Privacy";
 
 const page = () => {
-
-
   return (
     <div className="pt-8 bg-[#100B26] ">
       <Nav2 />
