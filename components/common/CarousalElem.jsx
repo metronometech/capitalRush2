@@ -61,123 +61,123 @@ const CarousalElem = () => {
         >
           <div className="">
             <SwiperSlide className="group relative">
-              {/* <Image
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125 "
                 src="/animate/1.gif"
                 fill
-              /> */}
-              <img
+              />
+              {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Copy-of-Analytical-Assessment-1.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
+              ></img> */}
             </SwiperSlide>
             <SwiperSlide className="group">
-              <img
+              {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Copy-of-Analytical-Assessment-2-2.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
-              {/* <Image
+              ></img> */}
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/animate/2.gif"
                 fill
-              /> */}
+              />
             </SwiperSlide>
             <SwiperSlide className="group">
-            <img
+            {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Copy-of-Analytical-Assessment-1-2.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
-              {/* <Image
+              ></img> */}
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/animate/3.gif"
                 fill
-              /> */}
+              />
             </SwiperSlide>
             <SwiperSlide className="group">
-            <img
+            {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Analytical-Assessment-2-1.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
-              {/* <Image
+              ></img> */}
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/animate/4.gif"
                 fill
-              /> */}
+              />
             </SwiperSlide>
             <SwiperSlide className="group">
-            <img
+            {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Copy-of-Analytical-Assessment-3-1.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
-              {/* <Image
+              ></img> */}
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/animate/5.gif"
                 fill
-              /> */}
+              />
             </SwiperSlide>
             <SwiperSlide className="group">
-            <img
+            {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Copy-of-Analytical-Assessment-4-1.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
-              {/* <Image
+              ></img> */}
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/animate/6.gif"
                 fill
-              /> */}
+              />
             </SwiperSlide>
             <SwiperSlide className="group">
-            <img
+            {/* <img
                 width="908"
                 height="1284"
                 src="https://www.capitalrush.gg/wp-content/uploads/2022/06/Copy-of-Analytical-Assessment-5-1.gif"
                 className=" group-hover:brightness-125 "
                 alt=""
                 loading="lazy"
-              ></img>
-              {/* <Image
+              ></img> */}
+              <Image
                 loading="lazy"
                 alt="carosal-Images"
                 className=" group-hover:brightness-125"
                 src="/animate/7.gif"
                 fill
-              /> */}
+              />
             </SwiperSlide>
           </div>
         </Swiper>
