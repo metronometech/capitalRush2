@@ -56,7 +56,7 @@ const CarousalElemHomeSec3 = () => {
               <Image
                 alt="Carosal-home-Images"
                 className="group-hover:brightness-125"
-                src="/mobile.png"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1ieGVkMW01ZDhkejJ0M2R1NmJrY2xpMXB5dzhrMGNreTRuc2cyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lnph2AItZ9f0HIXiPg/giphy.gif" 
                 fill
               />
             </SwiperSlide>
@@ -64,7 +64,7 @@ const CarousalElemHomeSec3 = () => {
               <Image
                 alt="Carosal-home-Images"
                 className="group-hover:brightness-125"
-                src="/mobile1.png"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDQxdW43cmpqMHI5YWgxZWg2eTlqemY5aXV5Z2g1OGcwdm56OXczZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mEh2ZIojtRSqD27Llz/giphy.gif"
                 fill
               />
             </SwiperSlide>
@@ -72,7 +72,23 @@ const CarousalElemHomeSec3 = () => {
               <Image
                 alt="Carosal-home-Images"
                 className="group-hover:brightness-125"
-                src="/mobile3.png"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXI0dWh0MXp4MW5lMnJreGI4c25qMDd5bzA4bGRvZHp6YjFiaHcwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I7S0KA5RQL3Ua8mmbN/giphy.gif"
+                fill
+              />
+            </SwiperSlide>
+              <SwiperSlide className="group">
+              <Image
+                alt="Carosal-home-Images"
+                className="group-hover:brightness-125"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWpzY214MzRuMGFiNzBkOGZ4Z2N4MG5zb3IyaTJqNXZybGdlZ2RzaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PngjPTcx0a2cawa0cg/giphy.gif"
+                fill
+              />
+            </SwiperSlide>
+            <SwiperSlide className="group">
+              <Image
+                alt="Carosal-home-Images"
+                className="group-hover:brightness-125"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2hhcDJjeXl3a3ViNG13NTJudWxqMWhsa29zMG80c3gwNjllN2cydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oAwB5FvehdEBXi2sIc/giphy.gif"
                 fill
               />
             </SwiperSlide>

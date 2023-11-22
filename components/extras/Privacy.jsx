@@ -19,107 +19,291 @@ const Privacy = () => {
           PRIVACY POLICY
         </span>
       </h1>
-      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        Metronome Technologies Pvt. Ltd. built the Capital Rush app as a Free to
-        use app. Metronome Technologies Pvt. Ltd. is offering this SERVICE for
-        no cost, and it’s designed to be used exactly as is. Since Capital Rush
-        is the company’s current flagship product, Metronome Technologies
-        Private Limited and the product name are used interchangeably in the
-        paper. Please do not hesitate to contact us if you have any additional
-        concerns or seek extra information about our Privacy Policy. This policy
-        does not apply to data acquired offline or through channels other than
-        this website. This website is intended to educate visitors about our
-        policies regarding the collection, use, and sharing of Personal
-        Information in case they choose to use our Service. If you decide to use
-        our service, you agree to the collection and use of your information in
-        line with this policy. The Personal Information we collect is used to
-        deliver and enhance the Service. Except as stated in this privacy
-        statement, we will not use or disclose your information to anyone else.
-        The terms used in this Privacy Policy, unless otherwise specified, have
-        the same meanings as those found in our Terms and Conditions, which are
-        available on our website. Information Collection and Use We may ask for
-        personally identifiable information from you while you use our service
-        in order to provide you with a better experience, including but not
-        limited to your IP address, legal name, age, gender, email, social media
-        account information, avatars, skin tone, geographical information, and
-        financial information. We’ll store the data you give us and use it as
-        described in this privacy statement to improve the user experience. The
-        software makes use of third-party services that could gather data used
-        to identify you. Link to the privacy policy of third-party service
-        providers used by the app (can be reviewed through click) are as
-        follows:
-      </p>
-      <ul className="mt-2 self-start flex flex-col gap-3 mx-6">
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Google Play Services
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          AdMob
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Google Analytics for Firebase
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Firebase Crashlytics
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Facebook
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Flurry Analytics
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Fathom Analytics
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Unity
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          GameAnalytics
-        </li>
-      </ul>
-      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        Log Data We want to inform you that whenever you use our Service, in a
-        case of an error in the app we collect data and information (through
-        third party products) on your phone called Log Data. This Log Data may
-        include information such as your device Internet Protocol (“IP”)
-        address, device name, operating system version, the configuration of the
-        app when utilizing our Service, the time and date of your use of the
-        Service, and other statistics. The investment strategy will be unique
-        and varies from player to player so it can be shared to give
-        personalized services to users. During the account creation, your
-        username and password will be provided to you termed as Login
-        Information. The security of your login information is governed by the
-        following rules:
-      </p>
-      <ul className="mt-2 self-start flex flex-col gap-3 mx-6">
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          You must keep your account and login details private;
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          If you feel any kind of security breach, or unauthorized disclosure of
-          the login information, you must notify the Capital Rush team
-          immediately;
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          You are completely responsible for keeping the login information
-          confidential, and you will be held liable for any and all uses of the
-          login information, including purchases, whether or not you have
-          authorized them.;
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          You are responsible for anything that happens with your account in
-          this case.
-        </li>
-        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
-          Capital Rush reserves the right to remove or reclaim any usernames at
-          any time and for any reason, including but not limited to claims by a
-          third party that a username violates such third party’s rights. The
-          log data as specified will be removed after Thirty days of request
-          received by user to remove the log data from the system. Cookies
-        </li>
-      </ul>
       <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        1. GENRAL
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     1.1  Metronome Technologies Private Limited (“We”, “Us”, “Our”) is committed to the protection of
+Personal Information provided by the Users (“You”, “Your”, “User”) to Us. You agree that Your
+acceptance of the consent notice on the application branded ‘Capital Rush’ or the website
+available at the www.capitalrush.io (“Platform”) indicates Your consent to the collection,
+retention, and use of Your Personal Information in accordance with the terms of this Policy.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     1.2  By using the Platform, you are agreeing to comply with and be bound by this Policy. Please review
+the Policy carefully. If you do not agree to this Policy, you should not use the Platform, review any
+information, or utilize any service from the Platform. This Policy constitute a binding agreement
+and an electronic record under the Information Technology Act 2000 and the rules thereunder
+and the amended provisions pertaining to electronic records under various Indian statutes. This
+Policy should be read in conjunction with the Terms of Use (“Terms”) of the Platform and
+capitalized terms used but not defined herein shall have the same meaning assigned to them
+under the Terms. You acknowledge that this Policy, together with our Terms, forms our
+agreement with you in relation to Your use of the Platform.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        2. INFORMATION COLLECTED
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      2.1 Personal Information 
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      The Company may collect, process, store and deal with the Personal Information provided by You,
+as may be required by it, during the course of its business, including:
+      </p>
+      <ul className="mt-2 self-start flex flex-col gap-3 mx-6">
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        Identification Details – Name, age, gender & images for the purposes of registering Your
+User Account on the Platform;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+       Contact data - Your email address, phone number, postal address and any other contact
+details; 
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         Demographic data - Your time zone, and location details; and
+
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         KYC –PAN, Aadhar, Driving License, Bank Details
+
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        Any other information which You may provide to us during customer-support
+conversations, surveys, or for assistance in case of matters related to law enforcement,
+investigations.
+        </li>
+      </ul>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     2.3  “Personal Information” means any information that relates to a natural person, which, either
+directly or indirectly, in combination with other information available or likely to be available with
+a body corporate, is capable of identifying such person and includes Sensitive Personal Data or
+Information.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     2.4  “Sensitive Personal Data or Information” means such personal data or information which
+consists of information relating to (i) password, (ii) financial information such as Bank account or
+credit card or debit card or other payment instrument details, (iii) physical, physiological and
+mental health condition, (iv) sexual orientation, (v) medical records and history, (vi) biometric
+information, (vii) any detail relating to the above clauses as provided to the Company for providing
+any service, and (viii) any of the information received under above clauses by us for processing,
+stored or processed under lawful contract or otherwise. 
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+   2.5    In addition to the information provided by You on the Platform, We also collect information which
+You have consented to share with Us via third parties such as (a) social media websites or other
+interactive websites You may choose to connect or sign in with; (b) Our service providers, analytics
+providers; or (c) the information You choose to upload, sync or import from the device on which
+the Platform is being used. We may combine and process such data internally towards our
+Platform. We may also collect and receive information in aggregated form from different browser
+types for analysis.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+   2.6  All information disclosed by You shall be deemed to be disclosed willingly and without any
+coercion. We shall not be liable with respect to the authenticity, genuineness, misrepresentation,
+fraud, negligence, etc. of the information disclosed by You
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+   2.7  Our Platform may contain links to third party websites or applications. You agree and understand
+that privacy policies of these websites are not under Our control. You understand that once You
+leave Our servers, use of any information You provide shall be governed by the privacy policy of
+the operator of the site used by You.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+   2.8  The information collected by Us is stored in servers located in India. You hereby agree and provide
+Your consent that We shall be at a liberty to store and/or transfer the information collected by
+Us, as may be required by Us for or in relation to Our business, subject to Us ensuring that any
+third party to whom Your information is transferred to ensures the same level of protection
+afforded to Your information by Us.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        3. DISCLOSURE OF PERSONAL INFORMATION
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     3.1  We do not disclose Your Personal Information to any third parties other than to Our affiliates or
+other trusted business or persons, based on strict adherence and in compliance with Our Privacy
+Policy and any other appropriate confidentiality and security measures.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+    3.2  We may use Your information, as is or in aggregate form (to ensure privacy and non-identification
+of individual User) for the following purposes:
+      </p>
+      <ul className="mt-2 self-start flex flex-col gap-3 mx-6">
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        To assist Your registration, login and management of the Platform; 
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        To confirm Your identity directly and/or through third parties;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To help You efficiently access Your information after You sign into the Platform;
+
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        To aid strategic development, data collection and business analytics;
+
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To provide seamless and swift delivery of prizes and coupons to You;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To manage Our relationship with advertisers and partners;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        3.2.7 To audit usage of the Platform; 
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To enhance User experience in relation to the Platform; 
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To remember Your Personal Information so that You are not required to re-enter it the
+next time You visit the Platform;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To provide customized suggestion / services relevant to You;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+        To communicate with You through mail, e-mail and telephone, in connection with the
+services provided through the Platform; 
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To communicate important notices or changes in the services of the Platform, use of the
+Platform and the Terms, this Policy and/or any other policies which govern the
+relationship between You and Us;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         For internal purposes such as data analysis, research and improvement relating to the
+Platform or the services provided through the Platform;
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         To transfer data to the regulatory authorities or other appropriate authorities as required
+by law; and
+        </li>
+        <li className=" text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
+         Any reason incidental to any reason listed above. (“collectively, “Permitted Use”).
+        </li>
+      </ul>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     3.3  We may disclose Your information to: (i) any third party to facilitate the provision of the services
+through the Platform; and (ii) any third parties who provide services, such as auditing, data
+analysis, Platform improvement and assistance with delivery of content, relevant marketing
+messages and advertisements on the Platform. We or third-party service providers or the persons
+authorized by them, may send You e-mails in relation to Your use of the Platform. We
+contractually require these third parties to keep such information confidential and use it only for
+the purposes for which We disclose it to them. These third parties may view, edit, or set their own
+cookies or may place beacons on Your Personal Information.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     3.4  We may be required to disclose Your Personal Information in the following cases: (i) where We
+are obligated under any applicable laws or for responding to orders, direction, processes of law
+enforcement agencies, judiciary, governmental authorities; (ii) where We are in the process of
+detecting and preventing potential or actual occurrence of identity theft, fraud, money
+laundering, abuse of the Platform and other illegal acts; (iii) responding to claims that an
+advertisement, posting or other User Content violates the intellectual property rights of a third
+party; (iv) under a duty to disclose or share Your Personal Information in order to enforce or apply
+our Terms and other agreements; or (v) to protect the rights, property, or safety of the Company,
+our Users, or others. 
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     3.5  We may disclose or transfer Your information (Personal Information or otherwise) to any
+subsidiary and to a third party if We sell, transfer or divest all or a portion of Our business or assets
+to another company in connection with or during negotiation of any merger, financing,
+acquisition, bankruptcy, dissolution, transaction, or proceeding. Such third parties shall be
+contractually bound to not disclose further, any Personal Information disclosed to them.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        4. RETENTION OF INFORMATION
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      We do not disclose Your Personal Information to any third parties other than to Our affiliates or
+other trusted business or persons, based on strict adherence and in compliance with Our Privacy
+Policy and any other appropriate confidentiality and security measures.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        5. REASONABLE SECURITY PRACTICES AND PROCEDURES 
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      We have taken necessary safeguard for physical safety of all its information technology
+components. However, the transmission of information via the internet or telephone networks is
+not completely secure. While We do Our best to protect Your information, particularly with
+respect to protection of Your Personal information, We cannot ensure the security of Your data
+transmitted via the internet, telephone or any other networks.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        6. LEGAL BASIS FOR DATA PROCESSING
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      We reserve the right to process Personal Information for the purposes set out in this Privacy
+Policy, as described above. The legal basis to process Personal Information includes processing
+that is: necessary for the performance of the contract with You (for example, to provide You with
+the services You request and to identify and authenticate You so You may use the Platform);
+necessary to comply with legal requirements (for example, to make mandatory disclosures to any
+law enforcement agencies or authorities); necessary for Our legitimate interests (for example, to
+manage the relationship with You, to ensure the security of the service provided by the Platform,
+to communicate with You about Our services); and based on consent by You (for example, to
+share Your information with third parties as specified under Clause 2.6,3.2 and 3.3). In some
+instances, You may be required to provide Us with Personal Information for processing as
+described above, in order to enable Us to provide You and for You to use all the features of the
+Platform.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        7. UPDATES AND CHANGES TO PRIVACY POLICY
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      We reserve the right, at any time, to add to, change, update, or modify this Privacy Policy without
+any notice. If We do, then We will post these changes on this page. In all cases, use of information
+We collect is subject to the Privacy Policy in effect at the time such information is collected. We
+encourage You to periodically review the Policy for the latest information on Our privacy
+practices.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        8. YOUR RIGHTS
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Subject to limitations in applicable law, You are entitled to object or request the restriction of
+processing of Your Personal Information. You have a right to correct any errors or inaccuracies in
+Your Personal Information available with Us. You may request Us that We cease to use Your
+Personal Information, by writing to us at hello@capitalrush.gg. If You are a registered User of the
+Platform, the Platform provides You with tools and account settings to access or modify the profile
+information You have provided and is associated with Your User Account. Should You request Us
+to cease use and deletion of Your Personal Information, We request that You close Your User
+Account and stop accessing the Platform. If You are aware of changes in Your information, You
+should inform Us of such changes so that Our records may be updated or corrected. Requests for
+correction or modification of Personal Information are subject to our ability to reasonably verify
+Your identity in light of the information requested and pursuant to relevant requirements, limitations, and regulations. To verify Your correction or modification of Personal Information
+request, please authenticate Your User Account by logging into Your User Account. We may
+request a reasonable fee to comply with Your request and a fee estimate may be given after You
+have made Your request
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        9. GRIEVANCE OFFICER
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Please address Your grievances with respect to the collection, processing, usage, disclosure,
+security of Your information or on any element of this policy, in writing an email to our grievance
+officer at hello@capitalrush.gg. The grievance officer shall redress the grievances expeditiously
+and no later than the period as prescribed under applicable law.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+        10. DISCLAIMER / RESTRICTION OF LIABILITY
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+     10.1  We make no claims, promises or guarantees about the accuracy, completeness, or adequacy of
+the content available through the Platform and expressly disclaim liability for errors and omissions
+in the content available through the Platform.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+    10.2  No warranty of any kind, implied, expressed or statutory, including but not limited to the
+warranties of non-infringement of third-party rights, title, merchantability, fitness for a particular
+purpose and freedom from computer virus, is given with respect to the content available through
+the Platform or its links to other internet resources as may be available to You through the
+Platform.
+      </p>
+      <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+    10.3  Reference in the Platform to any specific commercial products, processes, or services, or the use
+of any trade, firm or corporation name is for the information and convenience of the public /
+Users, and does not constitute endorsement, recommendation, or favoring by Us.
+      </p>
+      {/* <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         1. What do we mean by the cookie?
       </p>
       <p className=" self-start mx-10 my-4  mb:-mt-4 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
@@ -428,7 +612,7 @@ const Privacy = () => {
         and within 24 hours data will be deleted, but we do not guarantee of
         deletion of data that we share with 3rd parties before the
         aforementioned period <br />
-      </p>
+      </p> */}
     </div>
   );
 };

@@ -1,33 +1,33 @@
 const FaqImport = [
     {
-      question: "Do I need to pay for it?",
+      question: "What is Capital Rush?",
       answer:
-        "No, You don’t need to pay for it. You can play infinite times without even paying a single penny unless you want to either purchase in-game currencies or get more value by getting Capital Rush’s Pro Subscription.. which would give you an in-depth analysis and feedback on your investing strategies and how you can grow your money even more.",
+        "Capital Rush is an interactive financial game that merges gaming and investing, allowing players to simulate real market scenarios and grow their portfolios.",
     },
     {
-      question: "Is this a kind of gambling ?",
+      question: "How do I play Capital Rush?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Sign up on our platform, choose your game mode, and start trading assets. The goal is to earn as much as possible through strategic investment decisions.",
     },
     {
-      question: "How is Capital Rush different ?",
+      question: "Is Capital Rush suitable for beginners?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Absolutely! Capital Rush is designed for all levels of expertise. Whether you're a novice or an experienced investor, you can enjoy and learn.",
     },
     {
-      question: "What kind of investment categories do you have ?",
+      question: "Can I play with real money?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Capital Rush is a free-to-play game. However, we have introduced contests with real-money wagers for added excitement.",
     },
     {
-      question: "I don’t have knowledge about Market, Can I pay it ?",
+      question: " Is Capital Rush a game of skill or a game of chance?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Capital Rush is designed as a game of skill rather than a game of chance. The gameplay revolves around strategic decision-making, asset trading, and financial acumen. Players have the opportunity to simulate real market scenarios, analyze trends, and make informed investment decisions.",
     },
     {
-      question: "How does it work ?",
+      question: "Can I play Capital Rush on my mobile device?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Absolutely! Capital Rush is available on both iOS and Android platforms for your convenience.",
     },
   ];
 
