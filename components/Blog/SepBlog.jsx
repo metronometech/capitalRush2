@@ -10,7 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Popup from "../common/Popup";
 import FaqImport from "../helper/FaqImport";
-
+import { DownloadMsg } from "../helper/CommonMsg";
 
 const faqs = FaqImport;
 
@@ -19,6 +19,7 @@ const SepBlog = ({ data, fullData }) => {
   console.log(fullData);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -44,19 +45,17 @@ const SepBlog = ({ data, fullData }) => {
     updateNav(navNo);
   }
 
-
-
   function handleScroll(e, targetId) {
     e.preventDefault();
-  
+
     const targetElement = document.getElementById(targetId.toString());
-  
+
     if (targetElement) {
       const offset = 20; // Adjust the offset as needed
       const bodyRect = document.body.getBoundingClientRect().top;
       const targetRect = targetElement.getBoundingClientRect().top;
       const offsetPosition = targetRect - bodyRect - offset;
-  
+
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",
@@ -66,9 +65,7 @@ const SepBlog = ({ data, fullData }) => {
 
   return (
     <div>
-      <div className=" z-40 -mt-16 flex flex-col items-center justify-center">
-       
-      </div>
+      <div className=" z-40 -mt-16 flex flex-col items-center justify-center"></div>
       <div
         data-aos="fade-up"
         data-aos-delay="150"
@@ -93,7 +90,6 @@ const SepBlog = ({ data, fullData }) => {
 
         <div className=" block mb:hidden h-[320px] w-full"></div>
       </div>
-     
 
       <div className="flex mb:justify-between mb:mx-24">
         <div className="hidden mb:flex flex-col">
@@ -129,14 +125,21 @@ const SepBlog = ({ data, fullData }) => {
             <ul className="flex flex-col gap-5 -ml-3">
               {data.tableContent.map((elem, ind) => {
                 return (
-                  <div key={ind + 150}  className="animate-fadeIn cursor-pointer">
+                  <div
+                    key={ind + 150}
+                    className="animate-fadeIn cursor-pointer"
+                  >
                     {/* <Link
                       target="blank"
                       className=" no-underline"
                       href={elem.value ? elem.value : ""}
                     > */}
                     {/* {JSON.stringify(ind+1)} */}
-                    <a href={`#${ind + 1}`} onClick={(e) => handleScroll(e, ind + 1)} className="no-underline">
+                    <a
+                      href={`#${ind + 1}`}
+                      onClick={(e) => handleScroll(e, ind + 1)}
+                      className="no-underline"
+                    >
                       <li className="text-[16px] text-[#B3B3B3]">{elem.key}</li>
                     </a>
                     {/* </Link> */}
@@ -155,17 +158,18 @@ const SepBlog = ({ data, fullData }) => {
           >
             {data.blog_heading}
           </h1>
-          <p
+          <div
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="800"
             className=" text-[#B3B3B3] mb:mt-20 text-[16px]"
           >
-            {data.notice}
-          </p>
+            {/* {data.notice} */}
+            <div  className=" text-[#B3B3B3] mb:mt-20 text-[16px]" dangerouslySetInnerHTML={{ __html: data.notice }} />
+          </div>
           {data.data.map((element, index) => {
             return (
-              <div key={index + 100}  id={index + 1}>
+              <div key={index + 100} id={index + 1}>
                 {/* {JSON.stringify(index+1)} */}
                 <h1
                   data-aos="fade-up"
@@ -185,16 +189,18 @@ const SepBlog = ({ data, fullData }) => {
                         data-aos-duration="800"
                         className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
                       >
-                        {elem.heading}
+                        {/* {elem.heading} */}
+                        <div  className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text" dangerouslySetInnerHTML={{ __html: elem.heading }} />
                       </h2>
-                      <p
+                      <div
                         data-aos="fade-up"
                         data-aos-delay="200"
                         data-aos-duration="800"
                         className=" text-[#B3B3B3] mt-1"
                       >
-                        {elem.details}
-                      </p>
+                        {/* {elem.details} */}
+                        <div  className=" text-[#B3B3B3] mt-1" dangerouslySetInnerHTML={{ __html: elem.details }} />
+                      </div>
                     </div>
                   );
                 })}
@@ -233,6 +239,26 @@ const SepBlog = ({ data, fullData }) => {
               </div>
             );
           })}
+          {/* <Link href={DownloadMsg.link} className=" no-underline"> */}
+            <div className=" cursor-pointer"  onClick={openModal}>
+              <h2
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="800"
+                className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
+              >
+                {DownloadMsg.heading}
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="800"
+                className=" text-[#B3B3B3] mt-1"
+              >
+                {DownloadMsg.content}
+              </p>
+            </div>
+          {/* </Link> */}
         </div>
       </div>
       <div>

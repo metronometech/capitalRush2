@@ -9,13 +9,13 @@ const page = ({params}) => {
 
   const id=parseInt(params.id);
   const blogNo=parseInt(params.blogNo);
-  // console.log(id,blogNo)
-  const blogPosts=Blogs[0];
-  // console.log(blogPosts)
+  console.log(id,blogNo)
+  const blogPosts=Blogs[id-1];
+  console.log(blogPosts)
   const currentSection=blogPosts.filter((item)=>{
     return item.tagid===id;
   })
-  // console.log(currentSection);
+  console.log(currentSection);
   
   const currentBlog = currentSection.filter((item)=>{
     return item.Sno===blogNo;

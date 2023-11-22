@@ -54,7 +54,7 @@ const Timeline2 = () => {
         </p>
         <div>
           <video className="w-full h-auto" controls>
-            <source src="/video/1.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/embed/WVTLq9Zj4qw?si=3G0BY8LQFXrNSAoU" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -76,7 +76,7 @@ const Timeline2 = () => {
         </p>
         <div>
           <video className="w-full h-auto" controls>
-            <source src="/video/2.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/embed/SkTurcIM9XQ?si=UYvezhSH-1th8_yO" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -98,7 +98,7 @@ const Timeline2 = () => {
         </p>
         <div>
           <video className="w-full h-auto" controls>
-            <source src="/video/3.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/embed/gGzNP0OimSw?si=bFOYfdBdC6USi9hg" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -120,7 +120,7 @@ const Timeline2 = () => {
         </p>
         <div>
           <video className="w-full h-auto" controls>
-            <source src="/video/4.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/embed/heuvNS_aNAk?si=RR3pehUuuZVRDR0T" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -141,13 +141,10 @@ const Timeline2 = () => {
     Rephrased the definitions to explain everything in the simplest way.
   </p>
   <div className="relative">
-    <video controls className="w-full h-auto">
-      <source src="/video/5.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+  <iframe width="1080" height="720" src="https://www.youtube.com/embed/6qK315xNdnc?si=O40bKMGYuHtP60sD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
-      <div
+      {/* <div
         data-aos="fade-up"
         data-aos-delay="200"
         data-aos-duration="800"
@@ -168,7 +165,7 @@ const Timeline2 = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

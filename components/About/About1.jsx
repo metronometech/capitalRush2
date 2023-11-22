@@ -48,13 +48,7 @@ const About1 = () => {
             </span>
           </h1>
           <p className=" text-white  text-center mt-20 mb:mt-0 font-semibold font-quicksand opacity-70 max-w-[810px] leading-normal  text-[15px] mb:text-[20px]">
-            Capital Rush is a virtual stock market in which Players can play and
-            invest in a variety of assets. The player can create their desired
-            portfolio and boost their investing skills by playing in large-scale
-            fantasy contests. It is a board game-styled mobile application based
-            upon risk reward trade-offs. In terms of making financial decisions,
-            we seek to establish a balance for players in terms of authority,
-            responsibility and accountability.
+          Capital Rush, a virtual stock market, lets players build portfolios and enhance investing skills through fantasy contests. The mobile app, with a board game-style interface, focuses on balancing authority, responsibility, and accountability in financial decision-making.
           </p>
         </div>
       </div>
