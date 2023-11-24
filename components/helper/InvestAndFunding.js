@@ -4,23 +4,26 @@ const InvestAndFunding = [
     Sno: 1,
     type: "Investing and Funding",
     blog_heading:
-      " Investing and Funding blog content is here",
+      "From Game to Reality: Applying Lessons Learned in Trading Simulations",
     blog_subheading:
-      "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
+      "Are you intrigued by the world of investing but find the jargon-filled textbooks and complicated graphs a bit overwhelming? Imagine if you could learn the basics of share market dynamics and investment strategies in a fun and interactive way. Enter the world of app invest - virtual trading games that offer a bridge between gaming and real-world investing. In this blog, we'll explore how these apps for virtual trading are transforming the way people perceive and learn about investing, focusing on the success stories of individuals who have seamlessly transitioned from playing trading games to achieving success in actual trading.",
     thumbnail:
-      "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
+      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700811252/Blog5_dzkayd.jpg",
     profile:
-      "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713427/dhananjay.jpg_dyhsom.png",
-    name: "Dhananjay Sarathe",
-    date: "6 JUNE, 2023",
-    readTime: "git ",
-    nameLink: "https://woodpecker.co/blog/author/jj/",
+      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700297222/Yogesh_Lakhpatani-_Photo_mjnvfq.jpg",
+    name: "Yogesh Lakhpatani",
+    date: "24 NOV, 2023",
+    readTime: "",
+    nameLink: "",
     tableContent: [
       {
-        key: "3 key technical settings you need to check",
+        key: "Gamified Learning for Financial Mastery",
       },
       {
-        key: "Additional things to keep in mind",
+        key: "Unlocking Financial Wisdom Through Virtual Trading",
+      },
+      {
+        key: "Conclusion",
       },
       
     ],
