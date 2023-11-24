@@ -163,19 +163,19 @@ const PersonalFinance = [
       "In today's fast-paced world, where app for trade, best app for stock market, best app for trading India, app for online trading, and the basics of share market seem like an enigma to many, learning the ins and outs of stock trading and investment can be quite a daunting task. However, with the rise of virtual trading apps, the landscape of financial education is undergoing a revolutionary transformation. Enter Capital Rush,a dynamic investment strategy game that seamlessly merges financial education with engaging gameplay, making learning the intricacies of the stock market not only informative but also entertaining.",
     data: [
       {
-        heading: "",
+        heading: "Capital Rush: Revolutionizing Financial Education",
         imageLink:
           "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700454586/Blog14_ghuqgh.jpg",
         keypoints: [
           {
-            heading: "Capital Rush: Revolutionizing Financial Education",
+            heading: "",
             details:
               "Capital Rush is not just another run-of-the-mill virtual trading app; it's a game-changer in the world of stock market education. Let's delve into why this app for trade is causing waves in India and how it's shaping the future of investment knowledge",
           },
           {
             heading: "Why Capital Rush is Today's Need in India",
             details:
-              "India, with its burgeoning population and growing economy, presents an incredible opportunity for individuals to participate in the stock market. However, the majority of people are deterred by the complexities and perceived risks associated with stock trading. This is where Capital Rush steps in as the best app for stock market education in India.Capital Rush serves as a bridge between financial novices and the world of investing. By offering a gamified learning experience, it breaks down the barriers that have long kept people away from the stock market. With its user-friendly interface and interactive features, it transforms a traditionally boring topic into an engaging and educational adventure.",
+              "India, with its burgeoning population and growing economy, presents an incredible opportunity for individuals to participate in the stock market. However, the majority of people are deterred by the complexities and perceived risks associated with stock trading. This is where Capital Rush steps in as the best app for stock market education in India.<br/><br/>Capital Rush serves as a bridge between financial novices and the world of investing. By offering a gamified learning experience, it breaks down the barriers that have long kept people away from the stock market. With its user-friendly interface and interactive features, it transforms a traditionally boring topic into an engaging and educational adventure.",
               
           },
           {
@@ -186,7 +186,7 @@ const PersonalFinance = [
           {
             heading: "Why Capital Rush is the Need of the Hour",
             details:
-              "In today's digital age, access to reliable information and tools for trading and investing is essential. Capital Rush meets this need head-on, providing a comprehensive platform for learning the basics of share market trading. Its user-friendly design and educational approach make it the best app for online trading in India.",
+              "In today's digital age, access to reliable information and tools for trading and investing is essential. Capital Rush meets this need head-on, providing a comprehensive platform for learning the basics of share market trading. Its user-friendly design and educational approach make it the best app for online trading in India.<br/><br/>",
           },
         ],
       },
@@ -259,7 +259,7 @@ const PersonalFinance = [
           {
             heading: "Conclusion",
             details:
-              "In a world where financial literacy is paramount, Capital Rush stands as the best app for trading and stock market education in India. By offering a gamified learning experience that empowers individuals with the knowledge and skills needed to navigate the complexities of the stock market, it has become the need of the hour.So, are you ready to embark on a journey of financial discovery? Download Capital Rush today and start your adventure towards financial wisdom and prosperity.",
+              "In a world where financial literacy is paramount, Capital Rush stands as the best app for trading and stock market education in India. By offering a gamified learning experience that empowers individuals with the knowledge and skills needed to navigate the complexities of the stock market, it has become the need of the hour.<br/><br/>So, are you ready to embark on a journey of financial discovery? Download Capital Rush today and start your adventure towards financial wisdom and prosperity.",
           },
           
         ],
