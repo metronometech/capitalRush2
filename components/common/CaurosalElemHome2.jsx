@@ -71,9 +71,10 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              I am very helped by this E-wallet application , my <br />
-              days are very easy to use this application and its
-              <br /> very helpful in my life , even I can pay a short time{" "}
+              I found Capital Rush as a good app to learn Trading and investing for youngsters
+and anyone who is curious to learn about Finance. This application not only
+improve my knowledge regarding investing but also made me curious to learn
+more about trading and investing and go more in-depth.{" "}
               <br />
               <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
@@ -149,9 +150,11 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              I am very helped by this E-wallet application , my <br />
-              days are very easy to use this application and its
-              <br /> very helpful in my life , even I can pay a short time{" "}
+              Despite having numerous years of experience in the finance industry, I still
+discovered a few new scenarios regarding equity, mutual funds, and venture
+capital while playing on Capital Rush. The best feature of this game is that it lets
+you test the waters without risking real money. It also enhances the learning of
+capital markets in meaningful way. {" "}
               <br />
               <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
@@ -227,9 +230,10 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              I am very helped by this E-wallet application , my <br />
-              days are very easy to use this application and its
-              <br /> very helpful in my life , even I can pay a short time{" "}
+              The app's user-friendly UI and useful features have really pleased
+me since I just recently downloaded it. Anyone looking for a
+trustworthy and effective method to learn trading and investing in
+an interactive approach should definitely check it out{" "}
               <br />
               <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
