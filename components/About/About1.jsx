@@ -60,8 +60,8 @@ const About1 = () => {
           data-aos-duration="1000"
           className=" z-20 relative top-[400px] self-end xl:pr-40 pr-10"
           src="/p4.png"
-          height={470}
-          width={480}
+          height={460}
+          width={450}
         />
         <div
           data-aos="fade-up"
@@ -102,7 +102,7 @@ const About1 = () => {
           className=" z-20 relative top-[310px] self-center xl:pr-40"
           src="/p4.png"
           height={200}
-          width={210}
+          width={200}
         />
         <div
           data-aos="fade-up"
