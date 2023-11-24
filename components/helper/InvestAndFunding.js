@@ -4,7 +4,7 @@ const InvestAndFunding = [
     Sno: 1,
     type: "Investing and Funding",
     blog_heading:
-      " Investing and Funding blog content is here: LOREM IPSUM IS A DUMMY TEXT WHICH USED FOR TEXT",
+      " Investing and Funding blog content is here",
     blog_subheading:
       "Learning how to build rapport is important for any business that wants to have a genuine connection with its prospects. Greater rapport means more conversions.",
     thumbnail:
@@ -13,7 +13,7 @@ const InvestAndFunding = [
       "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713427/dhananjay.jpg_dyhsom.png",
     name: "Dhananjay Sarathe",
     date: "6 JUNE, 2023",
-    readTime: " 5 MIN READ",
+    readTime: "",
     nameLink: "https://woodpecker.co/blog/author/jj/",
     tableContent: [
       {
