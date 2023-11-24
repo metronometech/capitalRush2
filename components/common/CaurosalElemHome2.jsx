@@ -230,10 +230,9 @@ capital markets in meaningful way. {" "}
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              The app's user-friendly UI and useful features have really pleased
-me since I just recently downloaded it. Anyone looking for a
-trustworthy and effective method to learn trading and investing in
-an interactive approach should definitely check it out{" "}
+              I am very helped by this E-wallet application , my <br />
+              days are very easy to use this application and its
+              <br /> very helpful in my life , even I can pay a short time{" "}
               <br />
               <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
