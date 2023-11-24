@@ -28,7 +28,7 @@ const PersonalFinance = [
       
     ],
     notice:
-      "Are you interested, in the world of stock market dynamics? Do you want to explore the potential of finding the best stocks for investment and gain basic knowledge of the share market? It's common to feel overwhelmed by the idea of diving into markets. You're not alone. Even beginners can find trading and investing complex and intimidating. Fortunately there's a solution that is revolutionizing finance education. Trading and investing games. These virtual platforms provide an risk free way to understand the fundamentals of markets. In this guide we will explore the details of trading and investing games why they are important, for newcomers how they work and how they can help you master the basics of trading and investing.",
+      "Are you interested, in the world of stock market dynamics? Do you want to explore the potential of finding the best stocks for investment and gain basic knowledge of the share market? It's common to feel overwhelmed by the idea of diving into markets. You're not alone. Even beginners can find trading and investing complex and intimidating.<br/><br/> Fortunately there's a solution that is revolutionizing finance education. Trading and investing games. These virtual platforms provide an risk free way to understand the fundamentals of markets. In this guide we will explore the details of trading and investing games why they are important, for newcomers how they work and how they can help you master the basics of trading and investing.",
     data: [
       {
         heading: "Advantages of Trading and Investing Games",
