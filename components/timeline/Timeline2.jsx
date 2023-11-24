@@ -52,12 +52,9 @@ const Timeline2 = () => {
           Improved UI for showing the total portfolio and invested amount, city
           map asset allocation.
         </p>
-        <div>
-          <video className="w-full h-auto" controls>
-            <source src="https://www.youtube.com/embed/WVTLq9Zj4qw?si=3G0BY8LQFXrNSAoU" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <div className="relative">
+  <iframe width="1080" height="720" src="https://www.youtube.com/embed/WVTLq9Zj4qw?si=wmXk5u0sLQw-6srD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
       </div>
       <div
         data-aos="fade-up"
@@ -74,12 +71,9 @@ const Timeline2 = () => {
         <p className=" mb:whitespace-nowrap  text-left  z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-8 text-[16px] mb:text-[20px]">
         Added and improved the game characters, Enhanced the asset allocation list based on user experience sampling.
         </p>
-        <div>
-          <video className="w-full h-auto" controls>
-            <source src="https://www.youtube.com/embed/SkTurcIM9XQ?si=UYvezhSH-1th8_yO" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <div className="relative">
+  <iframe width="1080" height="720" src="https://www.youtube.com/embed/SkTurcIM9XQ?si=FOOFZK4JCBuBGghm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
       </div>
       <div
         data-aos="fade-up"
@@ -96,12 +90,10 @@ const Timeline2 = () => {
         <p className=" mb:whitespace-nowrap  text-left  z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-8 text-[16px] mb:text-[20px]">
         Introduced EOQ cards and chart functionality to show the complex financestatistics in nutshell.
         </p>
-        <div>
-          <video className="w-full h-auto" controls>
-            <source src="https://www.youtube.com/embed/gGzNP0OimSw?si=bFOYfdBdC6USi9hg" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <div className="relative">
+  <iframe width="1080" height="720" src="https://www.youtube.com/embed/gGzNP0OimSw?si=YakMP9MKQsyZexa5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
       </div>
       <div
         data-aos="fade-up"
@@ -118,12 +110,9 @@ const Timeline2 = () => {
         <p className=" mb:whitespace-nowrap  text-left  z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-8 text-[16px] mb:text-[20px]">
         Transformed text into buttons and logos, Introduced ticker to show the market effecton all assets.
         </p>
-        <div>
-          <video className="w-full h-auto" controls>
-            <source src="https://www.youtube.com/embed/heuvNS_aNAk?si=RR3pehUuuZVRDR0T" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <div className="relative">
+  <iframe width="1080" height="720" src="https://www.youtube.com/embed/heuvNS_aNAk?si=vCOXtzOoKuaJM6si" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
       </div>
       <div
   data-aos="fade-up"
