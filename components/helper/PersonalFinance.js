@@ -7,9 +7,9 @@ const PersonalFinance = [
     blog_subheading:
       "Delve into the world of trading and investing games – an innovative way for beginners to learn the ropes of finance. Discover their benefits, how they work, and why they're your gateway to financial confidence. This extended guide provides an in-depth exploration of trading and investing games, equipping you with the knowledge to navigate financial markets with ease.",
     thumbnail:
-      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700216789/Screenshot_2023-11-17_155610_kbawnm.png",
-    profile:
       "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700453014/Blog1_gtvdlx.jpg",
+    profile:
+      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700297222/Yogesh_Lakhpatani-_Photo_mjnvfq.jpg",
     name: "Yogesh Lakhpatani",
     date: "17 NOV, 2023",
     readTime: "",
@@ -38,7 +38,7 @@ const PersonalFinance = [
           {
             heading: "1. Exploring  Risk",
             details:
-              "<b>Trading and investing</b> games create an environment for beginners to test their strategies and decision making abilities without any financial consequences. It's similar, to a flight simulator for the realm allowing you to learn from errors without risking money.",
+              "Trading and investing games create an environment for beginners to test their strategies and decision making abilities without any financial consequences. It's similar, to a flight simulator for the realm allowing you to learn from errors without risking money.",
           },
           {
             heading: "2. Engaging Learning",
@@ -53,7 +53,7 @@ const PersonalFinance = [
           {
             heading: "4. Insight into Markets",
             details:
-              "Trading games often provide access to real-time market data, news, and analytical tools. This exposure helps you comprehend how factors like economic indicators and global events influence market movements.",
+              "Trading games often provide access to real-time market data, news, and analytical tools. This exposure helps you comprehend how factors like economic indicators and global events influence market movements.<br/><br/>",
           },
           
         ],
@@ -119,11 +119,7 @@ const PersonalFinance = [
             details:
               "Take the initial stride toward financial empowerment – immerse yourself in trading and investing games, and witness your confidence soar as you master the art of trading and investing in the stock market. Your journey toward financial mastery starts right now!",
           },
-          {
-            heading: "Download the app",
-            details:
-              "",
-          },
+
         ],
       },
     ],
