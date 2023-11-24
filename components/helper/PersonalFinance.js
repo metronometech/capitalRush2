@@ -111,7 +111,7 @@ const PersonalFinance = [
           {
             heading: "",
             details:
-              "Trading and investing games offer more than just virtual excitement – they're a strategic tool for nurturing financial acumen. By providing a safe and interactive environment, these games enable you to dip your toes, gain insights from errors, and develop essential skills. As you immerse yourself in virtual trades, remember that each decision contributes to your comprehension and expertise in the stock market. The lessons you acquire from these games will form a solid foundation when you eventually transition to real trading and investing in the stock market. Equipped with fundamental knowledge, you're now prepared to embark on a captivating educational journey into the dynamic universe of financial markets.",
+              "Trading and investing games offer more than just virtual excitement – they're a strategic tool for nurturing financial acumen. By providing a safe and interactive environment, these games enable you to dip your toes, gain insights from errors, and develop essential skills. <br/><br/>As you immerse yourself in virtual trades, remember that each decision contributes to your comprehension and expertise in the stock market. The lessons you acquire from these games will form a solid foundation when you eventually transition to real trading and investing in the stock market. Equipped with fundamental knowledge, you're now prepared to embark on a captivating educational journey into the dynamic universe of financial markets.",
           },
 
           {
