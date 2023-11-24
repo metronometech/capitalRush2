@@ -51,7 +51,7 @@ const investingEss = [
           {
             heading: "4. Decision-Making Mastery",
             details:
-              "Trading demands swift and precise decision-making. Simulated market fluctuations in trading games compel players to make split-second decisions under pressure. Repeated exposure to these scenarios enhances quick thinking, data analysis, and efficient trade execution. The virtual arena becomes a training ground for honing decision-making skills essential for success in real-world trading.",
+              "Trading demands swift and precise decision-making. Simulated market fluctuations in trading games compel players to make split-second decisions under pressure. Repeated exposure to these scenarios enhances quick thinking, data analysis, and efficient trade execution. The virtual arena becomes a training ground for honing decision-making skills essential for success in real-world trading.<br/><br/>",
           },
         ],
       },
@@ -93,13 +93,9 @@ const investingEss = [
           {
             heading: "",
             details:
-              "Trading is a dynamic blend of financial expertise and psychological mastery. Trading games offer a gateway into this intricate world by allowing you to experience the highs and lows of trading without the financial repercussions. Through these simulations, you'll enhance your emotional intelligence, cultivate risk tolerance, and sharpen your decision-making prowess. As you accumulate virtual experiences, you're also amassing the skills necessary for successful trading in the real world.Are you ready to master the psychological aspects of trading? Dive into the realm of trading games and embark on a transformative journey to become a trader who thrives under pressure, makes informed decisions, and navigates the complex emotional landscape of financial markets. Your trading success story starts with a virtual trading adventure!",
+              "Trading is a dynamic blend of financial expertise and psychological mastery. Trading games offer a gateway into this intricate world by allowing you to experience the highs and lows of trading without the financial repercussions. Through these simulations, you'll enhance your emotional intelligence, cultivate risk tolerance, and sharpen your decision-making prowess. As you accumulate virtual experiences, you're also amassing the skills necessary for successful trading in the real world.<br/><br/>Are you ready to master the psychological aspects of trading? Dive into the realm of trading games and embark on a transformative journey to become a trader who thrives under pressure, makes informed decisions, and navigates the complex emotional landscape of financial markets. Your trading success story starts with a virtual trading adventure!",
           },
-          {
-            heading: "",
-            details:
-              "Download Capital Rush",
-          },
+          
         ],
       },
     ],
@@ -142,7 +138,7 @@ const investingEss = [
           {
             heading: "Gaming Meets Investing: The Best of Both Worlds",
             details:
-              "Capital Rush bridges the gap between gaming and investing, offering a unique experience that empowers you to learn while having fun. It's not just another game; it's a virtual classroom where you can practice investment strategies without the fear of real financial loss. Imagine the excitement of a gaming environment combined with the potential for financial growth – that's Capital Rush for you!",
+              "Capital Rush bridges the gap between gaming and investing, offering a unique experience that empowers you to learn while having fun. It's not just another game; it's a virtual classroom where you can practice investment strategies without the fear of real financial loss. Imagine the excitement of a gaming environment combined with the potential for financial growth – that's Capital Rush for you!<br/><br/>",
           },
         ],
       },
@@ -189,12 +185,7 @@ const investingEss = [
           {
             heading: "",
             details:
-              "It's important to emphasize that Capital Rush isn't promoting gambling. We're focused on educating players about responsible investing. The decisions you make within the game mirror real-world scenarios, enabling you to comprehend the consequences of your choices without jeopardizing your financial stability.As you dive into Capital Rush, remember that every move you make, every strategy you employ, contributes to your growth as an investor. So, roll the dice, make calculated moves, and emerge as a skilled player in the stock market arena.",
-          },
-          {
-            heading: "Download Capital Rush",
-            details:
-              "",
+              "It's important to emphasize that Capital Rush isn't promoting gambling. We're focused on educating players about responsible investing. The decisions you make within the game mirror real-world scenarios, enabling you to comprehend the consequences of your choices without jeopardizing your financial stability.<br/><br/>As you dive into Capital Rush, remember that every move you make, every strategy you employ, contributes to your growth as an investor. So, roll the dice, make calculated moves, and emerge as a skilled player in the stock market arena.",
           },
         ],
       },
