@@ -8,7 +8,7 @@ const revAndGrowth = [
     blog_subheading:
       "Welcome to the exciting world of trading and investment, where strategy and analysis reign supreme! In this digital age, data analytics has emerged as a powerful tool in the world of trading, revolutionizing decision-making processes. When seamlessly integrated into trading games, these analytical insights not only enhance players' skills but also bridge the gap between theoretical knowledge and real-life market scenarios. Join us as we delve into the captivating synergy between data analytics and trading games, all while keeping our focus on education and skill-building.      ",
     thumbnail:
-      "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
+      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700810377/Blog4_rf1xif.jpg",
     profile:
       "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700297222/Yogesh_Lakhpatani-_Photo_mjnvfq.jpg",
     name: "Yogesh Lakhpatani",
@@ -33,7 +33,7 @@ const revAndGrowth = [
       {
         heading: "Understanding Data Analytics in Trading: Unveiling the Insights",
         imageLink:
-          "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
+          "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700810377/Blog4_rf1xif.jpg",
         keypoints: [
           {
             heading: "1. Empowering Decisions: The Fusion of Data Analytics and Technical Analysis",
