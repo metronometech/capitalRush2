@@ -130,8 +130,15 @@ const Timeline2 = () => {
     Rephrased the definitions to explain everything in the simplest way.
   </p>
   <div className="relative">
-  <iframe width="1080" height="720" src="https://www.youtube.com/embed/6qK315xNdnc?si=O40bKMGYuHtP60sD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
+  <iframe
+  width="1080"
+  height="720"
+  src="https://www.youtube.com/embed/6qK315xNdnc?si=O40bKMGYuHtP60sD&?autoplay=1&mute=1"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>  </div>
 </div>
       {/* <div
         data-aos="fade-up"
