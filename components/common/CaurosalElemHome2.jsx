@@ -70,13 +70,11 @@ const CaurosalElemHome2 = () => {
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>
-              <br />
-              I found Capital Rush as a good app to learn Trading and investing for youngsters
+              <br />I found Capital Rush as a good app to learn Trading and investing for youngsters
 and anyone who is curious to learn about Finance. This application not only
 improve my knowledge regarding investing but also made me curious to learn
-more about trading and investing and go more in-depth.{" "}
-              <br />
-              <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
+more about trading and investing and go more in-depth. <br />
+              <span className="relative left-[95px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
@@ -87,27 +85,28 @@ more about trading and investing and go more in-depth.{" "}
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
+            <p className=" text-left mx-4 -ml-1 text-white font-quicksand leading-tight text-[11px]">
               <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              I am very helped by this E-wallet application , my <br />
-              days are very easy to use this application and its
-              <br /> very helpful in my life , even I can pay a short time{" "}
+              <span className="  ">I found Capital Rush as a good app to learn Trading and investing for youngsters
+and anyone who is curious to learn about Finance. This application not only
+improve my knowledge regarding investing but also made me curious to learn
+more about trading and investing and go more in-depth.</span>
               <br />
-              <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[190px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative top-[45px]"
-                src="/boy.png"
-                height={246}
-                width={166}
+                className=" relative bottom-[85px]"
+                src="/testimonial/t1.png"
+                height={350}
+                width={350}
               />
             </div>
           </div>
@@ -128,10 +127,10 @@ more about trading and investing and go more in-depth.{" "}
               <div className="group h-[600px] w-[380px]">
                 <Image
                   alt="carosal-Home-sectionImage"
-                  className=" relative bottom-[80px] right-[25px] group-hover:brightness-125"
-                  src="/boy.png"
+                  className=" relative bottom-[80px] right-[200px] group-hover:brightness-125"
+                  src="/testimonial/t1.png"
                   height={600}
-                  width={398}
+                  width={650}
                 />
               </div>
             </div>
@@ -150,13 +149,13 @@ more about trading and investing and go more in-depth.{" "}
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              Despite having numerous years of experience in the finance industry, I still
-discovered a few new scenarios regarding equity, mutual funds, and venture
-capital while playing on Capital Rush. The best feature of this game is that it lets
-you test the waters without risking real money. It also enhances the learning of
-capital markets in meaningful way. {" "}
-              <br />
-              <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
+              Despite having numerous years of experience in the finance
+              industry, I still discovered a few new scenarios regarding equity,
+              mutual funds, and venture capital while playing on Capital Rush.
+              The best feature of this game is that it lets you test the waters
+              without risking real money. It also enhances the learning of
+              capital markets in meaningful way. <br />
+              <span className="relative left-[170px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
@@ -173,21 +172,24 @@ capital markets in meaningful way. {" "}
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              I am very helped by this E-wallet application , my <br />
-              days are very easy to use this application and its
-              <br /> very helpful in my life , even I can pay a short time{" "}
+              Despite having numerous years of experience in the finance
+              industry, I still discovered a few new scenarios regarding equity,
+              mutual funds, and venture capital while playing on Capital Rush.
+              The best feature of this game is that it lets you test the waters
+              without risking real money. It also enhances the learning of
+              capital markets in meaningful way.
               <br />
-              <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[240px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative top-[45px]"
-                src="/boy.png"
-                height={246}
-                width={166}
+                className=" relative bottom-[80px]"
+                src="/testimonial/t2.png"
+                height={330}
+                width={320}
               />
             </div>
           </div>
@@ -208,10 +210,10 @@ capital markets in meaningful way. {" "}
               <div className="group h-[600px] w-[380px]">
                 <Image
                   alt="carosal-Home-sectionImage"
-                  className=" relative bottom-[80px] right-[25px] group-hover:brightness-125"
-                  src="/boy.png"
+                  className=" relative bottom-[80px] right-[200px] group-hover:brightness-125"
+                  src="/testimonial/t2.png"
                   height={600}
-                  width={398}
+                  width={650}
                 />
               </div>
             </div>
@@ -245,7 +247,7 @@ capital markets in meaningful way. {" "}
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[24px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
+            <p className=" text-left ml-4 text-white font-quicksand leading-tight text-[11px]">
               <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
@@ -262,10 +264,10 @@ capital markets in meaningful way. {" "}
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative top-[45px]"
-                src="/boy.png"
-                height={246}
-                width={166}
+                className=" relative bottom-[60px]"
+                src="/testimonial/t3.png"
+                height={350}
+                width={330}
               />
             </div>
           </div>
@@ -275,20 +277,18 @@ capital markets in meaningful way. {" "}
               <div className="group h-[600px] w-[380px]">
                 <Image
                   alt="carosal-Home-sectionImage"
-                  className=" relative bottom-[80px] right-[25px] group-hover:brightness-125"
-                  src="/boy.png"
+                  className=" relative bottom-[80px] right-[200px] group-hover:brightness-125"
+                  src="/testimonial/t3.png"
                   height={600}
-                  width={398}
+                  width={650}
                 />
               </div>
             </div>
           </div>
         </li>
-
       </ul>
     </div>
   );
 };
 
 export default CaurosalElemHome2;
-

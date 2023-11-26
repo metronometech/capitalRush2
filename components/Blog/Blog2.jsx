@@ -150,18 +150,17 @@ const Blog2 = () => {
             />
           </div>
           <div className=" text-center block mb:hidden">
-            <Image
-              src={
-                blogPosts[nav - 1][0].thumbnail
-                  ? blogPosts[nav - 1][0].thumbnail
-                  : "/frame.png"
-              }
-              alt="stockPic"
-              height={220}
-              width={330}
-            />
+                     <Image
+                src={
+                  blogPosts[nav - 1][0].thumbnail
+                    ? blogPosts[nav - 1][0].thumbnail
+                    : "/frame.png"
+                }
+                alt="stockPic"
+                height={220}
+                width={330}
+              />
           </div>
-
           {/* Your link content */}
 
           <Link
@@ -213,12 +212,9 @@ const Blog2 = () => {
               (item, index) =>
                 // Skip rendering when Sno is 1
                 item.Sno !== 1 && (
-                  <div
-                    key={index}
-                    className={`col-span-4 mx-auto `}
-                  >    
-                  {/* Classname for specific styling    */}
-                   {/* ${
+                  <div key={index} className={`col-span-4 mx-auto `}>
+                    {/* Classname for specific styling    */}
+                    {/* ${
                       (blogPosts[nav - 1].length - 1) % 3 === 2 &&
                       blogPosts[nav - 1].length - 1 - index <= 1
                         ? "col-span-6 mx-auto "
@@ -243,10 +239,8 @@ const Blog2 = () => {
             )}
           </div>
         </div>
-
-      
       </div>
-    
+
       <div>
         <div
           data-aos="fade-up"
