@@ -6,6 +6,12 @@ const BlogElem = ({ data, type, section }) => {
 
   useEffect(() => {
     const blogElem = localStorage.getItem("blogElem") !== "false";
+    // console.log(blogElem)
+    // if(blogElem){
+    //   setTimeout(() => {
+    //     localStorage.clear();
+    //   }, 360);
+    // }
 
     if (blogElem) {
       localStorage.setItem("blogElem", "false");
@@ -26,7 +32,7 @@ const BlogElem = ({ data, type, section }) => {
           layout="responsive"
         />
       </div>
-      <div className="w-full text-left  block md:hidden">
+      <div className="w-full text-center  block md:hidden">
         <Image
           src={data.thumbnail ? data.thumbnail : "/frame.png"}
           alt="stockPic"

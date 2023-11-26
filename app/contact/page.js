@@ -1,5 +1,4 @@
-"use client"
-import React, { useEffect, useState } from "react";
+
 import "../pagemodule.css";
 import Nav2 from "@/components/common/Nav2";
 import Contact1 from "@/components/contact/Contact1";

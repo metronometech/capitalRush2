@@ -1,9 +1,15 @@
-"use client"
 import React from "react";
 import "../../../pagemodule.css";
 import Nav2 from "@/components/common/Nav2";
 import SepBlog from "@/components/Blog/SepBlog";
 import Blogs from "@/components/helper/Blogs";
+
+export const metadata = {
+  title: "Learn About Trading with Capital Rush Blogs",
+  description: "Introduce readers to alternative investments such as real estate, commodities, and cryptocurrencies, highlighting their role in diversifying portfolios.",
+  keywords:"share market how to start, market trading, knowledge about share market, invest in market"
+};
+
 
 const page = ({params}) => {
 
