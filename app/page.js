@@ -5,12 +5,6 @@ import Home2 from "@/components/home/Home2";
 import Home3 from "@/components/home/Home3";
 import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: "Exploring Stock Trading & Investment through Virtual Games | Capital Rush",
-  description: "Uncover the advantages, disadvantages, and educational value of stock trading games as practical tools for newcomers to learn the ropes of trading and investing journey in India",
-  keywords:"stock market games, best app for investment & trading, beginer for stock market, knowledge about share market"
-};
-
 export default function Home() {
 
   
@@ -33,10 +27,7 @@ export default function Home() {
 
 useEffect(() => {
   setAppStoreLink();
-
   // const tempTime = Date.now() + (1*60*60*1000);
- 
-
 }, [])
 
   

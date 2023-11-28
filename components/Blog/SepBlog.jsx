@@ -19,7 +19,28 @@ const SepBlog = ({ data, fullData }) => {
   console.log(fullData);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  
+  const [link, updatelink] = useState("/");
+
+  function setAppStoreLink() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Check for iOS (iPhone, iPad, iPod)
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      // document.getElementById('appStoreLink').href = 'https://apps.apple.com/us/app/your-app-name/id1234567890'; // Replace with your actual App Store link
+      updatelink("https://apps.apple.com/in/app/capital-rush/id1615705403");
+    }
+    // Check for Android
+    else if (/android/i.test(userAgent)) {
+      // document.getElementById('playStoreLink').href = 'https://play.google.com/store/apps/details?id=com.yourapp.package'; // Replace with your actual Play Store link
+      updatelink(
+        "https://play.google.com/store/apps/details?id=com.metronome.capital"
+      );
+    }
+  }
+
+  useEffect(() => {
+    setAppStoreLink();
+  }, []);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -165,7 +186,10 @@ const SepBlog = ({ data, fullData }) => {
             className=" text-[#B3B3B3] mb:mt-20 text-[16px]"
           >
             {/* {data.notice} */}
-            <div  className=" text-[#B3B3B3] mb:mt-20 text-[16px]" dangerouslySetInnerHTML={{ __html: data.notice }} />
+            <div
+              className=" text-[#B3B3B3] mb:mt-20 text-[16px]"
+              dangerouslySetInnerHTML={{ __html: data.notice }}
+            />
           </div>
           {data.data.map((element, index) => {
             return (
@@ -190,7 +214,10 @@ const SepBlog = ({ data, fullData }) => {
                         className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
                       >
                         {/* {elem.heading} */}
-                        <div  className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text" dangerouslySetInnerHTML={{ __html: elem.heading }} />
+                        <div
+                          className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
+                          dangerouslySetInnerHTML={{ __html: elem.heading }}
+                        />
                       </h2>
                       <div
                         data-aos="fade-up"
@@ -199,7 +226,10 @@ const SepBlog = ({ data, fullData }) => {
                         className=" text-[#B3B3B3] mt-1"
                       >
                         {/* {elem.details} */}
-                        <div  className=" text-[#B3B3B3] mt-1" dangerouslySetInnerHTML={{ __html: elem.details }} />
+                        <div
+                          className=" text-[#B3B3B3] mt-1"
+                          dangerouslySetInnerHTML={{ __html: elem.details }}
+                        />
                       </div>
                     </div>
                   );
@@ -240,7 +270,28 @@ const SepBlog = ({ data, fullData }) => {
             );
           })}
           {/* <Link href={DownloadMsg.link} className=" no-underline"> */}
-            <div className=" cursor-pointer"  onClick={openModal}>
+          {/* Desktop */}
+          <div className="hidden mb:block cursor-pointer" onClick={openModal}>
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="800"
+              className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
+            >
+              {DownloadMsg.heading}
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="800"
+              className=" text-[#B3B3B3] mt-1"
+            >
+              {DownloadMsg.content}
+            </p>
+          </div>
+          {/* Mobile */}
+          <div className="mb:hidden cursor-pointer">
+            <Link href={link} target="blank" className=" no-underline">
               <h2
                 data-aos="fade-up"
                 data-aos-delay="200"
@@ -257,7 +308,8 @@ const SepBlog = ({ data, fullData }) => {
               >
                 {DownloadMsg.content}
               </p>
-            </div>
+            </Link>
+          </div>
           {/* </Link> */}
         </div>
       </div>

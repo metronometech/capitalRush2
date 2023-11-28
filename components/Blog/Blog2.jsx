@@ -19,7 +19,9 @@ const blogPosts = Blogs;
 const Blog2 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [link, updatelink] = useState("/");
 
+  
   const openModal = () => {
     setIsModalOpen(true);
   };
@@ -28,7 +30,6 @@ const Blog2 = () => {
     setIsModalOpen(false);
   };
 
-  const [link, updatelink] = useState("/");
 
   function setAppStoreLink() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
