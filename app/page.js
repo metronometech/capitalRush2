@@ -27,10 +27,7 @@ export default function Home() {
 
 useEffect(() => {
   setAppStoreLink();
-
   // const tempTime = Date.now() + (1*60*60*1000);
- 
-
 }, [])
 
   
