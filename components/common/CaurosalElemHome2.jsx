@@ -70,10 +70,11 @@ const CaurosalElemHome2 = () => {
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>
-              <br />I found Capital Rush as a good app to learn Trading and investing for youngsters
-and anyone who is curious to learn about Finance. This application not only
-improve my knowledge regarding investing but also made me curious to learn
-more about trading and investing and go more in-depth. <br />
+              <br />I found Capital Rush as a good app to learn Trading and
+              investing for youngsters and anyone who is curious to learn about
+              Finance. This application not only improve my knowledge regarding
+              investing but also made me curious to learn more about trading and
+              investing and go more in-depth. <br />
               <span className="relative left-[95px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
@@ -91,12 +92,15 @@ more about trading and investing and go more in-depth. <br />
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              <span className="  ">I found Capital Rush as a good app to learn Trading and investing for youngsters
-and anyone who is curious to learn about Finance. This application not only
-improve my knowledge regarding investing but also made me curious to learn
-more about trading and investing and go more in-depth.</span>
+              <span className="  ">
+                I found Capital Rush as a good app to learn Trading and
+                investing for youngsters and anyone who is curious to learn
+                about Finance. This application not only improve my knowledge
+                regarding investing but also made me curious to learn more about
+                trading and investing and go more in-depth.
+              </span>
               <br />
-              <span className="relative left-[190px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[95px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
@@ -105,8 +109,8 @@ more about trading and investing and go more in-depth.</span>
                 alt="carosal-Home-sectionImage"
                 className=" relative bottom-[85px]"
                 src="/testimonial/t1.png"
-                height={350}
-                width={350}
+                height={300}
+                width={300}
               />
             </div>
           </div>
@@ -179,7 +183,7 @@ more about trading and investing and go more in-depth.</span>
               without risking real money. It also enhances the learning of
               capital markets in meaningful way.
               <br />
-              <span className="relative left-[240px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              <span className="relative left-[87px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
               </span>
             </p>
@@ -188,8 +192,8 @@ more about trading and investing and go more in-depth.</span>
                 alt="carosal-Home-sectionImage"
                 className=" relative bottom-[80px]"
                 src="/testimonial/t2.png"
-                height={330}
-                width={320}
+                height={300}
+                width={300}
               />
             </div>
           </div>
