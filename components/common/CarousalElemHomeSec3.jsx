@@ -78,7 +78,52 @@ const CarousalElemHomeSec3 = () => {
                 fill
               />
             </SwiperSlide>
-            {/* <SwiperSlide className="group">
+          </div>
+        </Swiper>
+        <div className="carousel-buttons z-30">
+          <button
+            // onClick={increment}
+            className="hidden md:block carousel-button hzoom1 cursor-pointer carousel-button-next"
+          >
+            <Image alt="right-arrow" src="/right.png" height={60} width={60} />
+          </button>
+          <button
+            ref={nextButtonRef}
+            className="block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-next"
+          ></button>
+        </div>
+      </div>
+      <div className="-mt-16 mb:-mt-12 relative">
+        <p className="text-center text-[40px] text-gray-100">
+          {move % 3 === 0 && (
+            <span>
+              <span className="text-white">.</span> . .
+            </span>
+          )}
+          {move % 3 === 1 && (
+            <span>
+              <span className="text-white">. .</span> .
+            </span>
+          )}
+          {move % 3 === 2 && (
+            <span>
+              <span className="text-white">. . .</span>
+            </span>
+          )}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default CarousalElemHomeSec3;
+
+
+
+
+
+
+{/* <SwiperSlide className="group">
               <Image
                 alt="Carosal-home-Images"
                 className="group-hover:brightness-125"
@@ -120,42 +165,3 @@ const CarousalElemHomeSec3 = () => {
                 fill
               />
             </SwiperSlide> */}
-          </div>
-        </Swiper>
-        <div className="carousel-buttons z-30">
-          <button
-            // onClick={increment}
-            className="hidden md:block carousel-button hzoom1 cursor-pointer carousel-button-next"
-          >
-            <Image alt="right-arrow" src="/right.png" height={60} width={60} />
-          </button>
-          <button
-            ref={nextButtonRef}
-            className="block md:hidden carousel-button hzoom1 cursor-pointer carousel-button-next"
-          ></button>
-        </div>
-      </div>
-      <div className="-mt-16 mb:-mt-12 relative">
-        <p className="text-center text-[40px] text-gray-100">
-          {move % 3 === 0 && (
-            <span>
-              <span className="text-white">.</span> . .
-            </span>
-          )}
-          {move % 3 === 1 && (
-            <span>
-              <span className="text-white">. .</span> .
-            </span>
-          )}
-          {move % 3 === 2 && (
-            <span>
-              <span className="text-white">. . .</span>
-            </span>
-          )}
-        </p>
-      </div>
-    </div>
-  );
-};
-
-export default CarousalElemHomeSec3;
