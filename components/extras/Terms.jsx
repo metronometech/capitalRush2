@@ -247,7 +247,7 @@ const Terms = () => {
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         4.1	In connection with the use of the Game and Platform, you agree that you will not:
-      </p><br />
+      </p>
       <ul className=" self-start mx-10 flex flex-col gap-3">
         <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
           violate any law, regulation, or court order;
@@ -371,10 +371,10 @@ const Terms = () => {
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         5.1	Any use or reliance on any third party content available on the Game is at your own risk.
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         5.2	The views expressed by users on the Game are not controlled and do not represent the views or values of the Company. You acknowledge and agree that the Game only facilitates access to the Game and the Company is not obligated to monitor access to or use of the Game by you or third parties. However, should it come to the knowledge of the Company that your use of the Game is in violation of any applicable law or these Terms, then the Company has the right to enforce these Terms, and take such actions it may deem necessary to comply with applicable law, regulation, court order, or other legal, administrative, or regulatory request or process; or otherwise.
-      </p>
+      </p><br/>
       {/* <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         3.3 . By registering for an Account, You represent, warrant and agree
         that: <br />
@@ -392,19 +392,19 @@ const Terms = () => {
       </p> */}
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         5.3	On account of the nature of the internet, the Games may be accessed in various geographical locations; and you hereby agree and acknowledge that you are accessing the Game, at your own risk, choice and initiative and you agree and undertake to ensure that your use of the Game complies with all applicable laws including the local laws of the place where you access the Game from.
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         5.4	Your interactions with third parties, including users, on or through the Game, is solely between you and the third party; however, the Company may, in its sole discretion, intercede and you will reasonably cooperate with the Company if it does so. You acknowledge and agree that the Company will not be responsible for any damages, losses, costs, expenses, or liabilities incurred as the result of such interactions and you will not make the Company a party to any dispute between you and any third party with whom you interact with on the Game. You hereby release the Company Entities (defined below) from claims, demands, and damages (actual and consequential) of every kind or nature, known and unknown, suspected and unsuspected, disclosed and undisclosed, arising out of or in any way related to such interactions or the Game. In the event of any dispute between you and any third party with whom you interact on the Game, you may approach the court of appropriate jurisdiction as per applicable law in your place of residence.
-      </p>
+      </p><br/>
       {/* All Data  */}
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         6.	License to Use the Game
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         6.1	The Company gives you a personal, worldwide, royalty-free, limited, non-assignable and non-exclusive license to use the Game and the Platform. This license is for the sole purpose of enabling you to use and enjoy the benefit of the Game for your personal and non-commercial use, in the manner permitted by these Terms. You agree not to use the Game for any public performances.  Save and except for accessing and using the Games as permitted herein, You shall not separately use any portion of the Games or the Platform (such as codes, features, branding/trademarks/logos, look and feel, content, etc.) in any manner whatsoever without express written approval from the Company.
-        <br />
+        <br /><br/>
         6.2	You agree to use the Game only: (a) for purposes that are permitted by the Terms; and (b) in accordance with applicable law, regulation or generally accepted practices or guidelines. You agree not to engage in activities that may adversely affect the use or access of the Game by other users.
-        <br />
+        <br /><br/>
         6.3	You agree not to access (or attempt to access) the Game by any means other than through the interface that is provided by the Platform. You shall not use any deep-link, robot, spider or other automatic device, program, algorithm or methodology, or any similar or equivalent manual process, to access, acquire, copy or monitor any portion of the Game or content therein, or in any way reproduce or circumvent the navigational structure or presentation of the Platform, materials or any Content, to obtain or attempt to obtain any materials, documents or information through any means not specifically made available through the Game. You agree that you are solely responsible to the Company and to any third party for any breach of your obligations under the Terms and for the consequences (including any loss or damage which the Company or its affiliates may suffer) for any such breach.
         <br />
         {/* d) You further grant to Capital Rush an exclusive, transferable,
@@ -608,16 +608,16 @@ const Terms = () => {
       </p> */}
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         9.	Suspension and Termination
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         9.1	The Terms will continue to apply until terminated by either you or the Company as set forth below. If you object to the Terms or are dissatisfied with the Games, your only recourse is to (i) close your Account; and (ii) stop accessing the Game.
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         9.2	The Company reserves the right to terminate, discontinue, suspend, limit, or restrict your account or your use of the Games or access to Content at any time, without notice or liability, if the Company so determines in its sole discretion, for any reason whatsoever. Additionally, the Company reserves the right to delist you or block your future access to the Game or suspend or terminate your Account if it believes, in its sole discretion that you have infringed, breached, violated, abused, or unethically manipulated or exploited any term of these Terms or anyway otherwise acted unethically.
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         9.3	If You or the Company terminate your use of the Game, the Company may, subject to the terms of the Privacy Policy, delete any information relating to your use of the Game and the Company will have no liability to you or any third party for doing so.
-      </p>
+      </p><br/>
       {/* <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         4.4 . Any amount received by CAPITAL RUSH as Designated Amount for
         participation in a Contest shall be non-refundable, except in the event
@@ -633,10 +633,10 @@ const Terms = () => {
 
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         10.	Disclaimers and Limitations of Liability
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Please read this section carefully since it limits the liability of the Company and its parents, subsidiaries, group companies, affiliates, related companies, officers, directors, employees, agents, representatives, partners, and licensors (collectively, the " Company Entities").
-      </p>
+      </p><br/>
 
       {/* <p className=" self-start mx-10  -mt-3 text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         c) KYC verification is mandatory as a proof of identity for making
@@ -653,27 +653,27 @@ const Terms = () => {
       </p> */}
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         10.1	Availability on "AS-IS" basis
-        <br />
-        Your access to and use of the Game or any Content is at your own risk. You understand and agree that the Game is provided to you on an "AS IS" and "AS AVAILABLE" basis. Without limiting the foregoing, the Company Entities disclaim all warranties and conditions, whether express or implied, of title, of merchantability, fitness for a particular purpose, or non-infringement.
+        <br /><br/>
+        Your access to and use of the Game or any Content is at your own risk. You understand and agree that the Game is provided to you on an "AS IS" and "AS AVAILABLE" basis. Without limiting the foregoing, the Company Entities disclaim all warranties and conditions, whether express or implied, of title, of merchantability, fitness for a particular purpose, or non-infringement.<br/><br/>
 
-        The Company Entities make no warranty and disclaim all responsibility and liability for: (i) the completeness, accuracy, availability, timeliness, security or reliability of the Game or any content therein; (ii) any harm to your computer system, loss of data, or other harm that results from your access to or use of the Game, or any content therein; (iii) the deletion of, or the failure to store or to transmit, any content and other communications maintained by the Game; (iv) whether the Game will meet your requirements or be available on an uninterrupted, secure, or error-free basis or whether any errors or defects will be corrected. No advice or information, whether oral or written, obtained from the Company Entities or through the Game, will create any warranty not expressly made herein. The Company Entities will not be liable for any loss that you may incur as a consequence of unauthorized use of your Account or Account information in connection with the Game, either with or without your knowledge.
+        The Company Entities make no warranty and disclaim all responsibility and liability for: (i) the completeness, accuracy, availability, timeliness, security or reliability of the Game or any content therein; (ii) any harm to your computer system, loss of data, or other harm that results from your access to or use of the Game, or any content therein; (iii) the deletion of, or the failure to store or to transmit, any content and other communications maintained by the Game; (iv) whether the Game will meet your requirements or be available on an uninterrupted, secure, or error-free basis or whether any errors or defects will be corrected. No advice or information, whether oral or written, obtained from the Company Entities or through the Game, will create any warranty not expressly made herein. The Company Entities will not be liable for any loss that you may incur as a consequence of unauthorized use of your Account or Account information in connection with the Game, either with or without your knowledge.<br/><br/>
 
-        The Company shall not be responsible for the delay or inability to use Platform or related functionalities, the provision of or failure to provide functionalities, or for any information, software, functionalities and related graphics obtained through the Platform, or otherwise arising out of the use of the Platform or Game, whether based on contract, tort, negligence, strict liability or otherwise. Further, the Company shall not be held responsible for non-availability of the Game during periodic maintenance operations or any unplanned suspension of access to Game that may occur due to technical reasons or for any reason beyond the Company’s control. You understand and agree that any material or data downloaded or otherwise obtained through the Platform is done entirely at your own discretion and risk, and that you will be solely responsible for any damage to your computer systems or loss of data that results from the download of such material or data.
+        The Company shall not be responsible for the delay or inability to use Platform or related functionalities, the provision of or failure to provide functionalities, or for any information, software, functionalities and related graphics obtained through the Platform, or otherwise arising out of the use of the Platform or Game, whether based on contract, tort, negligence, strict liability or otherwise. Further, the Company shall not be held responsible for non-availability of the Game during periodic maintenance operations or any unplanned suspension of access to Game that may occur due to technical reasons or for any reason beyond the Company’s control. You understand and agree that any material or data downloaded or otherwise obtained through the Platform is done entirely at your own discretion and risk, and that you will be solely responsible for any damage to your computer systems or loss of data that results from the download of such material or data.<br/><br/>
 
       </p>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         10.2	 Links
-        <br />
-        There may be links to third-party websites or resources on the Platform. You acknowledge and agree that the Company is not responsible or liable for: (i) the availability or accuracy of such websites or resources; or (ii) the content, products, or services on or available from such websites or resources. Links to such websites or resources do not imply any endorsement by the Company Entities of such websites or resources or the content, products, or services available from such websites or resources. You acknowledge sole responsibility for and assume all risk arising from your use of any such websites or resources.
+        <br /><br/>
+        There may be links to third-party websites or resources on the Platform. You acknowledge and agree that the Company is not responsible or liable for: (i) the availability or accuracy of such websites or resources; or (ii) the content, products, or services on or available from such websites or resources. Links to such websites or resources do not imply any endorsement by the Company Entities of such websites or resources or the content, products, or services available from such websites or resources. You acknowledge sole responsibility for and assume all risk arising from your use of any such websites or resources.<br/><br/>
       </p>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
       10.3	 Limitation of Liability
-        <br />
-        To the maximum extent permitted by applicable law, the Company Entities shall not be liable for any indirect, incidental, special, consequential or punitive damages or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, good-will, or other intangible losses resulting from (i) your access to or use of or inability to access or use of the Platform or the Game; (ii) any content on the Platform; or (iii) unauthorized access, use or alteration of your transmissions or content. 
-      </p>
+        <br /><br/>
+        To the maximum extent permitted by applicable law, the Company Entities shall not be liable for any indirect, incidental, special, consequential or punitive damages or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, good-will, or other intangible losses resulting from (i) your access to or use of or inability to access or use of the Platform or the Game; (ii) any content on the Platform; or (iii) unauthorized access, use or alteration of your transmissions or content. <br/>
+      </p><br/>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
       10.4	 Violation of Terms 
-        <br />
+        <br /><br/>
         You agree that any violation by you of these Terms will constitute an unlawful and unfair business practice, and will cause irreparable harm to the Company for which monetary damages would be inadequate, and you consent to the Company obtaining any injunctive or equitable relief that they deem necessary or appropriate in such circumstances. These remedies are in addition to any other remedies that the Company may have at law or in equity. If the Company takes any legal action against you as a result of your violation of these Terms, they will be entitled to recover from you, and you agree to pay, all reasonable attorneys’ fees and costs of such action, in addition to any other relief that may be granted.
       </p>
       {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
@@ -686,57 +686,55 @@ const Terms = () => {
       </p> */}
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
       11.	 General Terms
-      </p>
+      </p><br/>
       <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
       11.1	Waiver and Severability
-        <br />
+        <br /><br/>
         The failure of the Company to enforce any right or provision of these Terms will not be deemed a waiver of such right or provision. In the event that any provision of these Terms is held to be invalid or unenforceable, then that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions of these Terms will remain in full force and effect.
-        <br />
+        <br /><br/>
         11.2	 Governing Law and Jurisdiction
-        <br />
+        <br /><br/>
         These terms shall be governed by and constructed in accordance with the laws of India without reference to conflict of laws principles and disputes arising in relation hereto shall be subject to the exclusive jurisdiction of courts in Jaipur,Rajasthan, India.
-        <br />
+        <br /><br/>
         11.3	Entire Agreement
-        <br />
-        These Terms and the Privacy Policy are the entire and exclusive agreement between the Company and you regarding the Game (excluding any services for which you have a separate agreement with the Company that is explicitly in addition or in place of these Terms), and these Terms supersede and replace any prior agreements between the Company and you regarding the Games. 
-
-The Company retains the unconditional right to revise these Terms from time to time, the most current version will always be on the Platform. You can determine when this Terms was last modified by referring to the “Last Updated” legend above. It shall be your responsibility to check this Terms periodically for changes. Your continued use and access of the Game shall signify your acceptance of the amended Terms and your consent to be legally bound by the same. 
-
-        <br />
+        <br /><br/>
+        These Terms and the Privacy Policy are the entire and exclusive agreement between the Company and you regarding the Game (excluding any services for which you have a separate agreement with the Company that is explicitly in addition or in place of these Terms), and these Terms supersede and replace any prior agreements between the Company and you regarding the Games. <br/>
+ The Company retains the unconditional right to revise these Terms from time to time, the most current version will always be on the Platform. You can determine when this Terms was last modified by referring to the “Last Updated” legend above. It shall be your responsibility to check this Terms periodically for changes. Your continued use and access of the Game shall signify your acceptance of the amended Terms and your consent to be legally bound by the same. 
+        <br /><br/>
         11.4	Grievance Redressal 
-        <br />
-        In case you have any complaints or grievance pertaining to (i) any user content that you believe violates these Terms (other than an infringement of intellectual property rights) for the reporting mechanism for such claims), (ii) your access to the Platform or (iii) any user content which you believe is, in the nature of any material which is obscene, defamatory towards the complainant or any person on whose behalf you are making the complaint, or is in the nature of impersonation in an electronic form, including artificially morphed images of such individual, please share the same with us by writing to: [•]
-In your complaint or grievance, please include the following information:
-Your name and contact details: name, address, contact number and email address;
-Your relation to the subject matter of the complaint, i.e. complainant or person acting on behalf of an affected person;
-The name and age of the person aggrieved or affected by the subject matter of the complaint, in case your are acting on behalf of such person and a statement, under penalty of perjury, that you are authorised to act on behalf of such person and to provide such person's personal information to us in relation to the complaint/grievance;
-Description of the complaint or grievance with clear identification of the user content in relation to which such complaint or grievance is made;
-A statement that you believe, in good faith, that the user content violates these Terms
+        <br /><br/>
+        In case you have any complaints or grievance pertaining to (i) any user content that you believe violates these Terms (other than an infringement of intellectual property rights) for the reporting mechanism for such claims), (ii) your access to the Platform or (iii) any user content which you believe is, in the nature of any material which is obscene, defamatory towards the complainant or any person on whose behalf you are making the complaint, or is in the nature of impersonation in an electronic form, including artificially morphed images of such individual, please share the same with us by writing to: hello@capitalrush.gg<br/><br/>
+In your complaint or grievance, please include the following information:<br/><br/>
+1. Your name and contact details: name, address, contact number and email address;<br/>
+2. Your relation to the subject matter of the complaint, i.e. complainant or person acting on behalf of an affected person;<br/>
+3. The name and age of the person aggrieved or affected by the subject matter of the complaint, in case your are acting on behalf of such person and a statement, under penalty of perjury, that you are authorised to act on behalf of such person and to provide such person's personal information to us in relation to the complaint/grievance;<br/>
+4. Description of the complaint or grievance with clear identification of the user content in relation to which such complaint or grievance is made;<br/>
+5. A statement that you believe, in good faith, that the user content violates these Terms<br/><br/>
 
-You are requested to send us a written notice/ intimation if you notice any act of infringement on the Platform, which must include the following information:
-A clear identification of the copyrighted work allegedly infringed;
-A clear identification of the allegedly infringing material on the Platform;
-Your contact details: name, address, e-mail address and phone number;
-A statement that you believe, in good faith, that the use of the copyrighted material allegedly infringed on the Platform is not authorized by your agent or the law;
-A statement that the information provided in the notice is accurate, and under penalty of perjury, that the signatory is authorized to act on behalf of the owner of an exclusive copyright right that is allegedly infringed;
-Your signature or a signature of your authorized agent.
-The aforesaid notices can be sent to the Company by email at hello@capitalrush.gg
+You are requested to send us a written notice/ intimation if you notice any act of infringement on the Platform, which must include the following information:<br/><br/>
+A clear identification of the copyrighted work allegedly infringed;<br/>
+A clear identification of the allegedly infringing material on the Platform;<br/>
+Your contact details: name, address, e-mail address and phone number;<br/>
+A statement that you believe, in good faith, that the use of the copyrighted material allegedly infringed on the Platform is not authorized by your agent or the law;<br/>
+A statement that the information provided in the notice is accurate, and under penalty of perjury, that the signatory is authorized to act on behalf of the owner of an exclusive copyright right that is allegedly infringed;<br/>
+Your signature or a signature of your authorized agent.<br/><br/>
+The aforesaid notices can be sent to the Company by email at hello@capitalrush.gg<br/><br/>
 
-On receiving such complaint, grievance or notice, the Company reserves the right to investigate and/or take such action as the Company may deem appropriate. The Company may reach out to you to seek further clarification or assistance with the investigation, or verify the statements made in your complaint, grievance or notice, and you acknowledge that your timely assistance with the investigation would facilitate the redressal of the same.
+On receiving such complaint, grievance or notice, the Company reserves the right to investigate and/or take such action as the Company may deem appropriate. The Company may reach out to you to seek further clarification or assistance with the investigation, or verify the statements made in your complaint, grievance or notice, and you acknowledge that your timely assistance with the investigation would facilitate the redressal of the same.<br/><br/>
 
-The name and title of the Grievance Redressal Officer is as follows:
-Name: Samveg Singhi
-Email: hello@capitalrush.gg
-Address: G-152, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan -302023
+The name and title of the Grievance Redressal Officer is as follows:<br/><br/>
+Name: Samveg Singhi<br/>
+Email: hello@capitalrush.gg<br/>
+Address: G-152, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan -302023<br/><br/>
 
 The Company reserves the right to replace the Grievance Redressal Officer at its discretion through publication of the name and title of such replacement on the website, which replacement shall come into effect immediately upon publication.
 
         <br />
       </p>
-      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         4.8 User Accounts:
-      </p>
-      <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      </p> */}
+      {/* <p className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         a) Users must use any money in their Account within 365 days. CAPITAL
         RUSH shall have the right to directly forfeit any such unused amount
         after 365 (three hundred and sixty-five) days with effect from 01 April
@@ -1849,7 +1847,7 @@ The Company reserves the right to replace the Grievance Redressal Officer at its
         believe that there’s a risk of physical harm or threat to public safety.
         <br />
         We would like to thank you for helping
-      </p>
+      </p> */}
     </div>
   );
 };
