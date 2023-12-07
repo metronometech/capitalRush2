@@ -19,21 +19,16 @@ const Terms = () => {
         </span>
       </h1>
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        If you have any questions or suggestions about our Privacy Policy, do
-        not hesitate to contact us at hello@capitalrush.gg To delete the data &
-        user info with the Capital rush user just need to click on the “Delete
-        Data” option which is available in the game itself and within 24 hours
-        data will be deleted, but we do not guarantee of deletion of data that
-        we share with 3rd parties before the aforementioned period
+      These Terms of Use ("Terms") govern your access to and use of gaming platform ‘Capital Rush' and any expansion packs ("Game") available as a mobile application and website at the URL [www.capitalrush.io] (“Platform”) owned and operated by Metronome Technologies Private Limited (“Company”). By accessing the Platform and using the Game, you agree to these Terms of Service (“Terms”).  Your access to and use of the Game is conditioned on your acceptance of and compliance with these Terms. Therefore, please read these Terms and Privacy Policy carefully before using or registering on the Platform. If you do not agree with these Terms, please do not access the Platform and use the Service. These Terms along with the Privacy Policy constitute a binding agreement and an electronic record under the Information Technology Act, 2000 and the rules thereunder and the amended provisions pertaining to electronic records under various Indian statutes.  
       </p>
-      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         For Your convenience, We have summarised some of the key clauses and
         linked them to the relevant section. Bear in mind that the summary
         highlights just the key aspect of the relevant section and not the
         entire section itself. So please refer to the section itself to get the
         full picture.
-      </p>
-      <ul className=" self-start mx-10 flex flex-col gap-3">
+      </p> */}
+      {/* <ul className=" self-start mx-10 flex flex-col gap-3">
         <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
           You may only use Our web portal, partner websites, mobile applications
           and other portals (collectively, the “Platform”), once You agree to
@@ -108,37 +103,28 @@ const Terms = () => {
           If You have any complaints or grievances over any of the Services
           offered on the Platform, please contact at hello@capitalrush.gg
         </li>
-      </ul>
+      </ul> */}
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-        Children’s Privacy
+      1.	Eligibility and Access
       </p>
-      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      {/* <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         1.1. Metronome Technologies Private Limited is an Indian company
         incorporated under the Companies Act, 2013, that operates a mobile
         gaming portal in India, which offers various skill and learning based
         digital contests developed by us through its web portal https:// partner
         websites, mobile applications and other portals. (collectively, the{" "}
         <b>“Platform” </b>).
+      </p> */}
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      1.2	In the event the Game is accessed by an individual under the age of 18 (eighteen) years (“Minor”), such access and participation shall be deemed to be that of the parent or legal guardian (“Guardian”) of such Minor and the term “You” “User” shall refer to the Guardian in such cases. Minors may only access the Game / Platform under the supervision of an adult. The Guardian hereby represents and warrants that the Guardian is the legal guardian of such Minor accessing the Platform; and that the Guardian shall ensure that the Minor uses the Platform only with the permission and authorization from and under the strict supervision and guidance of the Guardian.  
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.2 . Capitalized terms used herein but not defined shall have the
-        meanings ascribed to them under section 1.9 (Definitions and
-        Interpretation) of this Agreement.
+      1.3	The Game is a dynamic investment strategy game that merges financial education with engaging gameplay. The rules of the game are available below in the relevant sections.  The Game is always evolving and the form and nature of the Game may change from time to time without prior notice to you. In addition, the Company may stop (permanently or temporarily) providing the Game (or any features within the Game) to you or to users generally and may not be able to provide you with prior notice. The Company also retains the right to create limits on use, storage and features at its sole discretion at any time without prior notice to you. 
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.3 . This Agreement shall apply to all Persons who visit the Platform,
-        or create a player Account including any contributors of content over
-        the Platform, and/or any third party interacting with Capital Rush,
-        directly or indirectly in official capacity or having/intending to have
-        business or commercial relationships with CAPITAL RUSH, whatsoever (the{" "}
-        <b>“Users” </b>, <b>“You” </b> or <b>“Your”</b>) as applicable..
+      1.4	In consideration for the Company granting you access to and use of the Games, you agree that the Company and its affiliates, group companies, third party providers and partners may place advertisements on the Game or in connection with the display of any content. The types and extent of advertising on the Platform are subject to change.
       </p>
-      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.4 . By registering on, browsing, downloading, using or accessing any
-        part of the Platform or utilizing the Services, the Users agree to be
-        bound by this Agreement.
-      </p>
-      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      {/* <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         1.5 . If at any time the User does not accept or agree to any terms of
         this Agreement, on a continuing basis in relation to any of the Services
         offered on the Platform, they should not access the Platform.
@@ -158,22 +144,14 @@ const Terms = () => {
         1.8 . Any Users’ continued usage of the Platform after any such update,
         change, replacement or modification in the Agreement constitutes their
         valid consent to such changes.
-      </p>
+      </p> */}
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-        1.9 . Definitions
+        2. Privacy
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.9.1 . <b>“Agreement” </b> shall mean these Terms of Use, the Privacy
-        Policy and any other rules or policies available on the Platform
-        including all other additional or modified terms and conditions and
-        policies in relation to the Platform or any current or future services
-        that may be offered by Capital Rush. This Agreement is published in
-        accordance with the provisions of Rule 3(1) of the Information
-        Technology (Intermediary Guidelines) Rules, 2011. This Agreement is an
-        electronic record generated by a computer system and does not require
-        any physical or digital signatures.
+      Any information that you provide to the Company is subject to the privacy policy as updated on www.capitalrush.io , which governs the collection and use of your information. 
       </p>
-      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      {/* <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         1.9.2 . <b>“Applicable Law” </b> means all laws, statutes, common law,
         regulations, ordinances, codes, rules, guidelines, orders, permits,
         tariffs and approvals, including those relating to health and safety, of
@@ -248,24 +226,21 @@ const Terms = () => {
         pre-declared format as a distribution of the Prize Money Pool for
         winning and/or ranking as a top performer in a particular Contest on the
         Platform.
-      </p>
+      </p> */}
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-        1.10 . Interpretation
+      3.	User Account, Passwords and Security 
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.10.1 . Any reference to the singular includes a reference to the
-        plural and vice versa, and any reference to one gender includes a
-        reference to other gender(s), unless explicitly provided for.
+      3.1	In order to use the Game, you will have to register on the Platform by providing certain details about yourself, including your name, email address and such other details as may be required and create an account (“Account”). You may register on the Platform by logging into your Account with your credentials from certain third-party email networks or social networking sites. You confirm that you are the owner of any such third-party account and that you are entitled to disclose your third-party account login information to the Company. You authorize the Company to collect your authentication information, and other information that may be available on or through the third-party account consistent with your applicable settings and instructions. The Company reserves the right to refuse access to the Game to new users or to terminate access granted to existing users at any time without according any reasons for doing so. You shall not have more than one active Account on the Platform. Additionally, you are prohibited from selling, trading, or otherwise transferring your Account to another party.
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.10.2 . Headings and captions are used for convenience only and not for
-        interpretation of the Agreement.
+      3.2	You shall ensure and confirm that the Account information provided by you is complete, accurate and up-to-date. If there is any change in the Account information, you shall promptly update your Account information on the Platform. If you provide any information that is untrue, inaccurate, not current or incomplete (or becomes untrue, inaccurate, not current or incomplete), or if the Company has reasonable grounds to suspect that such information is untrue, inaccurate, not current or incomplete, the Company has the right to suspend or terminate your Account and refuse any and all current or future use of the Game (or any portion thereof) at its discretion, in addition to any right that the Company may have against you at law or in equity, for any misrepresentation of information provided by you. 
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        1.10.3 . Any reference to a natural Person shall, include his/her heirs,
-        executors and permitted assignees and any reference to a juristic Person
-        shall, include its affiliates, successors and permitted assignees,
-        unless repugnant to the context.
+      3.3	You are responsible for maintaining the confidentiality of the Account information, safeguarding the password or credentials that you use to access the Game and for any activities or actions under your Account. You are encouraged to use "strong" passwords (passwords that use a combination of upper and lower-case letters, numbers and symbols) with your Account and with other accounts that you may connect to your Account (such as Facebook, Twitter or your email). You agree to (a) immediately notify the Company of any unauthorized use of your Account information or any other breach of security, and (b) ensure that you exit from your Account at the end of each session. The Company cannot and will not be liable for any loss or damage arising from your failure to comply with the above requirements. Further, the Company will not be liable for any loss that you may incur as a consequence of unauthorized use of your Account either with or without your knowledge.
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      3.4	You may be held liable for losses incurred by the Company or any other user of or visitor of the Platform due to authorized or unauthorized use of your Account as a result of your failure in keeping Your Account information secure and confidential. 
       </p>
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Eligibility
