@@ -70,11 +70,8 @@ const CaurosalElemHome2 = () => {
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span>
-              <br />I found Capital Rush as a good app to learn Trading and
-              investing for youngsters and anyone who is curious to learn about
-              Finance. This application not only improve my knowledge regarding
-              investing but also made me curious to learn more about trading and
-              investing and go more in-depth. <br />
+              <br />
+Capital Rush is a valuable app for both young learners and those curious about finance. It not only enhances knowledge in trading and investing but also sparks curiosity to delve deeper into the intricacies of finance.<br />
               <span className="relative left-[95px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
@@ -93,11 +90,7 @@ const CaurosalElemHome2 = () => {
               </span>
               <br />
               <span className="  ">
-                I found Capital Rush as a good app to learn Trading and
-                investing for youngsters and anyone who is curious to learn
-                about Finance. This application not only improve my knowledge
-                regarding investing but also made me curious to learn more about
-                trading and investing and go more in-depth.
+              Capital Rush is a valuable app for both young learners and those curious about finance. It not only enhances knowledge in trading and investing but also sparks curiosity to delve deeper into the intricacies of finance.
               </span>
               <br />
               <span className="relative left-[95px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
@@ -153,12 +146,8 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              Despite having numerous years of experience in the finance
-              industry, I still discovered a few new scenarios regarding equity,
-              mutual funds, and venture capital while playing on Capital Rush.
-              The best feature of this game is that it lets you test the waters
-              without risking real money. It also enhances the learning of
-              capital markets in meaningful way. <br />
+
+              Capital Rush brought fresh insights into finance, even for someone with years of experience. Exploring equity, mutual funds, and venture capital scenarios, the game's risk-free environment enhances learning about capital markets. <br />
               <span className="relative left-[170px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span>
@@ -176,12 +165,8 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span>
               <br />
-              Despite having numerous years of experience in the finance
-              industry, I still discovered a few new scenarios regarding equity,
-              mutual funds, and venture capital while playing on Capital Rush.
-              The best feature of this game is that it lets you test the waters
-              without risking real money. It also enhances the learning of
-              capital markets in meaningful way.
+
+              Capital Rush brought fresh insights into finance, even for someone with years of experience. Exploring equity, mutual funds, and venture capital scenarios, the game's risk-free environment enhances learning about capital markets.
               <br />
               <span className="relative left-[87px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,

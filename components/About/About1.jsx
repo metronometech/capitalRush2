@@ -48,7 +48,7 @@ const About1 = () => {
             </span>
           </h1>
           <p className=" text-white  text-center mt-20 mb:mt-0 font-semibold font-quicksand opacity-70 max-w-[810px] leading-normal  text-[15px] mb:text-[20px]">
-          Capital Rush, a virtual stock market, lets players build portfolios and enhance investing skills through fantasy contests. The mobile app, with a board game-style interface, focuses on balancing authority, responsibility, and accountability in financial decision-making.
+          Capital Rush (parent company- Metronome Technologies private limited), a virtual stock market, lets players build portfolios and enhance investing skills through fantasy contests. 
           </p>
         </div>
       </div>
@@ -86,10 +86,7 @@ const About1 = () => {
           data-aos-duration="800"
           className="relative bottom-[350px] ml-[220px] 2xl:ml-[350px] text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[20px]"
         >
-          Our goal is to dispel the myth that the stock market is a game of loss
-          and only for rich people. We have created an innovative platform that
-          will help you grasp the significance of passive income and introduce
-          you to some important stock market assets.
+Our goal is to demystify the stock market, making it accessible to all. Our innovative platform introduces the significance of passive income and key stock market assets.
         </p>
       </div>
 
@@ -127,10 +124,7 @@ const About1 = () => {
           data-aos-duration="800"
           className="relative bottom-[390px] pt-10 mx-3 2xl:ml-[350px] text-center z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]   text-[12px] mb:text-[20px]"
         >
-          Our goal is to dispel the myth that the stock market is a game of loss
-          and only for rich people. We have created an innovative platform that
-          will help you grasp the significance of passive income and introduce
-          you to some important stock market assets.
+Our goal is to demystify the stock market, making it accessible to all. Our innovative platform introduces the significance of passive income and key stock market assets.
         </p>
       </div>
 
