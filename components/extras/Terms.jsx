@@ -776,13 +776,468 @@ For single player and multiplayer; the player and bot (single player) and all pl
 Make informed decisions based on changing market conditions, economic events, and corporate finance projects.<br/>
       </p><br/>
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-      Turns and Timing:
+      Investment Rounds:
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-      Players move across weeks using the dice<br/>
-The number that ends up on the dice is equal to the number of tiles the player or group of players will move across during the year<br/>
-For single player and multiplayer; the player and bot (single player) and all players (multiplayer) will end up on the same till decided by the dice.<br/>
+      In each quarter, players can invest in different asset classes: Equity, Savings/FD, Bonds, Commodities, ETFs, and Venture Capital.
+Each asset class has its own risk and return profile.
+Players can allocate their Capital Dollars to purchase assets.
+Savings/FD and Bonds are interest & coupon bearing assets respectively and are free from multipliers Whilst in Venture Capital, the players also receive additional cash in-flow for landing on the green tile.
+
       </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Multiplier System:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Multipliers determine the rate of return on investments.
+Strategic allocation is essential for maximizing returns.
+Rate of return= Market Return x Asset Multiplier
+For example market goes up by 1% and the multiplier of the asset invested is 5 
+Rate of return = 1 x 5 = 5% (Asset will increase by 5%)
+Wherever there are decimal values, it’s rounded off by 2 digits.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      In-game questions:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      In-game questions test players' knowledge and offer rewards i.e. additional Capital Dollars.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Performance Assessment:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Net worth is calculated at the end of each game.
+Player's net worth is the sum of their invested amount and cash balance.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Utilizing Real-Life Scenarios as Game Events to Enhance Portfolio Growth
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Within the game, we incorporate real-life scenarios termed as "events" that guide players in allocating resources and navigating market opportunities strategically. Events impact the lucrativeness of the assets (i.e. multipliers might increase or decrease according to the event), the flow of the tiles (the number of green and red tiles in a quarter) and the result of events might impact the asset values as well.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Navigating Surprise Events: Decisive Choices in an Unpredictable Market
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      In Surprise Events, players face a challenging situation and they are given 30 seconds to allocate their portfolios according to the Surprise event. These events require players to make swift decisions, mirroring the fast-paced nature of the financial world. This challenges players to adapt quickly, enhancing their ability to handle unexpected situations.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Inflation's Impact: Asset Valuations Adjusting to Economic Realities Annually
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Recognizing the pervasive nature of inflation, the game incorporates its effects on asset values at the close of each year. This mirrors the reality where assets' worth can be influenced by inflation.Inflation rate will be obtained by the number that comes on the wheel at end of every year is taken as the rate of inflation and value of assets change accordingly.Players learn to manage and adapt their portfolios in response to this economic factor. Inflation impact as follows:
+      </p><br/>
+      <div className=" text-white font-quicksand opacity-70 text-[24px]">
+        <table
+          className="min-w-full text-center"
+          style={{ border: "2px solid white" }}
+        >
+          <thead className="bg-gray-100">
+            <tr>
+              <th
+                style={{ border: "2px solid white" }}
+                className="px-6 py-3 text-left font-semibold text-gray-700"
+              >
+                Asset
+              </th>
+              <th
+                style={{ border: "2px solid white" }}
+                className="px-6 py-3 text-left font-semibold text-gray-700"
+              >
+                Effect of Inflation
+              </th>
+              <th
+                style={{ border: "2px solid white" }}
+                className="px-6 py-3 text-left font-semibold text-gray-700"
+              >
+                Amount of Change
+              </th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200">
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Commodities
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Increase
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Equity
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No Effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Fixed Income
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Decrease
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Cash
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Derivatives
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Cryptocurrencies
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Agriculture ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Increase
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Banking ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Decrease
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Infrastructure ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Decrease
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Automobile ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Decrease
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Information Technology ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Increase
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Consumer Electronics ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Decrease
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                FMCG ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Increase
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Pharmaceuticals ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Increase
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Oil and gas ETF
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Increase
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation*2
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Mutual Funds
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Forex
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Decrease
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Rate of Inflation
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Savings/FD
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                Venture Capital
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                No effect
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                -
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         4.8 User Accounts:
       </p> */}
