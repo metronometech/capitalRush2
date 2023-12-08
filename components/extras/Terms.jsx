@@ -729,8 +729,60 @@ Address: G-152, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan -302023<br/
 
 The Company reserves the right to replace the Grievance Redressal Officer at its discretion through publication of the name and title of such replacement on the website, which replacement shall come into effect immediately upon publication.
 
-        <br />
+        
+        <div className=" flex flex-col items-center mx-1 lg:mx-4 mb:mx-10 py-20">
+        <h1 className=" font-poppins text-[24px] mb:text-[48px] text-white font-bold z-40 flex-shrink-0">
+  
+        <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
+          Rules of the Game
+        </span>
+      </h1>
+      </div>
       </p>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Game Overview:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Capital Rush is a dynamic investment strategy game that merges financial education with engaging gameplay. Players can choose between Single Player and Multiplayer modes to build and grow their virtual investment portfolios. With different journey lengths and the option to win real money in contests, Capital Rush offers diverse experiences to both casual and strategic players.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Objective:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Grow your virtual portfolio value by making strategic investment decisions and adapting to market challenges.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Game Setup:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Each player starts with 100,000 Capital Dollars (usable for the purpose of the game and have no real-world value).<br/>
+The game spans 1 to 5 simulated years, with each year divided into 4 quarters.<br/>
+Each quarter spans across 13 weeks as denoted by tiles on the board. <br/>
+The tiles are of 2 types- Green tile denoting a positive return for the week and Red tile denoting a negative return for the week.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Turns and Timing:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Players move across weeks using the dice<br/>
+The number that ends up on the dice is equal to the number of tiles the player or group of players will move across during the year<br/>
+For single player and multiplayer; the player and bot (single player) and all players (multiplayer) will end up on the same till decided by the dice.<br/>
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Investment Strategies:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Research and choose from a variety of asset classes, including stocks, bonds, real estate, and more.<br/>
+Make informed decisions based on changing market conditions, economic events, and corporate finance projects.<br/>
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Turns and Timing:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Players move across weeks using the dice<br/>
+The number that ends up on the dice is equal to the number of tiles the player or group of players will move across during the year<br/>
+For single player and multiplayer; the player and bot (single player) and all players (multiplayer) will end up on the same till decided by the dice.<br/>
+      </p><br/>
       {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         4.8 User Accounts:
       </p> */}
