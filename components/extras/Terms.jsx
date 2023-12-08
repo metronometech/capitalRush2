@@ -1238,6 +1238,74 @@ Player's net worth is the sum of their invested amount and cash balance.
           </tbody>
         </table>
       </div>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Exploring Corporate Finance Projects: Investing in Ventures for Potential Gains:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Through the Corporate Finance project, players gain the opportunity to invest in diverse projects. These projects offer potential benefits if they continue successfully. This aspect of the game mirrors real-world investment opportunities, where strategic investment decisions can lead to favourable outcomes. The players are displayed the investment outlay along with future cash flows and recovery range
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Single Player Mode (compete against bot):
+      </p>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Play as a Trader (1-Year Journey):
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Experience the fast-paced world of trading.
+Make quick investment decisions and trade to maximise short-term gains.
+Navigate surprise events and corporate finance projects for added excitement.
+      </p>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Play as an Investor (5-Year Journey):
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Embark on a strategic investment journey.
+Plan and allocate resources over a longer horizon to build a diversified portfolio.
+Overcome challenges, events, and surprise events to grow your investments.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Multiplayer Mode:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Admin-controlled customization:
+Choose the duration of the game, whether 1 to 5 simulated years.
+Engage with friends or players globally in a competitive investment battle.
+Exercise strategic gameplay to achieve dominance on the leaderboards.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Leaderboards and Rankings:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Players are ranked based on net worth and performance.
+Compete with others globally, weekly (resets weekly).
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Contests Mode:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Use real money to get into exciting Capital Rush contests:
+Complete transparency of prize, pool, and calculation in the description of contests.
+Engage in contests with varying durations and entry fees.
+All contestants start off with the same amount of Capital Dollars for investment, the time period to play remains the same as well.
+Players are ranked on the basis of their net worth (Invested amount+ Cash Balance) in descending order (highest to lowest).
+Players are awarded either Capital Dollars or Real Money winnings according to their performance as per the game mode.
+The contest involves considerable use of skill and does not constitute gambling
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Winning and Ranking:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      The player with the highest net worth (Invested Amount+ Cash Balance) at the end of simulated years wins. Players are ranked on the basis of their net worth (Invested amount+ Cash Balance) in descending order (highest to lowest).
+
+Players are awarded either Capital Dollars or Real Money winnings according to their performance as per the game mode.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Contest Payouts:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      Win cash prizes in contests by outperforming other players with your investment strategies. 
+The payout can take maximum of 14 days once player places the withdrawal request.
+      </p><br/>
       {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         4.8 User Accounts:
       </p> */}
