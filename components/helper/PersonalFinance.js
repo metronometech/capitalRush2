@@ -383,7 +383,7 @@ const PersonalFinance = [
     type: "Personal Finance",
     blog_heading: "How to Become Your Own Stock Analyst",
     blog_subheading:
-      "Are you a novice in the world of stock market investments, seeking valuable share market tips? Perhaps you've heard about the potential rewards of venturing into the Indian stock market and wish to take your first steps. You've come to the right place. In this blog, we'll guide you through the process of becoming a proficient stock analyst, equipping you with the knowledge to make prudent investment decisions. To make this journey engaging and interactive, we'll introduce you to Capital Rush—a dynamic investment strategy game that seamlessly blends financial education with captivating gameplay.",
+      "Are you a novice in the world of stock market investments, seeking valuable share market tips? Perhaps you've heard about the potential rewards of venturing into the Indian stock market and wish to take your first steps. You've come to the right place. In this blog, we'll guide you through the process of becoming a proficient stock analyst, equipping you with the knowledge to make prudent investment decisions.",
     thumbnail:
       "https://res.cloudinary.com/dvjqxitb1/image/upload/v1702097342/Blog19_ztn8ei.jpg",
     profile:
@@ -456,8 +456,39 @@ const PersonalFinance = [
           {
             heading: "Multiplayer Mode",
             details:
-              "At the beginning of your campaign, send just a few messages per day to check if there are any problems or if your emails are landing in the spam folder. If you start getting responses, you’re ready to increase the sending volume.",
+              "Challenge your friends or engage in friendly competition with fellow investors in the multiplayer mode. It's not merely about winning the game; it's about honing your stock analysis skills.",
           },
+          {
+            heading: "Real Money Contests",
+            details:
+              "For those eager to bridge the gap between virtual and real-world investing, Capital Rush offers contests where you can win substantial cash prizes. It's an excellent way to apply your stock analysis knowledge while potentially earning as you learn.",
+          },
+          {
+            heading: "Setting a Target Price",
+            details:
+              "Now, let's discuss setting a target price for your investments. A target price is the price at which you plan to either sell a stock to lock in profits or limit losses. It's an integral component of your investment strategy.<br/> Before investing, determine your target price based on your analysis. Ensure that your target price is realistic and takes into account variables such as market conditions and the company's performance.",
+          },
+        ],
+      },
+      {
+        heading: "Conclusion",
+        imageLink: "",
+        keypoints: [
+          {
+            heading: "",
+            details:
+              "Becoming a proficient stock analyst is a journey that begins with grasping the basics of stock analysis. Analyze the industry, comprehend the company's business model, assess its financial health, scrutinize management quality, evaluate growth prospects, and delve into valuation analysis. Capital Rush, with its interactive gameplay, offers you the opportunity to apply and refine your stock analysis skills.<br/><br/>So, are you prepared to embark on this exciting voyage of stock market education and investing? Capital Rush stands ready to guide you at every juncture.<br/><br/>Remember, while investing in the stock market entails risks, with knowledge and practice, you can make well-informed decisions. Happy investing!<br/><br/> Disclaimer: The information presented in this blog serves an educational purpose and should not be regarded as financial advice. Always conduct your research and seek advice from a financial advisor before making investment decisions.",
+          },
+          // {
+          //   heading: "2. Realistic Market Conditions",
+          //   details:
+          //     "Capital Rush recreates realistic market conditions, mirroring the unpredictability of the stock market. Players face challenges such as positive and negative returns, just like in the real world. This dynamic environment prepares them for the ever-changing nature of the financial markets.",
+          // },
+          // {
+          //   heading: "3. Diverse Investment Options",
+          //   details:
+          //     "In the game, players have the opportunity to research and invest in a variety of asset classes, including Equity, Savings/FD, Bonds, Commodities, ETFs, and Venture Capital. This diversity allows them to gain exposure to different investment options, much like a real-life stock trader.",
+          // },
         ],
       },
     ],
