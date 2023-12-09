@@ -190,7 +190,7 @@ const revAndGrowth = [
         key: "Bringing it All Together: Diversification with Alternative Investments",
       },
        {
-        key: "Conclusion: Embrace the World of Possibilities",
+        key: "Conclusion",
       },
   
       
@@ -216,7 +216,7 @@ const revAndGrowth = [
           {
             heading: "3. Venturing into the Cryptocurrency Frontier",
             details:
-              "In recent years, cryptocurrencies have captured the imagination of investors and the financial industry alike. Cryptocurrencies like Bitcoin and Ethereum have revolutionized the way we think about currency and transactions. While the volatility associated with cryptocurrencies has raised eyebrows, their potential for significant returns cannot be ignored. As the technology matures and regulatory frameworks develop, cryptocurrencies are finding their place in diversified investment portfolios. Including cryptocurrencies in your investment strategy can provide exposure to a cutting-edge asset class that operates independently of traditional financial systems.",
+              "In recent years, cryptocurrencies have captured the imagination of investors and the financial industry alike. Cryptocurrencies like Bitcoin and Ethereum have revolutionized the way we think about currency and transactions. While the volatility associated with cryptocurrencies has raised eyebrows, their potential for significant returns cannot be ignored. As the technology matures and regulatory frameworks develop, cryptocurrencies are finding their place in diversified investment portfolios. Including cryptocurrencies in your investment strategy can provide exposure to a cutting-edge asset class that operates independently of traditional financial systems.<br/><br/>",
           },
         ],
       },
@@ -230,7 +230,7 @@ const revAndGrowth = [
               "The concept of diversification is central to effective portfolio management. By incorporating alternative investments alongside traditional assets like stocks and bonds, investors can potentially mitigate risk and enhance returns. Traditional investments often move in tandem with the broader market, which can result in a lack of true diversification. In contrast, alternative investments like real estate, commodities, and cryptocurrencies tend to have a low correlation with traditional assets, making them invaluable tools for creating a well-rounded investment portfolio.",
           },
           {
-            heading: "Capital Rush: Transforming Education into Entertainmen",
+            heading: "Capital Rush: Transforming Education into Entertainment",
             details:
               "As the investment landscape evolves, education becomes pivotal in empowering investors to make informed decisions. That's where Capital Rush steps in with its innovative approach. Capital Rush introduces an interactive trading and investment-based simulation game, turning the process of learning about investing into an engaging and enjoyable experience. In the realm of invest in market, Capital Rush offers a unique opportunity to gain hands-on experience, understand market dynamics, and hone investment strategies—all while having fun.",
           },

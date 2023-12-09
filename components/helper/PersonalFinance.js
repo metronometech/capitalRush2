@@ -266,78 +266,117 @@ const PersonalFinance = [
       },
     ],
   },
-  // {
-  //   tagid: 1,
-  //   Sno: 3,
-  //   type: "Personal Finance",
-  //   blog_heading: "Post 3",
-  //   blog_subheading:
-  //     "I apologize for the confusion. It seems there might be an issue with the curly braces used temprary data is filled here and need to belffeplaced in future",
-  //   thumbnail:
-  //     "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
-  //   profile:
-  //     "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713427/dhananjay.jpg_dyhsom.png",
-  //   name: "temporary data2",
-  //   date: "16 JUNE, 2023",
-  //   readTime: " 15 MIN READ",
-  //   nameLink: "https://woodpecker.co/blog/author/jj/",
-  //   tableContent: [
-  //     {
-  //       key: "3 key technical settings you need to check",
-  //     },
-  //     {
-  //       key: "Additional things to keep in mind",
-  //     },
+  {
+    tagid: 1,
+    Sno: 3,
+    type: "Personal Finance",
+    blog_heading: "How Can I practice Stock Trading Without Using Real Money",
+    blog_subheading:
+      "Stock trading is a financial endeavor that has long fascinated investors and novices alike. It's a world of buying and selling shares, navigating the highs and lows of the market, and making informed decisions to grow one's wealth. However, for many beginners, the prospect of diving into the stock market can be intimidating. This is where Capital Rush steps in as a revolutionary tool for learning and practicing stock trading, making it accessible and engaging.",
+    thumbnail:
+      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1702096167/Blog15_wzo2bi.jpg",
+    profile:
+      "https://res.cloudinary.com/dvjqxitb1/image/upload/v1700297222/Yogesh_Lakhpatani-_Photo_mjnvfq.jpg",
+    name: "Yogesh Lakhpatani",
+    date: "9 DEC, 2023",
+    readTime: "",
+    nameLink: "",
+    tableContent: [
+      {
+        key: "Capital Rush: A Game-Changer in Stock Market Education",
+      },
+      {
+        key: "Advantages of Practicing Stock Trading in Simulation Games",
+      },
+      {
+        key: "Conclusion",
+      },
       
-  //   ],
-  //   notice:
-  //     "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
-  //   data: [
-  //     {
-  //       heading: "3 key technical settings you need to check",
-  //       imageLink:
-  //         "https://res.cloudinary.com/dbum1emnc/image/upload/v1699713356/stockimage_w7lnau.png",
-  //       keypoints: [
-  //         {
-  //           heading: "1. SPF/DKIM configuration",
-  //           details:
-  //             "SPF (Sender Policy Framework) DNS records list servers authorized to deliver emails from a domain. It verifies that your domain’s mail servers and IP addresses send messages.DKIM, on the other hand, verifies a company’s email and helps identify phony email addresses, fights spam, and prevents spoofing and identity theft.You need to make sure that both are correctly configured to avoid any shipment issues.",
-  //         },
-  //         {
-  //           heading: "2. Domain age",
-  //           details:
-  //             "Sending out multiple emails from a relatively young domain is risky, as the messages may look suspicious to providers – and go straight to spam. Check the age of your client’s domain to understand what you’re working with and adjust your course of action.",
-  //         },
-  //         {
-  //           heading: "3. Check if the client is blacklisted",
-  //           details:
-  //             "This one is a must-have! Finally, make sure that your client’s domain isn’t blacklisted anywhere. If you discover that it is, there are ways to get the domain off the blacklist – and accomplishing that will have a huge impact on your client (and it’s also bound to impress your client!).",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Additional things to keep in mind",
-  //       imageLink: "",
-  //       keypoints: [
-  //         {
-  //           heading: "1. Set the right “from” name",
-  //           details:
-  //             "Where does the email come from? The right “from” name can make an email seem more real if it shows that it was written by a real person. Adding a suitable picture is also important – the recipient might click on the sender’s profile, and if they see a stock photo, they’ll quickly move this email to spam (which, obviously, will have catastrophic consequences for your entire campaign).",
-  //         },
-  //         {
-  //           heading: "2. Polish your email signature",
-  //           details:
-  //             "The signature needs to be simple and clean. Avoid including too many links. Add a link to the website and a selection of the client’s social media channels. Make sure that the signature gives the impression that the email was sent by a real person.",
-  //         },
-  //         {
-  //           heading: "3. Start small",
-  //           details:
-  //             "At the beginning of your campaign, send just a few messages per day to check if there are any problems or if your emails are landing in the spam folder. If you start getting responses, you’re ready to increase the sending volume.",
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+    ],
+    notice:
+      "Stock trading is a financial endeavor that has long fascinated investors and novices alike. It's a world of buying and selling shares, navigating the highs and lows of the market, and making informed decisions to grow one's wealth. However, for many beginners, the prospect of diving into the stock market can be intimidating. This is where Capital Rush steps in as a revolutionary tool for learning and practicing stock trading, making it accessible and engaging.",
+    data: [
+      {
+        heading: "Capital Rush: A Game-Changer in Stock Market Education",
+        imageLink:
+          "https://res.cloudinary.com/dvjqxitb1/image/upload/v1702096167/Blog15_wzo2bi.jpg",
+        keypoints: [
+          {
+            heading: "",
+            details:
+              "Capital Rush is not just your run-of-the-mill stock trading app; it's a dynamic investment strategy game that seamlessly blends financial education with interactive gameplay. It's more than just the best app for investment; it's a gateway to understanding the complexities of the stock market in India.",
+          },
+          {
+            heading: "Why Learning Stock Market Trading is Crucial Today",
+            details:
+              "In today's rapidly evolving financial landscape, understanding the stock market is no longer a luxury; it's a necessity. India's economic growth presents a wealth of opportunities, and to harness them effectively, one must have a grasp of stock trading fundamentals. This is where practicing stock trading in simulation games or environments like Capital Rush becomes invaluable.<br/><br/>",
+          },
+          // {
+          //   heading: "Advantages of Practicing Stock Trading in Simulation Games",
+          //   details:
+          //     "In today's rapidly evolving financial landscape, understanding the stock market is no longer a luxury; it's a necessity. India's economic growth presents a wealth of opportunities, and to harness them effectively, one must have a grasp of stock trading fundamentals. This is where practicing stock trading in simulation games or environments like Capital Rush becomes invaluable.",
+          // },
+        ],
+      },
+      {
+        heading: "Advantages of Practicing Stock Trading in Simulation Games",
+        imageLink: "",
+        keypoints: [
+          {
+            heading: "1. Risk-Free Learning",
+            details:
+              "The first advantage of using a simulation game like Capital Rush is that it offers risk-free learning. As a beginner, you can experiment with different trading strategies without risking your hard-earned money. This is especially crucial in the world of stock trading, where losses can be substantial for those who are unprepared.",
+          },
+          {
+            heading: "2. Realistic Market Conditions",
+            details:
+              "Capital Rush recreates realistic market conditions, mirroring the unpredictability of the stock market. Players face challenges such as positive and negative returns, just like in the real world. This dynamic environment prepares them for the ever-changing nature of the financial markets.",
+          },
+          {
+            heading: "3. Diverse Investment Options",
+            details:
+              "In the game, players have the opportunity to research and invest in a variety of asset classes, including Equity, Savings/FD, Bonds, Commodities, ETFs, and Venture Capital. This diversity allows them to gain exposure to different investment options, much like a real-life stock trader.",
+          },
+          {
+            heading: "4. Learning from Real-Life Scenarios",
+            details:
+              "Capital Rush introduces real-life events that impact asset profitability and influence asset values. Players must navigate these scenarios, making decisions that can impact their virtual portfolios. This hands-on experience is a valuable teacher, helping players understand the complexities of real-world investing.",
+          },
+          {
+            heading: "5. Diverse Investment Options",
+            details:
+              "The game also incorporates the effects of inflation on asset values, teaching players how to adapt their portfolios to economic realities. This understanding is crucial, as inflation is a factor that affects real-world investments.",
+          },
+          {
+            heading: "6. Exploring Corporate Finance",
+            details:
+              "Through the Corporate Finance projects in the game, players get a taste of real-world investment decisions. They learn to assess investment costs, future cash flows, and recovery ranges, preparing them for strategic choices in the financial world.",
+          },
+        ],
+      },
+      {
+        heading: "Conclusion",
+        imageLink: "",
+        keypoints: [
+          {
+            heading: "",
+            details:
+              "In a world where financial literacy is paramount, Capital Rush is a game-changer. It's more than just the best app for stock trading in India; it's a comprehensive tool for learning and practicing stock trading. By offering a gamified experience that empowers individuals with knowledge and skills, it transforms stock trading education from a mundane endeavor into an interactive adventure<br/>.So, if you're looking to venture into the world of stock trading, there's no better way to start than with Capital Rush. Download the game today, and embark on your journey towards financial wisdom and prosperity.<br/>With Capital Rush, learning about stocks and investing has never been this interactive and interesting!<br/>",
+          },
+          // {
+          //   heading: "2. Realistic Market Conditions",
+          //   details:
+          //     "Capital Rush recreates realistic market conditions, mirroring the unpredictability of the stock market. Players face challenges such as positive and negative returns, just like in the real world. This dynamic environment prepares them for the ever-changing nature of the financial markets.",
+          // },
+          // {
+          //   heading: "3. Diverse Investment Options",
+          //   details:
+          //     "In the game, players have the opportunity to research and invest in a variety of asset classes, including Equity, Savings/FD, Bonds, Commodities, ETFs, and Venture Capital. This diversity allows them to gain exposure to different investment options, much like a real-life stock trader.",
+          // },
+        ],
+      },
+    ],
+  },
   // {
   //   tagid: 1,
   //   Sno: 4,
