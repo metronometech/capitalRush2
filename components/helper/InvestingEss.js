@@ -197,7 +197,7 @@ const investingEss = [
     type: "Investing Essentials/Guide",
     blog_heading: "Value vs. Growth Investing: Choosing the Right Strategy for You",
     blog_subheading:
-      "In the expansive realm of the equity market, two prominent investment strategies take center stage: value investing and growth investing. These strategies epitomize distinct approaches to constructing a portfolio and can significantly influence your investment outcomes. If you're seeking information about the share market and contemplating an endeavor to invest in the market, understanding the disparities between these two strategies is pivotal. It enables you to make well-informed decisions that are in sync with your financial objectives and risk tolerance.",
+      "In the expansive realm of the equity market, two prominent investment strategies take center stage: value investing and growth investing. These strategies epitomize distinct approaches to constructing a portfolio and can significantly influence your investment outcomes. If you're seeking information about the share market and contemplating an endeavor to invest in the market, understanding the disparities between these two strategies is pivotal.",
     thumbnail:
       "https://res.cloudinary.com/dvjqxitb1/image/upload/v1702099434/Blog8_vc8ekh.jpg",
     profile:
