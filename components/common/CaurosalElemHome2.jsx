@@ -66,15 +66,15 @@ const CaurosalElemHome2 = () => {
             </h2>
 
             <p className=" text-left w-[590px] ml-16 mt-12 text-white font-quicksand leading-tight text-[22px]">
-              <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
+              {/* <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>
+              </span> */}
               <br />
 Capital Rush is a valuable app for both young learners and those curious about finance. It not only enhances knowledge in trading and investing but also sparks curiosity to delve deeper into the intricacies of finance.<br />
-              <span className="relative left-[95px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
+              {/* <span className="relative left-[95px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
-              </span>
+              </span> */}
             </p>
           </div>
 
@@ -84,18 +84,18 @@ Capital Rush is a valuable app for both young learners and those curious about f
               People are Saying About <br /> Capital Rush
             </h2>
             <p className=" text-left mx-4 -ml-1 text-white font-quicksand leading-tight text-[11px]">
-              <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
+              {/* <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>
+              </span> */}
               <br />
               <span className="  ">
               Capital Rush is a valuable app for both young learners and those curious about finance. It not only enhances knowledge in trading and investing but also sparks curiosity to delve deeper into the intricacies of finance.
               </span>
               <br />
-              <span className="relative left-[95px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              {/* <span className="relative left-[95px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
-              </span>
+              </span> */}
             </p>
             <div>
               <Image
@@ -141,16 +141,16 @@ Capital Rush is a valuable app for both young learners and those curious about f
             </h2>
 
             <p className=" text-left w-[590px] ml-16 mt-12 text-white font-quicksand leading-tight text-[22px]">
-              <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
+              {/* <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>
+              </span> */}
               <br />
 
               Capital Rush brought fresh insights into finance, even for someone with years of experience. Exploring equity, mutual funds, and venture capital scenarios, the game's risk-free environment enhances learning about capital markets. <br />
-              <span className="relative left-[170px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
+              {/* <span className="relative left-[170px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
-              </span>
+              </span> */}
             </p>
           </div>
 
@@ -160,17 +160,17 @@ Capital Rush is a valuable app for both young learners and those curious about f
               People are Saying About <br /> Capital Rush
             </h2>
             <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
-              <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
+              {/* <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>
+              </span> */}
               <br />
 
               Capital Rush brought fresh insights into finance, even for someone with years of experience. Exploring equity, mutual funds, and venture capital scenarios, the game's risk-free environment enhances learning about capital markets.
               <br />
-              <span className="relative left-[87px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              {/* <span className="relative left-[87px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
-              </span>
+              </span> */}
             </p>
             <div>
               <Image
@@ -216,18 +216,18 @@ Capital Rush is a valuable app for both young learners and those curious about f
             </h2>
 
             <p className=" text-left w-[590px] ml-16 mt-12 text-white font-quicksand leading-tight text-[22px]">
-              <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
+              {/* <span className="relative top-[40px] right-[35px] font-beatrice text-[44px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>
+              </span> */}
               <br />
               I am very helped by this E-wallet application , my <br />
               days are very easy to use this application and its
               <br /> very helpful in my life , even I can pay a short time{" "}
               <br />
-              <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
+              {/* <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
-              </span>
+              </span> */}
             </p>
           </div>
 
@@ -237,18 +237,18 @@ Capital Rush is a valuable app for both young learners and those curious about f
               People are Saying About <br /> Capital Rush
             </h2>
             <p className=" text-left ml-4 text-white font-quicksand leading-tight text-[11px]">
-              <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
+              {/* <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
-              </span>
+              </span> */}
               <br />
               I am very helped by this E-wallet application , my <br />
               days are very easy to use this application and its
               <br /> very helpful in my life , even I can pay a short time{" "}
               <br />
-              <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
+              {/* <span className="relative left-[260px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
-              </span>
+              </span> */}
             </p>
             <div>
               <Image
