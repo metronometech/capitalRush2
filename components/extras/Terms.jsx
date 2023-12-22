@@ -1370,6 +1370,31 @@ h. All cash winnings shall be paid subject to deduction of withholding taxes as 
 applicable law. All taxes applicable to the User shall be borne by the User.
       </p><br/>
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Platform Fee Information:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a.  CAPITAL RUSH charges a Platform Fee from the User(s), for making available its e-platform where
+Capital Rush game is available and providing the service to the Users to participate in those games of
+skill or consume the content as offered.<br/><br/>
+b. The Platform Fee for all the products/games is a fixed rate (%) of the Designated Amount and is
+between 10% and 30% and under extreme exceptional cases may go beyond this range.<br/><br/>
+c. CAPITAL RUSH, in accordance with the Terms & Conditions of the Bonus Program, may give a
+Discount in the Platform Fee and thus the Designated Amount shall be accordingly recovered from the
+User’s Cash Balances<br/><br/>
+c.  This can be easily deduced from the Designated Amount and the total prize offered
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Platform Fee Capital Rush:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a. CAPITAL RUSH charges a ‘Processing Fee’ from the User(s) for facilitating withdrawal of
+Winnings through various modes including but not limited to Bank Account and UPI.
+<br/><br/>
+b. The Processing Fee shall be levied as per the following schedule:<br/><br/>
+c. In accordance with the Terms & Conditions, CAPITAL RUSH reserves the right to revise the
+Processing Fee and its levy schedule at its sole discretion.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
       Return, Refund and Cancellation:
       </p>
       <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
