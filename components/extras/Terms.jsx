@@ -725,7 +725,7 @@ On receiving such complaint, grievance or notice, the Company reserves the right
 The name and title of the Grievance Redressal Officer is as follows:<br/><br/>
 Name: Samveg Singhi<br/>
 Email: hello@capitalrush.gg<br/>
-Address: G-152, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan -302023<br/><br/>
+Address: G-152, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan -302020<br/><br/>
 
 The Company reserves the right to replace the Grievance Redressal Officer at its discretion through publication of the name and title of such replacement on the website, which replacement shall come into effect immediately upon publication.
 </p>
@@ -1341,8 +1341,136 @@ be considered for the purpose of the leaderboard in the Contest.<br/>
 (iii) Bronze Ticket: User will get 1 chance to play the Contest.
       </p><br/>
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-      Entering a Contest:
+      Playing a Contest:
       </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a. The rules of playing the Game as part of a Contest are as set out in the rulesheet above.<br/><br/>
+b. Each Contest has a pre-determined limit on the number of participants that can participate and
+a specified time before which entries must be made. Specific terms of each Contest, such as
+number of participants, prizes / winnings, period of Contest etc. shall be informed to the User
+prior to commencement of the relevant Contest. <br/><br/>
+c. Where the number of participants is less than required for then purpose of a Contest, the
+Platform may deploy bots in place of real Users. However, regardless of the position of
+the bots in the leaderboard, no prizes shall be awarded to the bots.<br/><br/>
+d. Prizes in each Contest shall be awarded to Users ranking top rankings in the leaderboard for the
+relevant Contest. Prizes for each Contest may include real money as well as ‘Capital Gold’. On
+winning Real money, the amount will be reflected in the User’s Winnings Account. Capital
+Gold are non-transferable digital online coins, with no real world value, which can be used for
+unlocking benefits or features in the Game / Platform.<br/><br/>
+e. Users are eligible to withdraw only cash winnings from the Winnings Account to User’s
+bank/wallet account once it is validated and KYC verified.
+<br/><br/>
+f. User should ensure that the User’s bank account / UPI ID are active, failing which, the Platform
+will be unable to process the withdrawal.<br/><br/>
+g. In case of withdrawal through a bank account or UPI, User should ensure that the name on the
+User’s KYC document matches the name of the account holder submitted for withdrawing cash
+winnings. In the event the name on the KYC document does not match with the account holder’s
+name, the same shall be considered invalid.<br/><br/>
+h. All cash winnings shall be paid subject to deduction of withholding taxes as required under
+applicable law. All taxes applicable to the User shall be borne by the User.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Return, Refund and Cancellation:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a. Amounts once deposited in the Deposit Account cannot be withdrawn by the User<br/><br/>
+b. In the event, that there is an error in the Service, Platform or in a Contest, or a Contest is
+cancelled by the Company, the Company may refund amount paid towards the affected Ticket
+back to the Deposit Account, provided the reasons are genuine and proved after an investigation
+by the Company. Such refund will reflect in the Deposit Amount within a reasonable period of
+time.<br/><br/>
+c. Please read the rules of each Contest before participating.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      User Accounts:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a. Users must use any money, within 365 days, in their (i) Deposit Account towards purchase of
+Tickets and (ii) Winnings Account for withdrawals. The Company shall have the right to
+directly forfeit any such unused amount after 365 (three hundred and sixty-five) days with effect
+from 01 April 2023 (“Effective Date”) in accordance with the below-mentioned terms<br/><br/>
+b. Account Maintenance Fees (“Maintenance Fees”)
+<br/><br/>
+As on the Effective Date, if a Deposit Account or Winnings Account is lying dormant for
+a period of 365 days, the Company shall charge a Maintenance Fee to such User which
+shall be computed as follows.<br/><br/>
+(i) For Deposit Account: The entire amount lying in the Deposit Account which shall be
+inclusive of any indirect taxes.<br/>
+(ii) For Winnings Account: The Company will charge an upfront freezing fee (“Upfront
+Fee”) of INR 100 for all inactive accounts inclusive of all taxes. <br/>
+(iii)The Maintenance Fee is for defraying the technical costs involved in such freezing,
+holding any amounts in escrow for users, etc and the Company shall not be required
+to provide any warning before charging the Maintenance Fees. The Company shall
+however issue a tax invoice to the User while charging the Maintenance Fees to such
+User.<br/><br/>
+c. Please read the rules of each Contest before participating.<br/><br/>
+1. In case the User’s Account continues to be dormant beyond a period of 365 days, the
+Company also reserves the right to charge monthly maintenance fees (“Monthly
+Maintenance Fee”) which shall be charged on the balance remaining in the Winnings
+Account of the User after deduction of the Upfront Fee (“Balance”). The Monthly
+Maintenance Fee shall be charged in monthly arrears starting 30 (thirty) days after
+365 (three hundred and sixty-five) days of dormancy. The Monthly Maintenance Fee
+shall be equal to 8.33% of the Balance and shall be inclusive of all taxes. The User
+shall not be given any warning before the charge of the Monthly Maintenance Fee.
+The Company shall however issue a tax invoice to the User while charging the
+Maintenance Fees to such User<br/><br/>
+2. The User shall incur this Monthly Maintenance Fee until his / her account is reverified by the Company and unfrozen.<br/><br/>
+3. The User can unfreeze his / her accounts by logging in to his / her account and resubmitting KYC documents required by the Company for re-verification of the
+account.<br/><br/>
+4.  The User acknowledges and agrees that this measure is designed to prevent
+fraud/identity theft and is required to protect the User’s information and account.
+The Monthly Maintenance Fee is for defraying the technical and manpower costs
+involved in re-verification of the User’s account, holding amounts in escrow, etc.<br/><br/>
+5.  In case, the User does not unfreeze his account before the Balance becomes nil, the
+User’s account will be permanently blocked. The User will no longer be able to access
+this account and information associated with this account, however, this would not
+prevent the User from creating a new account on the Platform by following the
+process listed herein.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Games of skill:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a. The Contest hosted by the Company on the Platform are all Games of Skill (defined below). <br/><br/>
+b. ‘Games of Skill’, under Indian law, are excluded from the ambit of gambling legislations
+including, the Public Gambling Act of 1867 and other state enactments except in the restricted
+states, i.e. Andhra Pradesh, Assam, Nagaland, Odisha, Sikkim or Telangana (“Restricted
+States”). If the outcome of a game is predominantly determined by skill, then the game is
+considered a game of skill.
+<br/><br/>
+c. Different asset investing need different skills, such as knowledge of the asset, familiarity with
+rules, experience, reflexes, experience, practice, etc. By virtue of its classification as a game
+of skill, the Contest does not violate the Public Gambling Act, of 1867, and is excluded from
+the ambit of certain Indian gambling legislations. <br/><br/>
+d. However, Users residing in the Restricted States are prohibited from participating in Contests.
+Any participation by such individuals shall be at their sole risk and discretion and the Company
+shall not be liable to refund or reimburse any injury or damages suffered by such individuals. <br/><br/>
+e. The Company reserves the right to monitor all User activities on the Platform. If any User
+participates in any Contest in violation of any central and/or state law(s) in India, the Company
+reserves the right to cooperate with law enforcement agencies of the relevant state and report
+such participation or/and suspicious activity along with all relevant details of the concerned
+User. (The Users based out of the Restricted States are not permitted under applicable Laws to
+participate in specific or all games hosted on the Platform and shall not be permitted to connect
+to the Game and/or Platform by breaching security measures put in by the Company, including
+without limitation through a virtual private network.) <br/><br/>
+f. The Company does not support, endorse or offer to any User ‘games of chance’ for money.
+Each Contest available on the Platform has clearly defined rules and code of conduct. All Users
+are encouraged to read, understand and follow these rules to be successful in these games. The
+Company shall not be liable if Users do not adhere to the Game Rules or otherwise engage in
+gambling or betting activities on the Platform.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Disclaimer:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      The Game and / or the Contests are based on fictitious assets which have value only within the Game.
+The assets are not based on any real-life assets or securities and the Users should not rely on the same
+for any reason whatsoever. The Game is only for entertainment and recreation purposes and is not meant
+for and does not purport to provide any educational or learning services. The Platform, Game and
+Contests are made available only on an as-is basis and the Company does not make any representations
+or warranties as to the quality, suitability or merchantability of the Game, Contest or any prizes given
+to Users.
+      </p><br/>
       {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         4.8 User Accounts:
       </p> */}
