@@ -1391,6 +1391,73 @@ c.  This can be easily deduced from the Designated Amount and the total prize of
 Winnings through various modes including but not limited to Bank Account and UPI.
 <br/><br/>
 b. The Processing Fee shall be levied as per the following schedule:<br/><br/>
+<div className=" text-white font-quicksand opacity-70 text-[24px]">
+        <table
+          className="min-w-full text-center"
+          style={{ border: "2px solid white" }}
+        >
+          <thead className="bg-gray-100">
+            <tr>
+              <th
+                style={{ border: "2px solid white" }}
+                className="px-6 py-3 text-left font-semibold text-gray-700"
+              >
+                User Pool
+              </th>
+              <th
+                style={{ border: "2px solid white" }}
+                className="px-6 py-3 text-left font-semibold text-gray-700"
+              >
+                Platform Fees
+              </th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200">
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                5 to 25
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                10%
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                26 to 50
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                20%
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                51 to 100
+              </td>
+              <td
+                style={{ border: "2px solid white" }}
+                className="px-6 py-4 whitespace-nowrap"
+              >
+                30%
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div><br/>
 c. In accordance with the Terms & Conditions, CAPITAL RUSH reserves the right to revise the
 Processing Fee and its levy schedule at its sole discretion.
       </p><br/>
