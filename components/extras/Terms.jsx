@@ -728,7 +728,7 @@ Email: hello@capitalrush.gg<br/>
 Address: G-152, RIICO Industrial Area, Mansarovar, Jaipur, Rajasthan -302023<br/><br/>
 
 The Company reserves the right to replace the Grievance Redressal Officer at its discretion through publication of the name and title of such replacement on the website, which replacement shall come into effect immediately upon publication.
-
+</p>
         
         <div className=" flex flex-col items-center mx-1 lg:mx-4 mb:mx-10 py-20">
         <h1 className=" font-poppins text-[24px] mb:text-[48px] text-white font-bold z-40 flex-shrink-0">
@@ -738,7 +738,6 @@ The Company reserves the right to replace the Grievance Redressal Officer at its
         </span>
       </h1>
       </div>
-      </p>
       <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
       Game Overview:
       </p>
@@ -1306,6 +1305,44 @@ Players are awarded either Capital Dollars or Real Money winnings according to t
       Win cash prizes in contests by outperforming other players with your investment strategies. 
 The payout can take maximum of 14 days once player places the withdrawal request.
       </p><br/>
+      <div className=" flex flex-col items-center mx-1 lg:mx-4 mb:mx-10 py-20">
+        <h1 className=" font-poppins text-[24px] mb:text-[48px] text-white font-bold z-40 flex-shrink-0">
+  
+        <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
+        Contest Terms and Conditions
+        </span>
+      </h1>
+      </div>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      The Company may run paid contests versions of the Game Contests on the Platform from time to time.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Entering a Contest:
+      </p>
+      <p className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      a. In the event you elect to play a Contest, you will be required to provide your KYC (Know Your
+Customer) details to us for verification. KYC verification is mandatory as a proof of identity
+for Contests. KYC verification may be done by providing certain details: (i) photograph of a
+valid government ID (Aadhaar Card, PAN Card etc.); and (ii) other user details. If you opt to
+provide your Aadhaar card / number for KYC, you hereby: (i) understand and agree that your
+Aadhaar Card / number has been submitted only for Your KYC verification; and (ii) You
+authorise the Company to temporarily access and verify Your Aadhaar card, You understand
+that the Company will not be storing your Aadhaar card / number unless as required by law.<br/><br/>
+b. Upon successfully verifying your KYC, a deposit cash account (“Deposit Account”) and
+winnings cash account (“Winnings Account”) will be created for You.<br/><br/>
+c. In order to participate in a Contest, Users will be required to buy a ticket (“Ticket”) by paying
+an entry amount in the form of cash. Users may add cash to their Deposit Account by using any
+of the payment modes available on the Platform<br/><br/>
+d. The following categories of Tickets will be available to Users for each Contest:<br/><br/>
+(i) Gold Ticket: User will get 4 chances to play the Contest and the highest score will
+be considered for the purpose of the leaderboard in the Contest.<br/>
+(ii) Silver Ticket: User will get 2 chances to play the Contest and the highest score will
+be considered for the purpose of the leaderboard in the Contest.<br/>
+(iii) Bronze Ticket: User will get 1 chance to play the Contest.
+      </p><br/>
+      <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      Entering a Contest:
+      </p>
       {/* <p className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         4.8 User Accounts:
       </p> */}
