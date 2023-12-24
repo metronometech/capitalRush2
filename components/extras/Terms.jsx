@@ -9,6 +9,11 @@ const Terms = () => {
       localStorage.setItem("isTermsLoad", "false");
       window.location.reload();
     }
+
+    setTimeout(() => {
+      localStorage.removeItem("isTermsLoad");
+    }, 6000);
+    
   });
   return (
     <div className=" flex flex-col items-center mx-1 lg:mx-4 mb:mx-10 py-20">

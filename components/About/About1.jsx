@@ -14,6 +14,8 @@ import FaqImport from "../helper/FaqImport";
 const faqs =FaqImport;
 
 const About1 = () => {
+  
+  
   useEffect(() => {
     const isFirstLoad = localStorage.getItem("isFirstLoad") !== "false";
 
@@ -21,6 +23,9 @@ const About1 = () => {
       localStorage.setItem("isFirstLoad", "false");
       window.location.reload();
     }
+    setTimeout(() => {
+      localStorage.removeItem("isFirstLoad");
+    }, 6000);
   });
 
   useEffect(() => {
@@ -73,7 +78,7 @@ const About1 = () => {
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-duration="800"
-          className=" relative bottom-[380px] self-start ml-[220px] 2xl:ml-[350px] font-poppins text-[48px] font-bold z-40 flex-shrink-0 "
+          className=" relative bottom-[380px] self-start ml-[220px] 2xl:ml-[220px] font-poppins text-[48px] font-bold z-40 flex-shrink-0 "
         >
           Our{" "}
           <span className="font-poppins  bg-gradient-to-r from-[#F67408] to-[#FAF51C] bg-clip-text text-transparent">
@@ -84,7 +89,7 @@ const About1 = () => {
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-duration="800"
-          className="relative bottom-[350px] ml-[220px] 2xl:ml-[350px] text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[20px]"
+          className="relative bottom-[350px] ml-[220px] 2xl:ml-[220px] text-left z-30 text-white font-quicksand opacity-70 2xl:max-w-[700px] lg:max-w-[610px] max-w-[500px]  -mt-3 text-[20px]"
         >
 Our goal is to demystify the stock market, making it accessible to all. Our innovative platform introduces the significance of passive income and key stock market assets.
         </p>
