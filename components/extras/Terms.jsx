@@ -24,19 +24,20 @@ const Terms = () => {
         </span>
       </h1>
       <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        These Terms of Use ("Terms") govern your access to and use of gaming
-        platform ‘Capital Rush' and any expansion packs ("Game") available as a
-        mobile application and website at the URL [www.capitalrush.io]
-        (“Platform”) owned and operated by Metronome Technologies Private
-        Limited (“Company”). By accessing the Platform and using the Game, you
-        agree to these Terms of Service (“Terms”). Your access to and use of the
-        Game is conditioned on your acceptance of and compliance with these
-        Terms. Therefore, please read these Terms and Privacy Policy carefully
-        before using or registering on the Platform. If you do not agree with
-        these Terms, please do not access the Platform and use the Service.
-        These Terms along with the Privacy Policy constitute a binding agreement
-        and an electronic record under the Information Technology Act, 2000 and
-        the rules thereunder and the amended provisions pertaining to electronic
+        These Terms of Use (&ldquo;Terms&rdquo;) govern your access to and use
+        of gaming platform &lsquo;Capital Rush&apos; and any expansion packs
+        (&ldquo;Game&rdquo;) available as a mobile application and website at
+        the URL [www.capitalrush.io] (&ldquo;Platform&rdquo;) owned and operated
+        by Metronome Technologies Private Limited (&ldquo;Company&rdquo;). By
+        accessing the Platform and using the Game, you agree to these Terms of
+        Service (&ldquo;Terms&rdquo;). Your access to and use of the Game is
+        conditioned on your acceptance of and compliance with these Terms.
+        Therefore, please read these Terms and Privacy Policy carefully before
+        using or registering on the Platform. If you do not agree with these
+        Terms, please do not access the Platform and use the Service. These
+        Terms along with the Privacy Policy constitute a binding agreement and
+        an electronic record under the Information Technology Act, 2000 and the
+        rules thereunder and the amended provisions pertaining to electronic
         records under various Indian statutes.
       </div>
       <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
@@ -124,17 +125,18 @@ const Terms = () => {
         3.3 You are responsible for maintaining the confidentiality of the
         Account information, safeguarding the password or credentials that you
         use to access the Game and for any activities or actions under your
-        Account. You are encouraged to use "strong" passwords (passwords that
-        use a combination of upper and lower-case letters, numbers and symbols)
-        with your Account and with other accounts that you may connect to your
-        Account (such as Facebook, Twitter or your email). You agree to (a)
-        immediately notify the Company of any unauthorized use of your Account
-        information or any other breach of security, and (b) ensure that you
-        exit from your Account at the end of each session. The Company cannot
-        and will not be liable for any loss or damage arising from your failure
-        to comply with the above requirements. Further, the Company will not be
-        liable for any loss that you may incur as a consequence of unauthorized
-        use of your Account either with or without your knowledge.
+        Account. You are encouraged to use &ldquo;strong&rdquo; passwords
+        (passwords that use a combination of upper and lower-case letters,
+        numbers and symbols) with your Account and with other accounts that you
+        may connect to your Account (such as Facebook, Twitter or your email).
+        You agree to (a) immediately notify the Company of any unauthorized use
+        of your Account information or any other breach of security, and (b)
+        ensure that you exit from your Account at the end of each session. The
+        Company cannot and will not be liable for any loss or damage arising
+        from your failure to comply with the above requirements. Further, the
+        Company will not be liable for any loss that you may incur as a
+        consequence of unauthorized use of your Account either with or without
+        your knowledge.
       </div>
       <br />
       <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
@@ -157,8 +159,9 @@ const Terms = () => {
         </li>
         <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
           violate, infringe, or misappropriate the intellectual property,
-          patent, trademark, copyright privacy, publicity, moral or "droit
-          moral," or other legal or proprietary rights of any third party;
+          patent, trademark, copyright, privacy, publicity, moral or
+          &ldquo;droit moral,&rdquo; or other legal or proprietary rights of any
+          third party;
         </li>
         <li className="  text-white font-quicksand opacity-70 text-[12px] mb:text-[20px] pl-4 ">
           take any action (even if requested by another) that is, or submit,
@@ -169,7 +172,7 @@ const Terms = () => {
           derogatory, harmful to any reputation, disparaging, defamatory,
           libelous, pornographic, indecent, profane, obscene, paedophilic or
           otherwise objectionable (including nudity), blasphemous, invasive of
-          another's privacy, or relating or encouraging money laundering or
+          another&apos;s privacy, or relating or encouraging money laundering or
           gambling or an online game that causes user harm or promoting enmity
           between different groups on the grounds of religion or caste with the
           intent to incite violence;
@@ -443,8 +446,8 @@ const Terms = () => {
         Please read this section carefully since it limits the liability of the
         Company and its parents, subsidiaries, group companies, affiliates,
         related companies, officers, directors, employees, agents,
-        representatives, partners, and licensors (collectively, the " Company
-        Entities").
+        representatives, partners, and licensors (collectively, the
+        &ldquo;Company Entities&rdquo;).
       </div>
       <br />
 
@@ -453,11 +456,11 @@ const Terms = () => {
         <br />
         <br />
         Your access to and use of the Game or any Content is at your own risk.
-        You understand and agree that the Game is provided to you on an "AS IS"
-        and "AS AVAILABLE" basis. Without limiting the foregoing, the Company
-        Entities disclaim all warranties and conditions, whether express or
-        implied, of title, of merchantability, fitness for a particular purpose,
-        or non-infringement.
+        You understand and agree that the Game is provided to you on an
+        &ldquo;AS IS&rdquo; and &ldquo;AS AVAILABLE&rdquo; basis. Without
+        limiting the foregoing, the Company Entities disclaim all warranties and
+        conditions, whether express or implied, of title, of merchantability,
+        fitness for a particular purpose, or non-infringement.
         <br />
         <br />
         The Company Entities make no warranty and disclaim all responsibility
@@ -586,39 +589,43 @@ const Terms = () => {
         <br />
         11.4 Grievance Redressal
         <br />
-        <br />
-        In case you have any complaints or grievance pertaining to (i) any user
-        content that you believe violates these Terms (other than an
-        infringement of intellectual property rights) for the reporting
-        mechanism for such claims), (ii) your access to the Platform or (iii)
-        any user content which you believe is, in the nature of any material
-        which is obscene, defamatory towards the complainant or any person on
-        whose behalf you are making the complaint, or is in the nature of
-        impersonation in an electronic form, including artificially morphed
-        images of such individual, please share the same with us by writing to:
-        hello@capitalrush.gg
-        <br />
-        <br />
-        In your complaint or grievance, please include the following
-        information:
-        <br />
-        <br />
-        1. Your name and contact details: name, address, contact number and
-        email address;
-        <br />
-        2. Your relation to the subject matter of the complaint, i.e.
-        complainant or person acting on behalf of an affected person;
-        <br />
-        3. The name and age of the person aggrieved or affected by the subject
-        matter of the complaint, in case your are acting on behalf of such
-        person and a statement, under penalty of perjury, that you are
-        authorised to act on behalf of such person and to provide such person's
-        personal information to us in relation to the complaint/grievance;
-        <br />
-        4. Description of the complaint or grievance with clear identification
-        of the user content in relation to which such complaint or grievance is
-        made;
-        <br />
+        <p>
+          In case you have any complaints or grievance pertaining to (i) any
+          user content that you believe violates these Terms (other than an
+          infringement of intellectual property rights) for the reporting
+          mechanism for such claims), (ii) your access to the Platform or (iii)
+          any user content which you believe is, in the nature of any material
+          which is obscene, defamatory towards the complainant or any person on
+          whose behalf you are making the complaint, or is in the nature of
+          impersonation in an electronic form, including artificially morphed
+          images of such individual, please share the same with us by writing
+          to:
+          <a href="mailto:hello@capitalrush.gg">hello@capitalrush.gg</a>
+        </p>
+        <p>
+          <br />
+          <br />
+          In your complaint or grievance, please include the following
+          information:
+          <br />
+          <br />
+          1. Your name and contact details: name, address, contact number and
+          email address;
+          <br />
+          2. Your relation to the subject matter of the complaint, i.e.
+          complainant or person acting on behalf of an affected person;
+          <br />
+          3. The name and age of the person aggrieved or affected by the subject
+          matter of the complaint, in case you are acting on behalf of such
+          person and a statement, under penalty of perjury, that you are
+          authorised to act on behalf of such person and to provide such
+          person's personal information to us in relation to the
+          complaint/grievance;
+          <br />
+          4. Description of the complaint or grievance with clear identification
+          of the user content in relation to which such complaint or grievance
+          is made;
+        </p>
         5. A statement that you believe, in good faith, that the user content
         violates these Terms
         <br />
@@ -765,32 +772,33 @@ const Terms = () => {
       </div>
       <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Multipliers determine the rate of return on investments. Strategic
-        allocation is essential for maximizing returns. Rate of return= Market
-        Return x Asset Multiplier For example market goes up by 1% and the
-        multiplier of the asset invested is 5 Rate of return = 1 x 5 = 5% (Asset
-        will increase by 5%) Wherever there are decimal values, it’s rounded off
-        by 2 digits.
+        allocation is essential for maximizing returns. Rate of return = Market
+        Return x Asset Multiplier. For example, if the market goes up by 1% and
+        the multiplier of the asset invested is 5, the Rate of return = 1 x 5 =
+        5% (Asset will increase by 5%). Wherever there are decimal values,
+        it&rsquo;s rounded off by 2 digits.
       </div>
       <br />
       <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         In-game questions:
       </div>
-      <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        In-game questions test players' knowledge and offer rewards i.e.
+      <div className="self-start mx-10 mb:-mt-1 my-1 text-left z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        In-game questions test players knowledge and offer rewards i.e.
         additional Capital Dollars.
       </div>
       <br />
-      <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      <div className="self-start mx-10 text-left z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Performance Assessment:
       </div>
-      <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        Net worth is calculated at the end of each game. Player's net worth is
+      <div className="self-start mx-10 mb:-mt-1 my-1 text-left z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+        Net worth is calculated at the end of each game. Players net worth is
         the sum of their invested amount and cash balance.
       </div>
       <br />
-      <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      <div className="self-start mx-10 text-left z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Utilizing Real-Life Scenarios as Game Events to Enhance Portfolio Growth
       </div>
+
       <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Within the game, we incorporate real-life scenarios termed as "events"
         that guide players in allocating resources and navigating market
@@ -803,7 +811,7 @@ const Terms = () => {
       <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Navigating Surprise Events: Decisive Choices in an Unpredictable Market
       </div>
-      <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      <div className="self-start mx-10 mb:-mt-1 my-1 text-left z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         In Surprise Events, players face a challenging situation and they are
         given 30 seconds to allocate their portfolios according to the Surprise
         event. These events require players to make swift decisions, mirroring
@@ -811,19 +819,20 @@ const Terms = () => {
         adapt quickly, enhancing their ability to handle unexpected situations.
       </div>
       <br />
-      <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
+      <div className="self-start mx-10 text-left z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
         Inflation's Impact: Asset Valuations Adjusting to Economic Realities
         Annually
       </div>
-      <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
+      <div className="self-start mx-10 mb:-mt-1 my-1 text-left z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Recognizing the pervasive nature of inflation, the game incorporates its
         effects on asset values at the close of each year. This mirrors the
-        reality where assets' worth can be influenced by inflation.Inflation
-        rate will be obtained by the number that comes on the wheel at end of
-        every year is taken as the rate of inflation and value of assets change
-        accordingly.Players learn to manage and adapt their portfolios in
-        response to this economic factor. Inflation impact as follows:
+        reality where assets worth can be influenced by inflation. Inflation
+        rate will be obtained by the number that comes on the wheel at the end
+        of every year, taken as the rate of inflation, and the value of assets
+        change accordingly. Players learn to manage and adapt their portfolios
+        in response to this economic factor. Inflation impact as follows:
       </div>
+
       <br />
       <div className="scale text-white font-quicksand opacity-70 text-[14px] mb:text-[24px]">
         <table

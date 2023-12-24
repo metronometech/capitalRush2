@@ -155,8 +155,9 @@ const CaurosalElemHome2 = () => {
               <br />
               Capital Rush brought fresh insights into finance, even for someone
               with years of experience. Exploring equity, mutual funds, and
-              venture capital scenarios, the game's risk-free environment
-              enhances learning about capital markets. <br />
+              venture capital scenarios, the game&apos;s risk-free environment
+              enhances learning about capital markets.
+              <br />
               {/* <span className="relative left-[170px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span> */}
@@ -176,7 +177,7 @@ const CaurosalElemHome2 = () => {
               <br />
               Capital Rush brought fresh insights into finance, even for someone
               with years of experience. Exploring equity, mutual funds, and
-              venture capital scenarios, the game's risk-free environment
+              venture capital scenarios, the game&apos;s risk-free environment
               enhances learning about capital markets.
               <br />
               {/* <span className="relative left-[87px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
