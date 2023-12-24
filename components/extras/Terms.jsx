@@ -452,7 +452,7 @@ const Terms = () => {
       <br />
 
       <div className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        10.1 Availability on "AS-IS" basis
+        10.1 Availability on &ldquo;AS-IS&rdquo; basis
         <br />
         <br />
         Your access to and use of the Game or any Content is at your own risk.
@@ -619,7 +619,7 @@ const Terms = () => {
           matter of the complaint, in case you are acting on behalf of such
           person and a statement, under penalty of perjury, that you are
           authorised to act on behalf of such person and to provide such
-          person's personal information to us in relation to the
+          person&apos;s personal information to us in relation to the
           complaint/grievance;
           <br />
           4. Description of the complaint or grievance with clear identification
@@ -800,12 +800,13 @@ const Terms = () => {
       </div>
 
       <div className=" self-start mx-10 mb:-mt-1 my-1 text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
-        Within the game, we incorporate real-life scenarios termed as "events"
-        that guide players in allocating resources and navigating market
-        opportunities strategically. Events impact the lucrativeness of the
-        assets (i.e. multipliers might increase or decrease according to the
-        event), the flow of the tiles (the number of green and red tiles in a
-        quarter) and the result of events might impact the asset values as well.
+        Within the game, we incorporate real-life scenarios termed as
+        &ldquo;events&rdquo; that guide players in allocating resources and
+        navigating market opportunities strategically. Events impact the
+        lucrativeness of the assets (i.e. multipliers might increase or decrease
+        according to the event), the flow of the tiles (the number of green and
+        red tiles in a quarter) and the result of events might impact the asset
+        values as well.
       </div>
       <br />
       <div className=" self-start mx-10  text-left  z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
@@ -820,8 +821,8 @@ const Terms = () => {
       </div>
       <br />
       <div className="self-start mx-10 text-left z-30 text-white my-6 font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-        Inflation's Impact: Asset Valuations Adjusting to Economic Realities
-        Annually
+        Inflation&rsquo;s Impact: Asset Valuations Adjusting to Economic
+        Realities Annually
       </div>
       <div className="self-start mx-10 mb:-mt-1 my-1 text-left z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         Recognizing the pervasive nature of inflation, the game incorporates its
