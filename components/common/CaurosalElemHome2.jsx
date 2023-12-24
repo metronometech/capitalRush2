@@ -71,7 +71,11 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
-Capital Rush is a valuable app for both young learners and those curious about finance. It not only enhances knowledge in trading and investing but also sparks curiosity to delve deeper into the intricacies of finance.<br />
+              Capital Rush is a valuable app for both young learners and those
+              curious about finance. It not only enhances knowledge in trading
+              and investing but also sparks curiosity to delve deeper into the
+              intricacies of finance.
+              <br />
               {/* <span className="relative left-[95px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span> */}
@@ -83,14 +87,17 @@ Capital Rush is a valuable app for both young learners and those curious about f
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left mx-4 -ml-1 text-white font-quicksand leading-tight text-[11px]">
+            <p className=" text-center mx-4 -ml-1 text-white font-quicksand leading-tight text-[14px]">
               {/* <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
               <span className="  ">
-              Capital Rush is a valuable app for both young learners and those curious about finance. It not only enhances knowledge in trading and investing but also sparks curiosity to delve deeper into the intricacies of finance.
+                Capital Rush is a valuable app for both young learners and those
+                curious about finance. It not only enhances knowledge in trading
+                and investing but also sparks curiosity to delve deeper into the
+                intricacies of finance.
               </span>
               <br />
               {/* <span className="relative left-[95px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
@@ -100,7 +107,7 @@ Capital Rush is a valuable app for both young learners and those curious about f
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative bottom-[85px]"
+                className=" relative bottom-[25px]"
                 src="/testimonial/t1.png"
                 height={300}
                 width={300}
@@ -146,8 +153,10 @@ Capital Rush is a valuable app for both young learners and those curious about f
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
-
-              Capital Rush brought fresh insights into finance, even for someone with years of experience. Exploring equity, mutual funds, and venture capital scenarios, the game's risk-free environment enhances learning about capital markets. <br />
+              Capital Rush brought fresh insights into finance, even for someone
+              with years of experience. Exploring equity, mutual funds, and
+              venture capital scenarios, the game's risk-free environment
+              enhances learning about capital markets. <br />
               {/* <span className="relative left-[170px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
               </span> */}
@@ -159,14 +168,16 @@ Capital Rush is a valuable app for both young learners and those curious about f
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[22px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left  text-white font-quicksand leading-tight text-[11px]">
+            <p className=" text-center  text-white font-quicksand leading-tight text-[14px]">
               {/* <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
-
-              Capital Rush brought fresh insights into finance, even for someone with years of experience. Exploring equity, mutual funds, and venture capital scenarios, the game's risk-free environment enhances learning about capital markets.
+              Capital Rush brought fresh insights into finance, even for someone
+              with years of experience. Exploring equity, mutual funds, and
+              venture capital scenarios, the game's risk-free environment
+              enhances learning about capital markets.
               <br />
               {/* <span className="relative left-[87px] bottom-[15px] font-beatrice text-[16px] font-semibold text-[yellow]">
                 ,,
@@ -175,7 +186,7 @@ Capital Rush is a valuable app for both young learners and those curious about f
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative bottom-[80px]"
+                className=" relative bottom-[20px]"
                 src="/testimonial/t2.png"
                 height={300}
                 width={300}
@@ -236,7 +247,7 @@ Capital Rush is a valuable app for both young learners and those curious about f
             <h2 className="  leading-tight  mb-8 mt-5 whitespace-nowrap text-white text-[24px] ">
               People are Saying About <br /> Capital Rush
             </h2>
-            <p className=" text-left ml-4 text-white font-quicksand leading-tight text-[11px]">
+            <p className=" text-center ml-4 text-white font-quicksand leading-tight text-[14px]">
               {/* <span className="relative top-[12px] right-[14px] font-beatrice text-[16px] font-semibold text-[yellow] ">
                 {" "}
                 &#x201B;&#x201B;{" "}
@@ -253,7 +264,7 @@ Capital Rush is a valuable app for both young learners and those curious about f
             <div>
               <Image
                 alt="carosal-Home-sectionImage"
-                className=" relative bottom-[60px]"
+                className=" relative bottom-[40px]"
                 src="/testimonial/t3.png"
                 height={350}
                 width={330}

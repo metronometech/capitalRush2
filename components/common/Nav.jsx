@@ -106,7 +106,7 @@ const Nav = ({ variant, link }) => {
           </ul>
         </div>
         <Popup isOpen={isModalOpen} onClose={closeModal} />
-        <div className="z-40 -mt-1 ">
+        {/* <div className="z-40 -mt-1 ">
           <Link className=" no-underline" s href="#">
             <button
               onClick={openModal}
@@ -117,7 +117,7 @@ const Nav = ({ variant, link }) => {
               <span className="button-text-shadow ">PLAY NOW</span>
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

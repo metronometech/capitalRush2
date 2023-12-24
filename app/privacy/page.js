@@ -11,7 +11,12 @@ export const metadata = {
 const page = () => {
   return (
     <div className="pt-8 bg-[#100B26] ">
-      <Nav2 />
+       <div className=" hidden md:block mb-20">
+          <Nav2 />
+        </div>
+        <div className="-mt-8 block md:hidden">
+          <Nav2 variant="mobile" />
+        </div>
       <Privacy />
       <Footer />
     </div>

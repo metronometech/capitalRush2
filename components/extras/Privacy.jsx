@@ -9,6 +9,9 @@ const Privacy = () => {
       localStorage.setItem("isTermsLoad", "false");
       window.location.reload();
     }
+    setTimeout(() => {
+      localStorage.removeItem("isTermsLoad");
+    }, 6000);
   });
 
   return (

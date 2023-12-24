@@ -41,7 +41,7 @@ const Home3 = ({ link }) => {
           <h2 className=" whitespace-nowrap mx-2  mb:mx-28 leading-tight mb-8 text-white text-[32px] mb:text-[50px] ">
             HOW IT WORKS?
           </h2>
-          <p className=" text-white font-medium -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
+          <p className=" text-white mb:mx-0 mx-8 font-medium -mt-5 font-quicksand leading-normal text-[14px] mb:text-[20px]">
             Explore Capital Rush&apos;s immersive fusion of gaming and
             investing. Learn <br /> wealth management, trade assets, and grasp
             finance concepts risk-free
