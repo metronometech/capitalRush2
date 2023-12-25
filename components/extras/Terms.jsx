@@ -835,7 +835,7 @@ const Terms = () => {
       </div>
 
       <br />
-      <div className="scale text-white font-quicksand opacity-70 text-[14px] mb:text-[24px]">
+      <div className="scale text-white font-quicksand opacity-70 text-[12px] mb:text-[24px]">
         <table
           className="min-w-full text-center"
           style={{ border: "2px solid white" }}
