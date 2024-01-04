@@ -38,7 +38,7 @@ const Footer = () => {
               About
               </p>
             </Link>
-            <Link href="/blog" className=" no-underline">
+            <Link href="/blog/personal-finance" className=" no-underline">
               <p className=" mt-16 text-[16px] text-[#8D8D8D] font-quicksand">
               Blog
               </p>
