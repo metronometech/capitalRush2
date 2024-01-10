@@ -18,7 +18,6 @@ const faqs = FaqImport;
 const blogPosts = Blogs;
 
 const Blog2 = ({type}) => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [link, updatelink] = useState("/");
   
@@ -63,9 +62,9 @@ const Blog2 = ({type}) => {
 
   const [nav, updateNav] = useState(1);
   const [postData, setPostData] = useState(blogPosts[0]);
-  function handleNav(navNo) {
-    updateNav(navNo);
-  }
+  // function handleNav(navNo) {
+  //   updateNav(navNo);
+  // }
 
   useEffect(() => {
     updateNav(type)
@@ -77,6 +76,11 @@ const Blog2 = ({type}) => {
     setPostData(tempPost);
     // console.log("PostsData:",nav);
   }, [nav]);
+
+  function cleanString(str) {
+    return str.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-');
+}
+
 
   return (
     <div>
@@ -178,7 +182,7 @@ const Blog2 = ({type}) => {
           {/* Your link content */}
 
           <Link
-            href={`/blog/${nav}/${1}`}
+            href={`/blog/${mapingHeading[nav-1].name}/${encodeURIComponent(cleanString(blogPosts[nav - 1][0].blog_heading))}`}
             className="no-underline"
             target="blank"
           >
@@ -238,7 +242,8 @@ const Blog2 = ({type}) => {
                       data-aos="fade-up"
                       data-aos-delay="100"
                       data-aos-duration="600"
-                      href={`/blog/${item.tagid}/${item.Sno}`}
+                      // href={`/blog/${item.tagid}/${item.Sno}`}
+                      href={`/blog/${mapingHeading[nav-1].name}/${encodeURIComponent(cleanString(item?.blog_heading))}`}
                       className="no-underline"
                       target="blank"
                     >

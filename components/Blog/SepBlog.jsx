@@ -14,7 +14,7 @@ import { DownloadMsg } from "../helper/CommonMsg";
 
 const faqs = FaqImport;
 
-const SepBlog = ({ data, fullData }) => {
+const SepBlog = ({ data, fullData ,id }) => {
   console.log(data);
   console.log(fullData);
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -53,6 +53,11 @@ const SepBlog = ({ data, fullData }) => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  function cleanString(str) {
+    return str.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-');
+}
+
 
   const options = [
     "Personal Finance",
@@ -337,7 +342,7 @@ const SepBlog = ({ data, fullData }) => {
                         data-aos="fade-up"
                         data-aos-delay="100"
                         data-aos-duration="600"
-                        href={`/blog/${item.tagid}/${item.Sno}`}
+                        href={`/blog/${id}/${encodeURIComponent(cleanString(item?.blog_heading))}`}
                         className="no-underline"
                         target="blank"
                       >

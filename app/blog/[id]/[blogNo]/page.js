@@ -3,6 +3,8 @@ import "../../../pagemodule.css";
 import Nav2 from "@/components/common/Nav2";
 import SepBlog from "@/components/Blog/SepBlog";
 import Blogs from "@/components/helper/Blogs";
+import mapingHeading from "@/components/helper/HeadingMapper";
+
 
 export const metadata = {
   title: "Learn About Trading with Capital Rush Blogs",
@@ -13,19 +15,33 @@ export const metadata = {
 
 const page = ({params}) => {
 
-  const id=parseInt(params.id);
-  const blogNo=parseInt(params.blogNo);
-  console.log(id,blogNo)
-  const blogPosts=Blogs[id-1];
+  function cleanString(str) {
+    return str.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-');
+}
+
+  const id=(params.id);
+  const index = mapingHeading.findIndex(item => item.name === id);
+  console.log(index)
+  const selectedBlog=Blogs[index];
+
+  const blogNo=decodeURIComponent(params.blogNo);
+  console.log(id)
+  console.log(blogNo)
+  const blogPosts=Blogs[index];
   console.log(blogPosts)
-  const currentSection=blogPosts.filter((item)=>{
-    return item.tagid===id;
-  })
-  console.log(currentSection);
+  const currentSection=blogPosts;
+  // const currentSection=blogPosts.filter((item)=>{
+  //   return item.tagid===id;
+  // })
+  // console.log(currentSection);
   
-  const currentBlog = currentSection.filter((item)=>{
-    return item.Sno===blogNo;
+  const currentBlog = blogPosts.filter((item)=>{
+    console.log(cleanString(item.blog_heading))
+    console.log(blogNo)
+    return cleanString(item.blog_heading)===blogNo;
   })
+
+  console.log(currentBlog)
 
   // console.log(currentBlog);
 
@@ -37,7 +53,7 @@ const page = ({params}) => {
     <div className='pt-4 block md:hidden'>
         <Nav2 variant="mobile" />
     </div>
-        <SepBlog data={currentBlog[0]} fullData={currentSection}/>
+        <SepBlog data={currentBlog[0]} id={id} fullData={currentSection}/>
     </div>
   );
 };
