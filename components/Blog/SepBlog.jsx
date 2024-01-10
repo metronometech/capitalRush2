@@ -15,8 +15,6 @@ import { DownloadMsg } from "../helper/CommonMsg";
 const faqs = FaqImport;
 
 const SepBlog = ({ data, fullData ,id }) => {
-  console.log(data);
-  console.log(fullData);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [link, updatelink] = useState("/");

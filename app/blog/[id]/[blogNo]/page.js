@@ -21,27 +21,17 @@ const page = ({params}) => {
 
   const id=(params.id);
   const index = mapingHeading.findIndex(item => item.name === id);
-  console.log(index)
   const selectedBlog=Blogs[index];
 
   const blogNo=decodeURIComponent(params.blogNo);
-  console.log(id)
-  console.log(blogNo)
   const blogPosts=Blogs[index];
-  console.log(blogPosts)
   const currentSection=blogPosts;
-  // const currentSection=blogPosts.filter((item)=>{
-  //   return item.tagid===id;
-  // })
-  // console.log(currentSection);
   
   const currentBlog = blogPosts.filter((item)=>{
     console.log(cleanString(item.blog_heading))
-    console.log(blogNo)
     return cleanString(item.blog_heading)===blogNo;
   })
 
-  console.log(currentBlog)
 
   // console.log(currentBlog);
 
