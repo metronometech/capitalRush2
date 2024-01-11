@@ -3,6 +3,8 @@ import "../../../pagemodule.css";
 import Nav2 from "@/components/common/Nav2";
 import SepBlog from "@/components/Blog/SepBlog";
 import Blogs from "@/components/helper/Blogs";
+import mapingHeading from "@/components/helper/HeadingMapper";
+
 
 export const metadata = {
   title: "Learn About Trading with Capital Rush Blogs",
@@ -13,19 +15,23 @@ export const metadata = {
 
 const page = ({params}) => {
 
-  const id=parseInt(params.id);
-  const blogNo=parseInt(params.blogNo);
-  console.log(id,blogNo)
-  const blogPosts=Blogs[id-1];
-  console.log(blogPosts)
-  const currentSection=blogPosts.filter((item)=>{
-    return item.tagid===id;
-  })
-  console.log(currentSection);
+  function cleanString(str) {
+    return str.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-');
+}
+
+  const id=(params.id);
+  const index = mapingHeading.findIndex(item => item.name === id);
+  const selectedBlog=Blogs[index];
+
+  const blogNo=decodeURIComponent(params.blogNo);
+  const blogPosts=Blogs[index];
+  const currentSection=blogPosts;
   
-  const currentBlog = currentSection.filter((item)=>{
-    return item.Sno===blogNo;
+  const currentBlog = blogPosts.filter((item)=>{
+    console.log(cleanString(item.blog_heading))
+    return cleanString(item.blog_heading)===blogNo;
   })
+
 
   // console.log(currentBlog);
 
@@ -37,7 +43,7 @@ const page = ({params}) => {
     <div className='pt-4 block md:hidden'>
         <Nav2 variant="mobile" />
     </div>
-        <SepBlog data={currentBlog[0]} fullData={currentSection}/>
+        <SepBlog data={currentBlog[0]} id={id} fullData={currentSection}/>
     </div>
   );
 };

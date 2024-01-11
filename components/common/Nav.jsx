@@ -57,7 +57,7 @@ const Nav = ({ variant, link }) => {
                   Timeline
                 </li>
               </Link>
-              <Link href="/blog" className=" no-underline">
+              <Link href="/blog/personal-finance" className=" no-underline">
                 <li className="text-white text-[20px] whitespace-nowrap py-2 transform transition-transform ease-in-out duration-300 hover:text-yellow-300 hover:scale-105 z-50 opacity-70">
                   Blog
                 </li>
@@ -99,7 +99,7 @@ const Nav = ({ variant, link }) => {
               </a>
             </li>
             <li>
-              <a href="/blog">
+              <a href="/blog/personal-finance">
                 <button className="navItem ">Blog</button>
               </a>
             </li>

@@ -12,15 +12,15 @@ import { useEffect } from "react";
 import Popup from "../common/Popup";
 import FaqImport from "../helper/FaqImport";
 import Blogs from "../helper/Blogs";
+import mapingHeading from "../helper/HeadingMapper";
 
 const faqs = FaqImport;
 const blogPosts = Blogs;
 
-const Blog2 = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
+const Blog2 = ({type}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [link, updatelink] = useState("/");
-
+  
   
   const openModal = () => {
     setIsModalOpen(true);
@@ -62,16 +62,25 @@ const Blog2 = () => {
 
   const [nav, updateNav] = useState(1);
   const [postData, setPostData] = useState(blogPosts[0]);
-  function handleNav(navNo) {
-    updateNav(navNo);
-  }
+  // function handleNav(navNo) {
+  //   updateNav(navNo);
+  // }
+
+  useEffect(() => {
+    updateNav(type)
+  }, [type])
+  
 
   useEffect(() => {
     const tempPost = blogPosts[nav - 1];
     setPostData(tempPost);
-    console.log("PostsData:", postData);
     // console.log("PostsData:",nav);
   }, [nav]);
+
+  function cleanString(str) {
+    return str.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-');
+}
+
 
   return (
     <div>
@@ -82,38 +91,46 @@ const Blog2 = () => {
           data-aos-duration="1000"
           className="flex flex-col md:flex-row text-center md:mt-12 -mt-20 z-40 list-none gap-8 my-32 text-white"
         >
+        <Link href='/blog/personal-finance' style={{ textDecoration: 'none' }} >
           <li
-            onClick={() => handleNav(1)}
+            // onClick={() => handleNav(1)}
             className={`cursor-pointer font-bold leading-5 ${
               nav === 1 ? "nav_active" : ""
             }`}
           >
             {options[0]}
           </li>
+        </Link>
+        <Link href='/blog/Investing-Essentials-Guide' style={{ textDecoration: 'none' }} >
           <li
-            onClick={() => handleNav(2)}
+            // onClick={() => handleNav(2)}
             className={`cursor-pointer font-bold leading-5 ${
               nav === 2 ? "nav_active" : ""
             }`}
           >
             {options[1]}
           </li>
+          </Link>
+        <Link href='/blog/Investing-and-Funding' style={{ textDecoration: 'none' }} >
           <li
-            onClick={() => handleNav(3)}
+            // onClick={() => handleNav(3)}
             className={`cursor-pointer font-bold leading-5 ${
               nav === 3 ? "nav_active" : ""
             }`}
           >
             {options[2]}
           </li>
+          </Link>
+        <Link href='/blog/Revenue-and-Growth' style={{ textDecoration: 'none' }} >
           <li
-            onClick={() => handleNav(4)}
+            // onClick={() => handleNav(4)}
             className={`cursor-pointer font-bold leading-5 ${
               nav === 4 ? "nav_active" : ""
             }`}
           >
             {options[3]}
           </li>
+          </Link>
         </ul>
       </div>
 
@@ -165,7 +182,7 @@ const Blog2 = () => {
           {/* Your link content */}
 
           <Link
-            href={`/blog/${nav}/${1}`}
+            href={`/blog/${mapingHeading[nav-1].name}/${encodeURIComponent(cleanString(blogPosts[nav - 1][0].blog_heading))}`}
             className="no-underline"
             target="blank"
           >
@@ -225,7 +242,8 @@ const Blog2 = () => {
                       data-aos="fade-up"
                       data-aos-delay="100"
                       data-aos-duration="600"
-                      href={`/blog/${item.tagid}/${item.Sno}`}
+                      // href={`/blog/${item.tagid}/${item.Sno}`}
+                      href={`/blog/${mapingHeading[nav-1].name}/${encodeURIComponent(cleanString(item?.blog_heading))}`}
                       className="no-underline"
                       target="blank"
                     >
