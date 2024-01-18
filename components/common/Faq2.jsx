@@ -38,7 +38,7 @@ export default function Faq2({question,answer}) {
                 ref={contentRef}
                 className={active ? `answer  answer-divider` : ` answer `}
               >
-                <p className="">{answer}</p>
+                <p className="font-[14px]">{answer}</p>
               </div>
           </button>
         </div>

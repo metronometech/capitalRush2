@@ -23,7 +23,7 @@ const Privacy = () => {
         </span>
       </h1>
       <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand font-semibold opacity-70 text-[12px] mb:text-[20px]">
-        1. GENRAL
+        1. GENERAL
       </p>
       <p className=" self-start mx-10 my-4  text-left  z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
      1.1  Metronome Technologies Private Limited (“We”, “Us”, “Our”) is committed to the protection of

@@ -44,7 +44,7 @@ const BlogElem = ({ data, type, section }) => {
         <p className="text-[12px] font-bold leading-5 text-[#FAF51C]">
           {section}
         </p>
-        <h2 className="-mt-1 text-[22px] font-bold leading-10">
+        <h2 className="-mt-1 text-[30px] font-poppins font-bold leading-10">
           {data.blog_heading}
         </h2>
         <p className="-mt-1 text-[16px] text-[#B3B3B3] font-quicksand font-normal leading-6">
