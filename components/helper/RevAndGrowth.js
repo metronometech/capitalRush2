@@ -15,6 +15,13 @@ const revAndGrowth = [
     date: "20 NOV, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "RevAndGrowth 1",
+      description:
+        "Rev And Growth 1 metatags",
+      keywords:
+        "Keywords here",
+    },
     tableContent: [
       {
         key: "Understanding Data Analytics in Trading: Unveiling the Insights",
@@ -101,6 +108,13 @@ const revAndGrowth = [
     date: "20 NOV, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "RevAndGrowth 1",
+      description:
+        "Rev And Growth 1 metatags",
+      keywords:
+        "Keywords here",
+    },
     tableContent: [
       {
         key: "Trading Through the Ages",
@@ -182,6 +196,13 @@ const revAndGrowth = [
     date: "9 DEC, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "RevAndGrowth 1",
+      description:
+        "Rev And Growth 1 metatags",
+      keywords:
+        "Keywords here",
+    },
     tableContent: [
       {
         key: "Exploring Beyond Conventional Investments",

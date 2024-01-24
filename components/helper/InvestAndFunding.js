@@ -15,6 +15,11 @@ const InvestAndFunding = [
     date: "24 NOV, 2023",
     readTime: "",
     nameLink: "",
+    metatags: {
+      title: "Investing And Funding 1",
+      description: "Investing And Funding 1 metatags",
+      keywords: "Keywords here",
+    },
     tableContent: [
       {
         key: "Gamified Learning for Financial Mastery",
@@ -25,7 +30,6 @@ const InvestAndFunding = [
       {
         key: "Conclusion",
       },
-      
     ],
     notice:
       "Are you intrigued by the world of investing but find the jargon-filled textbooks and complicated graphs a bit overwhelming? Imagine if you could learn the basics of share market dynamics and investment strategies in a fun and interactive way. Enter the world of app invest - virtual trading games that offer a bridge between gaming and real-world investing. In this blog, we'll explore how these apps for virtual trading are transforming the way people perceive and learn about investing, focusing on the success stories of individuals who have seamlessly transitioned from playing trading games to achieving success in actual trading.",
@@ -95,7 +99,8 @@ const InvestAndFunding = [
     tagid: 3,
     Sno: 2,
     type: "Investing and Funding",
-    blog_heading: "Market Simulation: Stress Testing Your Trading Skills in Virtual Environments",
+    blog_heading:
+      "Market Simulation: Stress Testing Your Trading Skills in Virtual Environments",
     blog_subheading:
       "Are you intrigued by the labyrinthine world of the stock market? Does the thought of delving into share market dynamics both fascinate and intimidate you? If you're a beginner for the stock market, navigating through its intricacies can seem like a daunting task. But fear not, for there's an innovative and engaging solution that can transform this seemingly complex topic into an interactive and exciting learning experience. Welcome to the realm of trading and investment-based simulation games, where you can learn the ropes of trading while having fun!",
     thumbnail:
@@ -106,6 +111,11 @@ const InvestAndFunding = [
     date: "9 Dec, 2023",
     readTime: "",
     nameLink: "",
+    metatags: {
+      title: "Investing And Funding 1",
+      description: "Investing And Funding 1 metatags",
+      keywords: "Keywords here",
+    },
     tableContent: [
       {
         key: "Capital Rush: Turning Learning into an Adventure",
@@ -116,7 +126,6 @@ const InvestAndFunding = [
       {
         key: "Conclusion",
       },
-      
     ],
     notice:
       "Are you intrigued by the labyrinthine world of the stock market? Does the thought of delving into share market dynamics both fascinate and intimidate you? If you're a beginner for the stock market, navigating through its intricacies can seem like a daunting task. But fear not, for there's an innovative and engaging solution that can transform this seemingly complex topic into an interactive and exciting learning experience. Welcome to the realm of trading and investment-based simulation games, where you can learn the ropes of trading while having fun.",
@@ -219,7 +228,7 @@ const InvestAndFunding = [
   //     {
   //       key: "Additional things to keep in mind",
   //     },
-      
+
   //   ],
   //   notice:
   //     "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
@@ -291,7 +300,7 @@ const InvestAndFunding = [
   //     {
   //       key: "Additional things to keep in mind",
   //     },
-      
+
   //   ],
   //   notice:
   //     "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
@@ -363,7 +372,7 @@ const InvestAndFunding = [
   //     {
   //       key: "Additional things to keep in mind",
   //     },
-      
+
   //   ],
   //   notice:
   //     "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
@@ -435,7 +444,7 @@ const InvestAndFunding = [
   //     {
   //       key: "Additional things to keep in mind",
   //     },
-      
+
   //   ],
   //   notice:
   //     "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
@@ -507,7 +516,7 @@ const InvestAndFunding = [
   //     {
   //       key: "Additional things to keep in mind",
   //     },
-      
+
   //   ],
   //   notice:
   //     "If . your email doesn’t reach the inbox of the recipient, your campaign will be doomed to fail. No prospect will interact with your content, no matter how great it is. That’s why you need to check three essential technical settings before scheduling the first shipment.",
