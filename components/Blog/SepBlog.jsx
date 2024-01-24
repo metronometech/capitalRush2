@@ -202,7 +202,7 @@ const SepBlog = ({ data, fullData ,id }) => {
                   data-aos="fade-up"
                   data-aos-delay="200"
                   data-aos-duration="800"
-                  className="bg-gradient-to-t from-[#df853c] font-poppins text-[22px] mb:text-[40px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
+                  className="bg-gradient-to-t from-[#df853c] font-poppins text-[22px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
                 >
                   {element.heading.split(" ").slice(0, 4).join(" ")} <br />
                   {element.heading.split(" ").slice(4).join(" ")}
@@ -214,11 +214,11 @@ const SepBlog = ({ data, fullData ,id }) => {
                         data-aos="fade-up"
                         data-aos-delay="200"
                         data-aos-duration="800"
-                        className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
+                        className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[22px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
                       >
                         {/* {elem.heading} */}
                         <div
-                          className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[32px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
+                          className="bg-gradient-to-t from-[#df853c] font-poppins text-[18px] mb:text-[22px] mb:leading-[52px]  to-[#FAF51C] text-transparent bg-clip-text"
                           dangerouslySetInnerHTML={{ __html: elem.heading }}
                         />
                       </h2>

@@ -14,6 +14,13 @@ const PersonalFinance = [
     date: "17 NOV, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "persoanl Finance 1",
+      description:
+        "Personal finance 1 metatags",
+      keywords:
+        "Keywords here",
+    },
     tableContent: [
       {
         key: "Advantages of Trading and Investing Games",
@@ -140,6 +147,13 @@ const PersonalFinance = [
     date: "18 NOV, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "Title here personal finance",
+      description:
+        "Description here Personal Finance",
+      keywords:
+        "Keywords here Personal   ",
+    },
     tableContent: [
       {
         key: "Capital Rush: Revolutionizing Financial Education",
@@ -281,6 +295,13 @@ const PersonalFinance = [
     date: "9 DEC, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "Title here personal finance",
+      description:
+        "Description here Personal Finance",
+      keywords:
+        "Keywords here Personal   ",
+    },
     tableContent: [
       {
         key: "Capital Rush: A Game-Changer in Stock Market Education",
@@ -392,6 +413,13 @@ const PersonalFinance = [
     date: "9 DEC, 2023",
     readTime: "",
     nameLink: "",
+    metatags:{
+      title: "Title here personal finance",
+      description:
+        "Description here Personal Finance",
+      keywords:
+        "Keywords here Personal   ",
+    },
     tableContent: [
       {
         key: "Stock Analysis: A Methodical Approach",
