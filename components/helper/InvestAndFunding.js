@@ -16,9 +16,9 @@ const InvestAndFunding = [
     readTime: "",
     nameLink: "",
     metatags: {
-      title: "Investing And Funding 1",
-      description: "Investing And Funding 1 metatags",
-      keywords: "Keywords here",
+      title: "Unlocking Investment Success: Learn the Basics through Virtual Trading Apps",
+      description: "Interactive games pave the way for real-world investment achievements. Explore success stories of individuals who transitioned from virtual trading games to becoming successful traders",
+      keywords: "apps for virtual trading, app invest",
     },
     tableContent: [
       {
