@@ -15,9 +15,9 @@ const investingEss = [
     date: "18 NOV, 2023",
     readTime: "",
     metatags: {
-      title: "InvestingEss 1",
-      description: "InvestingEss 1 metatags",
-      keywords: "Keywords here",
+      title: "Role Of Trading Games in Enhancement of Decision Making Skills at Capital Rush",
+      description: "Discover the transformative power of stock trading games in fostering emotional intelligence, and honing decision-making skills under high-pressure situations.",
+      keywords: "stock market games,  best trading course in India. learn about Stock market and trading",
     },
     tableContent: [
       {
@@ -123,9 +123,9 @@ const investingEss = [
     date: "20 NOV, 2023",
     readTime: "",
     metatags: {
-      title: "InvestingEss 1",
-      description: "InvestingEss 1 metatags",
-      keywords: "Keywords here",
+      title: "Simulating Real-world Trading Techniques in Trading Games at Capital Rush",
+      description: "From day trading to value investing, learn how these methods can be effectively simulated and honed through trading games.",
+      keywords: "in stock market, stock market is, best stock for investment",
     },
     nameLink: "",
     tableContent: [
@@ -219,9 +219,9 @@ const investingEss = [
     date: "9 DEC, 2023",
     readTime: "",
     metatags: {
-      title: "InvestingEss 1",
-      description: "InvestingEss 1 metatags",
-      keywords: "Keywords here",
+      title: "Deciphering Value vs Growth Investing: Finding Your Ideal Investment Strategy",
+      description: "Explore the distinctions between value and growth investing approaches in this article. Discover how each strategy suits diverse investment goals and risk thresholds",
+      keywords: "information about share market, invest in market ",
     },
     nameLink: "",
     tableContent: [

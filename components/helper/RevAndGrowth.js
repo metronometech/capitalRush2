@@ -16,11 +16,11 @@ const revAndGrowth = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "RevAndGrowth 1",
+      title: "Unveiling the Power of Data Analytics & Technical Analysis in Trading Games",
       description:
-        "Rev And Growth 1 metatags",
+        "The pivotal role of data analytics & technical analysis in shaping trading decisions. Explore how these essential concepts are seamlessly integrated into trading games",
       keywords:
-        "Keywords here",
+        "Best stocks for investment, best app for trading India",
     },
     tableContent: [
       {
@@ -109,11 +109,11 @@ const revAndGrowth = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "RevAndGrowth 1",
+      title: "Evolution of Trading Games: From Ancient Roots to Modern Realities | Capital Rush",
       description:
-        "Rev And Growth 1 metatags",
+        "Embark on a captivating historical exploration of the evolution of trading games, tracing their origins to ancient times and tracing their modern manifestations.",
       keywords:
-        "Keywords here",
+        "best trading course in India, best stock trading app for beginners in India, free course on stock market",
     },
     tableContent: [
       {
@@ -197,11 +197,11 @@ const revAndGrowth = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "RevAndGrowth 1",
+      title: "Exploring Diversification: Unveiling the Potential of Alternative Investments",
       description:
-        "Rev And Growth 1 metatags",
+        "Learn about alternative investments, including real estate, commodities, and cryptocurrencies. Learn how these options can effectively diversify investment portfolios, reducing risk and opening doors to new opportunities.",
       keywords:
-        "Keywords here",
+        "share market how to start, market trading, knowledge about share market, invest in market",
     },
     tableContent: [
       {

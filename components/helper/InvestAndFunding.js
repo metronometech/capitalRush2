@@ -112,9 +112,9 @@ const InvestAndFunding = [
     readTime: "",
     nameLink: "",
     metatags: {
-      title: "Investing And Funding 1",
-      description: "Investing And Funding 1 metatags",
-      keywords: "Keywords here",
+      title: "Mastering the Markets: How Investing Games Enhance Strategy Preparedness",
+      description: "Explore how these simulations enable users to navigate diverse market scenarios, stress-test their approaches, and develop resilience for dynamic market conditions.",
+      keywords: "about share market, about stock market, best course for stock market, beginner for stock market",
     },
     tableContent: [
       {

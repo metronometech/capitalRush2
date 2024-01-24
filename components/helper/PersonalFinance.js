@@ -15,11 +15,11 @@ const PersonalFinance = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "persoanl Finance 1",
+      title: "Exploring Stock Trading & Investment through Virtual Games at Capital Rush",
       description:
-        "Personal finance 1 metatags",
+        "Uncover the advantages, mechanics, and educational value of stock trading games as practical tools for newcomers to learn the ropes of trading and investing",
       keywords:
-        "Keywords here",
+        "best stocks for investment, stock market",
     },
     tableContent: [
       {
@@ -148,11 +148,11 @@ const PersonalFinance = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "Title here personal finance",
+      title: "Mastering Capital Rush: Strategies for a understanding with Capital Rush",
       description:
-        "Description here Personal Finance",
+        "Understanding of Various components and strategies at Capital Rush along with learning outcomes also personalize the gaming with investing and trading",
       keywords:
-        "Keywords here Personal   ",
+        "app for trade, best app for stock market, best app for trading india, app for online trading, basics of share market",
     },
     tableContent: [
       {
@@ -296,11 +296,11 @@ const PersonalFinance = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "Title here personal finance",
+      title: "Exploring Stock Trading & Investment through Virtual Games with Capital Rush",
       description:
-        "Description here Personal Finance",
+        "Explains the utility of Capital Rush for practising Investment and understanding the utility of risk return and trade off without actually risking out your hard earned money",
       keywords:
-        "Keywords here Personal   ",
+        "beginner stock market course, best app for investment, best share price, best stock market course in india, best app for stock trading in india",
     },
     tableContent: [
       {
@@ -414,11 +414,11 @@ const PersonalFinance = [
     readTime: "",
     nameLink: "",
     metatags:{
-      title: "Title here personal finance",
+      title: "Exploring Personal Finance to analyse the stocks | Capital Rush",
       description:
-        "Description here Personal Finance",
+        "Interprets the utility of becoming stock analyst and guides you to understand the basic principles of Investing through examples",
       keywords:
-        "Keywords here Personal   ",
+        "invest to stock market, stock market in India, share market tips, beginner for stock market",
     },
     tableContent: [
       {
