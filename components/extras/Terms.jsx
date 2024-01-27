@@ -450,7 +450,7 @@ const Terms = () => {
         &ldquo;Company Entities&rdquo;).
       </div>
       <br />
-
+      <br />
       <div className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         10.1 Availability on &ldquo;AS-IS&rdquo; basis
         <br />
@@ -496,6 +496,7 @@ const Terms = () => {
         data that results from the download of such material or data.
         <br />
         <br />
+        <br />
       </div>
       <div className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         10.2 Links
@@ -512,6 +513,7 @@ const Terms = () => {
         arising from your use of any such websites or resources.
         <br />
         <br />
+        <br />
       </div>
       <div className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         10.3 Limitation of Liability
@@ -526,6 +528,7 @@ const Terms = () => {
         on the Platform; or (iii) unauthorized access, use or alteration of your
         transmissions or content. <br />
       </div>
+      <br />
       <br />
       <div className=" self-start mx-10 text-left -mt-4 z-30 text-white font-quicksand opacity-70 text-[12px] mb:text-[20px]">
         10.4 Violation of Terms
@@ -599,8 +602,7 @@ const Terms = () => {
           whose behalf you are making the complaint, or is in the nature of
           impersonation in an electronic form, including artificially morphed
           images of such individual, please share the same with us by writing
-          to:
-          <a href="mailto:hello@capitalrush.gg">hello@capitalrush.gg</a>
+          to: hello@capitalrush.gg
         </p>
         <p>
           <br />
@@ -1501,7 +1503,21 @@ const Terms = () => {
                   style={{ border: "2px solid white" }}
                   className="px-6 py-4 whitespace-nowrap"
                 >
-                  5 to 25
+                  1 to 10
+                </td>
+                <td
+                  style={{ border: "2px solid white" }}
+                  className="px-6 py-4 whitespace-nowrap"
+                >
+                  5%
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style={{ border: "2px solid white" }}
+                  className="px-6 py-4 whitespace-nowrap"
+                >
+                  11 to 50
                 </td>
                 <td
                   style={{ border: "2px solid white" }}
@@ -1515,27 +1531,13 @@ const Terms = () => {
                   style={{ border: "2px solid white" }}
                   className="px-6 py-4 whitespace-nowrap"
                 >
-                  26 to 50
-                </td>
-                <td
-                  style={{ border: "2px solid white" }}
-                  className="px-6 py-4 whitespace-nowrap"
-                >
-                  20%
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{ border: "2px solid white" }}
-                  className="px-6 py-4 whitespace-nowrap"
-                >
                   51 to 100
                 </td>
                 <td
                   style={{ border: "2px solid white" }}
                   className="px-6 py-4 whitespace-nowrap"
                 >
-                  30%
+                  15%
                 </td>
               </tr>
             </tbody>
