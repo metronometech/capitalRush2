@@ -5,9 +5,9 @@ import Blog1 from "@/components/Blog/Blog1";
 import Blog2 from "@/components/Blog/Blog2";
 
 export const metadata = {
-  title: "Learn About Trading with Capital Rush Blogs",
-  description: "Introduce readers to alternative investments such as real estate, commodities, and cryptocurrencies, highlighting their role in diversifying portfolios.",
-  keywords:"share market how to start, market trading, knowledge about share market, invest in market"
+  title: "Learn Trading with Fun | Capital Rush | About Us",
+  description: "Introduce readers to investments such as real estate, commodities, and cryptocurrencies, highlighting their role in diversifying portfolios.",
+  keywords:"stock market games, best app for investment & trading, beginer for stock market, knowledge about share market"
 };
 
 
