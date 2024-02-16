@@ -233,9 +233,9 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
-              I am very helped by this E-wallet application , my <br />
-              days are very easy to use this application and its
-              <br /> very helpful in my life , even I can pay a short time{" "}
+              The app's user-friendly UI and useful features have really pleased me <br />
+              since I just recently downloaded it. Anyone looking for a trustworthy
+              <br />  and effective method to learn trading and investing in an interactive approach should definitely check it out. {" "}
               <br />
               {/* <span className="relative left-[518px] bottom-[40px] font-beatrice text-[44px] font-semibold text-[yellow]">
                 ,,
