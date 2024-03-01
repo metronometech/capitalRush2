@@ -832,7 +832,7 @@ const Terms = () => {
         reality where assets worth can be influenced by inflation. Inflation
         rate will be obtained by the number that comes on the wheel at the end
         of every year, taken as the rate of inflation, and the value of assets
-        change accordingly. Players learn to manage and adapt their portfolios
+        change accordingly. The inflation wheel is for 5 year journey, not for one year journey or contest. Players learn to manage and adapt their portfolios
         in response to this economic factor. Inflation impact as follows:
       </div>
 
