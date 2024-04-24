@@ -233,7 +233,7 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
-              The app's user-friendly UI and useful features have really pleased me 
+              The app&apos;s user-friendly UI and useful features have really pleased me 
               since I just recently downloaded it. Anyone looking for a trustworthy
               and effective method to learn trading and investing in an interactive approach should definitely check it out. {" "}
               <br />
@@ -254,7 +254,7 @@ const CaurosalElemHome2 = () => {
                 &#x201B;&#x201B;{" "}
               </span> */}
               <br />
-              The app's user-friendly UI and useful features have really pleased me <br />
+              The app&apos;s user-friendly UI and useful features have really pleased me <br />
               since I just recently downloaded it. Anyone looking for a trustworthy
               <br />  and effective method to learn trading and investing in an interactive approach should definitely check it out. {" "}
               <br />
