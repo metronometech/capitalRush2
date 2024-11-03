@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   function openUnityDeepLink(contestId) {
-    const unityLink = `CaptialRush://ContestShare?${contestId}`;
+    const unityLink = `CapitalRush://ContestShare?${contestId}`;
     window.location.href = unityLink;
     setShowOverlay(false); // Remove overlay after clicking
   }
