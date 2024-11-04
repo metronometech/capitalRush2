@@ -23,11 +23,9 @@ export default function Home() {
   }
 
   function openUnityDeepLink(contestId) {
-    const unityLink = `http://www.capitalrush.io/?${contestId}`;
-    
+    const unityLink = `http://capitalrush.io/?${contestId}`;
     const fallbackLink = "https://play.google.com/store/apps/details?id=com.metronome.capital";
     
-    capital://
     // Record start time
     const startTime = Date.now();
   
