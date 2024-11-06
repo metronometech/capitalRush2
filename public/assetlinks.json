@@ -1,8 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.blazongame.deeplink",
-    "sha256_cert_fingerprints": ["A9:8A:DD:3C:CC:CB:35:EB:58:78:53:BB:2F:A6:D0:71:A5:14:D3:13:7C:B6:D9:33:BB:9F:C2:63:35:3E:3D:54"]
-  }
-}]
