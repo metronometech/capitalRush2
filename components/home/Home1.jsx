@@ -25,7 +25,7 @@ const Home1 = () => {
     // Check for Android
     else if (/android/i.test(userAgent)) {
         // document.getElementById('playStoreLink').href = 'https://play.google.com/store/apps/details?id=com.yourapp.package'; // Replace with your actual Play Store link
-        updatelink("https://play.google.com/store/apps/details?id=com.metronome.capital")
+        updatelink("https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media")
     }
 }
 
@@ -59,6 +59,22 @@ useEffect(() => {
             Experience financial markets like never before
           </p>
           <div className="hidden mb:flex justify-center mt-4 mb:mt-12 gap-6 ml-6 mr-10">
+          <div className="border-1 -mt-12 mb:mt-0 border-white cursor-pointer flex items-center justify-center ">
+              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media" target="blank">
+                <Image
+                  src="/svg/downloadButt.svg"
+                  alt="SVG Image"
+                  width={280}
+                  height={280}
+                  layout="responsive"
+                  objectFit="cover"
+                  className="  hzoom1"
+                />
+              </Link>
+          </div>
+          </div>
+            
+          <div className="hidden mb:flex justify-center">
             <div className=" cursor-pointer flex items-center justify-center flex-col ">
               <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000" href="https://apps.apple.com/in/app/capital-rush/id1615705403" target="blank">
                 <Image
@@ -72,19 +88,7 @@ useEffect(() => {
                 />
               </Link>
             </div>
-            <div className="border-1 -mt-12 mb:mt-0 border-white cursor-pointer flex items-center justify-center ">
-              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
-                <Image
-                  src="/svg/android.svg"
-                  alt="SVG Image"
-                  width={280}
-                  height={280}
-                  layout="responsive"
-                  objectFit="cover"
-                  className="  hzoom1"
-                />
-              </Link>
-            </div>
+            
             <div className="mb:ml-8  cursor-pointer flex items-center justify-center ">
               <Link data-aos="zoom-in" data-aos-delay="220"  data-aos-duration="1000" href="https://www.youtube.com/watch?v=zcEQPGe73sM">
                 <Image
@@ -100,10 +104,25 @@ useEffect(() => {
             </div>
           </div>
           
-          
           <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-4">
-            <div className=" cursor-pointer flex  gap-2 flex-col ">
+            <div className=" cursor-pointer flex flex-col ">
              <div className="-ml-[50px] flex justify-center">
+             <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media" target="blank">
+                <Image
+                  src="/svg/downloadButt.svg"
+                  alt="SVG Image"
+                  width={180}
+                  height={80}
+                  layout="responsive"
+                  className="mt-5 ml-3 hzoom1 scale-75"
+                />
+              </Link>
+              </div></div>
+             </div>
+          
+          <div className="flex flex-col mb:hidden justify-center gap-4">
+            <div className=" cursor-pointer flex flex-col ">
+             <div className="-ml-[40px] flex justify-center">
               <Link data-aos="zoom-in" data-aos-delay="120"  data-aos-duration="1000"  href="https://apps.apple.com/in/app/capital-rush/id1615705403" target="blank">
                 <Image
                   src="/svg/apple.svg"
@@ -111,20 +130,9 @@ useEffect(() => {
                   width={180}
                   height={80}
                   layout="responsive"
-                  className="mt-4 ml-3 hzoom1 scale-75"
+                  className="-mt-[30px] ml-2 hzoom1 scale-75"
                 />
               </Link>
-              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://play.google.com/store/apps/details?id=com.metronome.capital" target="blank">
-                <Image
-                  src="/svg/android.svg"
-                  alt="SVG Image"
-                  width={180}
-                  height={80}
-                  layout="responsive"
-                  className="hzoom1 mt-[47px] -ml-[55px]"
-                />
-              </Link>
-
              </div>
             </div>
             <div className="mb:ml-8 mg:mt-0 -mt-16 cursor-pointer flex items-center justify-center ">
@@ -134,7 +142,7 @@ useEffect(() => {
                   alt="SVG Image"
                   width={180}
                   height={80}
-                  className="hzoom1"
+                  className="-ml-[25px] hzoom1"
                 />
               </Link>
             </div>

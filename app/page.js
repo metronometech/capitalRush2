@@ -18,7 +18,7 @@ export default function Home() {
     } 
     // Check for Android
     else if (/android/i.test(userAgent)) {
-      updateLink("https://play.google.com/store/apps/details?id=com.metronome.capital");
+      updateLink("https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media");
     }
   }
 
@@ -37,10 +37,10 @@ export default function Home() {
     if (isIOS) {
       fallbackLink = "https://apps.apple.com/in/app/capital-rush/id1615705403";
     } else if (isAndroid || isWindows) {
-      fallbackLink = "https://play.google.com/store/apps/details?id=com.metronome.capital";
+      fallbackLink = "https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media";
     } else {
       // Default link in case the device is not recognized
-      fallbackLink = "https://www.metronome.com/capital-rush";
+      fallbackLink = "https://www.capitalrush.io";
     }
   
     window.location.href = fallbackLink;

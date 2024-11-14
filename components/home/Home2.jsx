@@ -58,7 +58,7 @@ const Home2 = ({ link }) => {
           <div className="z-40 -mt-5 text-center ">
             <Popup isOpen={isModalOpen} onClose={closeModal} />
             {link === "/" && (
-              <Link href={"https://drive.google.com/drive/folders/1KJFmc0Zy3uTAWuFfASdKBLyAEemW4nn5?usp=drive_link"} className=" no-underline">
+              <Link href={"https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media"} className=" no-underline">
                 <button className="transform hover:scale-105 transition-transform duration-300 py-3 px-10 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;">
                   {" "}
                   <span className="button-text-shadow ">PLAY NOW</span>
@@ -67,7 +67,7 @@ const Home2 = ({ link }) => {
             )}
 
             {link !== "/" && (
-              <Link href={"https://drive.google.com/drive/folders/1KJFmc0Zy3uTAWuFfASdKBLyAEemW4nn5?usp=drive_link"} className=" no-underline">
+              <Link href={"https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media"} className=" no-underline">
                 <button className="transform hover:scale-105 transition-transform duration-300 py-3 px-10 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;">
                   {" "}
                   <span className="button-text-shadow ">PLAY NOW</span>
