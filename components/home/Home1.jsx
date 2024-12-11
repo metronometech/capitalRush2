@@ -25,7 +25,7 @@ const Home1 = () => {
     // Check for Android
     else if (/android/i.test(userAgent)) {
         // document.getElementById('playStoreLink').href = 'https://play.google.com/store/apps/details?id=com.yourapp.package'; // Replace with your actual Play Store link
-        updatelink("https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media")
+        updatelink("https://storage.googleapis.com/capitalrush-77e1a.appspot.com/CapitalRush.apk")
     }
 }
 
@@ -60,7 +60,7 @@ useEffect(() => {
           </p>
           <div className="hidden mb:flex justify-center mt-4 mb:mt-12 gap-6 ml-6 mr-10">
           <div className="border-1 -mt-12 mb:mt-0 border-white cursor-pointer flex items-center justify-center ">
-              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media" target="blank">
+              <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://storage.googleapis.com/capitalrush-77e1a.appspot.com/CapitalRush.apk" target="blank">
                 <Image
                   src="/svg/downloadButt.svg"
                   alt="SVG Image"
@@ -107,7 +107,7 @@ useEffect(() => {
           <div className="flex flex-col mb:hidden justify-center  mb:mt-12 gap-4">
             <div className=" cursor-pointer flex flex-col ">
              <div className="-ml-[50px] flex justify-center">
-             <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://firebasestorage.googleapis.com/v0/b/capitalrush-77e1a.appspot.com/o/CapitalRush.apk?alt=media" target="blank">
+             <Link data-aos="zoom-in" data-aos-delay="160"  data-aos-duration="1000" href="https://storage.googleapis.com/capitalrush-77e1a.appspot.com/CapitalRush.apk" target="blank">
                 <Image
                   src="/svg/downloadButt.svg"
                   alt="SVG Image"
